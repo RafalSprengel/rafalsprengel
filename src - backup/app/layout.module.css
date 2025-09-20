@@ -10,10 +10,9 @@
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-
 }
 
-@media (max-width: 768px){
+@media (max-width: 1200px){
     .main {
         margin-left: 0;
     }

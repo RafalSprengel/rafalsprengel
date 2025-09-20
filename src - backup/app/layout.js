@@ -21,19 +21,13 @@ import './globals.css';
 import styles from './layout.module.css';
 import Aside from '../components/Aside/Aside';
 import Footer from '../components/Footer/Footer';
-import Content from '../components/HomePage/HomePage';
-
-
-
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={styles.body}>
         <Aside />
         <main className={styles.main}>
-          <Content>
-            {children}
-          </Content>
+          {children}
           <Footer />
         </main>
 

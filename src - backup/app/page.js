@@ -1,10 +1,10 @@
-import styles from './HomePage.module.css'
-import TypedSubtitle from './components/TypedSubtitle';
+import styles from './page.module.css'
+import TypedSubtitle from '../components/TypedSubtitle';
 import { FaReact, FaNodeJs, FaGithub, FaCss3Alt, FaServer, FaUbuntu, FaWordpress, FaLock } from "react-icons/fa";
 import { SiNextdotjs, SiMongodb, SiExpress, SiJavascript, SiNginx, SiWebmin, SiStripe, SiNpm, SiJsonwebtokens, SiPassport, SiMantine } from "react-icons/si";
 import { FaBriefcase, FaClipboardList, FaChartBar, FaBinoculars, FaSun, FaCalendarWeek } from 'react-icons/fa';
 import { FaMapMarkerAlt, FaPhone, FaEnvelope } from "react-icons/fa";
-import ContactForm from './components/ContactForm.js';
+import ContactForm from '../components/ContactForm';
 
 const services = [
     {
@@ -42,7 +42,7 @@ const services = [
 export default function HomePage() {
     return (
         <div className={styles.homePage_container}>
-            <section className={styles.hero_section}>
+            <section id="hero" className={styles.hero_section}>
                 <img src='/homePage/hero-bg.jpg' alt='hero'></img>
                 <div className={styles.hero__title}>Rafal Sprengel</div>
                 <div className={styles.hero__subtitle}>
@@ -50,7 +50,7 @@ export default function HomePage() {
                     <noscript>Web Developer</noscript>
                 </div>
             </section>
-            <section className={styles.about__section}>
+            <section id="about" className={styles.about__section}>
                 <h2 className={styles.about__title}>About</h2>
                 <p className={styles.about__desc}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea com</p>
                 <div className={styles.about__content}>
@@ -64,7 +64,7 @@ export default function HomePage() {
                     </div>
                 </div>
             </section>
-            <section className={styles.skills__section}>
+            <section id="skills" className={styles.skills__section}>
                 <h2 className={styles.skills__title}>Skills</h2>
                 <p className={styles.skills__desc}>Tytaj napisać że zajmuje sie technologinami zarówno Frontendowymi jak i Backendowymi.
                     Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
@@ -95,7 +95,7 @@ export default function HomePage() {
                     </div>
                 </div>
             </section>
-            <section className={styles.portfolio__section}>
+            <section id="portfolio" className={styles.portfolio__section}>
                 <h2 className={styles.portfolio__title}>Portfolio</h2>
                 <div className={styles.portfolio__tabs}>
                     <div className={styles.portfolio__tab}>ALL</div>
@@ -118,7 +118,7 @@ export default function HomePage() {
                     </div>
                 </div>
             </section>
-            <section className={styles.services__section}>
+            <section id="services" className={styles.services__section}>
                 <h2 className={styles.services__title}>Services</h2>
                 <div className={styles.services__grid}></div>
                 <div className={styles.services__container}>

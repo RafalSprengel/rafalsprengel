@@ -446,8 +446,11 @@
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 768px) { 
     .about__content {
         flex-direction: column;
     }
 }
+
+/* @media (max-width: 576px) {
+    . */
