@@ -2,7 +2,7 @@
 
 import styles from './Aside.module.css'
 import { useState } from 'react';
-import { FaGithub, FaLinkedin, FaFacebook, FaEnvelope, FaPhone, FaHome, FaUser, FaFileAlt, FaImages, FaServicestack, FaChevronDown } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaFacebook, FaEnvelope, FaPhone, FaHome, FaUser, FaLaptopCode, FaImages, FaServicestack, FaChevronDown } from 'react-icons/fa';
 import HamburgerIcon from '../HamburgerIcon';
 import { postponeWithTracking } from 'next/dist/server/app-render/dynamic-rendering';
 
@@ -20,19 +20,19 @@ export default function Aside() {
                 </div>
 
                 <div className={styles.profile__socialLinks}>
-                    <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+                    <a href="https://github.com/RafalSprengel" target="_blank" rel="noopener noreferrer">
                         <FaGithub className={styles.profile__socialLink} />
                     </a>
-                    <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+                    <a href="https://uk.linkedin.com/in/rafal-sprengel" target="_blank" rel="noopener noreferrer">
                         <FaLinkedin className={styles.profile__socialLink} />
                     </a>
-                    <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.facebook.com/profile.php?id=100075524473779" target="_blank" rel="noopener noreferrer">
                         <FaFacebook className={styles.profile__socialLink} />
                     </a>
-                    <a href="mailto:twojemail@example.com">
+                    <a href="mailto:sprengel.rafal@gmail.com">
                         <FaEnvelope className={styles.profile__socialLink} />
                     </a>
-                    <a href="tel:+441234567890">
+                    <a href="tel:+447518577503">
                         <FaPhone className={styles.profile__socialLink} />
                     </a>
                 </div>
@@ -51,15 +51,24 @@ export default function Aside() {
                         </li>
 
                         <li className={styles.nav__item} onClick={() => setIsOpen(false)}>
-                            <a href="#portfolio" className={styles.nav__link}>
-                                <FaImages className={styles.nav__icon} /> Portfolio
+                            <a href="#skills" className={styles.nav__link}>
+                                <FaLaptopCode className={styles.nav__icon} /> Skills
                             </a>
                         </li>
+
+
                         <li className={styles.nav__item} onClick={() => setIsOpen(false)}>
                             <a href="#services" className={styles.nav__link}>
                                 <FaServicestack className={styles.nav__icon} /> Services
                             </a>
                         </li>
+
+                        <li className={styles.nav__item} onClick={() => setIsOpen(false)}>
+                            <a href="#portfolio" className={styles.nav__link}>
+                                <FaImages className={styles.nav__icon} /> Portfolio
+                            </a>
+                        </li>
+
 
                         <li className={styles.nav__item} onClick={() => setIsOpen(false)}>
                             <a href="#contact" className={styles.nav__link}>
