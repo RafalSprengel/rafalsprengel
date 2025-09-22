@@ -22,25 +22,6 @@ export default function AboutSection() {
                         with a focus on performance and security. My expertise covers the entire development lifecycle — from server 
                         installation and configuration, through backend and frontend development, to fully secured websites with SSL certificates.
                     </p>
-                    
-                    <div className={styles.about__stats}>
-                        <div className={styles.about__stat}>
-                            <div className={styles.about__statNumber}>50+</div>
-                            <div className={styles.about__statLabel}>Projects Completed</div>
-                        </div>
-                        <div className={styles.about__stat}>
-                            <div className={styles.about__statNumber}>3+</div>
-                            <div className={styles.about__statLabel}>Years Experience</div>
-                        </div>
-                        <div className={styles.about__stat}>
-                            <div className={styles.about__statNumber}>30+</div>
-                            <div className={styles.about__statLabel}>Happy Clients</div>
-                        </div>
-                        <div className={styles.about__stat}>
-                            <div className={styles.about__statNumber}>15+</div>
-                            <div className={styles.about__statLabel}>Technologies</div>
-                        </div>
-                    </div>
                 </div>
             </div>
         </section>
