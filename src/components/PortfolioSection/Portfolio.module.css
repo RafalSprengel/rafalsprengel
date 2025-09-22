@@ -3,13 +3,18 @@
     background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
 }
 
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 .portfolio__title {
     font-family: 'Raleway', sans-serif;
     font-size: 2.5rem;
     font-weight: 700;
     text-align: center;
     position: relative;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     color: #2c3e50;
 }
 
@@ -25,11 +30,21 @@
     border-radius: 2px;
 }
 
+.portfolio__desc {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #6c757d;
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto 40px;
+}
+
 .portfolio__tabs {
     display: flex;
     justify-content: center;
     gap: 15px;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
     flex-wrap: wrap;
 }
 
@@ -60,10 +75,8 @@
 
 .portfolio__grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     gap: 30px;
-    max-width: 1200px;
-    margin: 0 auto;
 }
 
 .portfolio__item {
@@ -80,10 +93,36 @@
     box-shadow: 0 20px 40px rgba(20, 157, 221, 0.15);
 }
 
+.portfolio__imageWrapper {
+    position: relative;
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+}
+
 .portfolio__image {
     width: 100%;
-    height: 200px;
+    height: 100%;
     object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.portfolio__item:hover .portfolio__image {
+    transform: scale(1.05);
+}
+
+.portfolio__badge {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background: #149ddd;
+    color: white;
+    padding: 6px 15px;
+    border-radius: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 500;
+    z-index: 2;
 }
 
 .portfolio__content {
@@ -95,12 +134,12 @@
     font-size: 1.3rem;
     font-weight: 600;
     color: #2c3e50;
-    margin-bottom: 10px;
+    margin-bottom: 12px;
 }
 
 .portfolio__item__desc {
     font-family: 'Roboto', sans-serif;
-    font-size: 0.9rem;
+    font-size: 0.95rem;
     color: #6c757d;
     line-height: 1.5;
     margin-bottom: 20px;
@@ -110,7 +149,7 @@
     display: flex;
     flex-wrap: wrap;
     gap: 8px;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 
 .portfolio__tag {
@@ -119,43 +158,60 @@
     border-radius: 15px;
     font-size: 0.8rem;
     color: #6c757d;
+    border: 1px solid #e9ecef;
 }
 
 .portfolio__actions {
     display: flex;
-    gap: 10px;
+    gap: 12px;
 }
 
 .portfolio__action {
-    padding: 8px 20px;
-    border: 2px solid #149ddd;
+    padding: 10px 20px;
     border-radius: 20px;
     font-size: 0.9rem;
     font-weight: 500;
     cursor: pointer;
     transition: all 0.3s ease;
-    text-align: center;
-    flex: 1;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
 }
 
-.portfolio__action--primary {
+.portfolio__actionPrimary {
     background: #149ddd;
     color: white;
+    border: 2px solid #149ddd;
 }
 
-.portfolio__action--primary:hover {
+.portfolio__actionPrimary:hover {
     background: #0d8bf2;
     border-color: #0d8bf2;
+    transform: translateY(-2px);
 }
 
-.portfolio__action--secondary {
+.portfolio__actionSecondary {
     background: transparent;
     color: #149ddd;
+    border: 2px solid #149ddd;
 }
 
-.portfolio__action--secondary:hover {
+.portfolio__actionSecondary:hover {
     background: #149ddd;
     color: white;
+    transform: translateY(-2px);
+}
+
+.actionIcon {
+    font-size: 0.9rem;
+}
+
+@media (max-width: 1024px) {
+    .portfolio__grid {
+        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+        gap: 25px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -180,6 +236,10 @@
         grid-template-columns: 1fr;
         gap: 20px;
     }
+    
+    .portfolio__imageWrapper {
+        height: 220px;
+    }
 }
 
 @media (max-width: 480px) {
@@ -195,5 +255,13 @@
     
     .portfolio__actions {
         flex-direction: column;
+    }
+    
+    .portfolio__action {
+        justify-content: center;
+    }
+    
+    .portfolio__imageWrapper {
+        height: 200px;
     }
 }
