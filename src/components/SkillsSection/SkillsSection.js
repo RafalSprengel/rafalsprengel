@@ -4,38 +4,27 @@ import styles from './SkillsSection.module.css';
 import { FaCode, FaServer, FaDatabase, FaCloud, FaWordpress, FaMobile, FaShieldAlt, FaSearch } from 'react-icons/fa';
 
 export default function SkillsSection() {
-  const skillCategories = [
-    {
-      title: "Frontend Development",
-      icon: <FaCode className={styles.categoryIcon} />,
-      skills: ["Next.js", "React.js", "JavaScript", "CSS", "Mantine UI"],
-      color: "#3498db"
-    },
-    {
-      title: "Backend Development",
-      icon: <FaServer className={styles.categoryIcon} />,
-      skills: ["Node.js", "Express.js", "REST API", "JWT Auth", "OAuth2"],
-      color: "#e74c3c"
-    },
-    {
-      title: "Database & Payments",
-      icon: <FaDatabase className={styles.categoryIcon} />,
-      skills: ["MongoDB", "Stripe API", "Database Management"],
-      color: "#9b59b6"
-    },
-    {
-      title: "Infrastructure",
-      icon: <FaCloud className={styles.categoryIcon} />,
-      skills: ["VPS Servers", "NGINX", "Ubuntu", "Security"],
-      color: "#f39c12"
-    },
-    {
-      title: "WordPress & CMS",
-      icon: <FaWordpress className={styles.categoryIcon} />,
-      skills: ["WordPress", "Custom Themes", "SEO Optimization"],
-      color: "#27ae60"
-    }
+  const skills = [
+    { name: "Next.js", icon: <FaCode />, category: "Frontend" },
+    { name: "React.js", icon: <FaCode />, category: "Frontend" },
+    { name: "JavaScript", icon: <FaCode />, category: "Frontend" },
+    { name: "CSS", icon: <FaCode />, category: "Frontend" },
+    { name: "Mantine UI", icon: <FaCode />, category: "Frontend" },
+    { name: "Node.js", icon: <FaServer />, category: "Backend" },
+    { name: "Express.js", icon: <FaServer />, category: "Backend" },
+    { name: "REST API", icon: <FaServer />, category: "Backend" },
+    { name: "JWT Auth", icon: <FaShieldAlt />, category: "Backend" },
+    { name: "OAuth2", icon: <FaShieldAlt />, category: "Backend" },
+    { name: "MongoDB", icon: <FaDatabase />, category: "Database" },
+    { name: "Stripe API", icon: <FaDatabase />, category: "Payments" },
+    { name: "VPS Servers", icon: <FaCloud />, category: "Infrastructure" },
+    { name: "NGINX", icon: <FaCloud />, category: "Infrastructure" },
+    { name: "Ubuntu", icon: <FaCloud />, category: "Infrastructure" },
+    { name: "WordPress", icon: <FaWordpress />, category: "CMS" },
+    { name: "SEO Optimization", icon: <FaSearch />, category: "Optimization" }
   ];
+
+  const categories = ["Frontend", "Backend", "Database", "Payments", "Infrastructure", "CMS", "Optimization"];
 
   return (
     <section id="skills" className={styles.skillsSection}>
@@ -47,49 +36,46 @@ export default function SkillsSection() {
           </p>
         </div>
 
-        <div className={styles.skillsContainer}>
-          {skillCategories.map((category, index) => (
-            <div key={index} className={styles.skillCategory}>
-              <div className={styles.categoryHeader}>
-                <div 
-                  className={styles.iconWrapper}
-                  style={{ backgroundColor: `${category.color}20` }}
-                >
-                  {category.icon}
-                </div>
-                <h3 className={styles.categoryTitle}>{category.title}</h3>
-              </div>
-              
-              <div className={styles.skillsList}>
-                {category.skills.map((skill, skillIndex) => (
-                  <span 
-                    key={skillIndex} 
-                    className={styles.skillItem}
-                    style={{ borderLeftColor: category.color }}
-                  >
-                    {skill}
-                  </span>
-                ))}
+        <div className={styles.skillsFlow}>
+          {categories.map((category, index) => (
+            <div key={index} className={styles.categoryGroup}>
+              <h3 className={styles.categoryTitle}>{category}</h3>
+              <div className={styles.skillsRow}>
+                {skills
+                  .filter(skill => skill.category === category)
+                  .map((skill, skillIndex) => (
+                    <div key={skillIndex} className={styles.skillItem}>
+                      <div className={styles.skillIcon}>{skill.icon}</div>
+                      <span className={styles.skillName}>{skill.name}</span>
+                    </div>
+                  ))
+                }
               </div>
             </div>
           ))}
         </div>
 
-        <div className={styles.additionalInfo}>
-          <div className={styles.infoCard}>
-            <FaMobile className={styles.infoIcon} />
-            <h4>Responsive Design</h4>
-            <p>Mobile-first approach with cross-browser compatibility</p>
+        <div className={styles.features}>
+          <div className={styles.feature}>
+            <FaMobile className={styles.featureIcon} />
+            <div className={styles.featureContent}>
+              <h4>Responsive Design</h4>
+              <p>Mobile-first approach with cross-browser compatibility</p>
+            </div>
           </div>
-          <div className={styles.infoCard}>
-            <FaShieldAlt className={styles.infoIcon} />
-            <h4>Security Focused</h4>
-            <p>SSL certificates, firewalls, and secure authentication</p>
+          <div className={styles.feature}>
+            <FaShieldAlt className={styles.featureIcon} />
+            <div className={styles.featureContent}>
+              <h4>Security Focused</h4>
+              <p>SSL certificates, firewalls, and secure authentication</p>
+            </div>
           </div>
-          <div className={styles.infoCard}>
-            <FaSearch className={styles.infoIcon} />
-            <h4>SEO Optimized</h4>
-            <p>Search engine friendly code and performance optimization</p>
+          <div className={styles.feature}>
+            <FaSearch className={styles.featureIcon} />
+            <div className={styles.featureContent}>
+              <h4>SEO Optimized</h4>
+              <p>Search engine friendly code and performance optimization</p>
+            </div>
           </div>
         </div>
       </div>
