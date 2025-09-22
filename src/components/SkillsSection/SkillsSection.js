@@ -4,28 +4,6 @@ import styles from './SkillsSection.module.css';
 import { FaCode, FaServer, FaDatabase, FaCloud, FaWordpress, FaMobile, FaShieldAlt, FaSearch } from 'react-icons/fa';
 
 export default function SkillsSection() {
-  const skills = [
-    { name: "Next.js", icon: <FaCode />, category: "Frontend" },
-    { name: "React.js", icon: <FaCode />, category: "Frontend" },
-    { name: "JavaScript", icon: <FaCode />, category: "Frontend" },
-    { name: "CSS", icon: <FaCode />, category: "Frontend" },
-    { name: "Mantine UI", icon: <FaCode />, category: "Frontend" },
-    { name: "Node.js", icon: <FaServer />, category: "Backend" },
-    { name: "Express.js", icon: <FaServer />, category: "Backend" },
-    { name: "REST API", icon: <FaServer />, category: "Backend" },
-    { name: "JWT Auth", icon: <FaShieldAlt />, category: "Backend" },
-    { name: "OAuth2", icon: <FaShieldAlt />, category: "Backend" },
-    { name: "MongoDB", icon: <FaDatabase />, category: "Database" },
-    { name: "Stripe API", icon: <FaDatabase />, category: "Payments" },
-    { name: "VPS Servers", icon: <FaCloud />, category: "Infrastructure" },
-    { name: "NGINX", icon: <FaCloud />, category: "Infrastructure" },
-    { name: "Ubuntu", icon: <FaCloud />, category: "Infrastructure" },
-    { name: "WordPress", icon: <FaWordpress />, category: "CMS" },
-    { name: "SEO Optimization", icon: <FaSearch />, category: "Optimization" }
-  ];
-
-  const categories = ["Frontend", "Backend", "Database", "Payments", "Infrastructure", "CMS", "Optimization"];
-
   return (
     <section id="skills" className={styles.skillsSection}>
       <div className={styles.container}>
@@ -36,45 +14,92 @@ export default function SkillsSection() {
           </p>
         </div>
 
-        <div className={styles.skillsFlow}>
-          {categories.map((category, index) => (
-            <div key={index} className={styles.categoryGroup}>
-              <h3 className={styles.categoryTitle}>{category}</h3>
-              <div className={styles.skillsRow}>
-                {skills
-                  .filter(skill => skill.category === category)
-                  .map((skill, skillIndex) => (
-                    <div key={skillIndex} className={styles.skillItem}>
-                      <div className={styles.skillIcon}>{skill.icon}</div>
-                      <span className={styles.skillName}>{skill.name}</span>
-                    </div>
-                  ))
-                }
-              </div>
+        <div className={styles.skillsContent}>
+          <div className={styles.skillCategory}>
+            <div className={styles.categoryHeader}>
+              <FaCode className={styles.categoryIcon} />
+              <h3 className={styles.categoryTitle}>Frontend Development</h3>
             </div>
-          ))}
+            <p className={styles.categoryDescription}>
+              Specializing in modern frontend technologies including <strong>Next.js</strong>, <strong>React.js</strong>, 
+              and <strong>JavaScript</strong> for creating responsive and interactive user interfaces. 
+              Experienced with <strong>CSS</strong> frameworks and component libraries like <strong>Mantine UI</strong> 
+              to deliver polished, professional designs.
+            </p>
+          </div>
+
+          <div className={styles.skillCategory}>
+            <div className={styles.categoryHeader}>
+              <FaServer className={styles.categoryIcon} />
+              <h3 className={styles.categoryTitle}>Backend Development</h3>
+            </div>
+            <p className={styles.categoryDescription}>
+              Building robust backend systems with <strong>Node.js</strong> and <strong>Express.js</strong>, 
+              creating <strong>REST APIs</strong> with secure authentication using <strong>JWT</strong> and <strong>OAuth2</strong>. 
+              Focus on scalable architecture and efficient data handling for optimal performance.
+            </p>
+          </div>
+
+          <div className={styles.skillCategory}>
+            <div className={styles.categoryHeader}>
+              <FaDatabase className={styles.categoryIcon} />
+              <h3 className={styles.categoryTitle}>Database & Payments</h3>
+            </div>
+            <p className={styles.categoryDescription}>
+              Expertise in <strong>MongoDB</strong> for flexible database management and <strong>Stripe API</strong> 
+              integration for secure payment processing. Ensuring data integrity and seamless transaction flows 
+              in all applications.
+            </p>
+          </div>
+
+          <div className={styles.skillCategory}>
+            <div className={styles.categoryHeader}>
+              <FaCloud className={styles.categoryIcon} />
+              <h3 className={styles.categoryTitle}>Infrastructure & Deployment</h3>
+            </div>
+            <p className={styles.categoryDescription}>
+              Full-stack deployment expertise including <strong>VPS server</strong> configuration, <strong>NGINX</strong> setup, 
+              and <strong>Ubuntu</strong> server management. Focus on security hardening, performance optimization, 
+              and reliable infrastructure maintenance.
+            </p>
+          </div>
+
+          <div className={styles.skillCategory}>
+            <div className={styles.categoryHeader}>
+              <FaWordpress className={styles.categoryIcon} />
+              <h3 className={styles.categoryTitle}>WordPress & CMS</h3>
+            </div>
+            <p className={styles.categoryDescription}>
+              Custom <strong>WordPress</strong> development with tailored themes and plugins. 
+              Specializing in <strong>SEO optimization</strong> and performance enhancements 
+              to ensure maximum visibility and user engagement.
+            </p>
+          </div>
         </div>
 
-        <div className={styles.features}>
-          <div className={styles.feature}>
-            <FaMobile className={styles.featureIcon} />
-            <div className={styles.featureContent}>
-              <h4>Responsive Design</h4>
-              <p>Mobile-first approach with cross-browser compatibility</p>
+        <div className={styles.additionalExpertise}>
+          <h3 className={styles.expertiseTitle}>Additional Expertise</h3>
+          <div className={styles.expertiseList}>
+            <div className={styles.expertiseItem}>
+              <FaMobile className={styles.expertiseIcon} />
+              <div>
+                <h4>Responsive Design</h4>
+                <p>Mobile-first approach with cross-browser compatibility and optimal user experience across all devices</p>
+              </div>
             </div>
-          </div>
-          <div className={styles.feature}>
-            <FaShieldAlt className={styles.featureIcon} />
-            <div className={styles.featureContent}>
-              <h4>Security Focused</h4>
-              <p>SSL certificates, firewalls, and secure authentication</p>
+            <div className={styles.expertiseItem}>
+              <FaShieldAlt className={styles.expertiseIcon} />
+              <div>
+                <h4>Security Focus</h4>
+                <p>SSL certificates, firewalls, secure authentication, and comprehensive security best practices</p>
+              </div>
             </div>
-          </div>
-          <div className={styles.feature}>
-            <FaSearch className={styles.featureIcon} />
-            <div className={styles.featureContent}>
-              <h4>SEO Optimized</h4>
-              <p>Search engine friendly code and performance optimization</p>
+            <div className={styles.expertiseItem}>
+              <FaSearch className={styles.expertiseIcon} />
+              <div>
+                <h4>SEO Optimization</h4>
+                <p>Search engine friendly code structure, performance optimization, and content strategy implementation</p>
+              </div>
             </div>
           </div>
         </div>
