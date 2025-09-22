@@ -1,57 +1,120 @@
 import styles from './ServicesSection.module.css';
-import { FaBriefcase, FaClipboardList, FaChartBar, FaBinoculars, FaSun, FaCalendarWeek } from 'react-icons/fa';
+import { FaCode, FaServer, FaWordpress, FaMobile, FaShieldAlt, FaSearch } from 'react-icons/fa';
 
 const services = [
-    {
-        icon: <FaBriefcase />,
-        title: 'Lorem Ipsum',
-        description: 'Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident'
-    },
-    {
-        icon: <FaClipboardList />,
-        title: 'Dolor Sitema',
-        description: 'Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata'
-    },
-    {
-        icon: <FaChartBar />,
-        title: 'Sed ut perspiciatis',
-        description: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur'
-    },
-    {
-        icon: <FaBinoculars />,
-        title: 'Magni Dolores',
-        description: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum'
-    },
-    {
-        icon: <FaSun />,
-        title: 'Nemo Enim',
-        description: 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque'
-    },
-    {
-        icon: <FaCalendarWeek />,
-        title: 'Eiusmod Tempor',
-        description: 'Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi'
-    },
+  {
+    icon: <FaCode className={styles.serviceIcon} />,
+    title: 'Custom Development',
+    description: 'Custom high-quality websites and web applications using modern technologies like Next.js, React.js, Node.js, and Express.js',
+    features: [
+      'Online payments integration (Stripe, Przelewy24)',
+      'Booking & payment systems',
+      'Admin panels with user management',
+      'Custom authentication systems',
+      'API integrations'
+    ]
+  },
+  {
+    icon: <FaServer className={styles.serviceIcon} />,
+    title: 'Server & Infrastructure',
+    description: 'Complete server setup and infrastructure management for optimal performance and security',
+    features: [
+      'Domain & hosting setup',
+      'VPS server configuration (Ubuntu, NGINX)',
+      'Security hardening (Firewall, Fail2ban)',
+      'SSL certificates installation',
+      'Database management (MongoDB)'
+    ]
+  },
+  {
+    icon: <FaWordpress className={styles.serviceIcon} />,
+    title: 'WordPress Development',
+    description: 'Professional WordPress websites with custom functionality and modern design',
+    features: [
+      'Custom theme development',
+      'Plugin customization',
+      'E-commerce solutions',
+      'Performance optimization',
+      'Security enhancements'
+    ]
+  },
+  {
+    icon: <FaMobile className={styles.serviceIcon} />,
+    title: 'Responsive Design',
+    description: 'Mobile-first responsive designs that work perfectly on all devices',
+    features: [
+      'Mobile-optimized interfaces',
+      'Cross-browser compatibility',
+      'Fast loading times',
+      'User experience optimization',
+      'Progressive Web Apps'
+    ]
+  },
+  {
+    icon: <FaShieldAlt className={styles.serviceIcon} />,
+    title: 'Security & Maintenance',
+    description: 'Comprehensive security solutions and ongoing maintenance services',
+    features: [
+      'Security audits',
+      'Regular updates',
+      'Backup solutions',
+      'Performance monitoring',
+      '24/7 support availability'
+    ]
+  },
+  {
+    icon: <FaSearch className={styles.serviceIcon} />,
+    title: 'SEO Optimization',
+    description: 'Search engine optimization to improve visibility and ranking',
+    features: [
+      'On-page SEO',
+      'Technical SEO',
+      'Speed optimization',
+      'Content strategy',
+      'Analytics integration'
+    ]
+  }
 ];
 
 export default function ServicesSection() {
-    return (
-        <section id="services" className={styles.services__section}>
-            <h2 className={styles.services__title}>Services</h2>
-            <div className={styles.services__grid}></div>
-            <div className={styles.services__container}>
-                <div className={styles.services__grid}>
-                    {services.map((s, i) => (
-                        <div key={i} className={styles.services_item}>
-                            <div className={styles.services__item__icon}>{s.icon}</div>
-                            <div>
-                                <h4 className={styles.services__item__title}>{s.title}</h4>
-                                <p className={styles.services__item__description}>{s.description}</p>
-                            </div>
-                        </div>
-                    ))}
+  return (
+    <section id="services" className={styles.servicesSection}>
+      <div className={styles.container}>
+        <div className={styles.header}>
+          <h2 className={styles.title}>Services</h2>
+          <p className={styles.subtitle}>
+            Comprehensive web development solutions from concept to deployment
+          </p>
+        </div>
+
+        <div className={styles.servicesGrid}>
+          {services.map((service, index) => (
+            <div key={index} className={styles.serviceCard}>
+              <div className={styles.serviceHeader}>
+                <div className={styles.iconWrapper}>
+                  {service.icon}
                 </div>
+                <h3 className={styles.serviceTitle}>{service.title}</h3>
+              </div>
+              
+              <p className={styles.serviceDescription}>{service.description}</p>
+              
+              <ul className={styles.featuresList}>
+                {service.features.map((feature, featureIndex) => (
+                  <li key={featureIndex} className={styles.featureItem}>
+                    <span className={styles.checkmark}>✓</span>
+                    {feature}
+                  </li>
+                ))}
+              </ul>
+              
+              <div className={styles.ctaButton}>
+                Learn More
+              </div>
             </div>
-        </section>
-    );
+          ))}
+        </div>
+      </div>
+    </section>
+  );
 }

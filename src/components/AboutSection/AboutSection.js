@@ -10,7 +10,7 @@ export default function AboutSection() {
             </p>
             <div className={styles.about__content}>
                 <div className={styles.about__col1}>
-                    <img src="/homepage/profile.jpg" alt="profile"></img>
+                    <img src="/images/homepage/profile.jpg" alt="profile"></img>
                 </div>
 
                 <div className={styles.about__col2}>

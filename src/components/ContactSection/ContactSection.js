@@ -6,7 +6,9 @@ export default function ContactSection() {
     return (
         <section id="contact" className={styles.contact__section}>
             <h2 className={styles.contact__title}>Contact</h2>
-            <p className={styles.contact__desc}>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+            <p className={styles.contact__desc}>Let’s build something great together!<br/>
+                Whether you need a custom web application, a modern business website, or help with server setup and security – feel free to reach out.
+                I’ll be happy to discuss your project and find the best solution for your needs.</p>
 
             <div className={styles.contact__container}>
                 <div className={styles.contact__row}>
