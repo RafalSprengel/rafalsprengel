@@ -52,17 +52,17 @@
 
 .skillCard {
     background: white;
-    border-radius: 15px;
+    border-radius: 8px;
     padding: 25px;
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
     transition: all 0.3s ease;
-    border: 2px solid transparent;
+    border: 1px solid #e9ecef;
     height: 100%;
 }
 
 .skillCard:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 15px 35px rgba(20, 157, 221, 0.12);
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(20, 157, 221, 0.15);
     border-color: #149ddd;
 }
 
@@ -72,15 +72,16 @@
 }
 
 .icon {
-    font-size: 3rem;
+    font-size: 2.5rem;
     margin-bottom: 15px;
+    color: #149ddd;
 }
 
 .cardTitle {
     font-family: 'Raleway', sans-serif;
     font-size: 1.3rem;
     font-weight: 600;
-    color: #149ddd;
+    color: #2c3e50;
     margin: 0;
 }
 
@@ -97,21 +98,22 @@
 }
 
 .skillBadge {
-    background: rgba(20, 157, 221, 0.1);
-    color: #149ddd;
+    background: #f8f9fa;
+    color: #495057;
     padding: 6px 12px;
-    border-radius: 20px;
+    border-radius: 6px;
     font-family: 'Roboto', sans-serif;
     font-size: 0.9rem;
     font-weight: 500;
-    border: 1px solid rgba(20, 157, 221, 0.2);
+    border: 1px solid #e9ecef;
     transition: all 0.3s ease;
 }
 
 .skillBadge:hover {
     background: #149ddd;
     color: white;
-    transform: translateY(-2px);
+    border-color: #149ddd;
+    transform: translateY(-1px);
 }
 
 @media (max-width: 1024px) {
@@ -150,7 +152,7 @@
     }
     
     .icon {
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
     
     .cardTitle {

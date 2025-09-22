@@ -1,31 +1,32 @@
 import styles from './SkillsSection.module.css';
+import { FaCode, FaServer, FaDatabase, FaCloud, FaWordpress } from 'react-icons/fa';
 
 export default function SkillsSection() {
   const skillCategories = [
     {
       title: "Frontend Development",
       skills: ["Next.js", "React.js", "JavaScript (ES6+)", "CSS", "Mantine UI"],
-      icon: "🎨",
+      icon: <FaCode className={styles.icon} />,
     },
     {
       title: "Backend Development",
       skills: ["Node.js", "Express.js", "REST API", "JWT Authorization", "Passport OAuth2"],
-      icon: "⚙️",
+      icon: <FaServer className={styles.icon} />,
     },
     {
       title: "Database & Payments",
       skills: ["MongoDB with Mongoose", "Stripe API payments", "Database Management"],
-      icon: "💾",
+      icon: <FaDatabase className={styles.icon} />,
     },
     {
       title: "DevOps & Infrastructure",
       skills: ["VPS servers", "NGINX", "Ubuntu", "Webmin", "GitHub", "NPM"],
-      icon: "🚀",
+      icon: <FaCloud className={styles.icon} />,
     },
     {
       title: "CMS & Other",
       skills: ["WordPress", "Custom builds", "SEO optimization", "SSL certificates"],
-      icon: "🔧",
+      icon: <FaWordpress className={styles.icon} />,
     },
   ];
 
@@ -43,7 +44,7 @@ export default function SkillsSection() {
           {skillCategories.map((category, index) => (
             <div key={index} className={styles.skillCard}>
               <div className={styles.cardHeader}>
-                <div className={styles.icon}>{category.icon}</div>
+                {category.icon}
                 <h3 className={styles.cardTitle}>{category.title}</h3>
               </div>
               <div className={styles.cardContent}>
