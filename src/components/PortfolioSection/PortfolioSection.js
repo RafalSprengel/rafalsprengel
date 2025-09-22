@@ -55,10 +55,10 @@ export default function PortfolioSection() {
                             </div>
                             
                             <div className={styles.portfolio__actions}>
-                                <button className={`${styles.portfolio__action} ${styles.portfolio__action--primary}`}>
+                                <button className={`${styles.portfolio__action} ${styles['portfolio__action--primary']}`}>
                                     View Project
                                 </button>
-                                <button className={`${styles.portfolio__action} ${styles.portfolio__action--secondary}`}>
+                                <button className={`${styles.portfolio__action} ${styles['portfolio__action--secondary']}`}>
                                     Source Code
                                 </button>
                             </div>
