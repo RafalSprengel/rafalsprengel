@@ -2,6 +2,7 @@
     display: flex;
     min-height: 100dvh;
     flex-direction: row;
+    overflow-x: hidden;
 }
 
 .main {
@@ -19,13 +20,8 @@
     }
 }
 
-/* Zapobieganie przewijaniu poziomemu */
-.body {
-    overflow-x: hidden;
-}
-
-/* Poprawki dla obrazów */
-img {
+/* Poprawki dla obrazów - używamy klas zamiast globalnych selektorów */
+.body img {
     max-width: 100%;
     height: auto;
 }
