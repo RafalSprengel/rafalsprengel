@@ -5,17 +5,42 @@ export default function AboutSection() {
         <section id="about" className={styles.about__section}>
             <h2 className={styles.about__title}>About</h2>
             <p className={styles.about__desc}>
-                I am a full stack web developer specializing in building modern websites and web applications. My portfolio is aimed at both potential employers and clients looking for affordable, professional solutions — from simple business websites, to booking and payment systems, to VPS server configuration and security.
-                My expertise covers frontend, backend, server setup, online payment integration, and WordPress development. In short, I can deliver a complete solution — starting from server installation and configuration, through backend and frontend development, to a fully secured website with SSL certificates.
+                I am a full stack web developer specializing in building modern websites and web applications. 
+                My portfolio is aimed at both potential employers and clients looking for affordable, professional solutions — 
+                from simple business websites, to booking and payment systems, to VPS server configuration and security.
             </p>
+            
             <div className={styles.about__content}>
                 <div className={styles.about__col1}>
-                    <img src="/images/homepage/profile.jpg" alt="profile"></img>
+                    <img src="/images/homepage/profile.jpg" alt="Rafał Sprengel - Web Developer" />
                 </div>
 
                 <div className={styles.about__col2}>
-                    <div className={styles.about__col2__title}>UI/UX Designer & Web Developer.</div>
-                    <div className={styles.about__col2__desc}>I work with both frontend and backend technologies, delivering scalable applications deployed on VPS servers with a focus on performance and security.</div>
+                    <h3 className={styles.about__col2__title}>UI/UX Designer & Web Developer</h3>
+                    <p className={styles.about__col2__desc}>
+                        I work with both frontend and backend technologies, delivering scalable applications deployed on VPS servers 
+                        with a focus on performance and security. My expertise covers the entire development lifecycle — from server 
+                        installation and configuration, through backend and frontend development, to fully secured websites with SSL certificates.
+                    </p>
+                    
+                    <div className={styles.about__stats}>
+                        <div className={styles.about__stat}>
+                            <div className={styles.about__statNumber}>50+</div>
+                            <div className={styles.about__statLabel}>Projects Completed</div>
+                        </div>
+                        <div className={styles.about__stat}>
+                            <div className={styles.about__statNumber}>3+</div>
+                            <div className={styles.about__statLabel}>Years Experience</div>
+                        </div>
+                        <div className={styles.about__stat}>
+                            <div className={styles.about__statNumber}>30+</div>
+                            <div className={styles.about__statLabel}>Happy Clients</div>
+                        </div>
+                        <div className={styles.about__stat}>
+                            <div className={styles.about__statNumber}>15+</div>
+                            <div className={styles.about__statLabel}>Technologies</div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
