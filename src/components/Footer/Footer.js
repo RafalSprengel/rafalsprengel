@@ -1,9 +1,12 @@
 import styles from './Footer.module.css';
 import { FaGithub, FaLinkedin, FaFacebook, FaEnvelope, FaPhone } from 'react-icons/fa';
+import SkillsFooter from '../SkillsFooter/SkillsFooter';
 
 export default function Footer() {
     return (
-        <div className={styles.container}>
+        <footer className={styles.footer}>
+            <SkillsFooter />
+            
             <div className={styles.footerContent}>
                 <div className={styles.footerMain}>
                     <div className={styles.footerBrand}>
@@ -59,6 +62,6 @@ export default function Footer() {
                     </div>
                 </div>
             </div>
-        </div>
+        </footer>
     );
 }

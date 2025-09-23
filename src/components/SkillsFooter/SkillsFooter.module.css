@@ -1,0 +1,151 @@
+.skillsFooter {
+  background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+  padding: 60px 20px;
+  color: white;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.title {
+  font-family: 'Raleway', sans-serif;
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+  color: white;
+}
+
+.subtitle {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.1rem;
+  color: #a8a9b4;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.skillsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+}
+
+.skillCard {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  padding: 25px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: all 0.3s ease;
+}
+
+.skillCard:hover {
+  transform: translateY(-3px);
+  background: rgba(255, 255, 255, 0.15);
+  border-color: rgba(20, 157, 221, 0.3);
+}
+
+.cardHeader {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.icon {
+  font-size: 1.8rem;
+  color: #149ddd;
+}
+
+.cardTitle {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: white;
+  margin: 0;
+}
+
+.cardContent {
+  margin-top: 15px;
+}
+
+.skillsList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.skillBadge {
+  background: rgba(20, 157, 221, 0.2);
+  color: white;
+  padding: 6px 12px;
+  border-radius: 15px;
+  font-size: 0.85rem;
+  font-family: 'Roboto', sans-serif;
+  border: 1px solid rgba(20, 157, 221, 0.3);
+  transition: all 0.3s ease;
+}
+
+.skillBadge:hover {
+  background: rgba(20, 157, 221, 0.3);
+  transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+  .skillsFooter {
+    padding: 40px 20px;
+  }
+  
+  .title {
+    font-size: 1.8rem;
+  }
+  
+  .skillsGrid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  
+  .skillCard {
+    padding: 20px;
+  }
+  
+  .cardHeader {
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+  }
+  
+  .icon {
+    font-size: 1.5rem;
+  }
+  
+  .cardTitle {
+    font-size: 1.1rem;
+  }
+  
+  .skillsList {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .title {
+    font-size: 1.6rem;
+  }
+  
+  .subtitle {
+    font-size: 1rem;
+  }
+  
+  .skillBadge {
+    font-size: 0.8rem;
+    padding: 5px 10px;
+  }
+}
