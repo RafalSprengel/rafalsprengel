@@ -10,7 +10,8 @@ export default function PortfolioSection() {
             tags: ['React', 'CSS', 'Node.js'],
             category: 'Custom Website',
             liveUrl: 'https://demo1.rafalsprengel.com/',
-            githubUrl: 'https://github.com/RafalSprengel/restaurant-pos-frontend'
+            githubUrl: 'https://github.com/RafalSprengel/restaurant-pos-frontend',
+            seeMoreLink: 'https://rafalsprengel.com/restaurant'
         },
         {
             title: 'Restaurant POS Management System',
@@ -19,7 +20,8 @@ export default function PortfolioSection() {
             tags: ['Next.js', 'Node.js', 'MongoDB', 'Stripe'],
             category: 'Web Application',
             liveUrl: '#',
-            githubUrl: 'https://github.com/RafalSprengel/restaurant-pos-backend'
+            githubUrl: 'https://github.com/RafalSprengel/restaurant-pos-backend',
+            seeMoreLink: '#' // Tymczasowy link dla 'See more'
         },
         {
             title: 'Holiday Resort Booking Website',
@@ -28,6 +30,7 @@ export default function PortfolioSection() {
             tags: ['WordPress', 'PHP', 'JavaScript'],
             category: 'WordPress',
             liveUrl: 'https://lesniczowkawiezyca.pl/',
+            seeMoreLink: 'https://lesniczowkawiezyca.pl/' // Użycie liveUrl jako 'See more'
         }
     ];
 
@@ -39,8 +42,6 @@ export default function PortfolioSection() {
                     Recent projects showcasing my expertise in web development
                 </p>
 
-
-
                 {/* Projects Grid */}
                 <div className={styles.portfolio__grid}>
                     {portfolioItems.map((item, index) => (
@@ -51,6 +52,13 @@ export default function PortfolioSection() {
                                     alt={item.title}
                                     className={styles.portfolio__image}
                                 />
+                                {item.seeMoreLink && (
+                                    <div className={styles.portfolio__overlay}>
+                                        <a href={item.seeMoreLink} className={`${styles.portfolio__action} ${styles.portfolio__actionOverlay}`}>
+                                            See more
+                                        </a>
+                                    </div>
+                                )}
                                 <div className={styles.portfolio__badge}>
                                     {item.category}
                                 </div>
