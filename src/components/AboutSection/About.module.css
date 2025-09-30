@@ -9,7 +9,7 @@
     font-weight: 700;
     text-align: center;
     position: relative;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     color: #2c3e50;
 }
 
@@ -19,7 +19,7 @@
     left: 50%;
     bottom: -15px;
     transform: translateX(-50%);
-    width: 60px;
+    width: 100px;
     height: 4px;
     background-color: #149ddd;
     border-radius: 2px;
@@ -77,8 +77,8 @@
 
 .about__col2__desc {
     font-family: 'Roboto', sans-serif;
-    font-size: 1rem;
-    line-height: 1.6;
+    font-size: 1.1rem;
+    line-height: 1.7;
     color: #6c757d;
     margin-bottom: 30px;
 }
@@ -87,17 +87,18 @@
     .about__section {
         padding: 60px 20px;
     }
-    
+
     .about__title {
         font-size: 2rem;
     }
-    
+
     .about__content {
         flex-direction: column;
         gap: 30px;
     }
-    
-    .about__col1, .about__col2 {
+
+    .about__col1,
+    .about__col2 {
         flex: none;
         width: 100%;
     }
@@ -107,8 +108,16 @@
     .about__title {
         font-size: 1.8rem;
     }
-    
+
     .about__col2__title {
         font-size: 1.5rem;
+    }
+
+    .about__col2__desc {
+        text-align: center;
+    }
+
+    .about__col2__title {
+        text-align: center;
     }
 }

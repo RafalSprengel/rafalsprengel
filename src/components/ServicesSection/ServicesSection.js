@@ -107,10 +107,7 @@ export default function ServicesSection() {
                   </li>
                 ))}
               </ul>
-              
-              <div className={styles.ctaButton}>
-                Learn More
-              </div>
+            
             </div>
           ))}
         </div>

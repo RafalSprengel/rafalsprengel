@@ -1,38 +1,76 @@
+'use client'
+
 import React from "react";
+import { useForm, ValidationError } from '@formspree/react';
 import styles from './ContactForm.module.css';
 
+
 const ContactSection = () => {
+  const [state, handleSubmit] = useForm("mvgwgrvo");
+
+  const hasError = (field) => state.errors?.fieldErrors?.has(field);
+
+
+  if (state.succeeded) {
+    return <p className={styles.sentMessage} >Thank you for contacting us! We’ll get back to you soon.</p>;
+  }
+
   return (
-    <form action="forms/contact.php" method="post" className={styles.form}>
+    <form onSubmit={handleSubmit} className={styles.form}>
       <div className={styles.formRow}>
         <div className={styles.col2Input}>
-          <label htmlFor="name-field" className={styles.label}>Your Name</label>
-          <input type="text" name="name" id="name-field" className={styles.input} required />
+          <label htmlFor="name" className={styles.label}>Your Name</label>
+          <input type="text" name="name" id="name" className={styles.input} />
+          <ValidationError
+            prefix="Name"
+            field="name"
+            errors={state.errors}
+            className={hasError("name") ? styles.errorMessage : ""}
+          />
+
         </div>
         <div className={styles.col2Input}>
-          <label htmlFor="email-field" className={styles.label}>Your Email</label>
-          <input type="email" name="email" id="email-field" className={styles.input} required />
+          <label htmlFor="email" className={styles.label}>Your Email</label>
+          <input type="email" name="email" id="email" className={styles.input} />
+          <ValidationError
+            prefix="Email"
+            field="email"
+            errors={state.errors}
+            className={hasError("email") ? styles.errorMessage : ""}
+          />
         </div>
       </div>
 
       <div className={styles.col2Input}>
-        <label htmlFor="subject-field" className={styles.label}>Subject</label>
-        <input type="text" name="subject" id="subject-field" className={styles.input} required />
+        <label htmlFor="subject" className={styles.label}>Subject</label>
+        <input type="text" name="subject" id="subject" className={styles.input} />
+        <ValidationError
+          prefix="Subject"
+          field="subject"
+          errors={state.errors}
+          className={hasError("subject") ? styles.errorMessage : ""}
+        />
       </div>
 
       <div className={styles.col2Input}>
-        <label htmlFor="message-field" className={styles.label}>Message</label>
-        <textarea name="message" rows="10" id="message-field" className={styles.textarea} required></textarea>
+        <label htmlFor="message" className={styles.label}>Message</label>
+        <textarea name="message" rows="10" id="message" className={styles.textarea} ></textarea>
+        <ValidationError
+          prefix="Message"
+          field="message"
+          errors={state.errors}
+          className={hasError("message") ? styles.errorMessage : ""}
+        />
       </div>
 
       <div className={styles.col2Actions}>
-        <div className={styles.loading}>Loading</div>
-        <div className={styles.errorMessage}></div>
-        <div className={styles.sentMessage}>Your message has been sent. Thank you!</div>
-        <button type="submit" className={styles.button}>Send Message</button>
+        <button type="submit" className={styles.button} disabled={state.submitting}>
+          {state.submitting ? "Sending..." : "Send Message"}</button>
       </div>
     </form>
   );
 };
 
 export default ContactSection;
+
+

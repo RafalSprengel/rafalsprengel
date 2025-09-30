@@ -21,11 +21,12 @@ export default function SkillsSection() {
               <h3 className={styles.categoryTitle}>Frontend Development</h3>
             </div>
             <p className={styles.categoryDescription}>
-              Specializing in modern frontend technologies including <strong>Next.js</strong>, <strong>React.js</strong>, 
-              and <strong>JavaScript</strong> for creating responsive and interactive user interfaces. 
-              Experienced with <strong>CSS</strong> frameworks and component libraries like <strong>Mantine UI</strong> 
-              to deliver polished, professional designs.
+              Specializing in modern frontend technologies like <strong>Next.js</strong>, <strong>React.js</strong>,
+              and <strong>JavaScript</strong> to build responsive and interactive interfaces.
+              Experienced with <strong>CSS</strong> frameworks and component libraries such as <strong>Mantine UI</strong>
+              <span> </span>and <strong>Material UI</strong> to deliver polished, professional, and user-friendly designs.
             </p>
+
           </div>
 
           <div className={styles.skillCategory}>
@@ -34,8 +35,8 @@ export default function SkillsSection() {
               <h3 className={styles.categoryTitle}>Backend Development</h3>
             </div>
             <p className={styles.categoryDescription}>
-              Building robust backend systems with <strong>Node.js</strong> and <strong>Express.js</strong>, 
-              creating <strong>REST APIs</strong> with secure authentication using <strong>JWT</strong> and <strong>OAuth2</strong>. 
+              Building robust backend systems with <strong>Node.js</strong> and <strong>Express.js</strong>,
+              creating <strong>REST APIs</strong> with secure authentication using <strong>JWT</strong> and <strong>OAuth2</strong>.
               Focus on scalable architecture and efficient data handling for optimal performance.
             </p>
           </div>
@@ -46,8 +47,8 @@ export default function SkillsSection() {
               <h3 className={styles.categoryTitle}>Database & Payments</h3>
             </div>
             <p className={styles.categoryDescription}>
-              Expertise in <strong>MongoDB</strong> for flexible database management and <strong>Stripe API</strong> 
-              integration for secure payment processing. Ensuring data integrity and seamless transaction flows 
+              Expertise in <strong>MongoDB</strong> for flexible database management and <strong>Stripe API</strong>
+              integration for secure payment processing. Ensuring data integrity and seamless transaction flows
               in all applications.
             </p>
           </div>
@@ -58,8 +59,8 @@ export default function SkillsSection() {
               <h3 className={styles.categoryTitle}>Infrastructure & Deployment</h3>
             </div>
             <p className={styles.categoryDescription}>
-              Full-stack deployment expertise including <strong>VPS server</strong> configuration, <strong>NGINX</strong> setup, 
-              and <strong>Ubuntu</strong> server management. Focus on security hardening, performance optimization, 
+              Full-stack deployment expertise including <strong>VPS server</strong> configuration, <strong>NGINX</strong> setup,
+              and <strong>Ubuntu</strong> server management. Focus on security hardening, performance optimization,
               and reliable infrastructure maintenance.
             </p>
           </div>
@@ -70,37 +71,10 @@ export default function SkillsSection() {
               <h3 className={styles.categoryTitle}>WordPress & CMS</h3>
             </div>
             <p className={styles.categoryDescription}>
-              Custom <strong>WordPress</strong> development with tailored themes and plugins. 
-              Specializing in <strong>SEO optimization</strong> and performance enhancements 
+              Custom <strong>WordPress</strong> development with tailored themes and plugins.
+              Specializing in <strong>SEO optimization</strong> and performance enhancements
               to ensure maximum visibility and user engagement.
             </p>
-          </div>
-        </div>
-
-        <div className={styles.additionalExpertise}>
-          <h3 className={styles.expertiseTitle}>Additional Expertise</h3>
-          <div className={styles.expertiseList}>
-            <div className={styles.expertiseItem}>
-              <FaMobile className={styles.expertiseIcon} />
-              <div>
-                <h4>Responsive Design</h4>
-                <p>Mobile-first approach with cross-browser compatibility and optimal user experience across all devices</p>
-              </div>
-            </div>
-            <div className={styles.expertiseItem}>
-              <FaShieldAlt className={styles.expertiseIcon} />
-              <div>
-                <h4>Security Focus</h4>
-                <p>SSL certificates, firewalls, secure authentication, and comprehensive security best practices</p>
-              </div>
-            </div>
-            <div className={styles.expertiseItem}>
-              <FaSearch className={styles.expertiseIcon} />
-              <div>
-                <h4>SEO Optimization</h4>
-                <p>Search engine friendly code structure, performance optimization, and content strategy implementation</p>
-              </div>
-            </div>
           </div>
         </div>
       </div>

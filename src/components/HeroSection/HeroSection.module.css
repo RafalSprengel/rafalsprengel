@@ -23,6 +23,16 @@
     }
 }
 
+.hero_section .videoContainer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    object-position: center;
+    background-color: #000000d0;
+    height: 100%;
+    width: 100%;
+}
 .hero_section img {
     position: absolute;
     top: 0;

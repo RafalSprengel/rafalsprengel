@@ -13,9 +13,9 @@ export default function Aside() {
     return (
         <aside className={`${styles.outer} ${isOpen ? styles['outer--visible'] : ''}`}>
             <div className={styles.inner}>
-                <div onClick={() => setIsOpen(!isOpen)} style={{ position: 'relative' }}> <HamburgerIcon /> </div>
+                <div onClick={() => setIsOpen(!isOpen)}> <HamburgerIcon /> </div>
                 <div className={styles.profile}>
-                    <img src='images/homepage/profile.jpg' alt='profile' className={styles.profile__img} />
+                    <img src='assets/homepage/profile.webp' alt='profile' className={styles.profile__img} />
                     <h2 className={styles.profile__name}>Rafał Sprengel</h2>
                 </div>
 
@@ -56,6 +56,12 @@ export default function Aside() {
                             </a>
                         </li>
 
+                        <li className={styles.nav__item} onClick={() => setIsOpen(false)}>
+                            <a href="#portfolio" className={styles.nav__link}>
+                                <FaImages className={styles.nav__icon} /> Portfolio
+                            </a>
+                        </li>
+
 
                         <li className={styles.nav__item} onClick={() => setIsOpen(false)}>
                             <a href="#services" className={styles.nav__link}>
@@ -63,11 +69,7 @@ export default function Aside() {
                             </a>
                         </li>
 
-                        <li className={styles.nav__item} onClick={() => setIsOpen(false)}>
-                            <a href="#portfolio" className={styles.nav__link}>
-                                <FaImages className={styles.nav__icon} /> Portfolio
-                            </a>
-                        </li>
+
 
 
                         <li className={styles.nav__item} onClick={() => setIsOpen(false)}>
