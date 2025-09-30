@@ -19,9 +19,9 @@ export default function PortfolioSection() {
             description: 'Advanced web application for managing a restaurant: admin panel, customer accounts, orders, menu items, categories, and staff workflows..',
             tags: ['Next.js', 'Node.js', 'MongoDB', 'Stripe'],
             category: 'Web Application',
-            liveUrl: '#',
+            liveUrl: '#', // This project might not have a live demo, so keeping '#' or a relevant link
             githubUrl: 'https://github.com/RafalSprengel/restaurant-pos-backend',
-            seeMoreLink: '#' // Tymczasowy link dla 'See more'
+            seeMoreLink: '/portfolio/restaurant' // Link to the new project description page
         },
         {
             title: 'Holiday Resort Booking Website',
