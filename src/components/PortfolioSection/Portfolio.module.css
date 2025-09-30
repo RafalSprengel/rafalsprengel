@@ -156,7 +156,7 @@
 
 /* Stylizacja przycisku "See more" wewnątrz nakładki */
 .portfolio__overlay .portfolio__action {
-    opacity: 0; /* Początkowo ukryte */
+    opacity: 1; /* Początkowo ukryte */
     transform: translateY(20px); /* Startuje nieco poniżej środka */
     transition: opacity 0.3s ease, transform 0.3s ease; /* Płynne pojawianie się przycisku */
 }
@@ -164,13 +164,13 @@
 .portfolio__item:hover .portfolio__overlay .portfolio__action {
     opacity: 1; /* Pokaż przycisk po najechaniu */
     transform: translateY(0); /* Przesuń na środek */
+    border: 1px solid white;
 }
 
 .portfolio__actionOverlay {
     background: transparent;
     color: white;
-    border: 1px solid white;
-    border-radius: 25px;
+    border-radius: 12px;
     padding: 8px 24px;
 }
 
@@ -229,7 +229,7 @@
 .portfolio__action {
     padding: 8px 16px;
     /* border-radius: 6px;  */
-    border-radius: 25px;
+    border-radius: 6px;
     font-size: 0.875rem;
     font-weight: 500;
     cursor: pointer;
