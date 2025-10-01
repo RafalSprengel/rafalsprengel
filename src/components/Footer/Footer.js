@@ -23,6 +23,7 @@ export default function Footer() {
                         <a href="#about" className={styles.footerLink}>About</a>
                         <a href="#skills" className={styles.footerLink}>Skills</a>
                         <a href="#portfolio" className={styles.footerLink}>Portfolio</a>
+                        <a href="#services" className={styles.footerLink}>Services</a>
                         <a href="#contact" className={styles.footerLink}>Contact</a>
                     </div>
 

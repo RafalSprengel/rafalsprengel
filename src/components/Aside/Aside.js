@@ -15,7 +15,7 @@ export default function Aside() {
             <div className={styles.inner}>
                 <div onClick={() => setIsOpen(!isOpen)}> <HamburgerIcon /> </div>
                 <div className={styles.profile}>
-                    <img src='assets/homepage/profile.webp' alt='profile' className={styles.profile__img} />
+                    <img src='/assets/homepage/profile.webp' alt='profile' className={styles.profile__img} />
                     <h2 className={styles.profile__name}>Rafał Sprengel</h2>
                 </div>
 
@@ -40,31 +40,31 @@ export default function Aside() {
                 <nav className={styles.nav}>
                     <ul className={styles.nav__list}>
                         <li className={styles.nav__item} onClick={() => setIsOpen(false)}>
-                            <a href="#hero" className={styles.nav__link}>
+                            <a href="/#hero" className={styles.nav__link}>
                                 <FaHome className={styles.nav__icon} /> Home
                             </a>
                         </li>
                         <li className={styles.nav__item} onClick={() => setIsOpen(false)}>
-                            <a href="#about" className={styles.nav__link}>
+                            <a href="/#about" className={styles.nav__link}>
                                 <FaUser className={styles.nav__icon} /> About
                             </a>
                         </li>
 
                         <li className={styles.nav__item} onClick={() => setIsOpen(false)}>
-                            <a href="#skills" className={styles.nav__link}>
+                            <a href="/#skills" className={styles.nav__link}>
                                 <FaLaptopCode className={styles.nav__icon} /> Skills
                             </a>
                         </li>
 
                         <li className={styles.nav__item} onClick={() => setIsOpen(false)}>
-                            <a href="#portfolio" className={styles.nav__link}>
+                            <a href="/#portfolio" className={styles.nav__link}>
                                 <FaImages className={styles.nav__icon} /> Portfolio
                             </a>
                         </li>
 
 
                         <li className={styles.nav__item} onClick={() => setIsOpen(false)}>
-                            <a href="#services" className={styles.nav__link}>
+                            <a href="/#services" className={styles.nav__link}>
                                 <FaServicestack className={styles.nav__icon} /> Services
                             </a>
                         </li>
@@ -73,7 +73,7 @@ export default function Aside() {
 
 
                         <li className={styles.nav__item} onClick={() => setIsOpen(false)}>
-                            <a href="#contact" className={styles.nav__link}>
+                            <a href="/#contact" className={styles.nav__link}>
                                 <FaEnvelope className={styles.nav__icon} /> Contact
                             </a>
                         </li>

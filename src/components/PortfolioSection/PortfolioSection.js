@@ -6,31 +6,31 @@ export default function PortfolioSection() {
         {
             title: 'Responsive Restaurant Website',
             image: '/assets/homePage/www.jpg',
-            description: 'Modern, fully responsive website for a restaurant featuring online ordering, menu, gallery, table reservation system, and contact form..',
+            description: 'Modern, fully responsive website for a restaurant featuring online ordering, menu, gallery, table reservation system, and contact form.',
             tags: ['React', 'CSS', 'Node.js'],
             category: 'Custom Website',
             liveUrl: 'https://demo1.rafalsprengel.com/',
             githubUrl: 'https://github.com/RafalSprengel/restaurant-pos-frontend',
-            seeMoreLink: 'https://rafalsprengel.com/restaurant'
+            seeMoreLink: '/projects/restaurant'
         },
         {
             title: 'Restaurant POS Management System',
             image: '/assets/homePage/server.jpg',
-            description: 'Advanced web application for managing a restaurant: admin panel, customer accounts, orders, menu items, categories, and staff workflows..',
+            description: 'Advanced web application for managing a restaurant: admin panel, customer accounts, orders, menu items, categories, and staff workflows.',
             tags: ['Next.js', 'Node.js', 'MongoDB', 'Stripe'],
             category: 'Web Application',
-            liveUrl: '#', // This project might not have a live demo, so keeping '#' or a relevant link
+            liveUrl: '#', 
             githubUrl: 'https://github.com/RafalSprengel/restaurant-pos-backend',
-            seeMoreLink: '/portfolio/restaurant' // Link to the new project description page
+            seeMoreLink: '/projects/webapp'
         },
         {
             title: 'Holiday Resort Booking Website',
             image: '/assets/homePage/wordpress.jpg',
-            description: 'Custom WordPress site for a holiday resort with online booking, gallery, and easy content management for quick updates..',
+            description: 'Custom WordPress site for a holiday resort with online booking, gallery, and easy content management for quick updates.',
             tags: ['WordPress', 'PHP', 'JavaScript'],
             category: 'WordPress',
             liveUrl: 'https://lesniczowkawiezyca.pl/',
-            seeMoreLink: 'https://lesniczowkawiezyca.pl/' // Użycie liveUrl jako 'See more'
+            seeMoreLink: 'https://lesniczowkawiezyca.pl/' 
         }
     ];
 
@@ -39,10 +39,9 @@ export default function PortfolioSection() {
             <div className={styles.container}>
                 <h2 className={styles.portfolio__title}>Portfolio</h2>
                 <p className={styles.portfolio__desc}>
-                    Recent projects showcasing my expertise in web development
+                    Recent projects showcasing my expertise in web development.
                 </p>
 
-                {/* Projects Grid */}
                 <div className={styles.portfolio__grid}>
                     {portfolioItems.map((item, index) => (
                         <div key={index} className={styles.portfolio__item}>

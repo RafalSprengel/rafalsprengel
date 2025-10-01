@@ -83,7 +83,7 @@ export default function ServicesSection() {
         <div className={styles.header}>
           <h2 className={styles.title}>Services</h2>
           <p className={styles.subtitle}>
-            Comprehensive web development solutions from concept to deployment
+            Comprehensive web development solutions from concept to deployment.
           </p>
         </div>
 

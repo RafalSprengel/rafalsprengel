@@ -10,7 +10,7 @@ export default function SkillsSection() {
         <div className={styles.header}>
           <h2 className={styles.title}>Skills & Technologies</h2>
           <p className={styles.subtitle}>
-            Comprehensive expertise across the full web development stack
+            Comprehensive expertise across the full web development stack.
           </p>
         </div>
 
@@ -47,7 +47,7 @@ export default function SkillsSection() {
               <h3 className={styles.categoryTitle}>Database & Payments</h3>
             </div>
             <p className={styles.categoryDescription}>
-              Expertise in <strong>MongoDB</strong> for flexible database management and <strong>Stripe API</strong>
+              Expertise in <strong>MongoDB</strong> for flexible database management and <strong>Stripe API </strong>
               integration for secure payment processing. Ensuring data integrity and seamless transaction flows
               in all applications.
             </p>

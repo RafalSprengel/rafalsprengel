@@ -15,6 +15,15 @@ export default function ProjectHeroSection({
 }) {
   return (
     <section className={styles.projectHero}>
+      <div className={styles.projectHero__imageContainer}>
+        <Image
+          src="/images/decorative-top-left.png"
+          alt="Decorative Top Left"
+          width={150}
+          height={150}
+          className={styles.decorativeImageTopLeft}
+        />
+      </div>
       <div className={styles.container}>
         <div className={styles.projectHero__content}>
           <h1 className={styles.projectHero__title}>{title}</h1>
