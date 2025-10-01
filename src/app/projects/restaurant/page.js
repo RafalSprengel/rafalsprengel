@@ -2,7 +2,7 @@
 
 import React from 'react';
 import styles from './page.module.css';
-import ProjectHeroSection from '@/components/ProjectHeroSection/ProjectHeroSection';
+import ProjectHeroSection from '@/app/projects/_components/ProjectHeroSection/ProjectHeroSection';
 import {
   FaLightbulb,
   FaCogs,

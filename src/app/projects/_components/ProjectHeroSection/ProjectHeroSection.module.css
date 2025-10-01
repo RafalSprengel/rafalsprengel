@@ -8,6 +8,12 @@
   max-width: 1200px;
   margin: 0 auto;
 }
+.projectHero__imageContainer{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 500px;;
+}
 
 .projectHero__content {
   margin-bottom: 50px;
