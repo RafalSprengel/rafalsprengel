@@ -1,18 +1,92 @@
 .projectHero {
-  padding: 80px 20px 40px;
+  padding: 50px 20px 40px;
   background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center
 }
 
 .container {
   max-width: 1200px;
   margin: 0 auto;
 }
-.projectHero__imageContainer{
-display: flex;
-justify-content: center;
-align-items: center;
-height: 500px;;
+
+.projectHero__imagesWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.projectHero__imagesContainer {
+  position: relative;
+  height: 500px;
+  width: 780px;
+  margin-bottom: 60px;
+}
+
+.projectHero__imagesContainer:hover .projectHero__buttonVisitWebsite {
+  opacity: 1;
+}
+
+.projectHero__imagesContainer:hover .projectHero__pcOverlay {
+  opacity: 1;
+}
+
+.projectHero__pcImage {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 0;
+  height: 100%;
+}
+
+.projectHero__tabletImage {
+  position: absolute;
+  bottom: 10px;
+  right: 0px;
+  z-index: 1;
+}
+
+.projectHero__phoneImage {
+  position: absolute;
+  bottom: -10px;
+  right: 180px;
+  z-index: 2;
+}
+
+.projectHero__buttonVisitWebsite {
+  position: absolute;
+  top: 200px;
+  left: 250px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  border: 1px solid white;
+  border-radius: 7px;
+  color: white;
+  padding: 14px 31px;
+  z-index: 999;
+  background-color: rgba(0, 0, 0, 0.411);
+  cursor: pointer;
+  transition: background-color 0.3s ease, opacity 0.3s ease;
+  opacity: 0;
+}
+
+.projectHero__buttonVisitWebsite:hover {
+  background-color: rgba(122, 113, 113, 0.411);
+}
+
+.projectHero__pcOverlay {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  width: 600px;
+  height: 390px;
+  background-color: #08080877;
+  z-index: 0;
+  opacity: 0;
+  transition: opacity 0.3s ease;
 }
 
 .projectHero__content {
@@ -21,7 +95,7 @@ height: 500px;;
 
 .projectHero__title {
   font-family: 'Raleway', sans-serif;
-  font-size: 3.5rem;
+  font-size: 3rem;
   font-weight: 700;
   color: #2c3e50;
   margin-bottom: 20px;
@@ -30,8 +104,8 @@ height: 500px;;
 
 .projectHero__description {
   font-family: 'Roboto', sans-serif;
-  font-size: 1.25rem;
-  line-height: 1.8;
+  font-size: 1.15rem;
+  line-height: 1.7;
   color: #495057;
   max-width: 900px;
   margin: 0 auto 30px;
@@ -46,12 +120,12 @@ height: 500px;;
 }
 
 .projectHero__tag {
-  padding: 8px 16px;
-  background: #e0f2f7;
-  border-radius: 20px;
-  font-size: 0.9rem;
-  color: #149ddd;
-  font-weight: 500;
+  padding: 8px 14px;
+  background: #e0e0e0;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  color: #495057;
+  border: 1px solid #e9ecef;
 }
 
 .projectHero__actions {
@@ -104,27 +178,16 @@ height: 500px;;
   font-size: 1.1rem;
 }
 
-.projectHero__imageContainer {
-  margin-top: 50px;
-  border-radius: 15px;
-  overflow: hidden;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-}
-
-.projectHero__image {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
 /* Responsive adjustments */
 @media (max-width: 1024px) {
   .projectHero__title {
     font-size: 3rem;
   }
+
   .projectHero__description {
     font-size: 1.15rem;
   }
+
   .projectHero__button {
     padding: 10px 24px;
     font-size: 1rem;
@@ -135,26 +198,27 @@ height: 500px;;
   .projectHero {
     padding: 60px 20px 30px;
   }
+
   .projectHero__title {
     font-size: 2.5rem;
   }
+
   .projectHero__description {
     font-size: 1rem;
     margin-bottom: 20px;
   }
+
   .projectHero__actions {
     flex-direction: column;
     gap: 15px;
     margin-top: 30px;
   }
+
   .projectHero__button {
     width: 100%;
     max-width: 280px;
     margin: 0 auto;
     justify-content: center;
-  }
-  .projectHero__imageContainer {
-    margin-top: 40px;
   }
 }
 
@@ -162,13 +226,16 @@ height: 500px;;
   .projectHero__title {
     font-size: 2rem;
   }
+
   .projectHero__description {
     font-size: 0.95rem;
   }
+
   .projectHero__button {
     font-size: 0.95rem;
     padding: 10px 20px;
   }
+
   .projectHero__tag {
     font-size: 0.8rem;
     padding: 6px 12px;

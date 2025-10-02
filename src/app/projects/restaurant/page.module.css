@@ -76,7 +76,7 @@
 .sectionText {
   font-family: 'Roboto', sans-serif;
   font-size: 1.15rem; /* Lekko zwiększono rozmiar tekstu */
-  line-height: 1.8; /* Zwiększono line-height dla lepszej czytelności */
+  line-height: 1.7; /* Zwiększono line-height dla lepszej czytelności */
   color: #555; /* Nieco ciemniejszy kolor tekstu */
   margin-bottom: 25px;
   flex-grow: 1;

@@ -24,18 +24,20 @@ import {
 } from 'react-icons/fa';
 
 export default function RestaurantProjectPage() {
-  const projectData = {
+  const heroData = {
     title: 'Restaurant POS & Online Ordering System',
     description: 'As a developer, I had the pleasure of working on a comprehensive Point of Sale (POS) system for a restaurant, which combines advanced online ordering features with an intuitive management panel. This project was an excellent opportunity for me to showcase my skills in building scalable, responsive, and secure web applications that genuinely address business needs.',
-    mainImage: '/assets/homepage/restaurant-pos-main.jpg', // Placeholder for a specific project image
-    liveUrl: '#', // This project might not have a live demo, so keeping '#' or a relevant link
+    pcImage: '/assets/projects/res/pc.webP',
+    tabletImage: '/assets/projects/res/tablet.webP',
+    phoneImage: '/assets/projects/res/phone.webP',
+    liveUrl: '#',
     githubUrl: 'https://github.com/RafalSprengel/restaurant-pos-backend',
     tags: ['Next.js', 'React.js', 'Node.js', 'Express.js', 'MongoDB', 'Stripe', 'Mantine UI', 'SCSS', 'Tailwind CSS', 'JWT', 'OAuth'],
   };
 
   return (
     <section className={styles.projectSection}>
-      <ProjectHeroSection {...projectData} />
+      <ProjectHeroSection {...heroData} />
 
       <div className={styles.container}>
         <div className={styles.sectionBlock}>
