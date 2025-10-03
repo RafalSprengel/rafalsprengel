@@ -12,31 +12,34 @@
 /* .pageTitle, .pageTitle::after, .introDescription */
 
 .contentGrid {
-  display: flex; /* Zmieniono z grid na flex */
-  flex-direction: column; /* Ułożenie elementów w kolumnie */
-  gap: 30px; /* Odstęp między blokami */
+  display: grid;
+  grid-template-columns: 1fr; /* Domyślnie jedna kolumna */
+  gap: 30px; /* Zmniejszono odstęp między blokami dla bardziej zwartego wyglądu */
   margin-top: 50px; /* Zwiększono odstęp od sekcji hero */
 }
 
-/* Usunięto media query dla grid-template-columns, ponieważ układ jest teraz kolumnowy */
+@media (min-width: 1024px) { /* Układ dwukolumnowy dla większych ekranów */
+  .contentGrid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
 
 .sectionBlock {
-  /* Usunięto style nadające wygląd kafelka i efekt hover */
-  /* background: white; */
-  /* border-radius: 18px; */
-  padding: 40px;
-  /* box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08); */
+  background: white;
+  border-radius: 18px; /* Lekko zwiększono zaokrąglenie */
+  padding: 40px; /* Zwiększono padding dla większej przestrzeni wewnętrznej */
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08); /* Bardziej wyraźny, ale subtelny cień */
   margin-bottom: 0;
-  /* transition: transform 0.3s ease, box-shadow 0.3s ease; */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height: 100%;
   display: flex;
   flex-direction: column;
-  /* border: 1px solid #e0e0e0; */
+  border: 1px solid #e0e0e0; /* Dodano subtelną ramkę */
 }
 
 .sectionBlock:hover {
-  /* Usunięto efekty hover */
-  /* transform: translateY(-7px); */
-  /* box-shadow: 0 20px 45px rgba(20, 157, 221, 0.18); */
+  transform: translateY(-7px); /* Bardziej dynamiczny efekt hover */
+  box-shadow: 0 20px 45px rgba(20, 157, 221, 0.18); /* Mocniejszy cień na hover */
 }
 
 .sectionHeader {

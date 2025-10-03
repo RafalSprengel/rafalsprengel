@@ -59,11 +59,7 @@ export default function ProjectHeroSection({
                data-aos-delay="300"
             />
           )}
-          {liveUrl && liveUrl !== '#' && (
-            <a href={liveUrl} target="_blank" rel="noopener noreferrer" className={styles.projectHero__buttonVisitWebsite}>
-              Visit Website
-            </a>
-          )}
+          <button className={styles.projectHero__buttonVisitWebsite}>Visit Website</button>
           <div className={styles.projectHero__pcOverlay}></div>
         </div>
       </div>
