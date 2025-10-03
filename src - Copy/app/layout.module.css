@@ -1,0 +1,37 @@
+.body {
+    display: flex;
+    min-height: 100dvh;
+    flex-direction: row;
+    overflow-x: hidden;
+}
+
+.main {
+    margin-left: 300px;
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+@media (max-width: 480px) {
+    .body {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .main {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .body {
+        flex-direction: column;
+    }
+    
+    .main {
+        margin-left: 0;
+        min-height: auto;
+    }
+}
