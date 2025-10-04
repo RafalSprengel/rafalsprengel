@@ -7,6 +7,14 @@
     width: 100%;
 }
 
+.featuresGallery__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;;
+}
+
+
 .featuresGallery__image-link {
     cursor: pointer;
     width: 300px;
