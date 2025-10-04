@@ -3,6 +3,10 @@
 import React from 'react';
 import styles from './page.module.css';
 import ProjectHeroSection from '@/app/projects/_components/ProjectHeroSection/ProjectHeroSection';
+import MyLightbox from '@/components/MyLightbox/MyLightbox';
+import GLightbox from 'glightbox';
+import FeaturesGallery from '@/app/projects/_components/featuresGallery/FeaturesGallery.js';
+
 import {
   FaLightbulb,
   FaCogs,
@@ -30,16 +34,42 @@ export default function RestaurantProjectPage() {
     pcImage: '/assets/projects/res/pc.webp',
     tabletImage: '/assets/projects/res/tablet.webp',
     phoneImage: '/assets/projects/res/phone.webp',
-    liveUrl: '#',
+    liveUrl: 'https://demo1.rafalsprengel.com/',
     githubUrl: 'https://github.com/RafalSprengel/restaurant-pos-backend',
     tags: ['Next.js', 'React.js', 'Node.js', 'Express.js', 'MongoDB', 'Stripe', 'Mantine UI', 'SCSS', 'Tailwind CSS', 'JWT', 'OAuth'],
   };
+
+  const lightboxImages = [
+    { full: '/assets/projects/res/gallery/1.jpg', thumb: '/assets/projects/res/gallery/1-thumb.jpg' },
+    { full: '/assets/projects/res/gallery/2.jpg', thumb: '/assets/projects/res/gallery/2-thumb.jpg' },
+    { full: '/assets/projects/res/gallery/3.jpg', thumb: '/assets/projects/res/gallery/3-thumb.jpg' },
+  ];
+
+  const featuresData = [
+    {
+      image: {
+        full: '/assets/projects/res/features/4.webp',
+        thumb: '/assets/projects/res/features/4-thumb.webp',
+        desc: ''
+      },
+      description: 'Dynamic Menu: Customers can easily browse the menu, filter products, and add them to their cart.',
+      icon: <FaUtensils />
+
+    }
+  ]
+
+  const lightbox = GLightbox({
+    selector: '.my-lightbox__image-link'
+  });
 
   return (
     <section className={styles.projectSection}>
       <ProjectHeroSection {...heroData} />
 
       <div className={styles.container}>
+        <div className={styles.sectionImages}>
+          <MyLightbox images={lightboxImages} />
+        </div>
         <div className={styles.sectionBlock}>
           <div className={styles.sectionHeader}>
             <FaLightbulb className={styles.sectionIcon} />
@@ -62,19 +92,61 @@ export default function RestaurantProjectPage() {
 
         <div className={styles.contentGrid}>
           <div className={styles.sectionBlock}>
-            <div className={styles.sectionHeader}>
+            <div className={`${styles.sectionHeader} ${styles.subSectionHeader}`}>
               <FaCode className={styles.sectionIcon} />
               <h3 className={styles.subSectionTitle}>Frontend – User Interface and Customer Experience:</h3>
             </div>
             <p className={styles.sectionText}>
               On the frontend, I opted for React.js combined with Mantine UI, which allowed me to rapidly build rich and accessible components. This provides customers with an intuitive interface for browsing the menu, customizing orders, and reserving tables. I paid particular attention to responsiveness, ensuring the website functions flawlessly on every device – from desktops to smartphones. The use of SCSS for global styles and Tailwind CSS for a utility-first approach in new components provided flexibility and visual consistency.
             </p>
-            <ul className={styles.featureList}>
-              <li><FaUtensils className={styles.featureIcon} /> Dynamic Menu: Customers can easily browse the menu, filter products, and add them to their cart.</li>
-            </ul>
-            <div className={styles.imagePlaceholder}>
-              <span>[SCREENSHOT: Homepage with menu]</span>
-            </div>
+
+            <FeaturesGallery data={featuresData} />
+            {/* =================================================== */}
+            {/* <div className={styles.features}>
+
+              <div className={styles.imagePlaceholder}>
+                <a
+                  href='/assets/projects/res/features/4.webp'
+                  className="my-lightbox__image-link"
+                  data-gallery="my-gallery"
+                  data-aos="fade-up"
+                  data-aos-delay='100'
+                >
+                  <img
+                    src='/assets/projects/res/features/4-thumb.webp'
+                    alt='description'
+                  // className="my-lightbox__image"
+                  />
+                </a>
+                <ul className={styles.featureList}>
+                  <li><FaUtensils className={styles.featureIcon} /> Dynamic Menu: Customers can easily browse the menu, filter products, and add them to their cart.</li>
+                </ul>
+              </div>
+
+
+
+              <div className={styles.imagePlaceholder}>
+                <a
+                  href='/assets/projects/res/features/5.webp'
+                  className="my-lightbox__image-link"
+                  data-gallery="my-gallery"
+                  data-aos="fade-up"
+                  data-aos-delay='100'
+                >
+                  <img
+                    src='/assets/projects/res/features/5-thumb.webp'
+                    alt='description'
+                  // className="my-lightbox__image"
+                  />
+                </a>
+                <ul className={styles.featureList}>
+                  <li><FaShoppingCart className={styles.featureIcon} /> Smooth Ordering Process: From product selection and customization to secure Stripe payment.</li>
+                </ul>
+              </div>
+
+            </div> */}
+            {/* ========================================================================== */}
+
             <ul className={styles.featureList}>
               <li><FaShoppingCart className={styles.featureIcon} /> Smooth Ordering Process: From product selection and customization to secure Stripe payment.</li>
             </ul>
@@ -93,7 +165,7 @@ export default function RestaurantProjectPage() {
           </div>
 
           <div className={styles.sectionBlock}>
-            <div className={styles.sectionHeader}>
+            <div className={`${styles.sectionHeader} ${styles.subSectionHeader}`}>
               <FaServer className={styles.sectionIcon} />
               <h3 className={styles.subSectionTitle}>Backend – The Heart of the System:</h3>
             </div>
