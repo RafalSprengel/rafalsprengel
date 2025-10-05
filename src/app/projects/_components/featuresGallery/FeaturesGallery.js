@@ -2,7 +2,6 @@ import { useEffect } from 'react';
 import GLightbox from 'glightbox';
 import 'glightbox/dist/css/glightbox.min.css';
 import './FeaturesGallery.css';
-
 const FeaturesGallery = ({ data }) => {
   useEffect(() => {
     const lightbox = GLightbox({
@@ -33,7 +32,7 @@ const FeaturesGallery = ({ data }) => {
             />
           </a>
           <ul className='featuresGallery-featureList'>
-            <li><span className='featuresGallery-featureIcon'>{data.icon}</span>{el.description}</li>
+            <li><span className='featuresGallery-featureIcon'>{el.icon}</span>{el.description}</li>
           </ul>
         </div>
       ))}

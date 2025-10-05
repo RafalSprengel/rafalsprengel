@@ -50,10 +50,30 @@ export default function RestaurantProjectPage() {
       image: {
         full: '/assets/projects/res/features/4.webp',
         thumb: '/assets/projects/res/features/4-thumb.webp',
-        desc: ''
+        desc: 'Dynamic menu'
       },
       description: 'Dynamic Menu: Customers can easily browse the menu, filter products, and add them to their cart.',
       icon: <FaUtensils />
+
+    },
+    {
+      image: {
+        full: '/assets/projects/res/features/5.webp',
+        thumb: '/assets/projects/res/features/5-thumb.webp',
+        desc: 'Ordering process'
+      },
+      description: 'Smooth Ordering Process: From product selection and customization to secure Stripe payment.',
+      icon: <FaShoppingCart />
+
+    },
+    {
+      image: {
+        full: '/assets/projects/res/features/6.webp',
+        thumb: '/assets/projects/res/features/6-thumb.webp',
+        desc: 'Ordering process'
+      },
+      description: 'Smooth Ordering Process: From product selection and customization to secure Stripe payment.',
+      icon: <FaShoppingCart />
 
     }
   ]
@@ -99,8 +119,10 @@ export default function RestaurantProjectPage() {
             <p className={styles.sectionText}>
               On the frontend, I opted for React.js combined with Mantine UI, which allowed me to rapidly build rich and accessible components. This provides customers with an intuitive interface for browsing the menu, customizing orders, and reserving tables. I paid particular attention to responsiveness, ensuring the website functions flawlessly on every device – from desktops to smartphones. The use of SCSS for global styles and Tailwind CSS for a utility-first approach in new components provided flexibility and visual consistency.
             </p>
+            <div className={styles.featuresListWrap}>
+              <FeaturesGallery data={featuresData} />
+            </div>
 
-            <FeaturesGallery data={featuresData} />
             {/* =================================================== */}
             {/* <div className={styles.features}>
 

@@ -79,9 +79,8 @@
 
 
 
-.imagePlaceholder{
-  flex:1
-
+.imagePlaceholder {
+  flex: 1
 }
 
 @media (max-width: 1024px) {
@@ -100,6 +99,10 @@
 
   .sectionText {
     font-size: 1.1rem;
+  }
+
+  .featuresListWrap {
+    margin: 40px 0;
   }
 
   .featureList li {
