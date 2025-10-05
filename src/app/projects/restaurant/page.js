@@ -3,9 +3,17 @@
 import React from 'react';
 import styles from './page.module.css';
 import ProjectHeroSection from '@/app/projects/_components/ProjectHeroSection/ProjectHeroSection';
-import MyLightbox from '@/components/MyLightbox/MyLightbox';
-import GLightbox from 'glightbox';
-import FeaturesGallery from '@/app/projects/_components/featuresGallery/FeaturesGallery.js';
+import dynamic from 'next/dynamic';
+
+const MyLightbox = dynamic(
+  () => import('@/components/MyLightbox/MyLightbox'),
+  { ssr: false }
+);
+
+const FeaturesGallery = dynamic(
+  () => import('@/app/projects/_components/featuresGallery/FeaturesGallery.js'),
+  { ssr: false }
+)
 
 import {
   FaLightbulb,
@@ -72,15 +80,13 @@ export default function RestaurantProjectPage() {
         thumb: '/assets/projects/res/features/6-thumb.webp',
         desc: 'Ordering process'
       },
-      description: 'Smooth Ordering Process: From product selection and customization to secure Stripe payment.',
-      icon: <FaShoppingCart />
+      description: 'Table Reservations: A simple reservation form with real-time availability validation.',
+      icon: <FaCalendarAlt />
 
     }
   ]
 
-  const lightbox = GLightbox({
-    selector: '.my-lightbox__image-link'
-  });
+
 
   return (
     <section className={styles.projectSection}>
@@ -121,68 +127,6 @@ export default function RestaurantProjectPage() {
             </p>
             <div className={styles.featuresListWrap}>
               <FeaturesGallery data={featuresData} />
-            </div>
-
-            {/* =================================================== */}
-            {/* <div className={styles.features}>
-
-              <div className={styles.imagePlaceholder}>
-                <a
-                  href='/assets/projects/res/features/4.webp'
-                  className="my-lightbox__image-link"
-                  data-gallery="my-gallery"
-                  data-aos="fade-up"
-                  data-aos-delay='100'
-                >
-                  <img
-                    src='/assets/projects/res/features/4-thumb.webp'
-                    alt='description'
-                  // className="my-lightbox__image"
-                  />
-                </a>
-                <ul className={styles.featureList}>
-                  <li><FaUtensils className={styles.featureIcon} /> Dynamic Menu: Customers can easily browse the menu, filter products, and add them to their cart.</li>
-                </ul>
-              </div>
-
-
-
-              <div className={styles.imagePlaceholder}>
-                <a
-                  href='/assets/projects/res/features/5.webp'
-                  className="my-lightbox__image-link"
-                  data-gallery="my-gallery"
-                  data-aos="fade-up"
-                  data-aos-delay='100'
-                >
-                  <img
-                    src='/assets/projects/res/features/5-thumb.webp'
-                    alt='description'
-                  // className="my-lightbox__image"
-                  />
-                </a>
-                <ul className={styles.featureList}>
-                  <li><FaShoppingCart className={styles.featureIcon} /> Smooth Ordering Process: From product selection and customization to secure Stripe payment.</li>
-                </ul>
-              </div>
-
-            </div> */}
-            {/* ========================================================================== */}
-
-            <ul className={styles.featureList}>
-              <li><FaShoppingCart className={styles.featureIcon} /> Smooth Ordering Process: From product selection and customization to secure Stripe payment.</li>
-            </ul>
-            <div className={styles.imagePlaceholder}>
-              <span>[SCREENSHOT: Shopping cart]</span>
-            </div>
-            <div className={styles.imagePlaceholder}>
-              <span>[SCREENSHOT: Checkout page]</span>
-            </div>
-            <ul className={styles.featureList}>
-              <li><FaCalendarAlt className={styles.featureIcon} /> Table Reservations: A simple reservation form with real-time availability validation.</li>
-            </ul>
-            <div className={styles.imagePlaceholder}>
-              <span>[SCREENSHOT: Table reservation form]</span>
             </div>
           </div>
 
