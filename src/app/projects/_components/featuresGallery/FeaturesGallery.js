@@ -2,19 +2,19 @@ import { useEffect } from 'react';
 import GLightbox from 'glightbox';
 import 'glightbox/dist/css/glightbox.min.css';
 import './FeaturesGallery.css';
-const FeaturesGallery = ({ data }) => {
+const FeaturesGallery = ({ data, galleryId }) => {
   useEffect(() => {
     const lightbox = GLightbox({
-      selector: '.featuresGallery__image-link'
+      selector: `#${galleryId} .featuresGallery__image-link`
     });
 
     return () => {
       lightbox.destroy();
     };
-  }, []);
+  }, [galleryId]);
 
   return (
-    <div className="featuresGallery">
+    <div className="featuresGallery" id={galleryId}>
       {data.map((el, index) => (
         <div className="featuresGallery__item" key={index}>
           <a
@@ -23,7 +23,6 @@ const FeaturesGallery = ({ data }) => {
             data-gallery="my-gallery"
             data-aos="fade-up"
             data-aos-delay={index * 100}
-            key={index}
           >
             <img
               src={el.image.thumb}
@@ -32,7 +31,7 @@ const FeaturesGallery = ({ data }) => {
             />
           </a>
           <ul className='featuresGallery-featureList'>
-            <li><span className='featuresGallery-featureIcon'>{el.icon}</span>{el.description}</li>
+            <li><span className='featuresGallery-featureIcon'>{el.icon}</span><span className='featuresGallery-featureText'>{el.description}</span></li>
           </ul>
         </div>
       ))}

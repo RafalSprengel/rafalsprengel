@@ -13,17 +13,22 @@
     align-items: center;
     text-align: center;
     width: 300px;
+    text-align: start;
+    overflow: hidden;
 }
 
 
 .featuresGallery__image-link {
     cursor: pointer;
+    height: 230px;
 
 }
 
 .featuresGallery__image {
     transition: transform 0.3s ease-in;
-    width: 100%;
+    height: 100%;
+    width: auto;
+    object-fit: cover;
 }
 
 .featuresGallery__image:hover {
@@ -56,7 +61,7 @@
 
 @media (max-width: 900px) {
     .featuresGallery__image-link {
-        width: 48%;
+        width: 100%;
     }
 }
 

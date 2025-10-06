@@ -7,7 +7,7 @@ export default function HeroSection() {
             {/* <img src='/images/homePage/hero-bg.jpg' alt='hero'></img> */}
             <video  className={styles.videoContainer} width="640" height="360" autoPlay loop muted playsInline>
                 <source src="assets/homePage/intro.mp4" type="video/mp4" />
-                    Twoja przeglądarka nie wspiera wideo.
+                   Your browser does not support video.
             </video>
             <div className={styles.hero__title}>Rafał Sprengel</div>
             <div className={styles.hero__subtitle}>

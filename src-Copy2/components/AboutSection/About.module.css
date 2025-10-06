@@ -1,0 +1,123 @@
+.about__section {
+    padding: 80px 20px;
+    background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
+}
+
+.about__title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: center;
+    position: relative;
+    margin-bottom: 30px;
+    color: #2c3e50;
+}
+
+.about__title:after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -15px;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 4px;
+    background-color: #149ddd;
+    border-radius: 2px;
+}
+
+.about__desc {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: #6c757d;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 50px;
+}
+
+.about__content {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    flex-wrap: wrap;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.about__col1 {
+    flex: 1;
+    min-width: 300px;
+}
+
+.about__col1 img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.about__col1 img:hover {
+    transform: translateY(-5px);
+}
+
+.about__col2 {
+    flex: 2;
+    min-width: 300px;
+}
+
+.about__col2__title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+.about__col2__desc {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: #6c757d;
+    margin-bottom: 30px;
+}
+
+@media (max-width: 768px) {
+    .about__section {
+        padding: 60px 20px;
+    }
+
+    .about__title {
+        font-size: 2rem;
+    }
+
+    .about__content {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .about__col1,
+    .about__col2 {
+        flex: none;
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .about__title {
+        font-size: 1.8rem;
+    }
+
+    .about__col2__title {
+        font-size: 1.5rem;
+    }
+
+    .about__col2__desc {
+        text-align: center;
+    }
+
+    .about__col2__title {
+        text-align: center;
+    }
+}

@@ -3,24 +3,13 @@
 import React from 'react';
 import styles from './page.module.css';
 import ProjectHeroSection from '@/app/projects/_components/ProjectHeroSection/ProjectHeroSection';
-import dynamic from 'next/dynamic';
-
-const MyLightbox = dynamic(
-  () => import('@/components/MyLightbox/MyLightbox'),
-  { ssr: false }
-);
-
-const FeaturesGallery = dynamic(
-  () => import('@/app/projects/_components/featuresGallery/FeaturesGallery.js'),
-  { ssr: false }
-)
-
 import {
   FaLightbulb,
   FaCogs,
   FaCode,
   FaUtensils,
   FaShoppingCart,
+  FaCreditCard,
   FaCalendarAlt,
   FaServer,
   FaDatabase,
@@ -32,129 +21,25 @@ import {
   FaMobileAlt,
   FaRocket,
   FaHandshake,
-  FaEnvelope,
-  FaCreditCard
 } from 'react-icons/fa';
 
 export default function RestaurantProjectPage() {
   const heroData = {
     title: 'Restaurant POS & Online Ordering System',
     description: 'As a developer, I had the pleasure of working on a comprehensive Point of Sale (POS) system for a restaurant, which combines advanced online ordering features with an intuitive management panel. This project was an excellent opportunity for me to showcase my skills in building scalable, responsive, and secure web applications that genuinely address business needs.',
-    pcImage: '/assets/projects/restaurant/pc.webp',
-    tabletImage: '/assets/projects/restaurant/tablet.webp',
-    phoneImage: '/assets/projects/restaurant/phone.webp',
-    liveUrl: 'https://demo1.rafalsprengel.com/',
+    pcImage: '/assets/projects/res/pc.webP',
+    tabletImage: '/assets/projects/res/tablet.webP',
+    phoneImage: '/assets/projects/res/phone.webP',
+    liveUrl: '#',
     githubUrl: 'https://github.com/RafalSprengel/restaurant-pos-backend',
     tags: ['Next.js', 'React.js', 'Node.js', 'Express.js', 'MongoDB', 'Stripe', 'Mantine UI', 'SCSS', 'Tailwind CSS', 'JWT', 'OAuth'],
   };
-
-  const lightboxImages = [
-    { full: '/assets/projects/restaurant/gallery/Hero.jpg', thumb: '/assets/projects/restaurant/gallery/Hero-thumb.jpg' },
-    { full: '/assets/projects/restaurant/gallery/About.jpg', thumb: '/assets/projects/restaurant/gallery/About-thumb.jpg' },
-    { full: '/assets/projects/restaurant/gallery/Gallery.jpg', thumb: '/assets/projects/restaurant/gallery/Gallery-thumb.jpg' },
-  ];
-
-  const publicFeaturesData = [
-    {
-      image: {
-        full: '/assets/projects/restaurant/features/Menu.jpg',
-        thumb: '/assets/projects/restaurant/features/Menu-thumb.jpg',
-        desc: 'Dynamic menu'
-      },
-      description: 'Dynamic Menu: Customers can easily browse the menu, filter products, and add them to their cart.',
-      icon: <FaUtensils />
-    },
-    {
-      image: {
-        full: '/assets/projects/restaurant/features/Cart.jpg',
-        thumb: '/assets/projects/restaurant/features/Cart-thumb.jpg',
-        desc: 'Cart'
-      },
-      description: 'Smart Cart: A clear and user-friendly cart that lets customers review, update, or remove items before checkout.',
-      icon: <FaShoppingCart />
-    },
-    {
-      image: {
-        full: '/assets/projects/restaurant/features/Process.jpg',
-        thumb: '/assets/projects/restaurant/features/Process-thumb.jpg',
-        desc: 'Ordering process'
-      },
-      description: 'Smooth Ordering Process: From product selection and customization to secure Stripe payment.',
-      icon: <FaShoppingCart />
-    },
-    {
-      image: {
-        full: '/assets/projects/restaurant/features/Stripe.jpg',
-        thumb: '/assets/projects/restaurant/features/Stripe-thumb.jpg',
-        desc: 'Stripe payment'
-      },
-      description: 'Secure Payments with Stripe: Customers can safely complete transactions using credit cards and digital wallets with full encryption.',
-      icon: <FaCreditCard />
-    },
-    {
-      image: {
-        full: '/assets/projects/restaurant/features/BookTable.jpg',
-        thumb: '/assets/projects/restaurant/features/BookTable-thumb.jpg',
-        desc: 'Reservations'
-      },
-      description: 'Table Reservations: A simple reservation form with real-time availability validation.',
-      icon: <FaCalendarAlt />
-    },
-    {
-      image: {
-        full: '/assets/projects/restaurant/features/Contact.jpg',
-        thumb: '/assets/projects/restaurant/features/Contact-thumb.jpg',
-        desc: 'Contact form'
-      },
-      description: 'Contact Form: A quick way for customers to reach the restaurant with inquiries, feedback, or special requests.',
-      icon: <FaEnvelope />
-    }
-  ]
-
-
-  const panelFeaturesData = [
-    {
-      image: {
-        full: '/assets/projects/restaurant/features/Dashboard.webp',
-        thumb: '/assets/projects/restaurant/features/Dashboard-thumb.webp',
-        desc: 'Dashboard'
-      },
-      description: 'Intuitive Dashboard: A quick overview of key business statistics.',
-      icon: <FaChartLine />
-
-    },
-    {
-      image: {
-        full: '/assets/projects/restaurant/features/5.webp',
-        thumb: '/assets/projects/restaurant/features/5-thumb.webp',
-        desc: 'Product Managements'
-      },
-      description: 'Product Management: Easy addition and editing of menu items..',
-      icon: <FaBox />
-
-    },
-    {
-      image: {
-        full: '/assets/projects/restaurant/features/6.webp',
-        thumb: '/assets/projects/restaurant/features/6-thumb.webp',
-        desc: 'Order Management'
-      },
-      description: 'Order Management: Real-time monitoring and updating of order statuses.',
-      icon: <FaClipboardList />
-
-    }
-  ]
-
-
 
   return (
     <section className={styles.projectSection}>
       <ProjectHeroSection {...heroData} />
 
       <div className={styles.container}>
-        <div className={styles.sectionImages}>
-          <MyLightbox images={lightboxImages} />
-        </div>
         <div className={styles.sectionBlock}>
           <div className={styles.sectionHeader}>
             <FaLightbulb className={styles.sectionIcon} />
@@ -173,28 +58,42 @@ export default function RestaurantProjectPage() {
           <p className={styles.sectionText}>
             I designed and implemented the application based on a modern technology stack, prioritizing modularity, performance, and ease of maintenance.
           </p>
+        </div>
 
         <div className={styles.contentGrid}>
-            <div className={`${styles.sectionHeader} ${styles.subSectionHeader}`}>
+          <div className={styles.sectionBlock}>
+            <div className={styles.sectionHeader}>
               <FaCode className={styles.sectionIcon} />
               <h3 className={styles.subSectionTitle}>Frontend – User Interface and Customer Experience:</h3>
             </div>
             <p className={styles.sectionText}>
               On the frontend, I opted for React.js combined with Mantine UI, which allowed me to rapidly build rich and accessible components. This provides customers with an intuitive interface for browsing the menu, customizing orders, and reserving tables. I paid particular attention to responsiveness, ensuring the website functions flawlessly on every device – from desktops to smartphones. The use of SCSS for global styles and Tailwind CSS for a utility-first approach in new components provided flexibility and visual consistency.
             </p>
-            <div className={styles.featuresListWrap}>
-              <FeaturesGallery data={publicFeaturesData} galleryId="frontend-gallery" />
+            <ul className={styles.featureList}>
+              <li><FaUtensils className={styles.featureIcon} /> Dynamic Menu: Customers can easily browse the menu, filter products, and add them to their cart.</li>
+            </ul>
+            <div className={styles.imagePlaceholder}>
+              <span>[SCREENSHOT: Homepage with menu]</span>
             </div>
-
-
-            <p className={styles.sectionText}>
-              A management panel is a comprehensive tool that gives staff full control over the restaurant's operations. From monitoring sales on the dashboard, to managing products and categories, and handling orders, customers, and reservations. The implementation of user roles (admin, moderator, member) ensures precise access control.
-            </p>
-            <div className={styles.featuresListWrap}>
-              <FeaturesGallery data={panelFeaturesData} galleryId="backend-gallery" />
+            <ul className={styles.featureList}>
+              <li><FaShoppingCart className={styles.featureIcon} /> Smooth Ordering Process: From product selection and customization to secure Stripe payment.</li>
+            </ul>
+            <div className={styles.imagePlaceholder}>
+              <span>[SCREENSHOT: Shopping cart]</span>
             </div>
+            <div className={styles.imagePlaceholder}>
+              <span>[SCREENSHOT: Checkout page]</span>
+            </div>
+            <ul className={styles.featureList}>
+              <li><FaCalendarAlt className={styles.featureIcon} /> Table Reservations: A simple reservation form with real-time availability validation.</li>
+            </ul>
+            <div className={styles.imagePlaceholder}>
+              <span>[SCREENSHOT: Table reservation form]</span>
+            </div>
+          </div>
 
-            <div className={`${styles.sectionHeader} ${styles.subSectionHeader}`}>
+          <div className={styles.sectionBlock}>
+            <div className={styles.sectionHeader}>
               <FaServer className={styles.sectionIcon} />
               <h3 className={styles.subSectionTitle}>Backend – The Heart of the System:</h3>
             </div>
@@ -203,7 +102,33 @@ export default function RestaurantProjectPage() {
             </p>
           </div>
 
-
+          <div className={styles.sectionBlock}>
+            <div className={styles.sectionHeader}>
+              <FaUserShield className={styles.sectionIcon} />
+              <h3 className={styles.subSectionTitle}>Admin Panel – Control in the Hands of the Staff:</h3>
+            </div>
+            <p className={styles.sectionText}>
+              The management panel is a comprehensive tool that gives staff full control over the restaurant's operations. From monitoring sales on the dashboard, to managing products and categories, and handling orders, customers, and reservations. The implementation of user roles (admin, moderator, member) ensures precise access control.
+            </p>
+            <ul className={styles.featureList}>
+              <li><FaChartLine className={styles.featureIcon} /> Intuitive Dashboard: A quick overview of key business statistics.</li>
+            </ul>
+            <div className={styles.imagePlaceholder}>
+              <span>[SCREENSHOT: Admin panel dashboard]</span>
+            </div>
+            <ul className={styles.featureList}>
+              <li><FaBox className={styles.featureIcon} /> Product Management: Easy addition and editing of menu items.</li>
+            </ul>
+            <div className={styles.imagePlaceholder}>
+              <span>[SCREENSHOT: Product list in admin panel]</span>
+            </div>
+            <ul className={styles.featureList}>
+              <li><FaClipboardList className={styles.featureIcon} /> Order Management: Real-time monitoring and updating of order statuses.</li>
+            </ul>
+            <div className={styles.imagePlaceholder}>
+              <span>[SCREENSHOT: Order details in admin panel]</span>
+            </div>
+          </div>
         </div>
 
         <div className={styles.sectionBlock}>
