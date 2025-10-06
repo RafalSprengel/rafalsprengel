@@ -36,6 +36,7 @@ import {
   FaCreditCard
 } from 'react-icons/fa';
 
+
 export default function RestaurantProjectPage() {
   const heroData = {
     title: 'Restaurant POS & Online Ordering System',
@@ -49,103 +50,125 @@ export default function RestaurantProjectPage() {
   };
 
   const lightboxImages = [
-    { full: '/assets/projects/restaurant/gallery/Hero.jpg', thumb: '/assets/projects/restaurant/gallery/Hero-thumb.jpg' },
-    { full: '/assets/projects/restaurant/gallery/About.jpg', thumb: '/assets/projects/restaurant/gallery/About-thumb.jpg' },
-    { full: '/assets/projects/restaurant/gallery/Gallery.jpg', thumb: '/assets/projects/restaurant/gallery/Gallery-thumb.jpg' },
+    { full: '/assets/projects/restaurant/gallery/Hero.webp', thumb: '/assets/projects/restaurant/gallery/Hero-thumb.webp' },
+    { full: '/assets/projects/restaurant/gallery/About.webp', thumb: '/assets/projects/restaurant/gallery/About-thumb.webp' },
+    { full: '/assets/projects/restaurant/gallery/Gallery.webp', thumb: '/assets/projects/restaurant/gallery/Gallery-thumb.webp' },
   ];
 
-  const publicFeaturesData = [
-    {
-      image: {
-        full: '/assets/projects/restaurant/features/Menu.jpg',
-        thumb: '/assets/projects/restaurant/features/Menu-thumb.jpg',
-        desc: 'Dynamic menu'
-      },
-      description: 'Dynamic Menu: Customers can easily browse the menu, filter products, and add them to their cart.',
-      icon: <FaUtensils />
+ const publicFeaturesData = [
+  {
+    image: {
+      full: '/assets/projects/restaurant/features/Menu.webp',
+      thumb: '/assets/projects/restaurant/features/Menu-thumb.webp',
+      desc: 'Dynamic Menu'
     },
-    {
-      image: {
-        full: '/assets/projects/restaurant/features/Cart.jpg',
-        thumb: '/assets/projects/restaurant/features/Cart-thumb.jpg',
-        desc: 'Cart'
-      },
-      description: 'Smart Cart: A clear and user-friendly cart that lets customers review, update, or remove items before checkout.',
-      icon: <FaShoppingCart />
+    description: 'Dynamic Menu: Customers can easily browse the menu, filter products, and add items to their cart.',
+    icon: <FaUtensils />
+  },
+  {
+    image: {
+      full: '/assets/projects/restaurant/features/Cart.webp',
+      thumb: '/assets/projects/restaurant/features/Cart-thumb.webp',
+      desc: 'Smart Cart'
     },
-    {
-      image: {
-        full: '/assets/projects/restaurant/features/Process.jpg',
-        thumb: '/assets/projects/restaurant/features/Process-thumb.jpg',
-        desc: 'Ordering process'
-      },
-      description: 'Smooth Ordering Process: From product selection and customization to secure Stripe payment.',
-      icon: <FaShoppingCart />
+    description: 'Smart Cart: A clear and user-friendly cart allowing customers to review, update, or remove items before checkout.',
+    icon: <FaShoppingCart />
+  },
+  {
+    image: {
+      full: '/assets/projects/restaurant/features/Process.webp',
+      thumb: '/assets/projects/restaurant/features/Process-thumb.webp',
+      desc: 'Ordering Process'
     },
-    {
-      image: {
-        full: '/assets/projects/restaurant/features/Stripe.jpg',
-        thumb: '/assets/projects/restaurant/features/Stripe-thumb.jpg',
-        desc: 'Stripe payment'
-      },
-      description: 'Secure Payments with Stripe: Customers can safely complete transactions using credit cards and digital wallets with full encryption.',
-      icon: <FaCreditCard />
+    description: 'Ordering Process: Smooth flow from product selection and customization to secure checkout.',
+    icon: <FaCode />
+  },
+  {
+    image: {
+      full: '/assets/projects/restaurant/features/Stripe.webp',
+      thumb: '/assets/projects/restaurant/features/Stripe-thumb.webp',
+      desc: 'Secure Payments'
     },
-    {
-      image: {
-        full: '/assets/projects/restaurant/features/BookTable.jpg',
-        thumb: '/assets/projects/restaurant/features/BookTable-thumb.jpg',
-        desc: 'Reservations'
-      },
-      description: 'Table Reservations: A simple reservation form with real-time availability validation.',
-      icon: <FaCalendarAlt />
+    description: 'Secure Payments with Stripe: Customers can safely complete transactions using credit cards or digital wallets with full encryption.',
+    icon: <FaCreditCard />
+  },
+  {
+    image: {
+      full: '/assets/projects/restaurant/features/BookTable.webp',
+      thumb: '/assets/projects/restaurant/features/BookTable-thumb.webp',
+      desc: 'Table Reservations'
     },
-    {
-      image: {
-        full: '/assets/projects/restaurant/features/Contact.jpg',
-        thumb: '/assets/projects/restaurant/features/Contact-thumb.jpg',
-        desc: 'Contact form'
-      },
-      description: 'Contact Form: A quick way for customers to reach the restaurant with inquiries, feedback, or special requests.',
-      icon: <FaEnvelope />
-    }
-  ]
+    description: 'Table Reservations: Simple reservation form with real-time availability checks.',
+    icon: <FaCalendarAlt />
+  },
+  {
+    image: {
+      full: '/assets/projects/restaurant/features/Contact.webp',
+      thumb: '/assets/projects/restaurant/features/Contact-thumb.webp',
+      desc: 'Contact Form'
+    },
+    description: 'Contact Form: A fast way for customers to reach the restaurant with inquiries, feedback, or special requests.',
+    icon: <FaEnvelope />
+  }
+];
 
 
-  const panelFeaturesData = [
-    {
-      image: {
-        full: '/assets/projects/restaurant/features/Dashboard.webp',
-        thumb: '/assets/projects/restaurant/features/Dashboard-thumb.webp',
-        desc: 'Dashboard'
-      },
-      description: 'Intuitive Dashboard: A quick overview of key business statistics.',
-      icon: <FaChartLine />
-
+const panelFeaturesData = [
+  {
+    image: {
+      full: '/assets/projects/restaurant/features/Dashboard.webp',
+      thumb: '/assets/projects/restaurant/features/Dashboard-thumb.webp',
+      desc: 'Dashboard Overview'
     },
-    {
-      image: {
-        full: '/assets/projects/restaurant/features/5.webp',
-        thumb: '/assets/projects/restaurant/features/5-thumb.webp',
-        desc: 'Product Managements'
-      },
-      description: 'Product Management: Easy addition and editing of menu items..',
-      icon: <FaBox />
-
+    description: 'Dashboard: Provides a clear and intuitive overview of key business metrics for informed decision-making.',
+    icon: <FaChartLine />
+  },
+  {
+    image: {
+      full: '/assets/projects/restaurant/features/PanelProducts.webp',
+      thumb: '/assets/projects/restaurant/features/PanelProducts-thumb.webp',
+      desc: 'Product Management'
     },
-    {
-      image: {
-        full: '/assets/projects/restaurant/features/6.webp',
-        thumb: '/assets/projects/restaurant/features/6-thumb.webp',
-        desc: 'Order Management'
-      },
-      description: 'Order Management: Real-time monitoring and updating of order statuses.',
-      icon: <FaClipboardList />
-
-    }
-  ]
-
-
+    description: 'Product Management: Easily add, edit, and organize menu items to keep the restaurant offerings up to date.',
+    icon: <FaBox />
+  },
+  {
+    image: {
+      full: '/assets/projects/restaurant/features/PanelOrders.webp',
+      thumb: '/assets/projects/restaurant/features/PanelOrders-thumb.webp',
+      desc: 'Order Management'
+    },
+    description: 'Order Management: Track, monitor, and update order statuses in real-time to ensure smooth operations.',
+    icon: <FaClipboardList />
+  },
+  {
+    image: {
+      full: '/assets/projects/restaurant/features/PanelMessages.webp',
+      thumb: '/assets/projects/restaurant/features/PanelMessages-thumb.webp',
+      desc: 'Customer Messages'
+    },
+    description: 'Messages: Receive and respond to customer messages efficiently for better communication.',
+    icon: <FaEnvelope />
+  },
+  {
+    image: {
+      full: '/assets/projects/restaurant/features/PanelSystemUsers.webp',
+      thumb: '/assets/projects/restaurant/features/PanelSystemUsers-thumb.webp',
+      desc: 'User Roles Management'
+    },
+    description: 'System Users Management: Easily add, edit, and remove users while controlling their roles and access levels.',
+    icon: <FaUserShield />
+  },
+  {
+    image: {
+      full: '/assets/projects/restaurant/features/PanelTableReservations.webp',
+      thumb: '/assets/projects/restaurant/features/PanelTableReservations-thumb.webp',
+      desc: 'Table Reservations'
+    },
+    description: 'Table Reservations Management: View, manage, and update table reservations seamlessly.',
+    icon: <FaCalendarAlt />
+  }
+]
 
   return (
     <section className={styles.projectSection}>
