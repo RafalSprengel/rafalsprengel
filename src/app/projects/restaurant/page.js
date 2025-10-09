@@ -41,9 +41,9 @@ export default function RestaurantProjectPage() {
   const heroData = {
     title: 'Restaurant POS & Online Ordering System',
     description: 'As a developer, I had the pleasure of working on a comprehensive Point of Sale (POS) system for a restaurant, which combines advanced online ordering features with an intuitive management panel. This project was an excellent opportunity for me to showcase my skills in building scalable, responsive, and secure web applications that genuinely address business needs.',
-    pcImage: '/assets/projects/restaurant/pc.webp',
-    tabletImage: '/assets/projects/restaurant/tablet.webp',
-    phoneImage: '/assets/projects/restaurant/phone.webp',
+    pcImage: '/assets/projects/restaurant/hero/pc.webp',
+    tabletImage: '/assets/projects/restaurant/hero/tablet.webp',
+    phoneImage: '/assets/projects/restaurant/hero/phone.webp',
     liveUrl: 'https://demo1.rafalsprengel.com/',
     githubUrl: 'https://github.com/RafalSprengel/restaurant-pos-backend',
     tags: ['Next.js', 'React.js', 'Node.js', 'Express.js', 'MongoDB', 'Stripe', 'Mantine UI', 'SCSS', 'Tailwind CSS', 'JWT', 'OAuth'],

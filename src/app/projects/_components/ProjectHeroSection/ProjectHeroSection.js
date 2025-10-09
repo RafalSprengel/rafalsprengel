@@ -16,7 +16,6 @@ export default function ProjectHeroSection({
   githubUrl,
   tags,
 }) {
-
   useEffect(() => {
     AOS.init({
       duration: 700,
@@ -84,7 +83,7 @@ export default function ProjectHeroSection({
           <div className={styles.projectHero__actions}>
             {liveUrl && liveUrl !== '#' && (
               <a href={liveUrl} target="_blank" rel="noopener noreferrer" className={`${styles.projectHero__button} ${styles.projectHero__buttonPrimary}`}>
-                <FaExternalLinkAlt className={styles.buttonIcon} /> Live Demo
+                <FaExternalLinkAlt className={styles.buttonIcon} /> See Live Project
               </a>
             )}
             {githubUrl && (

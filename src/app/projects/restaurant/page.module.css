@@ -55,7 +55,7 @@
 }
 
 .subSectionHeader {
-  background: #505050;
+  background: linear-gradient(to left, #0000001a, #a1a1a1);
   padding: 20px 15px;
   color: white;
 }

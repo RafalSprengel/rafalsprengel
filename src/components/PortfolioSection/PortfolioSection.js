@@ -7,7 +7,7 @@ export default function PortfolioSection() {
             title: 'Responsive Restaurant Website',
             image: '/assets/homePage/www.jpg',
             description: 'Modern, fully responsive website for a restaurant featuring online ordering, menu, gallery, table reservation system, and contact form.',
-            tags: ['React', 'CSS', 'Node.js'],
+            tags: ['React', 'Express.js', 'MongoDB', 'Stripe'],
             category: 'Custom Website',
             liveUrl: 'https://demo1.rafalsprengel.com/',
             githubUrl: 'https://github.com/RafalSprengel/restaurant-pos-frontend',
@@ -17,7 +17,7 @@ export default function PortfolioSection() {
             title: 'Restaurant POS Management System',
             image: '/assets/homePage/server.jpg',
             description: 'Advanced web application for managing a restaurant: admin panel, customer accounts, orders, menu items, categories, and staff workflows.',
-            tags: ['Next.js', 'Node.js', 'MongoDB', 'Stripe'],
+            tags: [ 'Express.js', 'MongoDB', 'Stripe','Custom VPS'],
             category: 'Web Application',
             liveUrl: '#', 
             githubUrl: 'https://github.com/RafalSprengel/restaurant-pos-backend',
@@ -30,7 +30,7 @@ export default function PortfolioSection() {
             tags: ['WordPress', 'PHP', 'JavaScript'],
             category: 'WordPress',
             liveUrl: 'https://lesniczowkawiezyca.pl/',
-            seeMoreLink: 'https://lesniczowkawiezyca.pl/' 
+            seeMoreLink: '/projects/lesniczowka'
         }
     ];
 
@@ -79,7 +79,7 @@ export default function PortfolioSection() {
                                     <div className={styles.portfolio__actions}>
                                         <a href={item.liveUrl} className={`${styles.portfolio__action} ${styles.portfolio__actionPrimary}`}>
                                             <FaExternalLinkAlt className={styles.actionIcon} />
-                                            Live Demo
+                                            Visit Website
                                         </a>
                                         {item.githubUrl &&
                                             <a href={item.githubUrl} className={`${styles.portfolio__action} ${styles.portfolio__actionSecondary}`}>
