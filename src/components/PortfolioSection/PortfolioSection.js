@@ -19,7 +19,7 @@ export default function PortfolioSection() {
             description: 'Advanced web application for managing a restaurant: admin panel, customer accounts, orders, menu items, categories, and staff workflows.',
             tags: [ 'Express.js', 'MongoDB', 'Stripe','Custom VPS'],
             category: 'Web Application',
-            liveUrl: '#', 
+            liveUrl: 'https://demo1.rafalsprengel.com/', 
             githubUrl: 'https://github.com/RafalSprengel/restaurant-pos-backend',
             seeMoreLink: '/projects/webapp'
         },
@@ -77,12 +77,12 @@ export default function PortfolioSection() {
                                     </div>
 
                                     <div className={styles.portfolio__actions}>
-                                        <a href={item.liveUrl} className={`${styles.portfolio__action} ${styles.portfolio__actionPrimary}`}>
+                                        <a href={item.liveUrl} target="_blank" rel="noopener noreferrer" className={`${styles.portfolio__action} ${styles.portfolio__actionPrimary}`}>
                                             <FaExternalLinkAlt className={styles.actionIcon} />
                                             Visit Website
                                         </a>
                                         {item.githubUrl &&
-                                            <a href={item.githubUrl} className={`${styles.portfolio__action} ${styles.portfolio__actionSecondary}`}>
+                                            <a href={item.githubUrl} target="_blank" rel="noopener noreferrer" className={`${styles.portfolio__action} ${styles.portfolio__actionSecondary}`}>
                                                 <FaGithub className={styles.actionIcon} />
                                                 Code
                                             </a>
