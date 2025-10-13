@@ -5,7 +5,7 @@ export default function PortfolioSection() {
     const portfolioItems = [
         {
             title: 'Responsive Restaurant Website',
-            image: '/assets/homePage/www.jpg',
+            image: '/assets/homepage/www.jpg',
             description: 'Modern, fully responsive website for a restaurant featuring online ordering, menu, gallery, table reservation system, and contact form.',
             tags: ['React', 'Express.js', 'MongoDB', 'Stripe'],
             category: 'Custom Website',
@@ -15,7 +15,7 @@ export default function PortfolioSection() {
         },
         {
             title: 'Restaurant POS Management System',
-            image: '/assets/homePage/server.jpg',
+            image: '/assets/homepage/server.jpg',
             description: 'Advanced web application for managing a restaurant: admin panel, customer accounts, orders, menu items, categories, and staff workflows.',
             tags: [ 'Express.js', 'MongoDB', 'Stripe','Custom VPS'],
             category: 'Web Application',
