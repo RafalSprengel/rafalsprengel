@@ -6,6 +6,9 @@
 .container {
   max-width: 1200px;
   margin: 0 auto;
+  padding: 0 20px;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .contentGrid {
@@ -15,7 +18,7 @@
 }
 
 .sectionBlock {
-  padding: 60px;
+  padding: 60px 0;
   margin-bottom: 0;
   display: flex;
   flex-direction: column;
@@ -25,6 +28,11 @@
   background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
 }
 
+.checkmark {
+  color: #149ddd;
+  font-weight: bold;
+  font-size: 1rem;
+}
 
 .sectionHeader {
   display: flex;

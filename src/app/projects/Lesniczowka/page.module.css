@@ -6,6 +6,9 @@
 .container {
   max-width: 1200px;
   margin: 0 auto;
+  padding: 0 20px;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .contentGrid {
@@ -16,7 +19,7 @@
 }
 
 .sectionBlock {
-  padding: 60px;
+  padding: 60px 0;
   margin-bottom: 0;
   display: flex;
   flex-direction: column;
@@ -93,12 +96,10 @@
   display: flex;
   align-items: flex-start;
   gap: 12px;
-  /* Zwiększono odstęp między ikoną a tekstem */
   font-family: 'Roboto', sans-serif;
   font-size: 1.05rem;
   color: #495057;
   margin-bottom: 15px;
-  /* Zwiększono odstęp między elementami listy */
   line-height: 1.6;
 }
 
@@ -107,6 +108,12 @@
   font-size: 1.3rem;
   margin-top: 4px;
   flex-shrink: 0;
+}
+
+.checkmark {
+  color: #149ddd;
+  font-weight: bold;
+  font-size: 1rem;
 }
 
 .imagePlaceholder {

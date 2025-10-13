@@ -178,7 +178,10 @@ const panelFeaturesData = [
         <div className={styles.sectionImages}>
           <MyLightbox images={lightboxImages} />
         </div>
-        <div className={styles.sectionBlock}>
+      </div>
+
+      <div className={styles.sectionBlock}>
+        <div className={styles.container}>
           <div className={styles.sectionHeader}>
             <FaLightbulb className={styles.sectionIcon} />
             <h2 className={styles.sectionTitle}>The Challenge: Digital Transformation in the Gastronomy Industry</h2>
@@ -187,8 +190,10 @@ const panelFeaturesData = [
             Modern restaurants need more than just delicious food. In the era of digitalization, efficient management of orders, reservations, and customer relationships, as well as providing a seamless online experience, is crucial. My goal was to create a solution that would automate these processes, expand the restaurant's reach, and enhance customer satisfaction, while simultaneously empowering staff with powerful management tools.
           </p>
         </div>
+      </div>
 
-        <div className={styles.sectionBlock}>
+      <div className={styles.sectionBlock}>
+        <div className={styles.container}>
           <div className={styles.sectionHeader}>
             <FaCogs className={styles.sectionIcon} />
             <h2 className={styles.sectionTitle}>My Solution: Architecture and Implementation</h2>
@@ -197,7 +202,7 @@ const panelFeaturesData = [
             I designed and implemented the application based on a modern technology stack, prioritizing modularity, performance, and ease of maintenance.
           </p>
 
-        <div className={styles.contentGrid}>
+          <div className={styles.contentGrid}>
             <div className={`${styles.sectionHeader} ${styles.subSectionHeader}`}>
               <FaCode className={styles.sectionIcon} />
               <h3 className={styles.subSectionTitle}>Frontend – User Interface and Customer Experience:</h3>
@@ -208,7 +213,6 @@ const panelFeaturesData = [
             <div className={styles.featuresListWrap}>
               <FeaturesGallery data={publicFeaturesData} galleryId="frontend-gallery" />
             </div>
-
 
             <p className={styles.sectionText}>
               A management panel is a comprehensive tool that gives staff full control over the restaurant's operations. From monitoring sales on the dashboard, to managing products and categories, and handling orders, customers, and reservations. The implementation of user roles (admin, moderator, member) ensures precise access control.
@@ -225,11 +229,11 @@ const panelFeaturesData = [
               The backend, built with Node.js using Express.js and a MongoDB database, forms a solid foundation for all operations. I developed a RESTful API that handles product, order, user, and reservation management. Key considerations included ensuring security (JWT for authorization, OAuth for social logins) and scalability, so the system can grow with the restaurant.
             </p>
           </div>
-
-
         </div>
+      </div>
 
-        <div className={styles.sectionBlock}>
+      <div className={styles.sectionBlock}>
+        <div className={styles.container}>
           <div className={styles.sectionHeader}>
             <FaTrophy className={styles.sectionIcon} />
             <h2 className={styles.sectionTitle}>Key Achievements and Skills Utilized:</h2>
@@ -242,8 +246,10 @@ const panelFeaturesData = [
             <li><FaCode className={styles.featureIcon} /> Clean Code and Best Practices: I focused on writing clean, modular, and maintainable code, adhering to development best practices and industry standards.</li>
           </ul>
         </div>
+      </div>
 
-        <div className={styles.sectionBlock}>
+      <div className={styles.sectionBlock}>
+        <div className={styles.container}>
           <div className={styles.sectionHeader}>
             <FaHandshake className={styles.sectionIcon} />
             <h2 className={styles.sectionTitle}>Business Value:</h2>
@@ -252,10 +258,10 @@ const panelFeaturesData = [
             This project demonstrates my ability to create solutions that not only look great but, more importantly, deliver tangible business value. The restaurant benefits from:
           </p>
           <ul className={styles.featureList}>
-            <li>Increased Efficiency: Automation of orders and reservations.</li>
-            <li>Enhanced Customer Experience: Easy and enjoyable online ordering.</li>
-            <li>Wider Reach: Online and mobile accessibility.</li>
-            <li>Data-Driven Decisions: Statistics and reports to support management.</li>
+            <li> <span className={styles.checkmark}>✓</span> Increased Efficiency: Automation of orders and reservations.</li>
+            <li> <span className={styles.checkmark}>✓</span>Enhanced Customer Experience: Easy and enjoyable online ordering.</li>
+            <li> <span className={styles.checkmark}>✓</span>Wider Reach: Online and mobile accessibility.</li>
+            <li> <span className={styles.checkmark}>✓</span>Data-Driven Decisions: Statistics and reports to support management.</li>
           </ul>
           <p className={styles.sectionText}>
             I am proud of how this project blends aesthetics with robust engineering, creating a tool that can significantly streamline the operations of any restaurant. I would be happy to discuss more technical details and the challenges I faced, as well as how my skills can contribute to the success of your project.
