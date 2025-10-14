@@ -8,7 +8,7 @@ export default function AboutSection() {
                 I am a full-stack web developer with a Computer Engineering degree, specializing in building modern websites and web applications. I offer affordable, professional solutions for both potential employers and clients — from simple business websites to booking and payment systems, and even VPS server configuration and security.   </p>
             <div className={styles.about__content}>
                 <div className={styles.about__col1}>
-                    <img src="/assets/homepage/about.webp" alt="Rafał Sprengel - Web Developer" />
+                    <img src="/assets/home-page/about.webp" alt="Rafał Sprengel - Web Developer" />
                 </div>
 
                 <div className={styles.about__col2}>

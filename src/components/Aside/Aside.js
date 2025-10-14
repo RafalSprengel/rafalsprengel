@@ -15,7 +15,7 @@ export default function Aside() {
             <div className={styles.inner}>
                 <div onClick={() => setIsOpen(!isOpen)}> <HamburgerIcon /> </div>
                 <div className={styles.profile}>
-                    <img src='/assets/homepage/profile.webp' alt='profile' className={styles.profile__img} />
+                    <img src='/assets/home-page/profile.webp' alt='profile' className={styles.profile__img} />
                     <h2 className={styles.profile__name}>Rafał Sprengel</h2>
                 </div>
 
