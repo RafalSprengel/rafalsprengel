@@ -2,18 +2,16 @@
 
 import styles from './Aside.module.css'
 import { useState } from 'react';
-import { FaGithub, FaLinkedin, FaFacebook, FaEnvelope, FaPhone, FaHome, FaUser, FaLaptopCode, FaImages, FaServicestack, FaChevronDown } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaFacebook, FaEnvelope, FaPhone, FaHome, FaUser, FaLaptopCode, FaImages, FaServicestack } from 'react-icons/fa';
 import HamburgerIcon from '../HamburgerIcon';
-import { postponeWithTracking } from 'next/dist/server/app-render/dynamic-rendering';
 
 export default function Aside() {
     const [isOpen, setIsOpen] = useState(false);
 
-
     return (
         <aside className={`${styles.outer} ${isOpen ? styles['outer--visible'] : ''}`}>
             <div className={styles.inner}>
-                <div onClick={() => setIsOpen(!isOpen)}> <HamburgerIcon /> </div>
+                <HamburgerIcon isOpen={isOpen} onClick={() => setIsOpen(!isOpen)} />
                 <div className={styles.profile}>
                     <img src='/assets/home-page/profile.webp' alt='profile' className={styles.profile__img} />
                     <h2 className={styles.profile__name}>Rafał Sprengel</h2>
@@ -68,9 +66,6 @@ export default function Aside() {
                                 <FaServicestack className={styles.nav__icon} /> Services
                             </a>
                         </li>
-
-
-
 
                         <li className={styles.nav__item} onClick={() => setIsOpen(false)}>
                             <a href="/#contact" className={styles.nav__link}>
