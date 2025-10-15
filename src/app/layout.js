@@ -16,14 +16,16 @@ export const metadata = {
     ]
   }
 }
-
 import './globals.css';
 import styles from './layout.module.css';
 import Aside from '../components/Aside/Aside';
 import Footer from '../components/Footer/Footer';
+import { GoogleTagManager } from '@next/third-parties/google'
+
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+    <GoogleTagManager gtmId="GTM-TLVPQ9VN" />
       <body className={styles.body}>
         <Aside />
         <main className={styles.main}>
