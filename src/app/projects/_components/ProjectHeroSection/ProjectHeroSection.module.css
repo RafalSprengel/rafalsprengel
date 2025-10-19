@@ -13,15 +13,16 @@
   margin: 0 auto;
 }
 
-.projectHero__imagesWrapper {
+/* .projectHero__imagesWrapper {
   display: flex;
   justify-content: center;
   align-items: center;
-}
+} */
 
 .projectHero__imagesContainer {
   position: relative;
   height: 500px;
+
   width: 780px;
   margin-bottom: 60px;
 }
@@ -80,12 +81,13 @@
 .projectHero__pcOverlay {
   position: absolute;
   top: 16px;
-  left: 16px;
-  width: 600px;
+  left: 15px;
+  width: 607px;
   height: 390px;
   background-color: #08080877;
   z-index: 0;
-  opacity: 0;
+  opacity: 1;
+  /* opacity: 0; */
   transition: opacity 0.3s ease;
 }
 
@@ -191,6 +193,48 @@
     padding: 10px 24px;
     font-size: 1rem;
   }
+
+  .projectHero__imagesContainer {
+    width: 580px;
+    height: 400px;
+  }
+
+  .projectHero__pcImage {
+    object-fit: contain;
+    object-position: bottom;
+    width: 500px;
+    height: auto;
+  }
+
+  .projectHero__tabletImage {
+    width: 170px;
+    height: auto;
+    bottom: 7px;
+    right: 0px;
+  }
+
+  .projectHero__phoneImage {
+    width: 80px;
+    right: 140px;
+    height: auto;
+  }
+
+  .projectHero__pcOverlay {
+    top: 50px;
+    left: 13px;
+    width: 477px;
+    height: 283px;
+  }
+
+  .projectHero__buttonVisitWebsite {
+    top: 170px;
+    left: 180px;
+    font-size: 1rem;
+    border: 1px solid white;
+    padding: 14px 31px;
+    background-color: rgba(0, 0, 0, 0.411);
+  }
+
 }
 
 @media (max-width: 768px) {
@@ -219,6 +263,46 @@
     margin: 0 auto;
     justify-content: center;
   }
+
+  .projectHero__imagesContainer {
+    width: 360px;
+    height: 280px;
+  }
+
+  .projectHero__pcImage {
+    object-fit: fill;
+    object-position: bottom;
+    width: 335px;
+    height: 260px;
+  }
+
+  .projectHero__tabletImage {
+    width: 120px;
+    height: auto;
+    bottom: 7px;
+    right: 0px;
+  }
+
+  .projectHero__phoneImage {
+    width: 55px;
+    right: 95px;
+    height: auto;
+  }
+
+  .projectHero__pcOverlay {
+    top: 27px;
+    left: 7px;
+    width: 320px;
+    height: 210px;
+  }
+
+  .projectHero__buttonVisitWebsite {
+    top: 110px;
+    left: 100px;
+    font-size: 0.9rem;
+  }
+
+
 }
 
 @media (max-width: 480px) {
@@ -239,4 +323,7 @@
     font-size: 0.8rem;
     padding: 6px 12px;
   }
+
+
+
 }

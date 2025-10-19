@@ -25,7 +25,6 @@ export default function ProjectHeroSection({
   }, []);
   return (
     <section className={styles.projectHero}>
-      <div className={styles.projectHero__imagesWrapper}>
         <div className={styles.projectHero__imagesContainer}>
 
           {pcImage && (
@@ -65,7 +64,6 @@ export default function ProjectHeroSection({
           )}
           <div className={styles.projectHero__pcOverlay}></div>
         </div>
-      </div>
 
       <div className={styles.container}>
         <div className={styles.projectHero__content}>
