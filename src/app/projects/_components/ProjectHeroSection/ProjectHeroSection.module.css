@@ -229,10 +229,6 @@
   .projectHero__buttonVisitWebsite {
     top: 170px;
     left: 180px;
-    font-size: 1rem;
-    border: 1px solid white;
-    padding: 14px 31px;
-    background-color: rgba(0, 0, 0, 0.411);
   }
 
 }
@@ -324,6 +320,11 @@
     padding: 6px 12px;
   }
 
-
+ .projectHero__buttonVisitWebsite {
+    top: 115px;
+    left: 110px;
+    font-size: 0.7rem;
+    padding: 10px 25px;
+  }
 
 }
