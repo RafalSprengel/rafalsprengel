@@ -156,7 +156,7 @@ const panelFeaturesData = [
       thumb: '/assets/projects/restaurant/features/PanelSystemUsers-thumb.webp',
       desc: 'User Roles Management'
     },
-    description: 'System Users Management: Easily add, edit, and remove users while controlling their roles and access levels.',
+    description: 'Staff Management: Easily add, edit, and remove users while controlling their roles and access levels.',
     icon: <FaUserShield />
   },
   {
