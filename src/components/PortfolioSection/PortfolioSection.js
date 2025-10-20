@@ -68,6 +68,7 @@ export default function PortfolioSection() {
                                     <h3 className={styles.portfolio__item__title}>{item.title}</h3>
                                     <p className={styles.portfolio__item__desc}>{item.description}</p>
                                 </div>
+                                <div className={styles.portfolio__spacer}></div>
 
                                 <div className={styles.portfolio__footer}>
                                     <div className={styles.portfolio__tags}>
