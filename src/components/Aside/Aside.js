@@ -2,18 +2,27 @@
 
 import styles from './Aside.module.css'
 import { useState } from 'react';
+import dynamic from 'next/dynamic'
 import { FaGithub, FaLinkedin, FaFacebook, FaEnvelope, FaPhone, FaHome, FaUser, FaLaptopCode, FaImages, FaServicestack } from 'react-icons/fa';
 import HamburgerIcon from '../HamburgerIcon';
+const ProfileImage = dynamic(() => import('@/components/ProfileImage/ProfileImage'), { ssr: false })
 
 export default function Aside() {
     const [isOpen, setIsOpen] = useState(false);
+
 
     return (
         <aside className={`${styles.outer} ${isOpen ? styles['outer--visible'] : ''}`}>
             <div className={styles.inner}>
                 <HamburgerIcon isOpen={isOpen} onClick={() => setIsOpen(!isOpen)} />
                 <div className={styles.profile}>
-                    <img src='/assets/home-page/profile.webp' alt='profile' className={styles.profile__img} />
+                    <ProfileImage
+                        image={{
+                            full: '/assets/home-page/profile.webp',
+                            thumb: '/assets/home-page/profile.webp'
+                        }}
+                        className={styles.profile__img}
+                    />
                     <h2 className={styles.profile__name}>Rafał Sprengel</h2>
                 </div>
 

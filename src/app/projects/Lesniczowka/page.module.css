@@ -86,21 +86,30 @@
 }
 
 
-.featureList {
+.featureList__1,
+.featureList__2 {
   list-style: none;
   padding: 0;
   margin: 20px 0;
 }
 
-.featureList li {
-  display: flex;
-  align-items: flex-start;
-  gap: 12px;
+.featureList__1 li,
+.featureList__2 li {
   font-family: 'Roboto', sans-serif;
   font-size: 1.15rem;
   color: #495057;
   margin-bottom: 15px;
   line-height: 1.6;
+}
+
+.featureList__1 li {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.featureList__2 li > * {
+  margin: 5px;
 }
 
 .featureIcon {

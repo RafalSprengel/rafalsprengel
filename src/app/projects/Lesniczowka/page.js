@@ -22,9 +22,10 @@ import {
   FaEnvelope,
   FaImages,
   FaSearch,
-  FaConciergeBell,
   FaCalendarAlt,
-  FaGraduationCap
+  FaGraduationCap,
+  FaKey,
+  FaBed 
 } from 'react-icons/fa'
 
 export default function LesniczowkaProjectPage() {
@@ -65,7 +66,7 @@ export default function LesniczowkaProjectPage() {
     {
       image: { full: '/assets/projects/lesniczowka/features/services.webp', thumb: '/assets/projects/lesniczowka/features/services-thumb.webp', desc: 'Content & Services Showcase' },
       description: 'Content & Services Showcase: Extensive information on resort offerings, accommodation types, event hosting, and local attractions.',
-      icon: <FaConciergeBell />
+      icon: <FaBed  />
     },
     {
       image: { full: '/assets/projects/lesniczowka/features/gallery.webp', thumb: '/assets/projects/lesniczowka/features/gallery-thumb.webp', desc: 'Gallery' },
@@ -73,7 +74,7 @@ export default function LesniczowkaProjectPage() {
       icon: <FaImages />
     },
     {
-      image: { full: '/assets/projects/lesniczowka/features/contact.webp', thumb: '/assets/projects/lesniczowka/features/Contact-thumb.webp', desc: 'Contact Form' },
+      image: { full: '/assets/projects/lesniczowka/features/contact.webp', thumb: '/assets/projects/lesniczowka/features/contact-thumb.webp', desc: 'Contact Form' },
       description: 'Contact Form: Easy-to-use form allowing guests to make inquiries, request information, or get in touch with the resort for personalized assistance.',
       icon: <FaEnvelope />
     },
@@ -128,7 +129,7 @@ export default function LesniczowkaProjectPage() {
 
           <div className={styles.contentGrid}>
             <div className={`${styles.sectionHeader} ${styles.subSectionHeader}`}>
-              <FaCode className={styles.sectionIcon} />
+              <FaKey  className={styles.sectionIcon} />
               <h3 className={styles.subSectionTitle}>Key Functional Areas:</h3>
             </div>
             <div className={styles.featuresListWrap}>
@@ -144,7 +145,7 @@ export default function LesniczowkaProjectPage() {
             <FaTrophy className={styles.sectionIcon} />
             <h2 className={styles.sectionTitle}>Key Achievements and Skills Utilized:</h2>
           </div>
-          <ul className={styles.featureList}>
+          <ul className={styles.featureList__1}>
             <li><FaCogs className={styles.featureIcon} /> Integration with Eagle Booking: Configured the plugin for managing reservations, room availability, and online payments.</li>
             <li><FaClipboardList className={styles.featureIcon} /> Reservation Process Optimization: Customized booking forms and payment workflow for smooth guest experience.</li>
             <li><FaCode className={styles.featureIcon} /> WordPress Theme Customization: Adapted the WordPress theme to match the visual identity of Leśniczówka Wieżyca.</li>
@@ -164,24 +165,21 @@ export default function LesniczowkaProjectPage() {
             This project demonstrates how a traditional hospitality business can transition into the digital era through smart technology integration, improving both operational efficiency and customer satisfaction.
           </p>
 
-          <ul className={styles.featureList}>
+          <ul className={styles.featureList__2}>
             <li>
-              <span className={styles.checkmark}>✓</span>
-              <strong>Automation of Operations:</strong> The digital booking and payment system replaced manual phone or email reservations, drastically reducing administrative workload and minimizing human error.
+              <span className={styles.checkmark}>✓</span> <strong>Automation of Operations:</strong> The digital booking and payment system replaced manual phone or email reservations, drastically reducing administrative workload and minimizing human error.
             </li>
             <li>
-              <span className={styles.checkmark}>✓</span>
-              <strong>Increased Direct Sales:</strong> The platform enables guests to book directly through the website, reducing dependency on external portals and lowering commission costs.
+              <span className={styles.checkmark}>✓</span> <strong>Increased Direct Sales:</strong> The platform enables guests to book directly through the website, reducing dependency on external portals and lowering commission costs.
             </li>
             <li>
-              <span className={styles.checkmark}>✓</span>
-              <strong>Improved Cash Flow:</strong> Integrated payment processing ensures instant confirmation of bookings and immediate transfer of funds to the resort, eliminating delays and uncertainty.
+              <span className={styles.checkmark}>✓</span> <strong>Improved Cash Flow:</strong> Integrated payment processing ensures instant confirmation of bookings and immediate transfer of funds to the resort, eliminating delays and uncertainty.
             </li>
             <li>
-              <span className={styles.checkmark}>✓</span>
-              <strong>Enhanced Guest Experience:</strong> The intuitive interface, real-time availability, and responsive design create a smooth and reliable journey from discovery to reservation.
+              <span className={styles.checkmark}>✓</span> <strong>Enhanced Guest Experience:</strong> The intuitive interface, real-time availability, and responsive design create a smooth and reliable journey from discovery to reservation.
             </li>
           </ul>
+
 
           <p className={styles.sectionText}>
             Beyond its technical execution, this project stands as a proof of concept for how design and technology can elevate a regional hospitality brand — delivering convenience for guests and strategic independence for the business.

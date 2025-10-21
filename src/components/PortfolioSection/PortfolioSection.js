@@ -19,7 +19,7 @@ export default function PortfolioSection() {
             description: 'Advanced web application for managing a restaurant: admin panel, customer accounts, orders, menu items, categories, and staff workflows.',
             tags: [ 'Express.js', 'MongoDB', 'Stripe','Custom VPS'],
             category: 'Web Application',
-            liveUrl: 'https://demo1.rafalsprengel.com/', 
+            liveUrl: 'https://demo1.rafalsprengel.com/management/login/', 
             githubUrl: 'https://github.com/RafalSprengel/restaurant-pos-backend',
             seeMoreLink: '/projects/webapp'
         },

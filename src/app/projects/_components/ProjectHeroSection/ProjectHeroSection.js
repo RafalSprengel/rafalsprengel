@@ -25,45 +25,45 @@ export default function ProjectHeroSection({
   }, []);
   return (
     <section className={styles.projectHero}>
-        <div className={styles.projectHero__imagesContainer}>
+      <div className={styles.projectHero__imagesContainer}>
 
-          {pcImage && (
-            <Image
-              src={pcImage}
-              alt={title}
-              width={635}
-              height={800}
-              className={styles.projectHero__pcImage}
-            />
-          )}
-          {tabletImage && (
-            <Image
-              src={tabletImage}
-              alt={title}
-              width={230}
-              height={350}
-              className={styles.projectHero__tabletImage}
-               data-aos="fade-left"
-            />
-          )}
-          {phoneImage && (
-            <Image
-              src={phoneImage}
-              alt={title}
-              width={110}
-              height={210}
-              className={styles.projectHero__phoneImage}
-               data-aos="fade-right"
-               data-aos-delay="300"
-            />
-          )}
-          {liveUrl && liveUrl !== '#' && (
-            <a href={liveUrl} target="_blank" rel="noopener noreferrer" className={styles.projectHero__buttonVisitWebsite}>
-              Visit Website
-            </a>
-          )}
-          <div className={styles.projectHero__pcOverlay}></div>
-        </div>
+        {pcImage && (
+          <Image
+            src={pcImage}
+            alt={title}
+            width={635}
+            height={800}
+            className={styles.projectHero__pcImage}
+          />
+        )}
+        {tabletImage && (
+          <Image
+            src={tabletImage}
+            alt={title}
+            width={230}
+            height={350}
+            className={styles.projectHero__tabletImage}
+            data-aos="fade-left"
+          />
+        )}
+        {phoneImage && (
+          <Image
+            src={phoneImage}
+            alt={title}
+            width={110}
+            height={210}
+            className={styles.projectHero__phoneImage}
+            data-aos="fade-right"
+            data-aos-delay="300"
+          />
+        )}
+        {liveUrl && liveUrl !== '#' && (
+          <a href={liveUrl} target="_blank" rel="noopener noreferrer" className={styles.projectHero__buttonVisitWebsite}>
+            Visit Website
+          </a>
+        )}
+        <div className={styles.projectHero__pcOverlay}></div>
+      </div>
 
       <div className={styles.container}>
         <div className={styles.projectHero__content}>

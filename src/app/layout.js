@@ -17,6 +17,7 @@ export const metadata = {
   }
 }
 import './globals.css';
+import './overrides.css'
 import styles from './layout.module.css';
 import Aside from '../components/Aside/Aside';
 import Footer from '../components/Footer/Footer';

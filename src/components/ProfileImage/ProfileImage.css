@@ -1,0 +1,17 @@
+.profile-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-image__img {
+    margin: 15px auto;
+    display: block;
+    width: 160px;
+    height: 160px !important;
+    border: 8px solid #373737;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: -0px -47px;
+}
+

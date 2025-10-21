@@ -20,7 +20,6 @@ import {
   FaCogs,
   FaCode,
   FaUserPlus,
-  FaSignInAlt,
   FaClipboardList,
   FaUserEdit,
   FaKey,
@@ -32,7 +31,6 @@ import {
   FaCalendarAlt,
   FaTags,
   FaUsers,
-  FaChartBar,
   FaCog,
   FaCreditCard,
   FaMobileAlt,
@@ -41,7 +39,6 @@ import {
   FaHandshake,
   FaDatabase,
   FaShieldAlt,
-  FaServer
 } from 'react-icons/fa';
 
 
@@ -52,7 +49,7 @@ export default function WebappProjectPage() {
     pcImage: '/assets/projects/webapp/hero/pc.webp',
     tabletImage: '/assets/projects/webapp/hero/tablet.webp',
     phoneImage: '/assets/projects/webapp/hero/phone.webp',
-    liveUrl: 'https://demo1.rafalsprengel.com/',
+    liveUrl: 'https://demo1.rafalsprengel.com/management/login',
     githubUrl: 'https://github.com/RafalSprengel/restaurant-pos-backend',
     tags: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'JWT', 'OAuth', 'Admin Panel', 'POS System', 'User Management', 'Stripe'],
   };
@@ -192,7 +189,7 @@ export default function WebappProjectPage() {
             </div>
 
             <div className={`${styles.sectionHeader} ${styles.subSectionHeader}`}>
-              <FaServer className={styles.sectionIcon} />
+              <FaUserShield className={styles.sectionIcon} />
               <h3 className={styles.subSectionTitle}>Admin Panel: Centralized Control & Management</h3>
             </div>
             <p className={styles.sectionText}>
@@ -211,7 +208,7 @@ export default function WebappProjectPage() {
             <FaRocket className={styles.sectionIcon} />
             <h2 className={styles.sectionTitle}>Key Achievements and Technologies Utilized:</h2>
           </div>
-          <ul className={styles.featureList}>
+          <ul className={styles.featureList__1}>
             <li><FaShieldAlt className={styles.featureIcon} /> Robust Authentication & Authorization: Implemented JWT tokens, OAuth2 (Google/Facebook), and role-based access control for secure user and staff management.</li>
             <li><FaDatabase className={styles.featureIcon} /> Efficient Data Management: Utilized MongoDB with Mongoose for flexible and scalable database interactions, supporting complex data structures for products, orders, and users.</li>
             <li><FaCogs className={styles.featureIcon} /> Comprehensive API Development: Built a RESTful API with Node.js/Express.js, covering CRUD operations for all core entities (products, orders, users, reservations, messages, staff, categories).</li>
@@ -232,7 +229,7 @@ export default function WebappProjectPage() {
           <p className={styles.sectionText}>
             This project showcases my ability to develop complex, full-stack applications that deliver significant business value by:
           </p>
-          <ul className={styles.featureList}>
+          <ul className={styles.featureList__2}>
             <li> <span className={styles.checkmark}>✓</span><strong>Streamlining Operations:</strong> Automating order, reservation, and inventory management, reducing manual workload.</li>
             <li> <span className={styles.checkmark}>✓</span><strong>Enhancing Customer Engagement:</strong> Providing a seamless online experience for ordering, reservations, and account management.</li>
             <li> <span className={styles.checkmark}>✓</span><strong>Improving Decision-Making:</strong> Offering real-time data and statistics through the admin dashboard.</li>

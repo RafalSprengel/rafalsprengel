@@ -33,7 +33,8 @@ import {
   FaRocket,
   FaHandshake,
   FaEnvelope,
-  FaCreditCard
+  FaCreditCard,
+  FaListAlt
 } from 'react-icons/fa';
 
 
@@ -55,120 +56,120 @@ export default function RestaurantProjectPage() {
     { full: '/assets/projects/restaurant/gallery/Gallery.webp', thumb: '/assets/projects/restaurant/gallery/Gallery-thumb.webp' },
   ];
 
- const publicFeaturesData = [
-  {
-    image: {
-      full: '/assets/projects/restaurant/features/Menu.webp',
-      thumb: '/assets/projects/restaurant/features/Menu-thumb.webp',
-      desc: 'Dynamic Menu'
+  const publicFeaturesData = [
+    {
+      image: {
+        full: '/assets/projects/restaurant/features/Menu.webp',
+        thumb: '/assets/projects/restaurant/features/Menu-thumb.webp',
+        desc: 'Dynamic Menu'
+      },
+      description: 'Dynamic Menu: Customers can easily browse the menu, filter products, and add items to their cart.',
+      icon: <FaUtensils />
     },
-    description: 'Dynamic Menu: Customers can easily browse the menu, filter products, and add items to their cart.',
-    icon: <FaUtensils />
-  },
-  {
-    image: {
-      full: '/assets/projects/restaurant/features/Cart.webp',
-      thumb: '/assets/projects/restaurant/features/Cart-thumb.webp',
-      desc: 'Smart Cart'
+    {
+      image: {
+        full: '/assets/projects/restaurant/features/Cart.webp',
+        thumb: '/assets/projects/restaurant/features/Cart-thumb.webp',
+        desc: 'Smart Cart'
+      },
+      description: 'Smart Cart: A clear and user-friendly cart allowing customers to review, update, or remove items before checkout.',
+      icon: <FaShoppingCart />
     },
-    description: 'Smart Cart: A clear and user-friendly cart allowing customers to review, update, or remove items before checkout.',
-    icon: <FaShoppingCart />
-  },
-  {
-    image: {
-      full: '/assets/projects/restaurant/features/Process.webp',
-      thumb: '/assets/projects/restaurant/features/Process-thumb.webp',
-      desc: 'Ordering Process'
+    {
+      image: {
+        full: '/assets/projects/restaurant/features/Process.webp',
+        thumb: '/assets/projects/restaurant/features/Process-thumb.webp',
+        desc: 'Ordering Process'
+      },
+      description: 'Ordering Process: Smooth flow from product selection and customization to secure checkout.',
+      icon: <FaListAlt />
     },
-    description: 'Ordering Process: Smooth flow from product selection and customization to secure checkout.',
-    icon: <FaCode />
-  },
-  {
-    image: {
-      full: '/assets/projects/restaurant/features/Stripe.webp',
-      thumb: '/assets/projects/restaurant/features/Stripe-thumb.webp',
-      desc: 'Secure Payments'
+    {
+      image: {
+        full: '/assets/projects/restaurant/features/Stripe.webp',
+        thumb: '/assets/projects/restaurant/features/Stripe-thumb.webp',
+        desc: 'Secure Payments'
+      },
+      description: 'Secure Payments with Stripe: Customers can safely complete transactions using credit cards or digital wallets with full encryption.',
+      icon: <FaCreditCard />
     },
-    description: 'Secure Payments with Stripe: Customers can safely complete transactions using credit cards or digital wallets with full encryption.',
-    icon: <FaCreditCard />
-  },
-  {
-    image: {
-      full: '/assets/projects/restaurant/features/BookTable.webp',
-      thumb: '/assets/projects/restaurant/features/BookTable-thumb.webp',
-      desc: 'Table Reservations'
+    {
+      image: {
+        full: '/assets/projects/restaurant/features/BookTable.webp',
+        thumb: '/assets/projects/restaurant/features/BookTable-thumb.webp',
+        desc: 'Table Reservations'
+      },
+      description: 'Table Reservations: Simple reservation form with real-time availability checks.',
+      icon: <FaCalendarAlt />
     },
-    description: 'Table Reservations: Simple reservation form with real-time availability checks.',
-    icon: <FaCalendarAlt />
-  },
-  {
-    image: {
-      full: '/assets/projects/restaurant/features/Contact.webp',
-      thumb: '/assets/projects/restaurant/features/Contact-thumb.webp',
-      desc: 'Contact Form'
-    },
-    description: 'Contact Form: A fast way for customers to reach the restaurant with inquiries, feedback, or special requests.',
-    icon: <FaEnvelope />
-  }
-];
+    {
+      image: {
+        full: '/assets/projects/restaurant/features/Contact.webp',
+        thumb: '/assets/projects/restaurant/features/Contact-thumb.webp',
+        desc: 'Contact Form'
+      },
+      description: 'Contact Form: A fast way for customers to reach the restaurant with inquiries, feedback, or special requests.',
+      icon: <FaEnvelope />
+    }
+  ];
 
 
-const panelFeaturesData = [
-  {
-    image: {
-      full: '/assets/projects/restaurant/features/Dashboard.webp',
-      thumb: '/assets/projects/restaurant/features/Dashboard-thumb.webp',
-      desc: 'Dashboard Overview'
+  const panelFeaturesData = [
+    {
+      image: {
+        full: '/assets/projects/restaurant/features/Dashboard.webp',
+        thumb: '/assets/projects/restaurant/features/Dashboard-thumb.webp',
+        desc: 'Dashboard Overview'
+      },
+      description: 'Dashboard: Provides a clear and intuitive overview of key business metrics for informed decision-making.',
+      icon: <FaChartLine />
     },
-    description: 'Dashboard: Provides a clear and intuitive overview of key business metrics for informed decision-making.',
-    icon: <FaChartLine />
-  },
-  {
-    image: {
-      full: '/assets/projects/restaurant/features/PanelProducts.webp',
-      thumb: '/assets/projects/restaurant/features/PanelProducts-thumb.webp',
-      desc: 'Product Management'
+    {
+      image: {
+        full: '/assets/projects/restaurant/features/PanelProducts.webp',
+        thumb: '/assets/projects/restaurant/features/PanelProducts-thumb.webp',
+        desc: 'Product Management'
+      },
+      description: 'Product Management: Easily add, edit, and organize menu items to keep the restaurant offerings up to date.',
+      icon: <FaBox />
     },
-    description: 'Product Management: Easily add, edit, and organize menu items to keep the restaurant offerings up to date.',
-    icon: <FaBox />
-  },
-  {
-    image: {
-      full: '/assets/projects/restaurant/features/PanelOrders.webp',
-      thumb: '/assets/projects/restaurant/features/PanelOrders-thumb.webp',
-      desc: 'Order Management'
+    {
+      image: {
+        full: '/assets/projects/restaurant/features/PanelOrders.webp',
+        thumb: '/assets/projects/restaurant/features/PanelOrders-thumb.webp',
+        desc: 'Order Management'
+      },
+      description: 'Order Management: Track, monitor, and update order statuses in real-time to ensure smooth operations.',
+      icon: <FaClipboardList />
     },
-    description: 'Order Management: Track, monitor, and update order statuses in real-time to ensure smooth operations.',
-    icon: <FaClipboardList />
-  },
-  {
-    image: {
-      full: '/assets/projects/restaurant/features/PanelMessages.webp',
-      thumb: '/assets/projects/restaurant/features/PanelMessages-thumb.webp',
-      desc: 'Customer Messages'
+    {
+      image: {
+        full: '/assets/projects/restaurant/features/PanelMessages.webp',
+        thumb: '/assets/projects/restaurant/features/PanelMessages-thumb.webp',
+        desc: 'Customer Messages'
+      },
+      description: 'Messages: Receive and respond to customer messages efficiently for better communication.',
+      icon: <FaEnvelope />
     },
-    description: 'Messages: Receive and respond to customer messages efficiently for better communication.',
-    icon: <FaEnvelope />
-  },
-  {
-    image: {
-      full: '/assets/projects/restaurant/features/PanelSystemUsers.webp',
-      thumb: '/assets/projects/restaurant/features/PanelSystemUsers-thumb.webp',
-      desc: 'User Roles Management'
+    {
+      image: {
+        full: '/assets/projects/restaurant/features/PanelSystemUsers.webp',
+        thumb: '/assets/projects/restaurant/features/PanelSystemUsers-thumb.webp',
+        desc: 'User Roles Management'
+      },
+      description: 'Staff Management: Easily add, edit, and remove users while controlling their roles and access levels.',
+      icon: <FaUserShield />
     },
-    description: 'Staff Management: Easily add, edit, and remove users while controlling their roles and access levels.',
-    icon: <FaUserShield />
-  },
-  {
-    image: {
-      full: '/assets/projects/restaurant/features/PanelTableReservations.webp',
-      thumb: '/assets/projects/restaurant/features/PanelTableReservations-thumb.webp',
-      desc: 'Table Reservations'
-    },
-    description: 'Table Reservations Management: View, manage, and update table reservations seamlessly.',
-    icon: <FaCalendarAlt />
-  }
-]
+    {
+      image: {
+        full: '/assets/projects/restaurant/features/PanelTableReservations.webp',
+        thumb: '/assets/projects/restaurant/features/PanelTableReservations-thumb.webp',
+        desc: 'Table Reservations'
+      },
+      description: 'Table Reservations Management: View, manage, and update table reservations seamlessly.',
+      icon: <FaCalendarAlt />
+    }
+  ]
 
   return (
     <section className={styles.projectSection}>
@@ -238,7 +239,7 @@ const panelFeaturesData = [
             <FaTrophy className={styles.sectionIcon} />
             <h2 className={styles.sectionTitle}>Key Achievements and Skills Utilized:</h2>
           </div>
-          <ul className={styles.featureList}>
+          <ul className={styles.featureList__1}>
             <li><FaCogs className={styles.featureIcon} /> Comprehensive Integration: I seamlessly connected the frontend with the backend, Stripe payment system, and authorization mechanisms (JWT, Google/Facebook OAuth), creating a cohesive and functional environment.</li>
             <li><FaMobileAlt className={styles.featureIcon} /> Responsive Design: I ensured an excellent user experience across all devices, which is crucial in today's mobile-first world.</li>
             <li><FaRocket className={styles.featureIcon} /> Performance Optimization: I utilized react-lazy-load-image-component for lazy loading images and optimized API queries to ensure fast and smooth website operation.</li>
@@ -257,11 +258,11 @@ const panelFeaturesData = [
           <p className={styles.sectionText}>
             This project demonstrates my ability to create solutions that not only look great but, more importantly, deliver tangible business value. The restaurant benefits from:
           </p>
-          <ul className={styles.featureList}>
-            <li> <span className={styles.checkmark}>✓</span> Increased Efficiency: Automation of orders and reservations.</li>
-            <li> <span className={styles.checkmark}>✓</span>Enhanced Customer Experience: Easy and enjoyable online ordering.</li>
-            <li> <span className={styles.checkmark}>✓</span>Wider Reach: Online and mobile accessibility.</li>
-            <li> <span className={styles.checkmark}>✓</span>Data-Driven Decisions: Statistics and reports to support management.</li>
+          <ul className={styles.featureList__2}>
+            <li> <span className={styles.checkmark}>✓</span> <strong>Increased Efficiency:</strong> Automation of orders and reservations.</li>
+            <li> <span className={styles.checkmark}>✓</span> <strong>Enhanced Customer Experience:</strong> Easy and enjoyable online ordering.</li>
+            <li> <span className={styles.checkmark}>✓</span> <strong>Wider Reach:</strong> Online and mobile accessibility.</li>
+            <li> <span className={styles.checkmark}>✓</span> <strong>Data-Driven Decisions:</strong> Statistics and reports to support management.</li>
           </ul>
           <p className={styles.sectionText}>
             I am proud of how this project blends aesthetics with robust engineering, creating a tool that can significantly streamline the operations of any restaurant. I would be happy to discuss more technical details and the challenges I faced, as well as how my skills can contribute to the success of your project.

@@ -9,7 +9,7 @@ const services = [
     features: [
       'Online payments integration (Stripe, Przelewy24)',
       'Booking & payment systems',
-      'Admin panels with user management',
+      'Client & Admin panels with user management',
       'Custom authentication systems',
       'API integrations'
     ]
@@ -23,7 +23,7 @@ const services = [
       'VPS server configuration (Ubuntu, NGINX)',
       'Security hardening (Firewall, Fail2ban)',
       'SSL certificates installation',
-      'Database management (MongoDB)'
+      'Database management'
     ]
   },
   {
