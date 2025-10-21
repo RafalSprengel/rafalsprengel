@@ -34,8 +34,8 @@
     }
 }
 
-@media (max-width: 300px) {
+@media (max-width: 468px) {
     .my-lightbox__image-link {
-        width: 100%;
+        width: 90%;
     }
 }
