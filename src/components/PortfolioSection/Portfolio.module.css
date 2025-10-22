@@ -61,15 +61,15 @@
     color: #374151;
 }
 
-.portfolio__tab:hover {
-    background: #f9fafb;
-    border-color: #d1d5db;
-}
-
 .portfolio__tab.active {
     background: #149ddd;
     border-color: #149ddd;
     color: white;
+}
+
+.portfolio__tab:hover {
+    background: #f9fafb;
+    border-color: #d1d5db;
 }
 
 .portfolio__grid {
@@ -79,6 +79,8 @@
 }
 
 .portfolio__item {
+    display: flex;
+    flex-direction: column;
     background: white;
     border-radius: 12px;
     overflow: hidden;
@@ -93,6 +95,7 @@
 }
 
 .portfolio__imageWrapper {
+    flex: 0 0 250px;
     position: relative;
     width: 100%;
     height: 240px;
@@ -101,30 +104,28 @@
     z-index: 0;
 }
 
-.portfolio__image {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: transform 0.3s ease;
-    z-index: 0;
+.portfolio__imageWrapper:hover .portfolio__image {
+    transform: scale(1.05);
+}
+
+.portfolio__imageWrapper:hover .portfolio__overlay {
+    opacity: 1;
+}
+
+.portfolio__item:hover .portfolio__overlay {
+    opacity: 1;
 }
 
 .portfolio__item:hover .portfolio__image {
     transform: scale(1.05);
 }
 
-.portfolio__badge {
-    position: absolute;
-    top: 16px;
-    left: 16px;
-    background: #149ddd;
-    color: white;
-    padding: 4px 12px;
-    border-radius: 6px;
-    font-family: 'Roboto', sans-serif;
-    font-size: 0.75rem;
-    font-weight: 500;
-    z-index: 3;
+.portfolio__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+    z-index: 0;
 }
 
 .portfolio__overlay {
@@ -142,20 +143,32 @@
     z-index: 2;
 }
 
-.portfolio__item:hover .portfolio__overlay {
-    opacity: 1;
+.portfolio__badge {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    background: #149ddd;
+    color: white;
+    padding: 4px 12px;
+    border-radius: 6px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.75rem;
+    font-weight: 500;
+    z-index: 3;
 }
 
-.portfolio__overlay .portfolio__action {
-    opacity: 1;
-    transform: translateY(20px);
-    transition: opacity 0.3s ease, transform 0.3s ease;
-}
-
-.portfolio__item:hover .portfolio__overlay .portfolio__action {
-    opacity: 1;
-    transform: translateY(0);
-    border: 1px solid white;
+.portfolio__action {
+    padding: 10px 18px;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    border: 1px solid transparent;
 }
 
 .portfolio__actionOverlay {
@@ -171,22 +184,28 @@
     transform: translateY(-1px);
 }
 
+.portfolio__overlay .portfolio__action {
+    opacity: 1;
+    transform: translateY(20px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.portfolio__item:hover .portfolio__overlay .portfolio__action {
+    opacity: 1;
+    transform: translateY(0);
+    border: 1px solid white;
+}
 
 .portfolio__content {
+    flex: 1 1 auto;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    gap: 16px;
     padding: 20px;
-    min-height: 340px;
 }
 
 .portfolio__header {}
-
-.portfolio__footer {}
-
-.portfolio__spacer {
-    flex: 1;
-}
 
 .portfolio__item__title {
     font-family: 'Raleway', sans-serif;
@@ -201,8 +220,37 @@
     font-size: 0.95rem;
     color: #6c757d;
     line-height: 1.5;
-    margin-bottom: 20px;
+    margin-bottom: 7px;
+    margin-left: 5px;
 }
+
+.seeMoreLink {
+    display: inline-block;
+    text-decoration: none;
+    margin-bottom: 20px;
+    transition: color 0.3s ease-in-out;
+}
+
+.seeMoreText {
+    color: #149ddd;
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color: #149ddd;
+    text-underline-offset: 4px;
+    text-decoration-thickness: 1px;
+    cursor: pointer;
+}
+
+.seeMoreLink:hover .seeMoreText {
+    color: #117fc2;
+    text-decoration: none;
+}
+
+.portfolio__spacer {
+    flex: 1;
+}
+
+.portfolio__footer {}
 
 .portfolio__tags {
     display: flex;
@@ -223,20 +271,6 @@
 .portfolio__actions {
     display: flex;
     gap: 8px;
-}
-
-.portfolio__action {
-    padding: 10px 18px;
-    border-radius: 6px;
-    font-size: 1rem;
-    font-weight: 500;
-    cursor: pointer;
-    transition: all 0.2s ease;
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-    gap: 6px;
-    border: 1px solid transparent;
 }
 
 .portfolio__actionPrimary {
@@ -266,6 +300,7 @@
 .actionIcon {
     font-size: 0.875rem;
 }
+
 
 @media (max-width: 1466px) {
     .portfolio__content {

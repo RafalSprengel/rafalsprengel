@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import styles from './Portfolio.module.css';
 import { FaExternalLinkAlt, FaGithub } from 'react-icons/fa';
 
@@ -17,9 +18,9 @@ export default function PortfolioSection() {
             title: 'Restaurant POS Management System',
             image: '/assets/home-page/server.jpg',
             description: 'Advanced web application for managing a restaurant: admin panel, customer accounts, orders, menu items, categories, and staff workflows.',
-            tags: [ 'Express.js', 'MongoDB', 'Stripe','Custom VPS'],
+            tags: ['Express.js', 'MongoDB', 'Stripe', 'Custom VPS'],
             category: 'Web Application',
-            liveUrl: 'https://demo1.rafalsprengel.com/management/login/', 
+            liveUrl: 'https://demo1.rafalsprengel.com/management/login/',
             githubUrl: 'https://github.com/RafalSprengel/restaurant-pos-backend',
             seeMoreLink: '/projects/webapp'
         },
@@ -67,7 +68,17 @@ export default function PortfolioSection() {
                                 <div className={styles.portfolio__header}>
                                     <h3 className={styles.portfolio__item__title}>{item.title}</h3>
                                     <p className={styles.portfolio__item__desc}>{item.description}</p>
+                                    <Link
+                                        href={item.seeMoreLink}
+                                        className={styles.seeMoreLink}
+                                    >
+                                        <span className={styles.seeMoreText}>
+                                            See more...
+                                        </span>
+                                    </Link>
+
                                 </div>
+
                                 <div className={styles.portfolio__spacer}></div>
 
                                 <div className={styles.portfolio__footer}>
