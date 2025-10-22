@@ -13,12 +13,6 @@
   margin: 0 auto;
 }
 
-/* .projectHero__imagesWrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} */
-
 .projectHero__imagesContainer {
   position: relative;
   height: 500px;
@@ -319,7 +313,7 @@
     padding: 6px 12px;
   }
 
- .projectHero__buttonVisitWebsite {
+  .projectHero__buttonVisitWebsite {
     top: 115px;
     left: 110px;
     font-size: 0.7rem;

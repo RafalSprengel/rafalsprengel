@@ -22,6 +22,7 @@ import styles from './layout.module.css';
 import Aside from '../components/Aside/Aside';
 import Footer from '../components/Footer/Footer';
 import { GoogleTagManager } from '@next/third-parties/google'
+import ScrollToTop from '../components/ScrollToTop/ScrollToTop'
 
 export default function RootLayout({ children }) {
   return (
@@ -32,8 +33,8 @@ export default function RootLayout({ children }) {
         <main className={styles.main}>
           {children}
           <Footer />
+          <ScrollToTop />
         </main>
-
       </body>
     </html>
   )
