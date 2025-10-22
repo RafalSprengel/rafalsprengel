@@ -56,15 +56,14 @@
   bottom: -10px;
   right: 180px;
   z-index: 2;
-  transition: transform 0.3s ease;
 }
 
-.projectHero__imagesContainer:hover .projectHero__tabletImage {
-  transform: translateY(-10px);
-}
+.projectHero__phoneImage:hover,
+.projectHero__tabletImage:hover {
+  transition-delay: 0s;
+  transition: transform 0.3s ease !important;
+  transform: translateY(-10px) !important;
 
-.projectHero__imagesContainer:hover .projectHero__phoneImage {
-  transform: translateY(-10px);
 }
 
 .projectHero__buttonVisitWebsite {
@@ -306,8 +305,6 @@
     left: 100px;
     font-size: 0.9rem;
   }
-
-
 }
 
 @media (max-width: 480px) {
@@ -329,7 +326,7 @@
     padding: 6px 12px;
   }
 
- .projectHero__buttonVisitWebsite {
+  .projectHero__buttonVisitWebsite {
     top: 115px;
     left: 110px;
     font-size: 0.7rem;
