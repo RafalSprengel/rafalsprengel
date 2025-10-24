@@ -4,6 +4,7 @@ import React from 'react';
 import styles from './page.module.css';
 import ProjectHeroSection from '@/app/projects/_components/ProjectHeroSection/ProjectHeroSection';
 import dynamic from 'next/dynamic';
+import BottomButtonsBlock from '../_components/BottomButtonsBlock/BottomButtonsBlock';
 
 const MyLightbox = dynamic(
   () => import('@/components/MyLightbox/MyLightbox'),
@@ -267,6 +268,11 @@ export default function RestaurantProjectPage() {
           <p className={styles.sectionText}>
             I am proud of how this project blends aesthetics with robust engineering, creating a tool that can significantly streamline the operations of any restaurant. I would be happy to discuss more technical details and the challenges I faced, as well as how my skills can contribute to the success of your project.
           </p>
+        </div>
+      </div>
+      <div className={styles.sectionBlock}>
+        <div className={styles.container}>
+          <BottomButtonsBlock />
         </div>
       </div>
     </section>

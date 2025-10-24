@@ -4,6 +4,7 @@ import React from 'react';
 import styles from './page.module.css';
 import ProjectHeroSection from '@/app/projects/_components/ProjectHeroSection/ProjectHeroSection';
 import dynamic from 'next/dynamic';
+import BottomButtonsBlock from '../_components/BottomButtonsBlock/BottomButtonsBlock';
 
 const MyLightbox = dynamic(
   () => import('@/components/MyLightbox/MyLightbox'),
@@ -239,6 +240,11 @@ export default function WebappProjectPage() {
           <p className={styles.sectionText}>
             This application is a testament to my expertise in building robust, user-centric web solutions that drive efficiency and growth for businesses.
           </p>
+        </div>
+      </div>
+      <div className={styles.sectionBlock}>
+        <div className={styles.container}>
+          <BottomButtonsBlock />
         </div>
       </div>
     </section>

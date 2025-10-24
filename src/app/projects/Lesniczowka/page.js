@@ -4,6 +4,7 @@ import React from 'react'
 import styles from '../lesniczowka/page.module.css'
 import ProjectHeroSection from '@/app/projects/_components/ProjectHeroSection/ProjectHeroSection'
 import dynamic from 'next/dynamic'
+import BottomButtonsBlock from '../_components/BottomButtonsBlock/BottomButtonsBlock';
 
 const MyLightbox = dynamic(() => import('@/components/MyLightbox/MyLightbox'), { ssr: false })
 const FeaturesGallery = dynamic(() => import('@/app/projects/_components/featuresGallery/FeaturesGallery.js'), { ssr: false })
@@ -25,14 +26,15 @@ import {
   FaCalendarAlt,
   FaGraduationCap,
   FaKey,
-  FaBed 
+  FaBed,
+  FaArrowLeft,
 } from 'react-icons/fa'
 
 export default function LesniczowkaProjectPage() {
   const heroData = {
     title: 'Leśniczówka Wieżyca: The Digital Gateway to a Kashubian Forest Retreat',
     description:
-      "This website serves as the official online platform for Leśniczówka Wieżyca, a tranquil resort destination located in the picturesque Kashuby region of Poland. The site's primary function is to beautifully showcase the resort's facilities - including cozy rooms, seasonal Dutch houses, and SPA amenities like a Jacuzzi and Sauna - while offering a seamless, end-to-end digital booking experience. The core challenge addressed by the platform is transforming user interest into confirmed stays through an efficient, self-service online system.",
+      "This website serves as the official online platform for Leśniczówka Wieżyca, a tranquil resort destination located in the picturesque Kashuby region of Poland. The site's primary function is to beautifully showcase the resort's facilities — including cozy rooms, seasonal Dutch houses, and SPA amenities like a Jacuzzi and Sauna — while offering a seamless, end-to-end digital booking experience. The core challenge addressed by the platform is transforming user interest into confirmed stays through an efficient, self-service online system.",
     pcImage: '/assets/projects/lesniczowka/hero/pc.webp',
     tabletImage: '/assets/projects/lesniczowka/hero/tablet.webp',
     phoneImage: '/assets/projects/lesniczowka/hero/phone.webp',
@@ -66,7 +68,7 @@ export default function LesniczowkaProjectPage() {
     {
       image: { full: '/assets/projects/lesniczowka/features/services.webp', thumb: '/assets/projects/lesniczowka/features/services-thumb.webp', desc: 'Content & Services Showcase' },
       description: 'Content & Services Showcase: Extensive information on resort offerings, accommodation types, event hosting, and local attractions.',
-      icon: <FaBed  />
+      icon: <FaBed />
     },
     {
       image: { full: '/assets/projects/lesniczowka/features/gallery.webp', thumb: '/assets/projects/lesniczowka/features/gallery-thumb.webp', desc: 'Gallery' },
@@ -129,7 +131,7 @@ export default function LesniczowkaProjectPage() {
 
           <div className={styles.contentGrid}>
             <div className={`${styles.sectionHeader} ${styles.subSectionHeader}`}>
-              <FaKey  className={styles.sectionIcon} />
+              <FaKey className={styles.sectionIcon} />
               <h3 className={styles.subSectionTitle}>Key Functional Areas:</h3>
             </div>
             <div className={styles.featuresListWrap}>
@@ -184,6 +186,11 @@ export default function LesniczowkaProjectPage() {
           <p className={styles.sectionText}>
             Beyond its technical execution, this project stands as a proof of concept for how design and technology can elevate a regional hospitality brand — delivering convenience for guests and strategic independence for the business.
           </p>
+        </div>
+      </div>
+      <div className={styles.sectionBlock}>
+        <div className={styles.container}>
+         <BottomButtonsBlock />
         </div>
       </div>
     </section>
