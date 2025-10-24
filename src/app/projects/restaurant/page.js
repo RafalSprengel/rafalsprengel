@@ -265,6 +265,7 @@ export default function RestaurantProjectPage() {
             <li> <span className={styles.checkmark}>✓</span> <strong>Wider Reach:</strong> Online and mobile accessibility.</li>
             <li> <span className={styles.checkmark}>✓</span> <strong>Data-Driven Decisions:</strong> Statistics and reports to support management.</li>
           </ul>
+          <br />
           <p className={styles.sectionText}>
             I am proud of how this project blends aesthetics with robust engineering, creating a tool that can significantly streamline the operations of any restaurant. I would be happy to discuss more technical details and the challenges I faced, as well as how my skills can contribute to the success of your project.
           </p>

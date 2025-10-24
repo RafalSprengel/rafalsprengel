@@ -41,7 +41,7 @@
   color: #6c757d;
   max-width: 600px;
   margin: 0 auto;
-  line-height: 1.6;
+  line-height: 1.7;
 }
 
 .skillsContent {
@@ -147,9 +147,7 @@
     font-size: 1.8rem;
   }
   
-  .subtitle {
-    font-size: 1rem;
-  }
+ 
   
   .skillCategory {
     padding: 20px;

@@ -18,7 +18,8 @@
 }
 
 .sectionBlock {
-  padding: 60px 0;
+  padding-top: 40px;
+  padding-bottom: 0px;;
   margin-bottom: 0;
   display: flex;
   flex-direction: column;
@@ -78,11 +79,12 @@
 
 .sectionText {
   font-family: 'Roboto', sans-serif;
-  font-size: 1.15rem;
+  font-size: 1.1rem;
   line-height: 1.7;
-  color: #555;
+  color: #6c757d;
   margin-bottom: 25px;
   flex-grow: 1;
+  text-align: center;
 }
 
 .featuresListWrap {
@@ -101,9 +103,13 @@
 .featureList__2 li {
   font-family: 'Roboto', sans-serif;
   font-size: 1.15rem;
-  color: #495057;
-  margin-bottom: 15px;
+  color: #6c757d;
+  margin-bottom: 20px;
   line-height: 1.6;
+}
+
+.featureList__2 {
+margin-bottom: 50px;
 }
 
 .featureList__1 li {
@@ -139,10 +145,6 @@
 
   .subSectionTitle {
     font-size: 1.6rem;
-  }
-
-  .sectionText {
-    font-size: 1.15rem;
   }
 
   .featureList li {
@@ -181,11 +183,6 @@
 
   .subSectionTitle {
     font-size: 1.4rem;
-  }
-
-  .sectionText {
-    font-size: 1rem;
-    line-height: 1.7;
   }
 
   .featureList li {
@@ -227,10 +224,7 @@
     font-size: 1.3rem;
   }
 
-  .sectionText {
-    font-size: 0.9rem;
-    line-height: 1.6;
-  }
+ 
 
   .featureList li {
     font-size: 0.9rem;
