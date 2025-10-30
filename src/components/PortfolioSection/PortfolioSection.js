@@ -10,7 +10,7 @@ export default function PortfolioSection() {
             description: 'Modern, fully responsive website for a restaurant featuring online ordering, menu, gallery, table reservation system, and contact form.',
             tags: ['React', 'Express.js', 'MongoDB', 'Stripe'],
             category: 'Custom Website',
-            liveUrl: 'https://demo1.rafalsprengel.com/',
+            liveUrl: 'https://restaurant.rafalsprengel.com/',
             githubUrl: 'https://github.com/RafalSprengel/restaurant-pos-frontend',
             seeMoreLink: '/projects/restaurant'
         },
@@ -20,7 +20,7 @@ export default function PortfolioSection() {
             description: 'Advanced web application for managing a restaurant: admin panel, customer accounts, orders, menu items, categories, and staff workflows.',
             tags: ['Express.js', 'MongoDB', 'Stripe', 'Custom VPS'],
             category: 'Web Application',
-            liveUrl: 'https://demo1.rafalsprengel.com/management/login/',
+            liveUrl: 'https://restaurant.rafalsprengel.com/management/login/',
             githubUrl: 'https://github.com/RafalSprengel/restaurant-pos-backend',
             seeMoreLink: '/projects/webapp'
         },

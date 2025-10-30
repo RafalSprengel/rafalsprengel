@@ -1,0 +1,172 @@
+{
+  "Hero": {
+    "title": "Rafał Sprengel",
+    "subtitle": "I'm a",
+    "typed": [
+      "Web Developer",
+      "Freelancer",
+      "Designer"
+    ]
+  },
+  "Aside": {
+    "name": "Rafał Sprengel",
+    "nav": {
+      "home": "Home",
+      "about": "About",
+      "skills": "Skills",
+      "portfolio": "Portfolio",
+      "services": "Services",
+      "contact": "Contact"
+    }
+  },
+  "About": {
+    "title": "About",
+    "description": "I am a full-stack web developer with a Computer Engineering degree, specializing in building modern websites and web applications. I offer affordable, professional solutions for both potential employers and clients — from simple business websites to booking and payment systems, and even VPS server configuration and security.",
+    "subtitle": "UI/UX Designer & Web Developer",
+    "text": "I work with both frontend and backend technologies, delivering scalable applications deployed on VPS servers with a focus on performance and security. My expertise covers the entire development lifecycle — from server installation and configuration, through backend and frontend development, to fully secured websites with SSL certificates."
+  },
+  "Skills": {
+    "title": "Skills & Technologies",
+    "subtitle": "Comprehensive expertise across the full web development stack.",
+    "frontend": {
+      "title": "Frontend Development",
+      "description": "Specializing in modern frontend technologies like <strong>Next.js</strong>, <strong>React.js</strong>, and <strong>JavaScript</strong> to build responsive and interactive interfaces. Experienced with <strong>CSS</strong> frameworks and component libraries such as <strong>Mantine UI</strong><span> </span>and <strong>Material UI</strong> to deliver polished, professional, and user-friendly designs."
+    },
+    "backend": {
+      "title": "Backend Development",
+      "description": "Building robust backend systems with <strong>Node.js</strong> and <strong>Express.js</strong>, creating <strong>REST APIs</strong> with secure authentication using <strong>JWT</strong> and <strong>OAuth2</strong>. Focus on scalable architecture and efficient data handling for optimal performance."
+    },
+    "database": {
+      "title": "Database & Payments",
+      "description": "Expertise in <strong>MongoDB</strong> for flexible database management and <strong>Stripe API </strong> integration for secure payment processing. Ensuring data integrity and seamless transaction flows in all applications."
+    },
+    "infrastructure": {
+      "title": "Infrastructure & Deployment",
+      "description": "Full-stack deployment expertise including <strong>VPS server</strong> configuration, <strong>NGINX</strong> setup, and <strong>Ubuntu</strong> server management. Focus on security hardening, performance optimization, and reliable infrastructure maintenance."
+    },
+    "wordpress": {
+      "title": "WordPress & CMS",
+      "description": "Custom <strong>WordPress</strong> development with tailored themes and plugins. Specializing in <strong>SEO optimization</strong> and performance enhancements to ensure maximum visibility and user engagement."
+    }
+  },
+  "Portfolio": {
+    "title": "Portfolio",
+    "description": "Recent projects showcasing my expertise in web development.",
+    "seeMore": "See more",
+    "seeMoreEllipsis": "See more...",
+    "visitWebsite": "Visit Website",
+    "code": "Code",
+    "items": {
+      "restaurant": {
+        "title": "Responsive Restaurant Website",
+        "description": "Modern, fully responsive website for a restaurant featuring online ordering, menu, gallery, table reservation system, and contact form.",
+        "tags": ["React", "Express.js", "MongoDB", "Stripe"],
+        "category": "Custom Website"
+      },
+      "pos": {
+        "title": "Restaurant POS Management System",
+        "description": "Advanced web application for managing a restaurant: admin panel, customer accounts, orders, menu items, categories, and staff workflows.",
+        "tags": ["Express.js", "MongoDB", "Stripe", "Custom VPS"],
+        "category": "Web Application"
+      },
+      "resort": {
+        "title": "Holiday Resort Booking Website",
+        "description": "Custom WordPress site for a holiday resort with online booking, gallery, and easy content management for quick updates.",
+        "tags": ["WordPress", "PHP", "JavaScript"],
+        "category": "WordPress"
+      }
+    }
+  },
+  "Services": {
+    "title": "Services",
+    "subtitle": "Comprehensive web development solutions from concept to deployment.",
+    "items": {
+      "development": {
+        "title": "Custom Development",
+        "description": "Custom high-quality websites and web applications using modern technologies like Next.js, React.js, Node.js, and Express.js",
+        "features": [
+          "Online payments integration (Stripe, Przelewy24)",
+          "Booking & payment systems",
+          "Client & Admin panels with user management",
+          "Custom authentication systems",
+          "API integrations"
+        ]
+      },
+      "infrastructure": {
+        "title": "Server & Infrastructure",
+        "description": "Complete server setup and infrastructure management for optimal performance and security",
+        "features": [
+          "Domain & hosting setup",
+          "VPS server configuration (Ubuntu, NGINX)",
+          "Security hardening (Firewall, Fail2ban)",
+          "SSL certificates installation",
+          "Database management"
+        ]
+      },
+      "wordpress": {
+        "title": "WordPress Development",
+        "description": "Professional WordPress websites with custom functionality and modern design",
+        "features": [
+          "Custom theme development",
+          "Plugin customization",
+          "E-commerce solutions",
+          "Performance optimization",
+          "Security enhancements"
+        ]
+      },
+      "responsive": {
+        "title": "Responsive Design",
+        "description": "Mobile-first responsive designs that work perfectly on all devices",
+        "features": [
+          "Mobile-optimized interfaces",
+          "Cross-browser compatibility",
+          "Fast loading times",
+          "User experience optimization",
+          "Progressive Web Apps"
+        ]
+      },
+      "security": {
+        "title": "Security & Maintenance",
+        "description": "Comprehensive security solutions and ongoing maintenance services",
+        "features": [
+          "Security audits",
+          "Regular updates",
+          "Backup solutions",
+          "Performance monitoring",
+          "24/7 support availability"
+        ]
+      },
+      "seo": {
+        "title": "SEO Optimization",
+        "description": "Search engine optimization to improve visibility and ranking",
+        "features": [
+          "On-page SEO",
+          "Technical SEO",
+          "Speed optimization",
+          "Content strategy",
+          "Analytics integration"
+        ]
+      }
+    }
+  },
+  "Contact": {
+    "title": "Contact",
+    "description": "Let's build something great together!<br />Whether you need a custom web application, a modern business website, or help with server setup and security – feel free to reach out. I'll be happy to discuss your project and find the best solution for your needs.",
+    "callMe": "Call Me",
+    "emailMe": "Email Me",
+    "address": "Address",
+    "form": {
+      "successMessage": "Thank you for contacting us! We’ll get back to you soon.",
+      "nameLabel": "Your Name",
+      "namePrefix": "Name",
+      "emailLabel": "Your Email",
+      "emailPrefix": "Email",
+      "subjectLabel": "Subject",
+      "subjectPrefix": "Subject",
+      "messageLabel": "Message",
+      "messagePrefix": "Message",
+      "sending": "Sending...",
+      "sendMessage": "Send Message"
+    }
+  }
+}

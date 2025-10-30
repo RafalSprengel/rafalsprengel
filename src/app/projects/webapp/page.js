@@ -50,7 +50,7 @@ export default function WebappProjectPage() {
     pcImage: '/assets/projects/webapp/hero/pc.webp',
     tabletImage: '/assets/projects/webapp/hero/tablet.webp',
     phoneImage: '/assets/projects/webapp/hero/phone.webp',
-    liveUrl: 'https://demo1.rafalsprengel.com/management/login',
+    liveUrl: 'https://restaurant.rafalsprengel.com/management/login',
     githubUrl: 'https://github.com/RafalSprengel/restaurant-pos-backend',
     tags: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'JWT', 'OAuth', 'Admin Panel', 'POS System', 'User Management', 'Stripe'],
   };

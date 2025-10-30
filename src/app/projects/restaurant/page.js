@@ -46,7 +46,7 @@ export default function RestaurantProjectPage() {
     pcImage: '/assets/projects/restaurant/hero/pc.webp',
     tabletImage: '/assets/projects/restaurant/hero/tablet.webp',
     phoneImage: '/assets/projects/restaurant/hero/phone.webp',
-    liveUrl: 'https://demo1.rafalsprengel.com/',
+    liveUrl: 'https://restaurant.rafalsprengel.com/',
     githubUrl: 'https://github.com/RafalSprengel/restaurant-pos-backend',
     tags: ['Next.js', 'React.js', 'Node.js', 'Express.js', 'MongoDB', 'Stripe', 'Mantine UI', 'SCSS', 'Tailwind CSS', 'JWT', 'OAuth'],
   };
