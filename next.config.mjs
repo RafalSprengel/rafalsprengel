@@ -1,8 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
   images: {
-    unoptimized: true,
+    domains: ['rafalsprengel.com'],
+    formats: ['image/avif', 'image/webp'],
   },
   trailingSlash: true,
 };

@@ -1,5 +1,12 @@
+'use client';
+
 import styles from './HeroSection.module.css';
-import TypedSubtitle from '../TypedSubtitle';
+import dynamic from 'next/dynamic';
+
+const TypedSubtitle = dynamic(() => import('../TypedSubtitle'), {
+  ssr: false,
+  loading: () => <span>Web Developer</span>
+});
 
 export default function HeroSection() {
     return (

@@ -1,20 +1,23 @@
-'use client';
-
 import React from 'react';
 import styles from './page.module.css';
-import ProjectHeroSection from '@/app/projects/_components/ProjectHeroSection/ProjectHeroSection';
 import dynamic from 'next/dynamic';
+import ProjectHeroSection from '@/app/projects/_components/ProjectHeroSection/ProjectHeroSection';
 import BottomButtonsBlock from '../_components/BottomButtonsBlock/BottomButtonsBlock';
+import { projectsData } from '../data';
 
-const MyLightbox = dynamic(
-  () => import('@/components/MyLightbox/MyLightbox'),
-  { ssr: false }
-);
+
+const MyLightbox = dynamic(() => import('@/components/MyLightbox/MyLightbox'), {
+  ssr: false,
+  loading: () => <div className={styles.loading}>Loading gallery...</div>
+});
 
 const FeaturesGallery = dynamic(
   () => import('@/app/projects/_components/featuresGallery/FeaturesGallery.js'),
-  { ssr: false }
-)
+  {
+    ssr: false,
+    loading: () => <div className={styles.loading}>Loading features...</div>
+  }
+);
 
 import {
   FaLightbulb,
