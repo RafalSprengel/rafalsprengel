@@ -1,23 +1,9 @@
 import React from 'react';
 import styles from './page.module.css';
-import dynamic from 'next/dynamic';
 import ProjectHeroSection from '@/app/projects/_components/ProjectHeroSection/ProjectHeroSection';
 import BottomButtonsBlock from '../_components/BottomButtonsBlock/BottomButtonsBlock';
 import { projectsData } from '../data';
-
-
-const MyLightbox = dynamic(() => import('@/components/MyLightbox/MyLightbox'), {
-  ssr: false,
-  loading: () => <div className={styles.loading}>Loading gallery...</div>
-});
-
-const FeaturesGallery = dynamic(
-  () => import('@/app/projects/_components/featuresGallery/FeaturesGallery.js'),
-  {
-    ssr: false,
-    loading: () => <div className={styles.loading}>Loading features...</div>
-  }
-);
+import { DynamicLightbox, DynamicFeaturesGallery } from '../_components/ClientComponents';
 
 import {
   FaLightbulb,
@@ -181,7 +167,7 @@ export default function RestaurantProjectPage() {
 
       <div className={styles.container}>
         <div className={styles.sectionImages}>
-          <MyLightbox images={lightboxImages} />
+          <DynamicLightbox images={lightboxImages} />
         </div>
       </div>
 
@@ -216,14 +202,14 @@ export default function RestaurantProjectPage() {
               On the frontend, I opted for React.js combined with Mantine UI, which allowed me to rapidly build rich and accessible components. This provides customers with an intuitive interface for browsing the menu, customizing orders, and reserving tables. I paid particular attention to responsiveness, ensuring the website functions flawlessly on every device – from desktops to smartphones. The use of SCSS for global styles and Tailwind CSS for a utility-first approach in new components provided flexibility and visual consistency.
             </p>
             <div className={styles.featuresListWrap}>
-              <FeaturesGallery data={publicFeaturesData} galleryId="frontend-gallery" />
+              <DynamicFeaturesGallery data={publicFeaturesData} galleryId="frontend-gallery" />
             </div>
 
             <p className={styles.sectionText}>
               A management panel is a comprehensive tool that gives staff full control over the restaurant's operations. From monitoring sales on the dashboard, to managing products and categories, and handling orders, customers, and reservations. The implementation of user roles (admin, moderator, member) ensures precise access control.
             </p>
             <div className={styles.featuresListWrap}>
-              <FeaturesGallery data={panelFeaturesData} galleryId="backend-gallery" />
+              <DynamicFeaturesGallery data={panelFeaturesData} galleryId="backend-gallery" />
             </div>
 
             <div className={`${styles.sectionHeader} ${styles.subSectionHeader}`}>
