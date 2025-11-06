@@ -1,7 +1,7 @@
 'use client';
 
 import styles from './SkillsSection.module.css';
-import { FaCode, FaServer, FaDatabase, FaCloud, FaWordpress, FaMobile, FaShieldAlt, FaSearch } from 'react-icons/fa';
+import { FaCode, FaServer, FaShieldAlt, FaCloud, FaWordpress, FaCogs } from 'react-icons/fa';
 
 export default function SkillsSection() {
   return (
@@ -21,11 +21,8 @@ export default function SkillsSection() {
               <h3 className={styles.categoryTitle}>Frontend Development</h3>
             </div>
             <p className={styles.categoryDescription}>
-              Specializing in modern frontend technologies like <strong>Next.js</strong>, <strong>React.js</strong>,
-              and <strong>JavaScript</strong> to build responsive and interactive interfaces.
-              Experienced with <strong>CSS</strong> frameworks and component libraries such as <strong>Mantine UI</strong>
-              <span> </span>and <strong>Material UI</strong> to deliver polished, professional, and user-friendly designs.
-            </p>
+  Build responsive and interactive interfaces using <strong>Next.js</strong> and <strong>React.js</strong>. Work with <strong>CSS</strong> frameworks and component libraries like <strong>Mantine UI</strong> and <strong>Material UI</strong>.
+</p>
 
           </div>
 
@@ -35,21 +32,20 @@ export default function SkillsSection() {
               <h3 className={styles.categoryTitle}>Backend Development</h3>
             </div>
             <p className={styles.categoryDescription}>
-              Building robust backend systems with <strong>Node.js</strong> and <strong>Express.js</strong>,
-              creating <strong>REST APIs</strong> with secure authentication using <strong>JWT</strong> and <strong>OAuth2</strong>.
-              Focus on scalable architecture and efficient data handling for optimal performance.
+              Build Node.js + Express.js backends and REST APIs with secure authentication using <strong>JWT</strong> and <strong>OAuth2</strong>.
+              Utilize modern NoSQL databases like <strong>MongoDB</strong>.
             </p>
           </div>
 
           <div className={styles.skillCategory}>
             <div className={styles.categoryHeader}>
-              <FaDatabase className={styles.categoryIcon} />
-              <h3 className={styles.categoryTitle}>Database & Payments</h3>
+              <FaShieldAlt className={styles.categoryIcon} />
+              <h3 className={styles.categoryTitle}>Security & Payment</h3>
             </div>
             <p className={styles.categoryDescription}>
-              Expertise in <strong>MongoDB</strong> for flexible database management and <strong>Stripe API </strong>
-              integration for secure payment processing. Ensuring data integrity and seamless transaction flows
-              in all applications.
+              Implement security and authentication systems following <strong>JWT</strong> and <strong>OAuth</strong> standards.
+              Manage roles and permissions in admin and client panels.
+              Integrate applications with payment systems such as <strong>Stripe</strong> and <strong>Przelewy24</strong>, including secure payment confirmations via webhooks.
             </p>
           </div>
 
@@ -59,23 +55,34 @@ export default function SkillsSection() {
               <h3 className={styles.categoryTitle}>Infrastructure & Deployment</h3>
             </div>
             <p className={styles.categoryDescription}>
-              Full-stack deployment expertise including <strong>VPS server</strong> configuration, <strong>NGINX</strong> setup,
-              and <strong>Ubuntu</strong> server management. Focus on security hardening, performance optimization,
-              and reliable infrastructure maintenance.
+              Deploy full-stack applications on <strong>VPS</strong> with <strong>NGINX</strong> setup, configure domains, and install <strong>SSL certificates</strong>. Apply CI/CD with <strong>GitHub</strong> and <strong>Vercel</strong> for automated deployments.
+            </p>
+
+          </div>
+
+          <div className={styles.skillCategory}>
+            <div className={styles.categoryHeader}>
+              <FaCogs className={styles.categoryIcon} />
+              <h3 className={styles.categoryTitle}>UI/UX, Performance & SEO</h3>
+            </div>
+            <p className={styles.categoryDescription}>
+              Design responsive and accessible interfaces with attention to user experience.
+              Optimize performance using lazy loading, caching, and image optimization.
+              Implement SEO strategies and analytics integration for better visibility and engagement.
             </p>
           </div>
 
           <div className={styles.skillCategory}>
             <div className={styles.categoryHeader}>
               <FaWordpress className={styles.categoryIcon} />
-              <h3 className={styles.categoryTitle}>WordPress & CMS</h3>
+              <h3 className={styles.categoryTitle}>CMS & WordPress</h3>
             </div>
             <p className={styles.categoryDescription}>
-              Custom <strong>WordPress</strong> development with tailored themes and plugins.
-              Specializing in <strong>SEO optimization</strong> and performance enhancements
-              to ensure maximum visibility and user engagement.
+              Integrate CMS platforms including <strong>WordPress</strong>.
+              Customize themes and plugins, optimize SEO, enhance performance, and set up SSL for secure access.
             </p>
           </div>
+
         </div>
       </div>
     </section>

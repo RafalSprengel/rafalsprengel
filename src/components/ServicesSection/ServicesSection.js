@@ -1,77 +1,79 @@
 import styles from './ServicesSection.module.css';
-import { FaCode, FaServer, FaWordpress, FaMobile, FaShieldAlt, FaSearch } from 'react-icons/fa';
+import { FaCode, FaServer, FaWordpress, FaShieldAlt, FaSearch } from 'react-icons/fa';
 
 const services = [
   {
     icon: <FaCode className={styles.serviceIcon} />,
-    title: 'Custom Development',
-    description: 'Custom high-quality websites and web applications using modern technologies like Next.js, React.js, Node.js, and Express.js',
+    title: 'Websites & Applications',
+    description: 'High-quality, fully customized websites and web applications.',
     features: [
+      'Fully personalized visual design',
+      'Full responsive web design',
+      'Single Page Applications (SPA)',
+      'Multilingual websites',
+      'GA, GTM, Pixel analytics',
+      'GDPR / Consent Mode'
+    ]
+  },
+  {
+    icon: <FaShieldAlt className={styles.serviceIcon} />,
+    title: 'Custom Web Applications',
+    description: 'Tailored web applications and backend solutions.',
+    features: [
+      'Microservices',
       'Online payments integration (Stripe, Przelewy24)',
       'Booking & payment systems',
+      'Dedicated CMS (Content Management System)',
       'Client & Admin panels with user management',
       'Custom authentication systems',
+      'Integration with other systems',
       'API integrations'
     ]
   },
   {
     icon: <FaServer className={styles.serviceIcon} />,
-    title: 'Server & Infrastructure',
-    description: 'Complete server setup and infrastructure management for optimal performance and security',
+    title: 'Servers & Hosting',
+    description: 'Support in server setup and hosting for optimal performance and reliability.',
     features: [
       'Domain & hosting setup',
+      'Troubleshooting and problem-solving',
       'VPS server configuration (Ubuntu, NGINX)',
       'Security hardening (Firewall, Fail2ban)',
-      'SSL certificates installation',
       'Database management'
     ]
   },
   {
-    icon: <FaWordpress className={styles.serviceIcon} />,
-    title: 'WordPress Development',
-    description: 'Professional WordPress websites with custom functionality and modern design',
+    icon: <FaSearch className={styles.serviceIcon} />,
+    title: 'SEO & Analytics',
+    description: 'Improve website visibility, performance, and real-time monitoring.',
     features: [
-      'Custom theme development',
-      'Plugin customization',
-      'E-commerce solutions',
-      'Performance optimization',
-      'Security enhancements'
+      'Google Analytics (GA)',
+      'Speed optimization',
+      'Google Search optimization',
+      'Real-Time Traffic Monitoring'
     ]
   },
   {
-    icon: <FaMobile className={styles.serviceIcon} />,
-    title: 'Responsive Design',
-    description: 'Mobile-first responsive designs that work perfectly on all devices',
+    icon: <FaWordpress className={styles.serviceIcon} />,
+    title: 'WordPress & CMS',
+    description: 'Professional WordPress websites with modern design and custom functionality.',
     features: [
-      'Mobile-optimized interfaces',
-      'Cross-browser compatibility',
-      'Fast loading times',
-      'User experience optimization',
-      'Progressive Web Apps'
+      'Installation and configuration',
+      'Build from scratch',
+      'Plugin customization',
+      'Performance optimization',
+      'Security enhancements',
+      'SSL certificates installation'
     ]
   },
   {
     icon: <FaShieldAlt className={styles.serviceIcon} />,
-    title: 'Security & Maintenance',
-    description: 'Comprehensive security solutions and ongoing maintenance services',
+    title: 'Payments',
+    description: 'Integration with popular payment methods and systems.',
     features: [
-      'Security audits',
-      'Regular updates',
-      'Backup solutions',
-      'Performance monitoring',
-      '24/7 support availability'
-    ]
-  },
-  {
-    icon: <FaSearch className={styles.serviceIcon} />,
-    title: 'SEO Optimization',
-    description: 'Search engine optimization to improve visibility and ranking',
-    features: [
-      'On-page SEO',
-      'Technical SEO',
-      'Speed optimization',
-      'Content strategy',
-      'Analytics integration'
+      'Apple & Google Pay, Visa, Mastercard, BLIK, etc.',
+      'Payment carts',
+      'Payment confirmations'
     ]
   }
 ];
@@ -96,9 +98,9 @@ export default function ServicesSection() {
                 </div>
                 <h3 className={styles.serviceTitle}>{service.title}</h3>
               </div>
-              
+
               <p className={styles.serviceDescription}>{service.description}</p>
-              
+
               <ul className={styles.featuresList}>
                 {service.features.map((feature, featureIndex) => (
                   <li key={featureIndex} className={styles.featureItem}>
@@ -107,7 +109,7 @@ export default function ServicesSection() {
                   </li>
                 ))}
               </ul>
-            
+
             </div>
           ))}
         </div>
