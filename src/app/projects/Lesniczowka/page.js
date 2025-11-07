@@ -1,7 +1,7 @@
 'use client'
 
 import React from 'react'
-import styles from '../lesniczowka/page.module.css'
+import styles from './page.module.css'
 import ProjectHeroSection from '@/app/projects/_components/ProjectHeroSection/ProjectHeroSection'
 import dynamic from 'next/dynamic'
 import BottomButtonsBlock from '../_components/BottomButtonsBlock/BottomButtonsBlock';
