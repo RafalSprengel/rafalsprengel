@@ -55,7 +55,7 @@ export default function SkillsSection() {
               <h3 className={styles.categoryTitle}>Infrastructure & Deployment</h3>
             </div>
             <p className={styles.categoryDescription}>
-              Deploy full-stack applications on <strong>VPS</strong> with <strong>NGINX</strong> setup, configure domains, and install <strong>SSL certificates</strong>. Apply CI/CD with <strong>GitHub</strong> and <strong>Vercel</strong> for automated deployments.
+              Deploy full-stack applications on <strong>VPS</strong> with <strong>NGINX</strong> setup, configure domains, and install <strong>SSL certificates</strong>. Apply CI/CD with <strong>GitHub</strong> for automated deployments.
             </p>
 
           </div>
