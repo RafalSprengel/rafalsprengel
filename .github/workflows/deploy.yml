@@ -14,13 +14,13 @@ jobs:
       VPS_USER: ${{ secrets.VPS_USER }}
       VPS_HOST: ${{ secrets.VPS_HOST }}
       REMOTE_APP_PATH: ${{ secrets.REMOTE_APP_PATH }}
-      PM2_APP_NAME: 'rafalsprengel'
+      PM2_APP_NAME: rafalsprengel
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Use Node.js 20
+      - name: Setup Node.js 20
         uses: actions/setup-node@v4
         with:
           node-version: '20'
@@ -29,64 +29,76 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Build
+      - name: Build application
         run: npm run build
 
-      - name: Add SSH key
+      - name: Setup SSH agent
         uses: webfactory/ssh-agent@v0.9.1
         with:
           ssh-private-key: ${{ secrets.VPS_SSH_KEY }}
 
-      - name: Stop PM2 and clean remote directory
+      - name: Stop PM2 & clean remote directory
         run: |
-          ssh -o StrictHostKeyChecking=no -p "${SSH_PORT}" ${VPS_USER}@${VPS_HOST} '
+          ssh -o StrictHostKeyChecking=no \
+              -p "$SSH_PORT" \
+              "$VPS_USER@$VPS_HOST" << EOF
             set -e
-            echo "Sprawdzam, czy PM2 działa dla ${PM2_APP_NAME}..."
-            if pm2 describe "${PM2_APP_NAME}" > /dev/null 2>&1; then
-              echo "Zatrzymuję i usuwam aplikację PM2 ${PM2_APP_NAME}..."
-              pm2 stop "${PM2_APP_NAME}" || true 
-              pm2 delete "${PM2_APP_NAME}" || true 
+
+            echo "=== Sprawdzam status PM2: $PM2_APP_NAME ==="
+            if pm2 describe "$PM2_APP_NAME" > /dev/null 2>&1; then
+              echo "Zatrzymuję i usuwam aplikację PM2..."
+              pm2 stop "$PM2_APP_NAME" || true
+              pm2 delete "$PM2_APP_NAME" || true
               pm2 save
             else
-              echo "Aplikacja PM2 ${PM2_APP_NAME} nie działa."
+              echo "Aplikacja nie była uruchomiona."
             fi
-            
-            echo "Usuwam zawartość katalogu ${REMOTE_APP_PATH}..."
-            sudo rm -rf "${REMOTE_APP_PATH}/*" || true
-            sudo rm -rf "${REMOTE_APP_PATH}/.next" || true 
-            
-            echo "Tworzę katalog ${REMOTE_APP_PATH} (jeśli nie istnieje) i ustawiam uprawnienia..."
-            sudo mkdir -p "${REMOTE_APP_PATH}"
-            sudo chown -R ${VPS_USER}:${VPS_USER} "${REMOTE_APP_PATH}"
-            sudo chmod -R 755 "${REMOTE_APP_PATH}"
-          '
 
-      - name: Rsync files
+            echo "=== Czyszczę katalog: $REMOTE_APP_PATH ==="
+            sudo rm -rf "$REMOTE_APP_PATH/"* "$REMOTE_APP_PATH/.next" || true
+
+            echo "=== Tworzę katalog i ustawiam uprawnienia ==="
+            sudo mkdir -p "$REMOTE_APP_PATH"
+            sudo chown -R $VPS_USER:$VPS_USER "$REMOTE_APP_PATH"
+            sudo chmod -R 755 "$REMOTE_APP_PATH"
+
+            echo "=== Gotowe do rsync! ==="
+          EOF
+
+      - name: Deploy files via rsync
         run: |
           rsync -avz \
+            --delete \
             --exclude '.git' \
             --exclude 'node_modules' \
             --exclude '.github' \
             --exclude '.env*' \
             --exclude '.next/cache' \
-            ./ ${VPS_USER}@${VPS_HOST}:${REMOTE_APP_PATH}/ \
-            -e "ssh -o StrictHostKeyChecking=no -p '${SSH_PORT}'"
+            --exclude '.next/server' \
+            ./ \
+            "$VPS_USER@$VPS_HOST:$REMOTE_APP_PATH/" \
+            -e "ssh —o StrictHostKeyChecking=no -p '$SSH_PORT'"
 
-      - name: Deploy & restart PM2
+      - name: Install deps & restart with PM2
         run: |
-          ssh -o StrictHostKeyChecking=no -p "${SSH_PORT}" ${VPS_USER}@${VPS_HOST} '
+          ssh -o StrictHostKeyChecking=no \
+              -p "$SSH_PORT" \
+              "$VPS_USER@$VPS_HOST" << EOF
             set -e
-            cd "${REMOTE_APP_PATH}"
+            cd "$REMOTE_APP_PATH"
+
+            echo "=== Instaluję tylko produkcyjne zależności ==="
             export NODE_ENV=production
-            
-            echo "Instaluję tylko produkcyjne zależności..."
-            npm ci --omit=dev
-            
-            echo "Restartuję aplikację..."
-            if pm2 describe "${PM2_APP_NAME}" > /dev/null 2>&1; then
-              pm2 restart "${PM2_APP_NAME}"
+            npm ci --omit=dev --prefer-offline
+
+            echo "=== Uruchamiam/restartuję aplikację ==="
+            if pm2 describe "$PM2_APP_NAME" > /dev/null 2>&1; then
+              pm2 reload "$PM2_APP_NAME" --update-env
             else
-              pm2 start npm --name "${PM2_APP_NAME}" -- start
+              pm2 start npm --name "$PM2_APP_NAME" -- start
               pm2 save
             fi
-          '
+
+            echo "=== Deploy zakończony sukcesem! ==="
+            pm2 list
+          EOF
