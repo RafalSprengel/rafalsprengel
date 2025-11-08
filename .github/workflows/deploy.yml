@@ -39,22 +39,23 @@ jobs:
 
       - name: Create remote directory
         run: |
-          ssh -o StrictHostKeyChecking=no -p ${SSH_PORT} ${VPS_USER}@${VPS_HOST} \
+          ssh -o StrictHostKeyChecking=no -p "${SSH_PORT}" ${VPS_USER}@${VPS_HOST} \
             "mkdir -p '${REMOTE_APP_PATH}'"
 
       - name: Rsync files
         run: |
-          rsync -az --delete \
+          rsync -avz --delete \
             --exclude '.git' \
             --exclude 'node_modules' \
             --exclude '.github' \
             --exclude '.env*' \
+            --exclude '.next/cache' \
             ./ ${VPS_USER}@${VPS_HOST}:${REMOTE_APP_PATH}/ \
-            -e "ssh -o StrictHostKeyChecking=no -p ${SSH_PORT}"
+            -e "ssh -o StrictHostKeyChecking=no -p '${SSH_PORT}'"
 
-      - name: Deploy & restart with npm
+      - name: Deploy & restart PM2
         run: |
-          ssh -o StrictHostKeyChecking=no -p ${SSH_PORT} ${VPS_USER}@${VPS_HOST} '
+          ssh -o StrictHostKeyChecking=no -p "${SSH_PORT}" ${VPS_USER}@${VPS_HOST} '
             set -e
             cd "${REMOTE_APP_PATH}"
             export NODE_ENV=production
