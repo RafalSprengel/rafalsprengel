@@ -39,25 +39,21 @@ jobs:
 
       - name: Stop PM2 & clean remote directory
         run: |
-          ssh -o StrictHostKeyChecking=no \
-              -o BatchMode=yes \
-              -o UserKnownHostsFile=/dev/null \
-              -p "${SSH_PORT}" \
-              "${VPS_USER}@${VPS_HOST}" '
+          ssh -p "${SSH_PORT}" "${VPS_USER}@${VPS_HOST}" "
             set -e
-            echo "=== PM2: '"${PM2_APP_NAME}"' ==="
-            pm2 delete "'"${PM2_APP_NAME}"'" 2>/dev/null || echo "Nie było apki"
+            echo '=== PM2: ${PM2_APP_NAME} ==='
+            pm2 delete ${PM2_APP_NAME} 2>/dev/null || echo 'Nie było apki'
 
-            echo "=== Czyszczę stary kod ==="
-            rm -rf "'"${REMOTE_APP_PATH}"'"/* "'"${REMOTE_APP_PATH}"'"/.next 2>/dev/null || true
+            echo '=== Czyszczę stary kod ==='
+            rm -rf ${REMOTE_APP_PATH}/* ${REMOTE_APP_PATH}/.next 2>/dev/null || true
 
-            echo "=== Tworzę katalog ==="
-            mkdir -p "'"${REMOTE_APP_PATH}"'"
-            chown -R "'"${VPS_USER}"'":"'"${VPS_USER}"'" "'"${REMOTE_APP_PATH}"'"
-            chmod -R 755 "'"${REMOTE_APP_PATH}"'"
+            echo '=== Tworzę katalog ==='
+            mkdir -p ${REMOTE_APP_PATH}
+            chown -R ${VPS_USER}:${VPS_USER} ${REMOTE_APP_PATH}
+            chmod -R 755 ${REMOTE_APP_PATH}
 
-            echo "=== Gotowe do rsync! ==="
-          '
+            echo '=== Gotowe do rsync! ==='
+          "
 
       - name: Deploy files via rsync
         run: |
