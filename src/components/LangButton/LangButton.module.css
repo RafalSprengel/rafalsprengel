@@ -10,7 +10,7 @@
 
 .switch > span {
   position: absolute;
-  top: 14px;
+  top: 12px;
   pointer-events: none;
   font-family: 'Helvetica', Arial, sans-serif;
   font-weight: bold;
@@ -57,7 +57,7 @@
 
 .checkToggleRoundFlat + label {
   padding: 2px;
-  width: 97px;
+  width: 100px;
   height: 35px;
   background-color: #149ddd;
   border-radius: 60px;
