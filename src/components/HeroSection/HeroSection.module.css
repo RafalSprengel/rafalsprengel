@@ -33,6 +33,7 @@
     height: 100%;
     width: 100%;
 }
+
 .hero_section img {
     position: absolute;
     top: 0;
@@ -63,4 +64,12 @@
 .hero__subtitleTyped {
     border-bottom: 2px solid #149ddd;
     padding-bottom: 2px;
+}
+
+.langButtWrap {
+    z-index: 1;
+    position: absolute;
+    right: 90px;
+    top: 37px;
+
 }

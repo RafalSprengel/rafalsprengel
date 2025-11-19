@@ -2,6 +2,8 @@
 
 import styles from './HeroSection.module.css';
 import dynamic from 'next/dynamic';
+import LangButton from '../LangButton/LangButton.js';
+
 
 const TypedSubtitle = dynamic(() => import('../TypedSubtitle'), {
   ssr: false,
@@ -12,7 +14,12 @@ export default function HeroSection() {
     return (
         <section id="hero" className={styles.hero_section}>
             {/* <img src='/images/homePage/hero-bg.jpg' alt='hero'></img> */}
+            <div className={styles.langButtWrap}>
+                <LangButton />
+            </div>
+            
             <video  className={styles.videoContainer} width="640" height="360" autoPlay loop muted playsInline>
+                
                 <source src="assets/home-page/intro.mp4" type="video/mp4" />
                    Your browser does not support video.
             </video>
