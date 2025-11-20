@@ -24,10 +24,13 @@ import Footer from '../components/Footer/Footer';
 import { GoogleTagManager } from '@next/third-parties/google'
 import ScrollToTop from '../components/ScrollToTop/ScrollToTop'
 import { NextIntlClientProvider } from 'next-intl';
+import { cookies } from 'next/headers';
 
-export default function RootLayout({ children }) {
+export default async function RootLayout({ children }) {
+  const cookieStore = await cookies();
+  const currentLocale = cookieStore.get('locale')?.value || 'en';
   return (
-    <html lang="en">
+    <html lang={currentLocale}>
       <GoogleTagManager gtmId="GTM-TLVPQ9VN" />
       <body className={styles.body}>
         <NextIntlClientProvider>

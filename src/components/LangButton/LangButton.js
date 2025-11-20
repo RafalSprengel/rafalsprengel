@@ -32,8 +32,8 @@ export default function LangButton({ currentLocale }) {
                     onChange={handleLocaleChange}
                 />
                 <label htmlFor="language-toggle"></label>
-                <span className={styles.on}>EN</span>
-                <span className={styles.off}>PL</span>
+                <span className={styles.on}>PL</span>
+                <span className={styles.off}>EN</span>
             </div>
         </div>
     );

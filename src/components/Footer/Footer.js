@@ -1,7 +1,19 @@
 import styles from './Footer.module.css';
-import { FaGithub, FaLinkedin, FaFacebook, FaEnvelope, FaPhone } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaFacebook, FaEnvelope } from 'react-icons/fa';
+import { useTranslations } from 'next-intl';
 
 export default function Footer() {
+    const t = useTranslations('Footer');
+    const tContact = useTranslations('ContactSection'); // Użycie kluczy z ContactSection
+
+    // Tablica linków do łatwej iteracji
+    const quickLinks = ['home', 'about', 'skills', 'portfolio', 'services', 'contact'];
+
+    // Statyczne dane kontaktowe z ContactSection
+    const email = tContact('email.value');
+    const phone = tContact('phone.value');
+    const address = tContact('address.value');
+
     return (
         <div className={styles.container}>
             <div className={styles.footerContent}>
@@ -12,30 +24,28 @@ export default function Footer() {
                         </div>
 
                         <p className={styles.footerDesc}>
-                            Full-stack web developer specializing in modern, responsive websites
-                            and web applications. From concept to deployment, I deliver complete solutions.
+                            {t('description')}
                         </p>
                     </div>
 
                     <div className={styles.footerLinks}>
-                        <h4 className={styles.footerLinksTitle}>Quick Links</h4>
-                        <a href="#hero" className={styles.footerLink}>Home</a>
-                        <a href="#about" className={styles.footerLink}>About</a>
-                        <a href="#skills" className={styles.footerLink}>Skills</a>
-                        <a href="#portfolio" className={styles.footerLink}>Portfolio</a>
-                        <a href="#services" className={styles.footerLink}>Services</a>
-                        <a href="#contact" className={styles.footerLink}>Contact</a>
+                        <h4 className={styles.footerLinksTitle}>{t('quick_links.title')}</h4>
+                        {quickLinks.map(link => (
+                            <a key={link} href={`#${link}`} className={styles.footerLink}>
+                                {t(`quick_links.${link}`)}
+                            </a>
+                        ))}
                     </div>
 
                     <div className={styles.footerLinks}>
-                        <h4 className={styles.footerLinksTitle}>Contact Info</h4>
-                        <a href="mailto:sprengel.rafal@gmail.com" className={styles.footerLink}>
-                            sprengel.rafal@gmail.com
+                        <h4 className={styles.footerLinksTitle}>{t('contact_info.title')}</h4>
+                        <a href={`mailto:${email}`} className={styles.footerLink}>
+                            {email}
                         </a>
-                        <a href="tel:+447518577503" className={styles.footerLink}>
-                            +44 7518 577503
+                        <a href={`tel:${phone.replace(/\s/g, '')}`} className={styles.footerLink}>
+                            {phone}
                         </a>
-                        <span className={styles.footerLink}>Hull, United Kingdom</span>
+                        <span className={styles.footerLink}>{address}</span>
                     </div>
                 </div>
 
@@ -49,17 +59,18 @@ export default function Footer() {
                     <a href="https://www.facebook.com/profile.php?id=100075524473779" target="_blank" rel="noopener noreferrer" className={styles.footerSocialLink}>
                         <FaFacebook />
                     </a>
-                    <a href="mailto:sprengel.rafal@gmail.com" className={styles.footerSocialLink}>
+                    <a href={`mailto:${email}`} className={styles.footerSocialLink}>
                         <FaEnvelope />
                     </a>
                 </div>
 
                 <div className={styles.footerBottom}>
                     <div className={styles.copyright}>
-                        <p>© <span>Copyright</span> <strong className={styles.sitename}>Rafał Sprengel</strong> <span>All Rights Reserved</span></p>
+                        {/* Wstawienie zmiennej roku za pomocą next-intl */}
+                        <p>{t.rich('copyright', { year: new Date().getFullYear(), sitename: (chunks) => <strong className={styles.sitename}>{chunks}</strong> })}</p>
                     </div>
                     <div className={styles.credits}>
-                        Designed by <a href="https://rafalsprengel.com/">Rafał Sprengel</a>
+                        {t.rich('credits', { link: (chunks) => <a href="https://rafalsprengel.com/">{chunks}</a> })}
                     </div>
                 </div>
             </div>

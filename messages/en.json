@@ -1,5 +1,179 @@
 {
   "AboutSection": {
-    "title": "About"
+    "title": "About",
+    "main_description_p1": "I am a full-stack web developer with a Computer Engineering degree, specializing in building modern websites and web applications. I offer affordable, professional solutions ranging from basic web applications to comprehensive systems that support businesses across different sectors.",
+    "col2_title": "UI/UX Designer & Web Developer",
+    "col2_description_p2": "I work with both frontend and backend technologies, delivering scalable applications with a focus on performance and security. My expertise covers the entire development lifecycle — from server setup and configuration, through backend and frontend development, to fully secured websites."
+  },
+  "SkillsSection": {
+    "main_title": "Skills & Technologies",
+    "main_subtitle": "Comprehensive expertise across the full web development stack.",
+    "frontend": {
+      "title": "Frontend Development",
+      "description": "Tworzenie responsywnych i interaktywnych interfejsów przy użyciu <strong1>Next.js</strong1> i <strong1>React.js</strong1>. Praca z frameworkami <strong2>CSS</strong2> oraz bibliotekami komponentów, takimi jak <strong3>Mantine UI</strong3> i <strong4>Material UI</strong4>."
+    },
+    "backend": {
+      "title": "Backend Development",
+      "description": "Budowa zapleczy Node.js + Express.js oraz interfejsów REST API z bezpiecznym uwierzytelnianiem za pomocą <strong1>JWT</strong1> i <strong1>OAuth2</strong1>. Wykorzystanie nowoczesnych baz danych NoSQL, takich jak <strong2>MongoDB</strong2>."
+    },
+    "security": {
+      "title": "Security & Payment",
+      "description": "Wdrażanie systemów bezpieczeństwa i uwierzytelniania zgodnie ze standardami <strong1>JWT</strong1> i <strong1>OAuth</strong1>. Zarządzanie rolami i uprawnieniami w panelach administracyjnych i klienckich. Integracja aplikacji z systemami płatności, takimi jak <strong2>Stripe</strong2> i <strong3>Przelewy24</strong3>, w tym bezpieczne potwierdzenia płatności za pomocą webhooków."
+    },
+    "infrastructure": {
+      "title": "Infrastructure & Deployment",
+      "description": "Wdrażanie aplikacji full-stack na serwerach <strong1>VPS</strong1> z konfiguracją <strong2>NGINX</strong2>, konfiguracją domen i instalacją <strong3>certyfikatów SSL</strong3>. Stosowanie CI/CD z <strong4>GitHub</strong4> dla automatycznych wdrożeń."
+    },
+    "uiux": {
+      "title": "UI/UX, Performance & SEO",
+      "description": "Projektowanie responsywnych i dostępnych interfejsów z dbałością o doświadczenie użytkownika. Optymalizacja wydajności za pomocą lazy loading, cachowania i optymalizacji obrazów. Wdrażanie strategii SEO i integracja analityki dla lepszej widoczności i zaangażowania."
+    },
+    "cms": {
+      "title": "CMS & WordPress",
+      "description": "Integracja platform CMS, w tym <strong1>WordPress</strong1>. Dostosowywanie motywów i wtyczek, optymalizacja SEO, poprawa wydajności oraz konfiguracja SSL dla bezpiecznego dostępu."
+    }
+  },
+  "PortfolioSection": {
+    "main_title": "Portfolio",
+    "main_description": "Recent projects showcasing my expertise in web development.",
+    "visit_website": "Visit Website",
+    "view_code": "Code",
+    "see_more_overlay": "See more",
+    "see_more_link": "See more...",
+    "restaurantWebsite": {
+      "title": "Responsive Restaurant Website",
+      "image": "/assets/home-page/www.jpg",
+      "description": "Modern, fully responsive website for a restaurant featuring online ordering, menu, gallery, table reservation system, and contact form.",
+      "tags": "React, Express.js, MongoDB, Stripe",
+      "category": "Custom Website",
+      "liveUrl": "https://restaurant.rafalsprengel.com/",
+      "githubUrl": "https://github.com/RafalSprengel/restaurant-pos-frontend",
+      "seeMoreLink": "/projects/restaurant"
+    },
+    "restaurantPOS": {
+      "title": "Restaurant POS Management System",
+      "image": "/assets/home-page/server.jpg",
+      "description": "Advanced web application for managing a restaurant: admin panel, customer accounts, orders, menu items, categories, and staff workflows.",
+      "tags": "Express.js, MongoDB, Stripe, Custom VPS",
+      "category": "Web Application",
+      "liveUrl": "https://restaurant.rafalsprengel.com/management/login/",
+      "githubUrl": "https://github.com/RafalSprengel/restaurant-pos-backend",
+      "seeMoreLink": "/projects/webapp"
+    },
+    "resortBooking": {
+      "title": "Holiday Resort Booking Website",
+      "image": "/assets/home-page/wordpress.jpg",
+      "description": "Custom WordPress site for a holiday resort with online booking, gallery, and easy content management for quick updates.",
+      "tags": "WordPress, PHP, JavaScript",
+      "category": "WordPress",
+      "liveUrl": "https://lesniczowkawiezyca.pl/",
+      "githubUrl": "#",
+      "seeMoreLink": "/projects/lesniczowka"
+    }
+  },
+  "ServicesSection": {
+    "main_title": "Services",
+    "main_subtitle": "Comprehensive web development solutions from concept to deployment.",
+    "websites": {
+      "title": "Websites & Applications",
+      "description": "High-quality, fully customized websites and web applications.",
+      "features": {
+        "f1": "Fully personalized visual design",
+        "f2": "Full responsive web design",
+        "f3": "Single Page Applications (SPA)",
+        "f4": "Multilingual websites",
+        "f5": "GA, GTM, Pixel analytics",
+        "f6": "GDPR / Consent Mode"
+      }
+    },
+    "applications": {
+      "title": "Custom Web Applications",
+      "description": "Tailored web applications and backend solutions.",
+      "features": {
+        "f1": "Microservices",
+        "f2": "Online payments integration (Stripe, Przelewy24)",
+        "f3": "Booking & payment systems",
+        "f4": "Dedicated CMS (Content Management System)",
+        "f5": "Client & Admin panels with user management",
+        "f6": "Custom authentication systems",
+        "f7": "Integration with other systems",
+        "f8": "API integrations"
+      }
+    },
+    "servers": {
+      "title": "Servers & Hosting",
+      "description": "Support in server setup and hosting for optimal performance and reliability.",
+      "features": {
+        "f1": "Domain & hosting setup",
+        "f2": "Troubleshooting and problem-solving",
+        "f3": "VPS server configuration (Ubuntu, NGINX)",
+        "f4": "Security hardening (Firewall, Fail2ban)",
+        "f5": "Database management"
+      }
+    },
+    "seo": {
+      "title": "SEO & Analytics",
+      "description": "Improve website visibility, performance, and real-time monitoring.",
+      "features": {
+        "f1": "Google Analytics (GA)",
+        "f2": "Speed optimization",
+        "f3": "Google Search optimization",
+        "f4": "Real-Time Traffic Monitoring"
+      }
+    },
+    "wordpress": {
+      "title": "WordPress & CMS",
+      "description": "Professional WordPress websites with modern design and custom functionality.",
+      "features": {
+        "f1": "Installation and configuration",
+        "f2": "Build from scratch",
+        "f3": "Plugin customization",
+        "f4": "Performance optimization",
+        "f5": "Security enhancements",
+        "f6": "SSL certificates installation"
+      }
+    },
+    "payments": {
+      "title": "Payments",
+      "description": "Integration with popular payment methods and systems.",
+      "features": {
+        "f1": "Apple & Google Pay, Visa, Mastercard, BLIK, etc.",
+        "f2": "Payment carts",
+        "f3": "Payment confirmations"
+      }
+    }
+  },
+  "ContactSection": {
+    "main_title": "Contact",
+    "main_description": "Let's build something great together!\nWhether you need a custom web application, a modern business website, or help with server setup and security – feel free to reach out. I'll be happy to discuss your project and find the best solution for your needs.",
+    "phone": {
+      "title": "Call Me",
+      "value": "+44 7518 577503"
+    },
+    "email": {
+      "title": "Email Me",
+      "value": "sprengel.rafal@gmail.com"
+    },
+    "address": {
+      "title": "Address",
+      "value": "Hull, United Kingdom"
+    }
+  },
+  "Footer": {
+    "description": "Full-stack web developer specializing in modern, responsive websites and web applications. From concept to deployment, I deliver complete solutions.",
+    "quick_links": {
+      "title": "Quick Links",
+      "home": "Home",
+      "about": "About",
+      "skills": "Skills",
+      "portfolio": "Portfolio",
+      "services": "Services",
+      "contact": "Contact"
+    },
+    "contact_info": {
+      "title": "Contact Info"
+    },
+    "copyright": "© {year} Copyright <sitename>Rafał Sprengel</sitename> All Rights Reserved",
+    "credits": "Designed by <link>Rafał Sprengel</link>"
   }
 }
