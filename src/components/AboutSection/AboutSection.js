@@ -1,9 +1,11 @@
 import styles from './About.module.css';
+import {useTranslations} from 'next-intl';
 
 export default function AboutSection() {
+    const t = useTranslations('AboutSection');
     return (
         <section id="about" className={styles.about__section}>
-            <h2 className={styles.about__title}>About</h2>
+            <h2 className={styles.about__title}>{t('title')}</h2>
             <p className={styles.about__desc}>
                 I am a full-stack web developer with a Computer Engineering degree, specializing in building modern websites and web applications. I offer affordable, professional solutions ranging from basic web applications to comprehensive systems that support businesses across different sectors.
             </p>

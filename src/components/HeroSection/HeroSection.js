@@ -10,12 +10,12 @@ const TypedSubtitle = dynamic(() => import('../TypedSubtitle'), {
   loading: () => <span>Web Developer</span>
 });
 
-export default function HeroSection() {
+export default function HeroSection({currentLocale}) {
     return (
         <section id="hero" className={styles.hero_section}>
             {/* <img src='/images/homePage/hero-bg.jpg' alt='hero'></img> */}
             <div className={styles.langButtWrap}>
-                <LangButton />
+                <LangButton currentLocale={currentLocale}/>
             </div>
             
             <video  className={styles.videoContainer} width="640" height="360" autoPlay loop muted playsInline>

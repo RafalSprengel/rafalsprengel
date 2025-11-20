@@ -23,18 +23,21 @@ import Aside from '../components/Aside/Aside';
 import Footer from '../components/Footer/Footer';
 import { GoogleTagManager } from '@next/third-parties/google'
 import ScrollToTop from '../components/ScrollToTop/ScrollToTop'
+import { NextIntlClientProvider } from 'next-intl';
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-    <GoogleTagManager gtmId="GTM-TLVPQ9VN" />
+      <GoogleTagManager gtmId="GTM-TLVPQ9VN" />
       <body className={styles.body}>
-        <Aside />
-        <main className={styles.main}>
-          {children}
-          <Footer />
-          <ScrollToTop />
-        </main>
+        <NextIntlClientProvider>
+          <Aside />
+          <main className={styles.main}>
+            {children}
+            <Footer />
+            <ScrollToTop />
+          </main>
+        </NextIntlClientProvider>
       </body>
     </html>
   )
