@@ -7,16 +7,10 @@ import { FaCode, FaServer, FaShieldAlt, FaCloud, FaWordpress, FaCogs } from 'rea
 export default function SkillsSection() {
     const t = useTranslations('SkillsSection');
     
-    // Funkcja pomocnicza dla tagu <strong>
-    const strongTag = (chunks) => <strong>{chunks}</strong>;
+  const strongTag = (chunks) => <strong>{chunks}</strong>;
 
-    // Obiekt mapujący wszystkie używane tagi numerowane w JSON na komponent <strong>
     const richTextComponents = {
-        strong1: strongTag,
-        strong2: strongTag,
-        strong3: strongTag,
-        strong4: strongTag,
-        strong5: strongTag,
+        strong: strongTag
     };
 
     return (

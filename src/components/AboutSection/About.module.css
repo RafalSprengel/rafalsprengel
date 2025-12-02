@@ -30,7 +30,7 @@
     font-size: 1.1rem;
     line-height: 1.7;
     color: #6c757d;
-    text-align: center;
+    text-align: start;
     max-width: 800px;
     margin: 0 auto 50px;
 }
@@ -95,6 +95,10 @@
     .about__content {
         flex-direction: column;
         gap: 30px;
+    }
+
+    .about__desc {
+        text-align: center;
     }
 
     .about__col1,

@@ -10,19 +10,19 @@
     "main_subtitle": "Kompleksowa wiedza obejmująca cały stos technologii tworzenia stron internetowych.",
     "frontend": {
       "title": "Frontend Development",
-      "description": "Tworzenie responsywnych i interaktywnych interfejsów przy użyciu <strong1>Next.js</strong1> i <strong1>React.js</strong1>. Praca z frameworkami <strong2>CSS</strong2> oraz bibliotekami komponentów, takimi jak <strong3>Mantine UI</strong3> i <strong4>Material UI</strong4>."
+      "description": "Tworzenie responsywnych i interaktywnych interfejsów przy użyciu <strong>Next.js</strong> i <strong>React.js</strong>. Praca z frameworkami <strong>CSS</strong> oraz bibliotekami komponentów, takimi jak <strong>Mantine UI</strong> i <strong>Material UI</strong>."
     },
     "backend": {
       "title": "Backend Development",
-      "description": "Budowa zapleczy Node.js + Express.js oraz interfejsów REST API z bezpiecznym uwierzytelnianiem za pomocą <strong1>JWT</strong1> i <strong1>OAuth2</strong1>. Wykorzystanie nowoczesnych baz danych NoSQL, takich jak <strong2>MongoDB</strong2>."
+      "description": "Budowa zapleczy Node.js + Express.js oraz interfejsów REST API z bezpiecznym uwierzytelnianiem za pomocą <strong>JWT</strong> i <strong>OAuth2</strong>. Wykorzystanie nowoczesnych baz danych NoSQL, takich jak <strong>MongoDB</strong>."
     },
     "security": {
       "title": "Bezpieczeństwo i Płatności",
-      "description": "Wdrażanie systemów bezpieczeństwa i uwierzytelniania zgodnie ze standardami <strong1>JWT</strong1> i <strong1>OAuth</strong1>. Zarządzanie rolami i uprawnieniami w panelach administracyjnych i klienckich. Integracja aplikacji z systemami płatności, takimi jak <strong2>Stripe</strong2> i <strong3>Przelewy24</strong3>, w tym bezpieczne potwierdzenia płatności za pomocą webhooków."
+      "description": "Wdrażanie systemów bezpieczeństwa i uwierzytelniania zgodnie ze standardami <strong>JWT</strong> i <strong>OAuth</strong>. Zarządzanie rolami i uprawnieniami w panelach administracyjnych i klienckich. Integracja aplikacji z systemami płatności, takimi jak <strong>Stripe</strong> i <strong>Przelewy24</strong>, w tym bezpieczne potwierdzenia płatności za pomocą webhooków."
     },
     "infrastructure": {
       "title": "Infrastruktura i Wdrożenie",
-      "description": "Wdrażanie aplikacji full-stack na serwerach <strong1>VPS</strong1> z konfiguracją <strong2>NGINX</strong2>, konfiguracją domen i instalacją <strong3>certyfikatów SSL</strong3>. Stosowanie CI/CD z <strong4>GitHub</strong4> dla automatycznych wdrożeń."
+      "description": "Wdrażanie aplikacji full-stack na serwerach <strong>VPS</strong> z konfiguracją <strong>NGINX</strong>, konfiguracją domen i instalacją <strong>certyfikatów SSL</strong>. Stosowanie CI/CD z <strong>GitHub</strong> dla automatycznych wdrożeń."
     },
     "uiux": {
       "title": "UI/UX, Wydajność i SEO",
@@ -30,7 +30,7 @@
     },
     "cms": {
       "title": "CMS i WordPress",
-      "description": "Integracja platform CMS, w tym <strong1>WordPress</strong1>. Dostosowywanie motywów i wtyczek, optymalizacja SEO, poprawa wydajności oraz konfiguracja SSL dla bezpiecznego dostępu."
+      "description": "Integracja platform CMS, w tym <strong>WordPress</strong>. Dostosowywanie motywów i wtyczek, optymalizacja SEO, poprawa wydajności oraz konfiguracja SSL dla bezpiecznego dostępu."
     }
   },
   "PortfolioSection": {
@@ -157,6 +157,15 @@
     "address": {
       "title": "Adres",
       "value": "Hull, Wielka Brytania"
+    },
+    "form": {
+      "name": "Twoje imię",
+      "email": "Twój e-mail",
+      "subject": "Temat",
+      "message": "Wiadomość",
+      "send": "Wyślij wiadomość",
+      "sending": "Wysyłanie...",
+      "success": "Dziękujemy za kontakt! Odezwiemy się wkrótce."
     }
   },
   "Footer": {
@@ -175,5 +184,267 @@
     },
     "copyright": "© {year} Prawa autorskie <sitename>Rafał Sprengel</sitename> Wszelkie prawa zastrzeżone",
     "credits": "Zaprojektowane przez <link>Rafał Sprengel</link>"
+  },
+  "Aside": {
+    "home": "Główna",
+    "about": "O mnie",
+    "skills": "Umiejętności",
+    "portfolio": "Portfolio",
+    "services": "Usługi",
+    "contact": "Kontakt"
+  },
+  "HeroSection": {
+    "im_a": "Jestem",
+    "fallback_subtitle": "Web Developer",
+    "video_not_supported": "Twoja przeglądarka nie wspiera video.",
+    "typed": {
+      "webdeveloper": "Web Developerem",
+      "freelancer": "Freelancerem",
+      "designer": "Projektantem UI/UX"
+    }
+  },
+  "RestaurantProject": {
+    "hero": {
+      "title": "System POS i Zamówień Online dla Restauracji",
+      "description": "Jako deweloper, miałem przyjemność pracować nad kompleksowym systemem Point of Sale (POS) dla restauracji, który łączy zaawansowane funkcje zamówień online z intuicyjnym panelem zarządzania. Projekt ten był doskonałą okazją do zaprezentowania moich umiejętności w tworzeniu skalowalnych, responsywnych i bezpiecznych aplikacji internetowych, które autentycznie odpowiadają na potrzeby biznesowe."
+    },
+    "publicFeatures": {
+      "menu": {
+        "desc": "Dynamiczne Menu",
+        "description": "Dynamiczne Menu: Klienci mogą łatwo przeglądać menu, filtrować produkty i dodawać pozycje do koszyka."
+      },
+      "cart": {
+        "desc": "Inteligentny Koszyk",
+        "description": "Inteligentny Koszyk: Przejrzysty i przyjazny dla użytkownika koszyk, pozwalający klientom na przeglądanie, aktualizację lub usuwanie pozycji przed finalizacją zamówienia."
+      },
+      "process": {
+        "desc": "Proces Zamawiania",
+        "description": "Proces Zamawiania: Płynny przepływ od wyboru produktu i personalizacji do bezpiecznej finalizacji transakcji."
+      },
+      "payments": {
+        "desc": "Bezpieczne Płatności",
+        "description": "Bezpieczne Płatności ze Stripe: Klienci mogą bezpiecznie dokonywać transakcji przy użyciu kart kredytowych lub portfeli cyfrowych, z pełnym szyfrowaniem."
+      },
+      "reservations": {
+        "desc": "Rezerwacje Stolików",
+        "description": "Rezerwacje Stolików: Prosty formularz rezerwacji ze sprawdzaniem dostępności w czasie rzeczywistym."
+      },
+      "contact": {
+        "desc": "Formularz Kontaktowy",
+        "description": "Formularz Kontaktowy: Szybki sposób dla klientów na kontakt z restauracją w sprawie zapytań, opinii lub specjalnych życzeń."
+      }
+    },
+    "panelFeatures": {
+      "dashboard": {
+        "desc": "Przegląd Dashboardu",
+        "description": "Dashboard: Zapewnia przejrzysty i intuicyjny przegląd kluczowych wskaźników biznesowych dla świadomego podejmowania decyzji."
+      },
+      "products": {
+        "desc": "Zarządzanie Produktami",
+        "description": "Zarządzanie Produktami: Łatwe dodawanie, edytowanie i organizowanie pozycji menu, aby oferta restauracji była zawsze aktualna."
+      },
+      "orders": {
+        "desc": "Zarządzanie Zamówieniami",
+        "description": "Zarządzanie Zamówieniami: Śledzenie, monitorowanie i aktualizowanie statusów zamówień w czasie rzeczywistym, aby zapewnić płynność operacji."
+      },
+      "messages": {
+        "desc": "Wiadomości od Klientów",
+        "description": "Wiadomości: Skuteczne odbieranie i odpowiadanie na wiadomości od klientów, co usprawnia komunikację."
+      },
+      "staff": {
+        "desc": "Zarządzanie Rolami Użytkowników",
+        "description": "Zarządzanie Personelem: Łatwe dodawanie, edytowanie i usuwanie użytkowników oraz kontrola ich ról i poziomów dostępu."
+      },
+      "reservations": {
+        "desc": "Rezerwacje Stolików",
+        "description": "Zarządzanie Rezerwacjami Stolików: Bezproblemowe przeglądanie, zarządzanie i aktualizowanie rezerwacji stolików."
+      }
+    },
+    "challenge": {
+      "title": "Wyzwanie: Transformacja Cyfrowa w Gastronomii",
+      "text": "Współczesne restauracje potrzebują więcej niż tylko pysznego jedzenia. W erze digitalizacji, sprawne zarządzanie zamówieniami, rezerwacjami, relacjami z klientami oraz zapewnienie płynnego doświadczenia online jest kluczowe. Moim celem było stworzenie rozwiązania, które zautomatyzuje te procesy, poszerzy zasięg restauracji i zwiększy satysfakcję klientów, jednocześnie wyposażając personel w potężne narzędzia zarządzania."
+    },
+    "solution": {
+      "title": "Moje Rozwiązanie: Architektura i Implementacja",
+      "text": "Zaprojektowałem i wdrożyłem aplikację opartą na nowoczesnym stosie technologicznym, stawiając na modularność, wydajność i łatwość utrzymania."
+    },
+    "frontend": {
+      "title": "Frontend – Interfejs Użytkownika i Doświadczenie Klienta:",
+      "text1": "Na frontendzie zdecydowałem się na <strong>React.js</strong> w połączeniu z <a>Mantine UI</a>, co pozwoliło mi szybko zbudować bogate i dostępne komponenty. Dzięki temu klienci mają intuicyjny interfejs do przeglądania menu, personalizacji zamówień oraz rezerwacji stolików. Szczególną uwagę poświęciłem responsywności, zapewniając bezproblemowe działanie strony na wszystkich urządzeniach – od komputerów stacjonarnych po smartfony.",
+      "text2": "Panel zarządzania to kompleksowe narzędzie, które daje personelowi pełną kontrolę nad operacjami restauracji. Od monitorowania sprzedaży na dashboardzie, po zarządzanie produktami, kategoriami, oraz obsługę zamówień, klientów i rezerwacji. Implementacja ról użytkowników (admin, moderator, członek) zapewnia precyzyjną kontrolę dostępu."
+    },
+    "backend": {
+      "title": "Backend – Serce Systemu:",
+      "text": "Backend, zbudowany na Node.js z wykorzystaniem Express.js i bazy danych MongoDB, stanowi solidną podstawę dla wszystkich operacji. Opracowałem RESTful API, które obsługuje zarządzanie produktami, zamówieniami, użytkownikami i rezerwacjami. Kluczowe było zapewnienie bezpieczeństwa (JWT do autoryzacji, OAuth do logowania społecznościowego) i skalowalności, aby system mógł rosnąć wraz z restauracją."
+    },
+    "achievements": {
+      "title": "Kluczowe Osiągnięcia i Wykorzystane Umiejętności:",
+      "f1": "Kompleksowa Integracja: Bezproblemowo połączyłem frontend z backendem, systemem płatności Stripe oraz mechanizmami autoryzacji (JWT, Google/Facebook OAuth), tworząc spójne i funkcjonalne środowisko.",
+      "f2": "Responsywny Design: Zapewniłem doskonałe wrażenia użytkownika na wszystkich urządzeniach, co jest kluczowe w dzisiejszym świecie mobile-first.",
+      "f3": "Optymalizacja Wydajności: Wykorzystałem react-lazy-load-image-component do leniwego ładowania obrazów i zoptymalizowałem zapytania API, aby zapewnić szybkie i płynne działanie strony.",
+      "f4": "Zarządzanie Stanem: Skutecznie wykorzystałem React Context API i niestandardowe hooki (useFetch, useLocalStorage) do zarządzania złożonym stanem aplikacji.",
+      "f5": "Czysty Kod i Najlepsze Praktyki: Skoncentrowałem się na pisaniu czystego, modularnego i łatwego w utrzymaniu kodu, zgodnie z najlepszymi praktykami programistycznymi i standardami branżowymi."
+    },
+    "businessValue": {
+      "title": "Wartość Biznesowa:",
+      "text1": "Ten projekt demonstruje moją zdolność do tworzenia rozwiązań, które nie tylko świetnie wyglądają, ale, co ważniejsze, dostarczają wymiernej wartości biznesowej. Restauracja zyskuje dzięki:",
+      "f1": {
+        "title": "Zwiększonej Wydajności",
+        "description": "Automatyzacja obsługi zamówień i rezerwacji."
+      },
+      "f2": {
+        "title": "Ulepszonemu Doświadczeniu Klienta",
+        "description": "Łatwe i przyjemne zamawianie online."
+      },
+      "f3": {
+        "title": "Szerszemu Zasięgowi",
+        "description": "Dostępność online i na urządzeniach mobilnych."
+      },
+      "f4": {
+        "title": "Decyzjom Opartym na Danych",
+        "description": "Statystyki i raporty wspierające zarządzanie."
+      },
+      "text2": "Jestem dumny z tego, jak ten projekt łączy estetykę z solidną inżynierią, tworząc narzędzie, które może znacząco usprawnić działanie każdej restauracji. Chętnie omówię więcej szczegółów technicznych i wyzwań, z jakimi się zmierzyłem, oraz jak moje umiejętności mogą przyczynić się do sukcesu Twojego projektu."
+    }
+  },
+  "WebAppProject": {
+    "hero": {
+      "title": "System POS i zarządzania restauracją",
+      "description": "Kompleksowy system POS (Point of Sale) i zarządzania dla restauracji, z intuicyjnym interfejsem dla klientów oraz zaawansowanym panelem administracyjnym umożliwiającym pełną kontrolę nad operacjami. Zbudowany w oparciu o React.js, Node.js, Express.js i MongoDB."
+    },
+    "challenge": {
+      "title": "Wyzwanie: kompleksowe zarządzanie restauracją",
+      "text": "Prowadzenie nowoczesnej restauracji obejmuje wiele złożonych zadań — od obsługi zamówień i rezerwacji po zarządzanie personelem, stanem magazynowym i finansami. Wyzwanie polegało na stworzeniu spójnego, intuicyjnego i stabilnego systemu, który usprawnia te procesy, zwiększa efektywność i dostarcza zaawansowane narzędzia zarówno dla klientów, jak i administratorów."
+    },
+    "solution": {
+      "title": "Moje rozwiązanie: architektura full-stack",
+      "text": "Zaprojektowałem i wdrożyłem kompletną aplikację full-stack, koncentrując się na modułowości, bezpieczeństwie i skalowalności. System oferuje odrębne interfejsy dla klientów oraz potężny panel administracyjny dla personelu."
+    },
+    "customerPanel": {
+      "title": "Panel klienta: pełna kontrola dla użytkowników",
+      "description": "Panel klienta daje użytkownikom możliwość zarządzania swoim kontem, śledzenia historii zamówień oraz dokonywania rezerwacji.",
+      "features": {
+        "f1": "Rejestracja i logowanie: możliwość rejestracji i logowania za pomocą e-maila/hasła, Google lub Facebooka.",
+        "f2": "Ostatnie zamówienia: lista wszystkich złożonych zamówień z możliwością ich \"usunięcia\" (oznaczenia jako niewidoczne dla klienta).",
+        "f3": "Dane osobowe: podgląd i edycja informacji osobistych (imię, nazwisko, e-mail, telefon, adres).",
+        "f4": "Zmiana hasła: bezpieczna funkcja aktualizacji hasła.",
+        "f5": "Opcja trwałego usunięcia konta użytkownika."
+      }
+    },
+    "adminPanel": {
+      "title": "Panel administratora: centralne zarządzanie",
+      "description": "Panel administracyjny to serce systemu, zapewniające personelowi centralne miejsce do zarządzania wszystkimi aspektami działania restauracji, umożliwiające płynne procesy i podejmowanie decyzji opartych na danych.",
+      "features": {
+        "f1": "Dashboard: przejrzysty podgląd kluczowych wskaźników biznesowych dla świadomego podejmowania decyzji.",
+        "f2": "Zarządzanie produktami: łatwe dodawanie, edycja i organizacja pozycji w menu.",
+        "f3": "Aktualizacja produktów.",
+        "f4": "Zarządzanie kategoriami: pełne operacje tworzenia, odczytu, aktualizacji i usuwania kategorii produktów.",
+        "f5": "Zarządzanie klientami: łatwe dodawanie, modyfikowanie i usuwanie kont klientów oraz kontrola ich danych i uprawnień.",
+        "f6": "Zarządzanie zamówieniami: śledzenie, monitorowanie i aktualizacja statusów zamówień w czasie rzeczywistym.",
+        "f7": "Wiadomości: efektywne odbieranie i odpowiadanie na wiadomości od klientów.",
+        "f8": "Zarządzanie rezerwacjami stolików: podgląd, edycja i aktualizacja rezerwacji w sposób płynny.",
+        "f9": "Zarządzanie personelem: pełne operacje CRUD dla kont pracowników z przypisywaniem ról.",
+        "f10": "Ustawienia aplikacji: zarządzanie globalnymi ustawieniami rezerwacji, konfiguracją SMTP i innymi parametrami systemu."
+      }
+    },
+    "achievements": {
+      "title": "Kluczowe osiągnięcia i zastosowane technologie:",
+      "items": {
+        "f1": "Solidna autoryzacja: implementacja tokenów JWT, OAuth2 (Google/Facebook) oraz kontroli dostępu opartej na rolach dla bezpiecznego zarządzania użytkownikami i personelem.",
+        "f2": "Efektywne zarządzanie danymi: wykorzystanie MongoDB z Mongoose do elastycznych i skalowalnych operacji na danych, wspierających złożone struktury produktów, zamówień i użytkowników.",
+        "f3": "Kompleksowe API: RESTful API w Node.js/Express.js obejmujące operacje CRUD dla wszystkich kluczowych encji (produkty, zamówienia, użytkownicy, rezerwacje, wiadomości, personel, kategorie).",
+        "f4": "Bezpieczne płatności: integracja Stripe dla bezpiecznych płatności online, w tym obsługa webhooków do automatycznej aktualizacji statusów zamówień.",
+        "f5": "Statystyki i raportowanie w czasie rzeczywistym: endpointy do statystyk sprzedaży, śledzenia odwiedzin i przeglądu dashboardu wspierające decyzje biznesowe.",
+        "f6": "Responsywny i intuicyjny UI: projektowanie w React.js i Mantine UI, zapewniające spójne i przyjazne doświadczenie użytkownika na wszystkich urządzeniach.",
+        "f7": "Czysty kod i najlepsze praktyki: stosowanie standardów przemysłowych dla modularnego i łatwego w utrzymaniu kodu, w tym obsługa błędów i strukturalne logowanie."
+      }
+    },
+    "businessValue": {
+      "title": "Wartość biznesowa i wpływ:",
+      "introText": "Projekt pokazuje moją zdolność do tworzenia złożonych aplikacji full-stack, które przynoszą realną wartość biznesową poprzez:",
+      "items": {
+        "f1": {
+          "title": "Usprawnienie procesów",
+          "description": "Automatyzacja zamówień, rezerwacji i zarządzania stanem magazynowym, redukując ręczne obciążenie."
+        },
+        "f2": {
+          "title": "Lepsze zaangażowanie klientów",
+          "description": "Zapewnienie płynnego doświadczenia online w zakresie zamówień, rezerwacji i zarządzania kontem."
+        },
+        "f3": {
+          "title": "Wsparcie decyzji",
+          "description": "Dostarczanie danych i statystyk w czasie rzeczywistym przez dashboard administracyjny."
+        },
+        "f4": {
+          "title": "Zapewnienie bezpieczeństwa",
+          "description": "Implementacja solidnej autoryzacji, uwierzytelniania i mechanizmów obsługi płatności."
+        },
+        "f5": {
+          "title": "Skalowalność",
+          "description": "Budowa systemu zdolnego do rozwoju wraz z potrzebami restauracji."
+        }
+      },
+      "closingText": "Aplikacja jest dowodem mojej ekspertyzy w tworzeniu solidnych, przyjaznych użytkownikowi rozwiązań webowych, które zwiększają efektywność i wspierają rozwój biznesu."
+    },
+    "bottomButtons": {
+      "backToProjects": "Powrót do projektów",
+      "contactMe": "Skontaktuj się ze mną"
+    }
+  },
+  "LesniczowkaProject": {
+    "hero": {
+      "title": "Leśniczówka Wieżyca: Cyfrowa Brama do Kaszubskiego Ośrodka Wypoczynkowego",
+      "description": "Ta strona internetowa jest oficjalną platformą online Leśniczówki Wieżyca, spokojnego ośrodka położonego w malowniczym regionie Kaszub w Polsce. Głównym celem serwisu jest atrakcyjne przedstawienie udogodnień ośrodka — w tym przytulnych pokoi, sezonowych domków holenderskich oraz SPA z Jacuzzi i Sauną — oraz zapewnienie płynnego, kompleksowego procesu rezerwacji online. Kluczowym wyzwaniem, jakie rozwiązuje platforma, jest przekształcenie zainteresowania użytkowników w potwierdzone pobyty poprzez efektywny system samoobsługowy."
+    },
+    "challenge": {
+      "title": "Wyzwanie: Cyfrowa Transformacja w Branży Noclegowej",
+      "text": "Głównym wyzwaniem platformy było przekształcenie zainteresowania użytkowników w potwierdzone pobyty dzięki wydajnemu, samoobsługowemu systemowi rezerwacji online."
+    },
+    "solution": {
+      "title": "Rozwiązanie: Zintegrowany System Rezerwacji i Płatności",
+      "text": "Strona zawiera kompleksowy moduł rezerwacji, który daje gościom pełną kontrolę nad planowaniem pobytu, eliminując potrzebę ręcznej komunikacji w celu sprawdzania dostępności i dokonywania pierwszych płatności."
+    },
+    "keyFunctionalAreas": {
+      "title": "Kluczowe Obszary Funkcjonalne:"
+    },
+    "achievements": {
+      "title": "Kluczowe Osiągnięcia i Wykorzystane Umiejętności:",
+      "f1": "Integracja z Eagle Booking: Skonfigurowano wtyczkę do zarządzania rezerwacjami, dostępnością pokoi oraz płatnościami online.",
+      "f2": "Optymalizacja procesu rezerwacji: Dostosowano formularze rezerwacyjne i przepływ płatności, aby zapewnić płynne doświadczenie gości.",
+      "f3": "Dostosowanie motywu WordPress: Zaadaptowano motyw WordPress tak, aby pasował do identyfikacji wizualnej Leśniczówki Wieżyca.",
+      "f4": "Zarządzanie treścią i SEO: Wykorzystano narzędzia WordPress do zarządzania treścią i optymalizacji strony pod kątem wyszukiwarek.",
+      "f5": "Szkolenie personelu: Przeszkolono pracowników ośrodka w obsłudze panelu administracyjnego WordPress oraz zarządzaniu rezerwacjami."
+    },
+    "businessValue": {
+      "title": "Wartość Biznesowa:",
+      "introText": "Projekt pokazuje, jak tradycyjny biznes hotelowy może wejść w erę cyfrową dzięki inteligentnej integracji technologii, poprawiając zarówno efektywność operacyjną, jak i satysfakcję klientów.",
+      "closingText": "Poza wykonaniem technicznym, projekt stanowi dowód koncepcji, jak design i technologia mogą wzmocnić regionalną markę turystyczną — dostarczając wygodę gościom i strategiczną niezależność dla biznesu.",
+      "items": {
+        "f1": {
+          "title": "Automatyzacja operacji:",
+          "description": "Cyfrowy system rezerwacji i płatności zastąpił ręczne rezerwacje telefoniczne lub mailowe, znacznie zmniejszając obciążenie administracyjne i minimalizując ryzyko błędów."
+        },
+        "f2": {
+          "title": "Zwiększenie sprzedaży bezpośredniej:",
+          "description": "Platforma pozwala gościom rezerwować bezpośrednio przez stronę internetową, zmniejszając zależność od zewnętrznych portali i obniżając koszty prowizji."
+        },
+        "f3": {
+          "title": "Poprawa przepływów finansowych:",
+          "description": "Zintegrowana obsługa płatności zapewnia natychmiastowe potwierdzenie rezerwacji i szybki transfer środków do ośrodka, eliminując opóźnienia i niepewność."
+        },
+        "f4": {
+          "title": "Lepsze doświadczenie gościa:",
+          "description": "Intuicyjny interfejs, aktualna dostępność w czasie rzeczywistym oraz responsywny design tworzą płynny i niezawodny proces od przeglądania oferty do dokonania rezerwacji."
+        }
+      }
+    },
+    "bottomButtons": {
+      "backToProjects": "Powrót do projektów",
+      "contactMe": "Skontaktuj się ze mną"
+    }
+  },
+  "BottomButtonsBlock": {
+    "backToProjects": "Powrót do projektów",
+    "contactMe": "Skontaktuj się ze mną"
   }
 }

@@ -3,13 +3,14 @@
 import styles from './Aside.module.css'
 import { useState } from 'react';
 import dynamic from 'next/dynamic'
+import { useTranslations } from 'next-intl';
 import { FaGithub, FaLinkedin, FaFacebook, FaEnvelope, FaPhone, FaHome, FaUser, FaLaptopCode, FaImages, FaServicestack } from 'react-icons/fa';
 import HamburgerIcon from '../HamburgerIcon';
 const ProfileImage = dynamic(() => import('@/components/ProfileImage/ProfileImage'), { ssr: false })
 
 export default function Aside() {
     const [isOpen, setIsOpen] = useState(false);
-
+    const t = useTranslations('Aside');
 
     return (
         <aside className={`${styles.outer} ${isOpen ? styles['outer--visible'] : ''}`}>
@@ -48,37 +49,37 @@ export default function Aside() {
                     <ul className={styles.nav__list}>
                         <li className={styles.nav__item} onClick={() => setIsOpen(false)}>
                             <a href="/#hero" className={styles.nav__link}>
-                                <FaHome className={styles.nav__icon} /> Home
+                                <FaHome className={styles.nav__icon} /> {t('home')}
                             </a>
                         </li>
+
                         <li className={styles.nav__item} onClick={() => setIsOpen(false)}>
                             <a href="/#about" className={styles.nav__link}>
-                                <FaUser className={styles.nav__icon} /> About
+                                <FaUser className={styles.nav__icon} /> {t('about')}
                             </a>
                         </li>
 
                         <li className={styles.nav__item} onClick={() => setIsOpen(false)}>
                             <a href="/#skills" className={styles.nav__link}>
-                                <FaLaptopCode className={styles.nav__icon} /> Skills
+                                <FaLaptopCode className={styles.nav__icon} /> {t('skills')}
                             </a>
                         </li>
 
                         <li className={styles.nav__item} onClick={() => setIsOpen(false)}>
                             <a href="/#portfolio" className={styles.nav__link}>
-                                <FaImages className={styles.nav__icon} /> Portfolio
+                                <FaImages className={styles.nav__icon} /> {t('portfolio')}
                             </a>
                         </li>
 
-
                         <li className={styles.nav__item} onClick={() => setIsOpen(false)}>
                             <a href="/#services" className={styles.nav__link}>
-                                <FaServicestack className={styles.nav__icon} /> Services
+                                <FaServicestack className={styles.nav__icon} /> {t('services')}
                             </a>
                         </li>
 
                         <li className={styles.nav__item} onClick={() => setIsOpen(false)}>
                             <a href="/#contact" className={styles.nav__link}>
-                                <FaEnvelope className={styles.nav__icon} /> Contact
+                                <FaEnvelope className={styles.nav__icon} /> {t('contact')}
                             </a>
                         </li>
                     </ul>

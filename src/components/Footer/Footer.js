@@ -66,7 +66,6 @@ export default function Footer() {
 
                 <div className={styles.footerBottom}>
                     <div className={styles.copyright}>
-                        {/* Wstawienie zmiennej roku za pomocą next-intl */}
                         <p>{t.rich('copyright', { year: new Date().getFullYear(), sitename: (chunks) => <strong className={styles.sitename}>{chunks}</strong> })}</p>
                     </div>
                     <div className={styles.credits}>
