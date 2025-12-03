@@ -405,7 +405,43 @@
       "text": "Strona zawiera kompleksowy moduł rezerwacji, który daje gościom pełną kontrolę nad planowaniem pobytu, eliminując potrzebę ręcznej komunikacji w celu sprawdzania dostępności i dokonywania pierwszych płatności."
     },
     "keyFunctionalAreas": {
-      "title": "Kluczowe Obszary Funkcjonalne:"
+      "title": "Kluczowe obszary funkcjonalne:",
+      "f1": {
+        "desc": "Dostępność w czasie rzeczywistym i wyszukiwarka",
+        "description": "Dostępność w czasie rzeczywistym i wyszukiwarka: Goście mogą natychmiast wyszukać dostępne noclegi, podając daty oraz liczbę osób, otrzymując wyniki od razu."
+      },
+      "f2": {
+        "desc": "Bezpieczna rezerwacja online",
+        "description": "Bezpieczna rezerwacja online: Użytkownik przechodzi przez płynny, intuicyjny proces rezerwacji dla pobytów indywidualnych, grupowych lub pakietowych."
+      },
+      "f3": {
+        "desc": "Zintegrowane płatności online",
+        "description": "Zintegrowane płatności online: Goście mogą bezpiecznie dokonywać transakcji finansowych bezpośrednio na stronie, natychmiast potwierdzając rezerwację."
+      },
+      "f4": {
+        "desc": "Prezentacja treści i usług",
+        "description": "Prezentacja treści i usług: Szczegółowe informacje o ofercie ośrodka, typach zakwaterowania, organizacji wydarzeń oraz atrakcjach w okolicy."
+      },
+      "f5": {
+        "desc": "Galeria",
+        "description": "Galeria: Bogata wizualnie kolekcja zdjęć prezentująca ośrodek, pokoje, udogodnienia oraz wydarzenia, aby pomóc gościom lepiej wyobrazić sobie pobyt."
+      },
+      "f6": {
+        "desc": "Formularz kontaktowy",
+        "description": "Formularz kontaktowy: Prosty w użyciu formularz umożliwiający gościom zadawanie pytań, prośby o informacje lub kontakt z ośrodkiem w celu uzyskania spersonalizowanej pomocy."
+      },
+      "f7": {
+        "desc": "Widok mobilny",
+        "description": "Responsywny design: Strona zoptymalizowana pod wszystkie urządzenia, zapewniająca wygodne korzystanie na telefonach i tabletach."
+      },
+      "f8": {
+        "desc": "Panel administratora – lista rezerwacji",
+        "description": "Panel administratora: Pełny podgląd wszystkich rezerwacji z możliwością zarządzania statusami i szybkimi modyfikacjami."
+      },
+      "f9": {
+        "desc": "Panel administratora – widok kalendarza",
+        "description": "Kalendarz administratora: Wizualny kalendarz do śledzenia rezerwacji oraz sprawnego zarządzania dostępnością."
+      }
     },
     "achievements": {
       "title": "Kluczowe Osiągnięcia i Wykorzystane Umiejętności:",

@@ -53,52 +53,141 @@ export default function LesniczowkaProjectPage() {
 
   const keyFunctionalAreasData = [
     {
-      image: { full: '/assets/projects/lesniczowka/features/search-1.webp', thumb: '/assets/projects/lesniczowka/features/search-1-thumb.webp', desc: 'Real-Time Availability & Search' },
-      description: 'Real-Time Availability & Search: Guests can immediately search for available accommodations by specifying dates and number of people, ensuring instant results.',
+      image: { full: '/assets/projects/lesniczowka/features/search-1.webp', thumb: '/assets/projects/lesniczowka/features/search-1-thumb.webp', desc: t('keyFunctionalAreas.f1.desc') },
+      description: t('keyFunctionalAreas.f1.description'),
       icon: <FaSearch />
     },
     {
-      image: { full: '/assets/projects/lesniczowka/features/search-2.webp', thumb: '/assets/projects/lesniczowka/features/search-2-thumb.webp', desc: 'Secure Online Reservation' },
-      description: 'Secure Online Reservation: Guides users through a smooth, intuitive booking process for individual, group, or package deals.',
+      image: { full: '/assets/projects/lesniczowka/features/search-2.webp', thumb: '/assets/projects/lesniczowka/features/search-2-thumb.webp', desc: t('keyFunctionalAreas.f2.desc') },
+      description: t('keyFunctionalAreas.f2.description'),
       icon: <FaClipboardList />
     },
     {
-      image: { full: '/assets/projects/lesniczowka/features/process.webp', thumb: '/assets/projects/lesniczowka/features/process-thumb.webp', desc: 'Integrated Payment Processing' },
-      description: 'Integrated Payment Processing: Guests can securely complete financial transactions directly on the platform, confirming bookings instantly.',
+      image: { full: '/assets/projects/lesniczowka/features/process.webp', thumb: '/assets/projects/lesniczowka/features/process-thumb.webp', desc: t('keyFunctionalAreas.f3.desc') },
+      description: t('keyFunctionalAreas.f3.description'),
       icon: <FaCreditCard />
     },
     {
-      image: { full: '/assets/projects/lesniczowka/features/services.webp', thumb: '/assets/projects/lesniczowka/features/services-thumb.webp', desc: 'Content & Services Showcase' },
-      description: 'Content & Services Showcase: Extensive information on resort offerings, accommodation types, event hosting, and local attractions.',
+      image: { full: '/assets/projects/lesniczowka/features/services.webp', thumb: '/assets/projects/lesniczowka/features/services-thumb.webp', desc: t('keyFunctionalAreas.f4.desc') },
+      description: t('keyFunctionalAreas.f4.description'),
       icon: <FaBed />
     },
     {
-      image: { full: '/assets/projects/lesniczowka/features/gallery.webp', thumb: '/assets/projects/lesniczowka/features/gallery-thumb.webp', desc: 'Gallery' },
-      description: 'Gallery: A visually rich collection of images showcasing the resort, accommodations, facilities, and events to help guests get a clear sense of the experience.',
+      image: { full: '/assets/projects/lesniczowka/features/gallery.webp', thumb: '/assets/projects/lesniczowka/features/gallery-thumb.webp', desc: t('keyFunctionalAreas.f5.desc') },
+      description: t('keyFunctionalAreas.f5.description'),
       icon: <FaImages />
     },
     {
-      image: { full: '/assets/projects/lesniczowka/features/contact.webp', thumb: '/assets/projects/lesniczowka/features/contact-thumb.webp', desc: 'Contact Form' },
-      description: 'Contact Form: Easy-to-use form allowing guests to make inquiries, request information, or get in touch with the resort for personalized assistance.',
+      image: { full: '/assets/projects/lesniczowka/features/contact.webp', thumb: '/assets/projects/lesniczowka/features/contact-thumb.webp', desc: t('keyFunctionalAreas.f6.desc') },
+      description: t('keyFunctionalAreas.f6.description'),
       icon: <FaEnvelope />
     },
     {
-      image: { full: '/assets/projects/lesniczowka/features/mobile.webp', thumb: '/assets/projects/lesniczowka/features/mobile-thumb.webp', desc: 'Mobile View' },
-      description: 'Responsive design: Optimized for all devices, ensuring seamless user experience on mobile and tablet.',
+      image: { full: '/assets/projects/lesniczowka/features/mobile.webp', thumb: '/assets/projects/lesniczowka/features/mobile-thumb.webp', desc: t('keyFunctionalAreas.f7.desc') },
+      description: t('keyFunctionalAreas.f7.description'),
       icon: <FaMobileAlt />
     },
     {
-      image: { full: '/assets/projects/lesniczowka/features/reservations.webp', thumb: '/assets/projects/lesniczowka/features/reservations-thumb.webp', desc: 'Admin Panel - Reservations List' },
-      description: 'Admin Panel: Full overview of all bookings with status management and quick modifications.',
+      image: { full: '/assets/projects/lesniczowka/features/reservations.webp', thumb: '/assets/projects/lesniczowka/features/reservations-thumb.webp', desc: t('keyFunctionalAreas.f8.desc') },
+      description: t('keyFunctionalAreas.f8.description'),
       icon: <FaDatabase />
     },
     {
-      image: { full: '/assets/projects/lesniczowka/features/calendar.webp', thumb: '/assets/projects/lesniczowka/features/calendar-thumb.webp', desc: 'Admin Panel - Calendar View' },
-      description: 'Admin Calendar: Visual calendar to track reservations and manage availability efficiently.',
+      image: { full: '/assets/projects/lesniczowka/features/calendar.webp', thumb: '/assets/projects/lesniczowka/features/calendar-thumb.webp', desc: t('keyFunctionalAreas.f9.desc') },
+      description: t('keyFunctionalAreas.f9.description'),
       icon: <FaCalendarAlt />
     }
   ]
 
-
-  return (<section className={styles.projectSection}><ProjectHeroSection {...heroData} /><div className={styles.container}><div className={styles.sectionImages}><MyLightbox images={lightboxImages} /></div></div><div className={styles.sectionBlock}><div className={styles.container}><div className={styles.sectionHeader}><FaLightbulb className={styles.sectionIcon} /><h2 className={styles.sectionTitle}>{t('challenge.title')}</h2></div><p className={styles.sectionText}>{t('challenge.text')}</p></div></div><div className={styles.sectionBlock}><div className={styles.container}><div className={styles.sectionHeader}><FaCogs className={styles.sectionIcon} /><h2 className={styles.sectionTitle}>{t('solution.title')}</h2></div><p className={styles.sectionText}>{t('solution.text')}</p><div className={styles.contentGrid}><div className={`${styles.sectionHeader} ${styles.subSectionHeader}`}><FaKey className={styles.sectionIcon} /><h3 className={styles.subSectionTitle}>{t('keyFunctionalAreas.title')}</h3></div><div className={styles.featuresListWrap}><FeaturesGallery data={keyFunctionalAreasData} galleryId="functional-areas-gallery" /></div></div></div></div><div className={styles.sectionBlock}><div className={styles.container}><div className={styles.sectionHeader}><FaTrophy className={styles.sectionIcon} /><h2 className={styles.sectionTitle}>{t('achievements.title')}</h2></div><ul className={styles.featureList__1}><li key="f1"><FaCogs className={styles.featureIcon} />{t('achievements.f1')}</li><li key="f2"><FaClipboardList className={styles.featureIcon} />{t('achievements.f2')}</li><li key="f3"><FaCode className={styles.featureIcon} />{t('achievements.f3')}</li><li key="f4"><FaChartLine className={styles.featureIcon} />{t('achievements.f4')}</li><li key="f5"><FaGraduationCap className={styles.featureIcon} />{t('achievements.f5')}</li></ul></div></div><div className={styles.sectionBlock}><div className={styles.container}><div className={styles.sectionHeader}><FaHandshake className={styles.sectionIcon} /><h2 className={styles.sectionTitle}>{t('businessValue.title')}</h2></div><p className={styles.sectionText}>{t('businessValue.introText')}</p><ul className={styles.featureList__2}><li key="f1"><span className={styles.checkmark}>✓</span> <strong>{t('businessValue.items.f1.title')}</strong>: {t('businessValue.items.f1.description')}</li><li key="f2"><span className={styles.checkmark}>✓</span> <strong>{t('businessValue.items.f2.title')}</strong>: {t('businessValue.items.f2.description')}</li><li key="f3"><span className={styles.checkmark}>✓</span> <strong>{t('businessValue.items.f3.title')}</strong>: {t('businessValue.items.f3.description')}</li><li key="f4"><span className={styles.checkmark}>✓</span> <strong>{t('businessValue.items.f4.title')}</strong>: {t('businessValue.items.f4.description')}</li></ul><p className={styles.sectionText}>{t('businessValue.closingText')}</p></div></div><div className={styles.sectionBlock}><div className={styles.container}><BottomButtonsBlock backText={tButtons('backToProjects')} contactText={tButtons('contactMe')} /></div></div></section>);
+  return (
+    <section className={styles.projectSection}>
+      <ProjectHeroSection{...heroData} />
+      <div className={styles.container}>
+        <div className={styles.sectionImages}>
+          <MyLightbox images={lightboxImages} />
+        </div>
+      </div>
+      <div className={styles.sectionBlock}>
+        <div className={styles.container}>
+          <div className={styles.sectionHeader}>
+            <FaLightbulb className={styles.sectionIcon} />
+            <h2 className={styles.sectionTitle}>{t('challenge.title')}</h2>
+          </div>
+          <p className={styles.sectionText}>{t('challenge.text')}</p>
+        </div>
+      </div>
+      <div className={styles.sectionBlock}>
+        <div className={styles.container}>
+          <div className={styles.sectionHeader}>
+            <FaCogs className={styles.sectionIcon} />
+            <h2 className={styles.sectionTitle}>{t('solution.title')}</h2>
+          </div>
+          <p className={styles.sectionText}>{t('solution.text')}</p>
+          <div className={styles.contentGrid}>
+            <div className={`${styles.sectionHeader} ${styles.subSectionHeader}`}>
+              <FaKey className={styles.sectionIcon} />
+              <h3 className={styles.subSectionTitle}>{t('keyFunctionalAreas.title')}</h3>
+            </div>
+            <div className={styles.featuresListWrap}>
+              <FeaturesGallery data={keyFunctionalAreasData} galleryId="functional-areas-gallery" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className={styles.sectionBlock}>
+        <div className={styles.container}>
+          <div className={styles.sectionHeader}>
+            <FaTrophy className={styles.sectionIcon} />
+            <h2 className={styles.sectionTitle}>{t('achievements.title')}</h2>
+          </div>
+          <ul className={styles.featureList__1}>
+            <li key="f1">
+              <FaCogs className={styles.featureIcon} />{t('achievements.f1')}
+            </li>
+            <li key="f2">
+              <FaClipboardList className={styles.featureIcon} />{t('achievements.f2')}
+            </li>
+            <li key="f3">
+              <FaCode className={styles.featureIcon} />{t('achievements.f3')}
+            </li>
+            <li key="f4">
+              <FaChartLine className={styles.featureIcon} />{t('achievements.f4')}
+            </li>
+            <li key="f5">
+              <FaGraduationCap className={styles.featureIcon} />{t('achievements.f5')}
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div className={styles.sectionBlock}>
+        <div className={styles.container}>
+          <div className={styles.sectionHeader}>
+            <FaHandshake className={styles.sectionIcon} />
+            <h2 className={styles.sectionTitle}>{t('businessValue.title')}</h2>
+          </div>
+          <p className={styles.sectionText}>{t('businessValue.introText')}</p>
+          <ul className={styles.featureList__2}>
+            <li key="f1">
+              <span className={styles.checkmark}>✓</span><strong>{t('businessValue.items.f1.title')}</strong>: {t('businessValue.items.f1.description')}
+            </li>
+            <li key="f2">
+              <span className={styles.checkmark}>✓</span><strong>{t('businessValue.items.f2.title')}</strong>: {t('businessValue.items.f2.description')}
+            </li>
+            <li key="f3">
+              <span className={styles.checkmark}>✓</span><strong>{t('businessValue.items.f3.title')}</strong>: {t('businessValue.items.f3.description')}
+            </li>
+            <li key="f4">
+              <span className={styles.checkmark}>✓</span><strong>{t('businessValue.items.f4.title')}</strong>: {t('businessValue.items.f4.description')}
+            </li>
+          </ul>
+          <p className={styles.sectionText}>{t('businessValue.closingText')}</p>
+        </div>
+      </div>
+      <div className={styles.sectionBlock}>
+        <div className={styles.container}>
+          <BottomButtonsBlock backText={tButtons('backToProjects')} contactText={tButtons('contactMe')} />
+        </div>
+      </div>
+    </section>
+  );
 }

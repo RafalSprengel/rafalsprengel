@@ -405,7 +405,43 @@
       "text": "The website features a comprehensive reservation module that puts guests in control of planning their stay, eliminating the need for manual communication for availability checks and initial payments."
     },
     "keyFunctionalAreas": {
-      "title": "Key Functional Areas:"
+      "title": "Key Functional Areas:",
+      "f1": {
+        "desc": "Real-Time Availability & Search",
+        "description": "Real-Time Availability & Search: Guests can immediately search for available accommodations by specifying dates and number of people, ensuring instant results."
+      },
+      "f2": {
+        "desc": "Secure Online Reservation",
+        "description": "Secure Online Reservation: Guides users through a smooth, intuitive booking process for individual, group, or package deals."
+      },
+      "f3": {
+        "desc": "Integrated Payment Processing",
+        "description": "Integrated Payment Processing: Guests can securely complete financial transactions directly on the platform, confirming bookings instantly."
+      },
+      "f4": {
+        "desc": "Content & Services Showcase",
+        "description": "Content & Services Showcase: Extensive information on resort offerings, accommodation types, event hosting, and local attractions."
+      },
+      "f5": {
+        "desc": "Gallery",
+        "description": "Gallery: A visually rich collection of images showcasing the resort, accommodations, facilities, and events to help guests get a clear sense of the experience."
+      },
+      "f6": {
+        "desc": "Contact Form",
+        "description": "Contact Form: Easy-to-use form allowing guests to make inquiries, request information, or get in touch with the resort for personalized assistance."
+      },
+      "f7": {
+        "desc": "Mobile View",
+        "description": "Responsive design: Optimized for all devices, ensuring seamless user experience on mobile and tablet."
+      },
+      "f8": {
+        "desc": "Admin Panel - Reservations List",
+        "description": "Admin Panel: Full overview of all bookings with status management and quick modifications."
+      },
+      "f9": {
+        "desc": "Admin Panel - Calendar View",
+        "description": "Admin Calendar: Visual calendar to track reservations and manage availability efficiently."
+      }
     },
     "achievements": {
       "title": "Key Achievements and Skills Utilized:",
