@@ -1,13 +1,13 @@
 {
   "AboutSection": {
     "title": "O mnie",
-    "main_description_p1": "Jestem programistą full-stack z wykształceniem inżyniera informatyki, specjalizującym się w tworzeniu nowoczesnych stron internetowych i aplikacji webowych. Oferuję profesjonalne rozwiązania w przystępnej cenie, od podstawowych aplikacji webowych po kompleksowe systemy wspierające biznes w różnych sektorach.",
+    "main_description_p1": "Czerść, jestem programistą full-stack z wykształcenia inżynierem informatyki, specjalizuję się w tworzeniu nowoczesnych stron internetowych i aplikacji webowych. Oferuję profesjonalne rozwiązania w przystępnej cenie, od podstawowych aplikacji webowych po kompleksowe systemy wspierające biznes w różnych sektorach.",
     "col2_title": "Projektant UI/UX i Programista Webowy",
-    "col2_description_p2": "Pracuję zarówno z technologiami frontendowymi, jak i backendowymi, dostarczając skalowalne aplikacje z naciskiem na wydajność i bezpieczeństwo. Moja wiedza obejmuje cały cykl życia oprogramowania — od konfiguracji serwera, poprzez rozwój backendu i frontendu, aż po w pełni zabezpieczone witryny."
+    "col2_description_p2": "Pracuję zarówno z technologiami frontendowymi, jak i backendowymi, dostarczając skalowalne aplikacje z naciskiem na wydajność i bezpieczeństwo. Realizuję cały proces tworzenia oprogramowania, od projektowania architektury i konfiguracji środowiska, przez implementację zarówno warstwy logiki biznesowej, jak i interfejsu użytkownika, po finalne zabezpieczenie i wdrożenie."
   },
   "SkillsSection": {
     "main_title": "Umiejętności i Technologie",
-    "main_subtitle": "Kompleksowa wiedza obejmująca cały stos technologii tworzenia stron internetowych.",
+    "main_subtitle": "Niezbędna wiedza do budowy funkcjonalnych i wydajnych strony internetowych i aplikacje, wykorzystując cały wachlarz nowoczesnych technologii.",
     "frontend": {
       "title": "Frontend Development",
       "description": "Tworzenie responsywnych i interaktywnych interfejsów przy użyciu <strong>Next.js</strong> i <strong>React.js</strong>. Praca z frameworkami <strong>CSS</strong> oraz bibliotekami komponentów, takimi jak <strong>Mantine UI</strong> i <strong>Material UI</strong>."
