@@ -7,7 +7,7 @@
   },
   "SkillsSection": {
     "main_title": "Umiejętności i Technologie",
-    "main_subtitle": "Niezbędna wiedza do budowy funkcjonalnych i wydajnych strony internetowych i aplikacje, wykorzystując cały wachlarz nowoczesnych technologii.",
+    "main_subtitle": "Wiedza z zakresu technologii, które sprawiają, że strona staje się szybka, niezawodna, bezpieczna oraz atrakcyjna dla użytkownika.",
     "frontend": {
       "title": "Frontend Development",
       "description": "Tworzenie responsywnych i interaktywnych interfejsów przy użyciu <strong>Next.js</strong> i <strong>React.js</strong>. Praca z frameworkami <strong>CSS</strong> oraz bibliotekami komponentów, takimi jak <strong>Mantine UI</strong> i <strong>Material UI</strong>."
@@ -35,7 +35,7 @@
   },
   "PortfolioSection": {
     "main_title": "Portfolio",
-    "main_description": "Ostatnie projekty demonstrujące moje doświadczenie w tworzeniu stron i aplikacji internetowych.",
+    "main_description": "Kilka moich przykładowych projektów przedstawiających kompleksowe rozwiązania biznesowe z użyciem nowoczesnych technologii",
     "visit_website": "Odwiedź stronę",
     "view_code": "Kod",
     "see_more_overlay": "Zobacz więcej",
@@ -73,7 +73,7 @@
   },
   "ServicesSection": {
     "main_title": "Usługi",
-    "main_subtitle": "Kompleksowe rozwiązania w zakresie tworzenia stron internetowych, od koncepcji po wdrożenie.",
+    "main_subtitle": "Rozwiązania cyfrowe, które automatyzują procesy, zwiększają efektywność biznesu i generują realne korzyści finansowe przy minimalnym nakładzie pracy klienta.",
     "websites": {
       "title": "Strony i Aplikacje Internetowe",
       "description": "Wysokiej jakości, w pełni dostosowane strony internetowe i aplikacje webowe.",
@@ -206,7 +206,7 @@
   "RestaurantProject": {
     "hero": {
       "title": "System POS i Zamówień Online dla Restauracji",
-      "description": "Jako deweloper, miałem przyjemność pracować nad kompleksowym systemem Point of Sale (POS) dla restauracji, który łączy zaawansowane funkcje zamówień online z intuicyjnym panelem zarządzania. Projekt ten był doskonałą okazją do zaprezentowania moich umiejętności w tworzeniu skalowalnych, responsywnych i bezpiecznych aplikacji internetowych, które autentycznie odpowiadają na potrzeby biznesowe."
+      "description": "Strona internetowa dla restauracji połączona z systemem Point of Sale (POS), w pełni responsywna, umożliwiająca zarządzanie menu, zamówieniami, płatnościami online oraz kontami klientów, zapewniająca wygodę użytkowników i efektywność działania biznesu."
     },
     "publicFeatures": {
       "menu": {
@@ -262,11 +262,11 @@
     },
     "challenge": {
       "title": "Wyzwanie: Transformacja Cyfrowa w Gastronomii",
-      "text": "Współczesne restauracje potrzebują więcej niż tylko pysznego jedzenia. W erze digitalizacji, sprawne zarządzanie zamówieniami, rezerwacjami, relacjami z klientami oraz zapewnienie płynnego doświadczenia online jest kluczowe. Moim celem było stworzenie rozwiązania, które zautomatyzuje te procesy, poszerzy zasięg restauracji i zwiększy satysfakcję klientów, jednocześnie wyposażając personel w potężne narzędzia zarządzania."
+      "text": "Współczesne restauracje potrzebują więcej niż tylko pysznego jedzenia. W erze digitalizacji kluczowe jest sprawne zarządzanie zamówieniami, rezerwacjami oraz relacjami z klientami, a także zapewnienie płynnego doświadczenia online. Celem projektu było wsparcie restauracji w tych obszarach, zwiększenie zasięgu online oraz poprawa jakości obsługi klientów, poprzez automatyzację kluczowych procesów i dostarczenie narzędzi wspierających efektywne zarządzanie biznesem."
     },
     "solution": {
       "title": "Moje Rozwiązanie: Architektura i Implementacja",
-      "text": "Zaprojektowałem i wdrożyłem aplikację opartą na nowoczesnym stosie technologicznym, stawiając na modularność, wydajność i łatwość utrzymania."
+      "text": "Wdrożone rozwiązania obejmują w pełni responsywną stronę internetową dla restauracji połączoną z systemem POS, umożliwiającą zarządzanie menu, zamówieniami, płatnościami online oraz kontami klientów. System automatyzuje procesy zamówień i rezerwacji, integruje płatności, a panel administracyjny pozwala na sprawne zarządzanie danymi klientów i zamówieniami. Dodatkowo wdrożono mechanizmy analityki oraz narzędzia do monitorowania ruchu i zachowań użytkowników, co wspiera podejmowanie świadomych decyzji biznesowych i zwiększa efektywność pracy personelu."
     },
     "frontend": {
       "title": "Frontend – Interfejs Użytkownika i Doświadczenie Klienta:",
@@ -275,42 +275,41 @@
     },
     "backend": {
       "title": "Backend – Serce Systemu:",
-      "text": "Backend, zbudowany na Node.js z wykorzystaniem Express.js i bazy danych MongoDB, stanowi solidną podstawę dla wszystkich operacji. Opracowałem RESTful API, które obsługuje zarządzanie produktami, zamówieniami, użytkownikami i rezerwacjami. Kluczowe było zapewnienie bezpieczeństwa (JWT do autoryzacji, OAuth do logowania społecznościowego) i skalowalności, aby system mógł rosnąć wraz z restauracją."
+      "text": "Backend, zbudowany na Node.js z wykorzystaniem Express.js i bazę danych MongoDB, stanowi solidną podstawę dla wszystkich operacji. Opracowałem RESTful API, które obsługuje zarządzanie produktami, zamówieniami, użytkownikami i rezerwacjami. Kluczowe było zapewnienie bezpieczeństwa (JWT do autoryzacji, OAuth do logowania społecznościowego) i skalowalności, aby system mógł rosnąć wraz z restauracją."
     },
     "achievements": {
-      "title": "Kluczowe Osiągnięcia i Wykorzystane Umiejętności:",
-      "f1": "Kompleksowa Integracja: Bezproblemowo połączyłem frontend z backendem, systemem płatności Stripe oraz mechanizmami autoryzacji (JWT, Google/Facebook OAuth), tworząc spójne i funkcjonalne środowisko.",
-      "f2": "Responsywny Design: Zapewniłem doskonałe wrażenia użytkownika na wszystkich urządzeniach, co jest kluczowe w dzisiejszym świecie mobile-first.",
-      "f3": "Optymalizacja Wydajności: Wykorzystałem react-lazy-load-image-component do leniwego ładowania obrazów i zoptymalizowałem zapytania API, aby zapewnić szybkie i płynne działanie strony.",
-      "f4": "Zarządzanie Stanem: Skutecznie wykorzystałem React Context API i niestandardowe hooki (useFetch, useLocalStorage) do zarządzania złożonym stanem aplikacji.",
-      "f5": "Czysty Kod i Najlepsze Praktyki: Skoncentrowałem się na pisaniu czystego, modularnego i łatwego w utrzymaniu kodu, zgodnie z najlepszymi praktykami programistycznymi i standardami branżowymi."
+      "title": "Co osiągnięto:",
+      "f1": "Kompleksowa integracja: Frontend został połączony z backendem, systemem płatności Stripe oraz mechanizmami autoryzacji (JWT, Google/Facebook OAuth), tworząc spójne i bezpieczne środowisko aplikacji.",
+      "f2": "Responsywny design: Strona dostosowuje się do różnych urządzeń, zapewniając spójną obsługę zarówno na komputerach, jak i urządzeniach mobilnych.",
+      "f3": "Optymalizacja wydajności: Obrazy i treści wczytują się stopniowo w miarę korzystania ze strony, a zapytania do serwera zostały zoptymalizowane, dzięki czemu aplikacja działa płynnie i szybko.",
+      "f4": "Efektywne zarządzanie danymi: System umożliwia sprawne przetwarzanie i kontrolę informacji w aplikacji.",
+      "f5": "Czysty kod i dobre praktyki: Kod jest modularny i łatwy w utrzymaniu, zgodny z obowiązującymi standardami branżowymi."
     },
     "businessValue": {
-      "title": "Wartość Biznesowa:",
-      "text1": "Ten projekt demonstruje moją zdolność do tworzenia rozwiązań, które nie tylko świetnie wyglądają, ale, co ważniejsze, dostarczają wymiernej wartości biznesowej. Restauracja zyskuje dzięki:",
+      "title": "Wartość biznesowa:",
+      "text1": "Restauracja zyskuje dzięki:",
       "f1": {
-        "title": "Zwiększonej Wydajności",
+        "title": "Zwiększonej wydajności",
         "description": "Automatyzacja obsługi zamówień i rezerwacji."
       },
       "f2": {
-        "title": "Ulepszonemu Doświadczeniu Klienta",
-        "description": "Łatwe i przyjemne zamawianie online."
+        "title": "Ulepszonemu doświadczeniu klienta",
+        "description": "Proste i intuicyjne zamawianie online."
       },
       "f3": {
-        "title": "Szerszemu Zasięgowi",
-        "description": "Dostępność online i na urządzeniach mobilnych."
+        "title": "Szerszemu zasięgowi",
+        "description": "Dostępność strony online i na urządzeniach mobilnych."
       },
       "f4": {
-        "title": "Decyzjom Opartym na Danych",
+        "title": "Decyzjom opartym na danych",
         "description": "Statystyki i raporty wspierające zarządzanie."
-      },
-      "text2": "Jestem dumny z tego, jak ten projekt łączy estetykę z solidną inżynierią, tworząc narzędzie, które może znacząco usprawnić działanie każdej restauracji. Chętnie omówię więcej szczegółów technicznych i wyzwań, z jakimi się zmierzyłem, oraz jak moje umiejętności mogą przyczynić się do sukcesu Twojego projektu."
+      }
     }
   },
   "WebAppProject": {
     "hero": {
       "title": "System POS i zarządzania restauracją",
-      "description": "Kompleksowy system POS (Point of Sale) i zarządzania dla restauracji, z intuicyjnym interfejsem dla klientów oraz zaawansowanym panelem administracyjnym umożliwiającym pełną kontrolę nad operacjami. Zbudowany w oparciu o React.js, Node.js, Express.js i MongoDB."
+      "description": "System POS (Point of Sale) i zarządzania dla restauracji, z intuicyjnym interfejsem dla klientów oraz zaawansowanym panelem administracyjnym umożliwiającym pełną kontrolę nad operacjami. Zbudowany w oparciu o React.js, Node.js, Express.js i MongoDB."
     },
     "challenge": {
       "title": "Wyzwanie: kompleksowe zarządzanie restauracją",
@@ -397,7 +396,7 @@
       "description": "Ta strona internetowa jest oficjalną platformą online Leśniczówki Wieżyca, spokojnego ośrodka położonego w malowniczym regionie Kaszub w Polsce. Głównym celem serwisu jest atrakcyjne przedstawienie udogodnień ośrodka — w tym przytulnych pokoi, sezonowych domków holenderskich oraz SPA z Jacuzzi i Sauną — oraz zapewnienie płynnego, kompleksowego procesu rezerwacji online. Kluczowym wyzwaniem, jakie rozwiązuje platforma, jest przekształcenie zainteresowania użytkowników w potwierdzone pobyty poprzez efektywny system samoobsługowy."
     },
     "challenge": {
-      "title": "Wyzwanie: Cyfrowa Transformacja w Branży Noclegowej",
+      "title": "Cel: Cyfrowa Transformacja w Branży Noclegowej",
       "text": "Głównym wyzwaniem platformy było przekształcenie zainteresowania użytkowników w potwierdzone pobyty dzięki wydajnemu, samoobsługowemu systemowi rezerwacji online."
     },
     "solution": {
@@ -453,8 +452,7 @@
     },
     "businessValue": {
       "title": "Wartość Biznesowa:",
-      "introText": "Projekt pokazuje, jak tradycyjny biznes hotelowy może wejść w erę cyfrową dzięki inteligentnej integracji technologii, poprawiając zarówno efektywność operacyjną, jak i satysfakcję klientów.",
-      "closingText": "Poza wykonaniem technicznym, projekt stanowi dowód koncepcji, jak design i technologia mogą wzmocnić regionalną markę turystyczną — dostarczając wygodę gościom i strategiczną niezależność dla biznesu.",
+      "introText": "Ośrodek zyskuje dzięki:",
       "items": {
         "f1": {
           "title": "Automatyzacja operacji:",

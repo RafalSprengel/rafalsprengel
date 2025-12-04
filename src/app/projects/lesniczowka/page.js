@@ -180,7 +180,6 @@ export default function LesniczowkaProjectPage() {
               <span className={styles.checkmark}>✓</span><strong>{t('businessValue.items.f4.title')}</strong>: {t('businessValue.items.f4.description')}
             </li>
           </ul>
-          <p className={styles.sectionText}>{t('businessValue.closingText')}</p>
         </div>
       </div>
       <div className={styles.sectionBlock}>

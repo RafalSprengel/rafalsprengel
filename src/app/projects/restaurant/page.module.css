@@ -81,6 +81,11 @@
   text-align: center;
 }
 
+.sectionText--leftPadding {
+  text-align: left;
+  padding-left: 30px;
+}
+
 .featuresListWrap {
   margin-top: 40px;
 }
@@ -94,7 +99,8 @@
 }
 
 .featureList__2 {
-margin-bottom: 30px;;
+  margin-bottom: 30px;
+  ;
 }
 
 .featureList__1 li,
@@ -112,7 +118,7 @@ margin-bottom: 30px;;
   gap: 10px;
 }
 
-.featureList__2 li > * {
+.featureList__2 li>* {
   margin: 5px;
 }
 
@@ -121,6 +127,7 @@ margin-bottom: 30px;;
   font-weight: bold;
   font-size: 1rem;
 }
+
 .featureIcon {
   color: #149ddd;
   font-size: 1.3rem;

@@ -254,7 +254,7 @@ export default function RestaurantProjectPage() {
             <FaHandshake className={styles.sectionIcon} />
             <h2 className={styles.sectionTitle}>{t('businessValue.title')}</h2>
           </div>
-          <p className={styles.sectionText}>
+          <p className={`${styles.sectionText} ${styles['sectionText--leftPadding']}`}>
             {t('businessValue.text1')}
           </p>
           <ul className={styles.featureList__2}>
@@ -264,9 +264,6 @@ export default function RestaurantProjectPage() {
             <li> <span className={styles.checkmark}>✓</span> <strong>{t('businessValue.f4.title')}:</strong> {t('businessValue.f4.description')}</li>
           </ul>
           <br />
-          <p className={styles.sectionText}>
-            {t('businessValue.text2')}
-          </p>
         </div>
       </div>
       <div className={styles.sectionBlock}>
