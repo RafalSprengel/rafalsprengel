@@ -261,7 +261,7 @@
       }
     },
     "challenge": {
-      "title": "Wyzwanie: Transformacja Cyfrowa w Gastronomii",
+      "title": "Cel: Transformacja Cyfrowa w Gastronomii",
       "text": "Współczesne restauracje potrzebują więcej niż tylko pysznego jedzenia. W erze digitalizacji kluczowe jest sprawne zarządzanie zamówieniami, rezerwacjami oraz relacjami z klientami, a także zapewnienie płynnego doświadczenia online. Celem projektu było wsparcie restauracji w tych obszarach, zwiększenie zasięgu online oraz poprawa jakości obsługi klientów, poprzez automatyzację kluczowych procesów i dostarczenie narzędzi wspierających efektywne zarządzanie biznesem."
     },
     "solution": {
@@ -308,20 +308,20 @@
   },
   "WebAppProject": {
     "hero": {
-      "title": "System POS i zarządzania restauracją",
-      "description": "System POS (Point of Sale) i zarządzania dla restauracji, z intuicyjnym interfejsem dla klientów oraz zaawansowanym panelem administracyjnym umożliwiającym pełną kontrolę nad operacjami. Zbudowany w oparciu o React.js, Node.js, Express.js i MongoDB."
+      "title": "System POS dla restauracji",
+      "description": "System POS (Point of Sale) dla restauracji, z interfejsem dla klientów oraz panelem administracyjnym umożliwiającym kontrolę nad operacjami. Zbudowany w oparciu o React.js, Node.js, Express.js i MongoDB."
     },
     "challenge": {
-      "title": "Wyzwanie: kompleksowe zarządzanie restauracją",
-      "text": "Prowadzenie nowoczesnej restauracji obejmuje wiele złożonych zadań — od obsługi zamówień i rezerwacji po zarządzanie personelem, stanem magazynowym i finansami. Wyzwanie polegało na stworzeniu spójnego, intuicyjnego i stabilnego systemu, który usprawnia te procesy, zwiększa efektywność i dostarcza zaawansowane narzędzia zarówno dla klientów, jak i administratorów."
+      "title": "Cel: kompleksowe zarządzanie restauracją",
+      "text": "Prowadzenie nowoczesnej restauracji obejmuje wiele złożonych zadań. Celem było stworzenie systemu do zarządzania produktami, zamówieniami, rezerwacjami, wiadomościami oraz kontami użytkowników — zarówno pracowników, jak i klientów. System powinien także udostępniać dane sprzedażowe, które wspierają podejmowanie kolejnych decyzji biznesowych"
     },
     "solution": {
       "title": "Moje rozwiązanie: architektura full-stack",
-      "text": "Zaprojektowałem i wdrożyłem kompletną aplikację full-stack, koncentrując się na modułowości, bezpieczeństwie i skalowalności. System oferuje odrębne interfejsy dla klientów oraz potężny panel administracyjny dla personelu."
+      "text": "Zaprojektowałem i wdrożyłem aplikację full-stack, koncentrując się na modułowości, bezpieczeństwie i skalowalności. System oferuje odrębne interfejsy dla klientów oraz dla personelu."
     },
     "customerPanel": {
       "title": "Panel klienta: pełna kontrola dla użytkowników",
-      "description": "Panel klienta daje użytkownikom możliwość zarządzania swoim kontem, śledzenia historii zamówień oraz dokonywania rezerwacji.",
+      "description": "Panel klienta umożliwia zarządzanie kontem, przeglądanie historii zamówień oraz aktualizację danych osobowych, w tym zmianę hasła lub całkowite usunięcie konta",
       "features": {
         "f1": "Rejestracja i logowanie: możliwość rejestracji i logowania za pomocą e-maila/hasła, Google lub Facebooka.",
         "f2": "Ostatnie zamówienia: lista wszystkich złożonych zamówień z możliwością ich \"usunięcia\" (oznaczenia jako niewidoczne dla klienta).",
@@ -332,7 +332,7 @@
     },
     "adminPanel": {
       "title": "Panel administratora: centralne zarządzanie",
-      "description": "Panel administracyjny to serce systemu, zapewniające personelowi centralne miejsce do zarządzania wszystkimi aspektami działania restauracji, umożliwiające płynne procesy i podejmowanie decyzji opartych na danych.",
+      "description": "Panel administracyjny umożliwia zarządzanie produktami i kategoriami, kontami użytkowników oraz pracowników, a także rezerwacjami stolików. Administrator może również odczytywać i odpowiadać na wiadomości klientów bezpośrednio z panelu.",
       "features": {
         "f1": "Dashboard: przejrzysty podgląd kluczowych wskaźników biznesowych dla świadomego podejmowania decyzji.",
         "f2": "Zarządzanie produktami: łatwe dodawanie, edycja i organizacja pozycji w menu.",
@@ -347,20 +347,20 @@
       }
     },
     "achievements": {
-      "title": "Kluczowe osiągnięcia i zastosowane technologie:",
+      "title": "Implementacja i zastosowane technologie:",
       "items": {
-        "f1": "Solidna autoryzacja: implementacja tokenów JWT, OAuth2 (Google/Facebook) oraz kontroli dostępu opartej na rolach dla bezpiecznego zarządzania użytkownikami i personelem.",
-        "f2": "Efektywne zarządzanie danymi: wykorzystanie MongoDB z Mongoose do elastycznych i skalowalnych operacji na danych, wspierających złożone struktury produktów, zamówień i użytkowników.",
-        "f3": "Kompleksowe API: RESTful API w Node.js/Express.js obejmujące operacje CRUD dla wszystkich kluczowych encji (produkty, zamówienia, użytkownicy, rezerwacje, wiadomości, personel, kategorie).",
-        "f4": "Bezpieczne płatności: integracja Stripe dla bezpiecznych płatności online, w tym obsługa webhooków do automatycznej aktualizacji statusów zamówień.",
-        "f5": "Statystyki i raportowanie w czasie rzeczywistym: endpointy do statystyk sprzedaży, śledzenia odwiedzin i przeglądu dashboardu wspierające decyzje biznesowe.",
-        "f6": "Responsywny i intuicyjny UI: projektowanie w React.js i Mantine UI, zapewniające spójne i przyjazne doświadczenie użytkownika na wszystkich urządzeniach.",
+        "f1": "Autoryzacja: implementacja tokenów JWT, OAuth2 (Google/Facebook) oraz kontroli dostępu opartej na rolach dla bezpiecznego zarządzania użytkownikami i personelem.",
+        "f2": "Zarządzanie danymi: wykorzystanie MongoDB z Mongoose do elastycznych i skalowalnych operacji na danych, wspierających złożone struktury produktów, zamówień i użytkowników.",
+        "f3": "API: RESTful API w Node.js/Express.js obejmujące operacje CRUD dla wszystkich kluczowych encji (produkty, zamówienia, użytkownicy, rezerwacje, wiadomości, personel, kategorie).",
+        "f4": "Płatności: integracja Stripe dla płatności online, w tym obsługa webhooków do automatycznej aktualizacji statusów zamówień.",
+        "f5": "Statystyki i raportowanie w czasie rzeczywistym: endpointy do statystyk sprzedaży, śledzenia odwiedzin i przeglądu dashboardu..",
+        "f6": "Responsywny UI: projektowanie w React.js i Mantine UI,  spójne doświadczenie użytkownika na wszystkich urządzeniach.",
         "f7": "Czysty kod i najlepsze praktyki: stosowanie standardów przemysłowych dla modularnego i łatwego w utrzymaniu kodu, w tym obsługa błędów i strukturalne logowanie."
       }
     },
     "businessValue": {
-      "title": "Wartość biznesowa i wpływ:",
-      "introText": "Projekt pokazuje moją zdolność do tworzenia złożonych aplikacji full-stack, które przynoszą realną wartość biznesową poprzez:",
+      "title": "Wartość biznesowa:",
+      "introText": "Zwiększenie obrotów restauracji poprzez:",
       "items": {
         "f1": {
           "title": "Usprawnienie procesów",
@@ -382,8 +382,7 @@
           "title": "Skalowalność",
           "description": "Budowa systemu zdolnego do rozwoju wraz z potrzebami restauracji."
         }
-      },
-      "closingText": "Aplikacja jest dowodem mojej ekspertyzy w tworzeniu solidnych, przyjaznych użytkownikowi rozwiązań webowych, które zwiększają efektywność i wspierają rozwój biznesu."
+      }
     },
     "bottomButtons": {
       "backToProjects": "Powrót do projektów",
@@ -396,11 +395,11 @@
       "description": "Ta strona internetowa jest oficjalną platformą online Leśniczówki Wieżyca, spokojnego ośrodka położonego w malowniczym regionie Kaszub w Polsce. Głównym celem serwisu jest atrakcyjne przedstawienie udogodnień ośrodka — w tym przytulnych pokoi, sezonowych domków holenderskich oraz SPA z Jacuzzi i Sauną — oraz zapewnienie płynnego, kompleksowego procesu rezerwacji online. Kluczowym wyzwaniem, jakie rozwiązuje platforma, jest przekształcenie zainteresowania użytkowników w potwierdzone pobyty poprzez efektywny system samoobsługowy."
     },
     "challenge": {
-      "title": "Cel: Cyfrowa Transformacja w Branży Noclegowej",
-      "text": "Głównym wyzwaniem platformy było przekształcenie zainteresowania użytkowników w potwierdzone pobyty dzięki wydajnemu, samoobsługowemu systemowi rezerwacji online."
+      "title": "Cel: cyfrowa transformacja w branży noclegowej",
+      "text": "Leśniczówka Wieżyca wymagała cyfrowej transformacji skupionej na maksymalizacji konwersji, gdzie głównym wyzwaniem było przekształcenie wstępnego zainteresowania użytkowników w potwierdzone pobyty. Osiągnięto to dzięki implementacji samoobsługowego systemu rezerwacji online zintegrowanego z nową, responsywną platformą. Efektem jest automatyzacja procesów sprzedaży usług noclegowych, co minimalizuje nakład pracy manualnej i zwiększa bezpośrednie przychody obiektu."
     },
     "solution": {
-      "title": "Rozwiązanie: Zintegrowany System Rezerwacji i Płatności",
+      "title": "Rozwiązanie: strona internetowa ze zintegrowanym systemem rezerwacji i płatności",
       "text": "Strona zawiera kompleksowy moduł rezerwacji, który daje gościom pełną kontrolę nad planowaniem pobytu, eliminując potrzebę ręcznej komunikacji w celu sprawdzania dostępności i dokonywania pierwszych płatności."
     },
     "keyFunctionalAreas": {
@@ -443,7 +442,7 @@
       }
     },
     "achievements": {
-      "title": "Kluczowe Osiągnięcia i Wykorzystane Umiejętności:",
+      "title": "Implementacja:",
       "f1": "Integracja z Eagle Booking: Skonfigurowano wtyczkę do zarządzania rezerwacjami, dostępnością pokoi oraz płatnościami online.",
       "f2": "Optymalizacja procesu rezerwacji: Dostosowano formularze rezerwacyjne i przepływ płatności, aby zapewnić płynne doświadczenie gości.",
       "f3": "Dostosowanie motywu WordPress: Zaadaptowano motyw WordPress tak, aby pasował do identyfikacji wizualnej Leśniczówki Wieżyca.",

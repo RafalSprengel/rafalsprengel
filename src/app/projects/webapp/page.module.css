@@ -87,6 +87,11 @@
   text-align: center;
 }
 
+.sectionText--leftPadding {
+  text-align: left;
+  padding-left: 30px;
+}
+
 .featuresListWrap {
   margin-top: 40px;
 }
