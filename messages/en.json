@@ -1,41 +1,41 @@
 {
   "AboutSection": {
-    "title": "About",
-    "main_description_p1": "I am a full-stack web developer with a Computer Engineering degree, specializing in building modern websites and web applications. I offer affordable, professional solutions ranging from basic web applications to comprehensive systems that support businesses across different sectors.",
-    "col2_title": "UI/UX Designer & Web Developer",
-    "col2_description_p2": "I work with both frontend and backend technologies, delivering scalable applications with a focus on performance and security. My expertise covers the entire development lifecycle — from server setup and configuration, through backend and frontend development, to fully secured websites."
+    "title": "About Me",
+    "main_description_p1": "I'm a full-stack developer with a degree in Computer Science Engineering, specializing in creating modern websites and web applications. I offer professional solutions at an affordable price, ranging from basic web applications to complex systems supporting businesses across various sectors.",
+    "col2_title": "UI/UX Designer and Web Developer",
+    "col2_description_p2": "I work with both frontend and backend technologies, delivering scalable applications with an emphasis on performance and security. I handle the entire software development process, from architecture design and environment configuration, through implementing both the business logic layer and the user interface, to final security and deployment."
   },
   "SkillsSection": {
-    "main_title": "Skills & Technologies",
-    "main_subtitle": "Comprehensive expertise across the full web development stack.",
+    "main_title": "Skills and Technologies",
+    "main_subtitle": "Knowledge of technologies that make a website fast, reliable, secure, and attractive to the user.",
     "frontend": {
       "title": "Frontend Development",
-      "description": "Building responsive and interactive interfaces using <strong>Next.js</strong> and <strong>React.js</strong>. Working with <strong>CSS frameworks</strong> and component libraries like <strong>Mantine UI</strong> and <strong>Material UI</strong>."
+      "description": "Creating responsive and interactive interfaces using <strong>Next.js</strong> and <strong>React.js</strong>. Working with <strong>CSS</strong> frameworks and component libraries like <strong>Mantine UI</strong> and <strong>Material UI</strong>."
     },
     "backend": {
       "title": "Backend Development",
-      "description": "Building Node.js + Express.js backends and REST API interfaces with secure authentication using <strong>JWT</strong> and <strong>OAuth2</strong>. Utilizing modern NoSQL databases such as <strong>MongoDB</strong>."
+      "description": "Building Node.js + Express.js backends and REST API interfaces with secure authentication using <strong>JWT</strong> and <strong>OAuth2</strong>. Utilizing modern NoSQL databases like <strong>MongoDB</strong>."
     },
     "security": {
-      "title": "Security & Payment",
-      "description": "Implementing security and authentication systems in compliance with <strong>JWT</strong> and <strong>OAuth</strong> standards. Managing roles and permissions in administrative and client panels. Integrating applications with payment systems like <strong>Stripe</strong> and <strong>Przelewy24</strong>, including secure payment confirmations via webhooks."
+      "title": "Security and Payments",
+      "description": "Implementing security and authentication systems according to <strong>JWT</strong> and <strong>OAuth</strong> standards. Managing roles and permissions in administrative and client panels. Integrating applications with payment systems such as <strong>Stripe</strong> and <strong>Przelewy24</strong>, including secure payment confirmations via webhooks."
     },
     "infrastructure": {
-      "title": "Infrastructure & Deployment",
-      "description": "Deploying full-stack applications on <strong>VPS</strong> servers with <strong>NGINX</strong> configuration, domain setup, and <strong>SSL certificate</strong> installation. Utilizing CI/CD with <strong>GitHub</strong> for automated deployments."
+      "title": "Infrastructure and Deployment",
+      "description": "Deploying full-stack applications on <strong>VPS</strong> servers with <strong>NGINX</strong> configuration, domain setup, and <strong>SSL certificate</strong> installation. Using CI/CD with <strong>GitHub</strong> for automatic deployments."
     },
     "uiux": {
-      "title": "UI/UX, Performance & SEO",
-      "description": "Designing responsive and accessible interfaces with a focus on user experience. Optimizing performance using lazy loading, caching, and image optimization. Implementing SEO strategies and integrating analytics for better visibility and engagement."
+      "title": "UI/UX, Performance, and SEO",
+      "description": "Designing responsive and accessible interfaces with attention to user experience. Optimizing performance using lazy loading, caching, and image optimization. Implementing SEO strategies and integrating analytics for better visibility and engagement."
     },
     "cms": {
-      "title": "CMS & WordPress",
-      "description": "Integrating CMS platforms, including <strong>WordPress</strong>. Customizing themes and plugins, SEO optimization, performance enhancement, and SSL configuration for secure access."
+      "title": "CMS and WordPress",
+      "description": "Integrating CMS platforms, including <strong>WordPress</strong>. Customizing themes and plugins, optimizing SEO, improving performance, and configuring SSL for secure access."
     }
   },
   "PortfolioSection": {
     "main_title": "Portfolio",
-    "main_description": "Recent projects showcasing my expertise in web development.",
+    "main_description": "A few of my sample projects demonstrating comprehensive business solutions using modern technologies",
     "visit_website": "Visit Website",
     "view_code": "Code",
     "see_more_overlay": "See more",
@@ -43,9 +43,9 @@
     "restaurantWebsite": {
       "title": "Responsive Restaurant Website",
       "image": "/assets/home-page/www.jpg",
-      "description": "Modern, fully responsive website for a restaurant featuring online ordering, menu, gallery, table reservation system, and contact form.",
+      "description": "A modern, fully responsive website for a restaurant with online ordering, a menu, a gallery, a table reservation system, and a contact form.",
       "tags": "React, Express.js, MongoDB, Stripe",
-      "category": "Custom Website",
+      "category": "Client Website",
       "liveUrl": "https://restaurant.rafalsprengel.com/",
       "githubUrl": "https://github.com/RafalSprengel/restaurant-pos-frontend",
       "seeMoreLink": "/projects/restaurant"
@@ -53,7 +53,7 @@
     "restaurantPOS": {
       "title": "Restaurant POS Management System",
       "image": "/assets/home-page/server.jpg",
-      "description": "Advanced web application for managing a restaurant: admin panel, customer accounts, orders, menu items, categories, and staff workflows.",
+      "description": "An advanced web application for restaurant management: admin panel, customer accounts, orders, menu items, categories, and staff workflows.",
       "tags": "Express.js, MongoDB, Stripe, Custom VPS",
       "category": "Web Application",
       "liveUrl": "https://restaurant.rafalsprengel.com/management/login/",
@@ -61,9 +61,9 @@
       "seeMoreLink": "/projects/webapp"
     },
     "resortBooking": {
-      "title": "Holiday Resort Booking Website",
+      "title": "Resort Booking Website",
       "image": "/assets/home-page/wordpress.jpg",
-      "description": "Custom WordPress site for a holiday resort with online booking, gallery, and easy content management for quick updates.",
+      "description": "A custom WordPress website for a resort with online booking, a gallery, and easy content management for quick updates.",
       "tags": "WordPress, PHP, JavaScript",
       "category": "WordPress",
       "liveUrl": "https://lesniczowkawiezyca.pl/",
@@ -73,71 +73,71 @@
   },
   "ServicesSection": {
     "main_title": "Services",
-    "main_subtitle": "Comprehensive web development solutions from concept to deployment.",
+    "main_subtitle": "Digital solutions that automate processes, increase business efficiency, and generate real financial benefits with minimal client effort.",
     "websites": {
-      "title": "Websites & Applications",
+      "title": "Websites and Web Applications",
       "description": "High-quality, fully customized websites and web applications.",
       "features": {
         "f1": "Fully personalized visual design",
         "f2": "Full responsive web design",
         "f3": "Single Page Applications (SPA)",
-        "f4": "Multilingual websites",
-        "f5": "GA, GTM, Pixel analytics",
+        "f4": "Multilingual sites",
+        "f5": "GA, GTM, Pixel Analytics",
         "f6": "GDPR / Consent Mode"
       }
     },
     "applications": {
       "title": "Custom Web Applications",
-      "description": "Tailored web applications and backend solutions.",
+      "description": "Customized web applications and backend solutions.",
       "features": {
         "f1": "Microservices",
-        "f2": "Online payments integration (Stripe, Przelewy24)",
-        "f3": "Booking & payment systems",
+        "f2": "Online payment integration (Stripe, Przelewy24)",
+        "f3": "Booking and payment systems",
         "f4": "Dedicated CMS (Content Management System)",
-        "f5": "Client & Admin panels with user management",
+        "f5": "Customer and administrator panels with user management",
         "f6": "Custom authentication systems",
         "f7": "Integration with other systems",
-        "f8": "API integrations"
+        "f8": "API Integrations"
       }
     },
     "servers": {
-      "title": "Servers & Hosting",
-      "description": "Support in server setup and hosting for optimal performance and reliability.",
+      "title": "Servers and Hosting",
+      "description": "Support in configuring servers and hosting for optimal performance and reliability.",
       "features": {
-        "f1": "Domain & hosting setup",
-        "f2": "Troubleshooting and problem-solving",
+        "f1": "Domain and hosting configuration",
+        "f2": "Troubleshooting and failure resolution",
         "f3": "VPS server configuration (Ubuntu, NGINX)",
         "f4": "Security hardening (Firewall, Fail2ban)",
         "f5": "Database management"
       }
     },
     "seo": {
-      "title": "SEO & Analytics",
-      "description": "Improve website visibility, performance, and real-time monitoring.",
+      "title": "SEO and Analytics",
+      "description": "Improving site visibility, performance, and real-time monitoring.",
       "features": {
         "f1": "Google Analytics (GA)",
         "f2": "Speed optimization",
-        "f3": "Google Search optimization",
-        "f4": "Real-Time Traffic Monitoring"
+        "f3": "Optimization for Google search engine",
+        "f4": "Real-time traffic monitoring"
       }
     },
     "wordpress": {
-      "title": "WordPress & CMS",
-      "description": "Professional WordPress websites with modern design and custom functionality.",
+      "title": "WordPress and CMS",
+      "description": "Professional WordPress sites with modern design and custom functionality.",
       "features": {
         "f1": "Installation and configuration",
-        "f2": "Build from scratch",
+        "f2": "Building from scratch",
         "f3": "Plugin customization",
         "f4": "Performance optimization",
         "f5": "Security enhancements",
-        "f6": "SSL certificates installation"
+        "f6": "SSL certificate installation"
       }
     },
     "payments": {
       "title": "Payments",
       "description": "Integration with popular payment methods and systems.",
       "features": {
-        "f1": "Apple & Google Pay, Visa, Mastercard, BLIK, etc.",
+        "f1": "Apple & Google Pay, Visa, Mastercard, BLIK etc.",
         "f2": "Payment carts",
         "f3": "Payment confirmations"
       }
@@ -145,13 +145,13 @@
   },
   "ContactSection": {
     "main_title": "Contact",
-    "main_description": "Let's build something great together!\nWhether you need a custom web application, a modern business website, or help with server setup and security – feel free to reach out. I'll be happy to discuss your project and find the best solution for your needs.",
+    "main_description": "Let's build something great together!\nWhether you need a custom web application, a modern business website, or assistance with server setup and security – get in touch with me.\nI'd be happy to discuss your project and find the best solution for your needs.",
     "phone": {
-      "title": "Call Me",
+      "title": "Call me",
       "value": "+44 7518 577503"
     },
     "email": {
-      "title": "Send Email",
+      "title": "Send an email",
       "value": "sprengel.rafal@gmail.com"
     },
     "address": {
@@ -159,17 +159,17 @@
       "value": "Hull, United Kingdom"
     },
     "form": {
-      "name": "Your Name",
-      "email": "Your Email",
+      "name": "Your name",
+      "email": "Your email",
       "subject": "Subject",
       "message": "Message",
       "send": "Send Message",
       "sending": "Sending...",
-      "success": "Thank you for contacting us! We'll get back to you soon."
+      "success": "Thank you for contacting us! We'll get back to you shortly."
     }
   },
   "Footer": {
-    "description": "A full-stack developer specializing in modern, responsive websites and web applications. From concept to deployment, I deliver end-to-end solutions.",
+    "description": "Full-stack developer specializing in modern, responsive websites and web applications. From concept to deployment, I deliver comprehensive solutions.",
     "quick_links": {
       "title": "Quick Links",
       "home": "Home",
@@ -180,9 +180,9 @@
       "contact": "Contact"
     },
     "contact_info": {
-      "title": "Contact Info"
+      "title": "Contact Information"
     },
-    "copyright": "© {year} Copyright <sitename>Rafał Sprengel</sitename> All rights reserved",
+    "copyright": "© {year} Copyright <sitename>Rafał Sprengel</sitename> All Rights Reserved",
     "credits": "Designed by <link>Rafał Sprengel</link>"
   },
   "Aside": {
@@ -205,33 +205,33 @@
   },
   "RestaurantProject": {
     "hero": {
-      "title": "Restaurant POS & Online Ordering System",
-      "description": "As a developer, I had the pleasure of working on a comprehensive Point of Sale (POS) system for a restaurant, which combines advanced online ordering features with an intuitive management panel. This project was an excellent opportunity for me to showcase my skills in building scalable, responsive, and secure web applications that genuinely address business needs."
+      "title": "POS System and Online Ordering for a Restaurant",
+      "description": "A fully responsive restaurant website connected to a Point of Sale (POS) system, enabling menu management, online ordering, online payments, and customer account management, ensuring user convenience and business operational efficiency."
     },
     "publicFeatures": {
       "menu": {
         "desc": "Dynamic Menu",
-        "description": "Dynamic Menu: Customers can easily browse the menu, filter products, and add items to their cart."
+        "description": "Dynamic Menu: Customers can easily browse the menu, filter products, and add items to the cart."
       },
       "cart": {
         "desc": "Smart Cart",
-        "description": "Smart Cart: A clear and user-friendly cart allowing customers to review, update, or remove items before checkout."
+        "description": "Smart Cart: A clear and user-friendly shopping cart, allowing customers to review, update, or remove items before finalizing the order."
       },
       "process": {
         "desc": "Ordering Process",
-        "description": "Ordering Process: Smooth flow from product selection and customization to secure checkout."
+        "description": "Ordering Process: A seamless flow from product selection and customization to secure transaction finalization."
       },
       "payments": {
         "desc": "Secure Payments",
-        "description": "Secure Payments with Stripe: Customers can safely complete transactions using credit cards or digital wallets with full encryption."
+        "description": "Secure Payments with Stripe: Customers can securely make transactions using credit cards or digital wallets, with full encryption."
       },
       "reservations": {
         "desc": "Table Reservations",
-        "description": "Table Reservations: Simple reservation form with real-time availability checks."
+        "description": "Table Reservations: A simple reservation form with real-time availability checking."
       },
       "contact": {
         "desc": "Contact Form",
-        "description": "Contact Form: A fast way for customers to reach the restaurant with inquiries, feedback, or special requests."
+        "description": "Contact Form: A quick way for customers to reach the restaurant with inquiries, feedback, or special requests."
       }
     },
     "panelFeatures": {
@@ -241,7 +241,7 @@
       },
       "products": {
         "desc": "Product Management",
-        "description": "Product Management: Easily add, edit, and organize menu items to keep the restaurant offerings up to date."
+        "description": "Product Management: Easily add, edit, and organize menu items to keep the restaurant's offering always up-to-date."
       },
       "orders": {
         "desc": "Order Management",
@@ -249,228 +249,225 @@
       },
       "messages": {
         "desc": "Customer Messages",
-        "description": "Messages: Receive and respond to customer messages efficiently for better communication."
+        "description": "Messages: Efficiently receive and respond to customer messages, streamlining communication."
       },
       "staff": {
-        "desc": "User Roles Management",
-        "description": "Staff Management: Easily add, edit, and remove users while controlling their roles and access levels."
+        "desc": "User Role Management",
+        "description": "Staff Management: Easily add, edit, and remove users and control their roles and access levels."
       },
       "reservations": {
         "desc": "Table Reservations",
-        "description": "Table Reservations Management: View, manage, and update table reservations seamlessly."
+        "description": "Table Reservations Management: Seamlessly view, manage, and update table reservations."
       }
     },
     "challenge": {
-      "title": "The Challenge: Digital Transformation in the Gastronomy Industry",
-      "text": "Modern restaurants need more than just delicious food. In the era of digitalization, efficient management of orders, reservations, and customer relationships, as well as providing a seamless online experience, is crucial. My goal was to create a solution that would automate these processes, expand the restaurant's reach, and enhance customer satisfaction, while simultaneously empowering staff with powerful management tools."
+      "title": "Goal: Digital Transformation in Gastronomy",
+      "text": "Modern restaurants need more than just delicious food. In the digital age, efficient management of orders, reservations, and customer relationships is crucial, as is ensuring a smooth online experience. The project aimed to support the restaurant in these areas, increase its online reach, and improve customer service quality by automating key processes and providing tools for effective business management."
     },
     "solution": {
       "title": "My Solution: Architecture and Implementation",
-      "text": "I designed and implemented the application based on a modern technology stack, prioritizing modularity, performance, and ease of maintenance."
+      "text": "The implemented solution includes a fully responsive website for the restaurant connected to a POS system, enabling menu management, online ordering, online payments, and customer account management. The system automates the ordering and reservation processes, integrates payments, and the administrative panel allows for efficient management of customer data and orders. Additionally, analytics mechanisms and tools for monitoring traffic and user behavior were implemented, supporting informed business decisions and increasing staff efficiency."
     },
     "frontend": {
       "title": "Frontend – User Interface and Customer Experience:",
-      "text1": "On the frontend, I opted for <strong>React.js</strong> combined with <a>Mantine UI</a>, which allowed me to rapidly build rich and accessible components.  This provides customers with an intuitive interface for browsing the menu, customizing orders, and reserving tables. I paid particular attention to responsiveness, ensuring the website functions flawlessly on every device – from desktops to smartphones.",
-      "text2": "A management panel is a comprehensive tool that gives staff full control over the restaurant's operations. From monitoring sales on the dashboard, to managing products and categories, and handling orders, customers, and reservations. The implementation of user roles (admin, moderator, member) ensures precise access control."
+      "text1": "For the frontend, I chose <strong>React.js</strong> combined with <a>Mantine UI</a>, which allowed me to quickly build rich and accessible components. This gives customers an intuitive interface for browsing the menu, customizing orders, and making table reservations. I paid particular attention to responsiveness, ensuring seamless operation on all devices – from desktops to smartphones.",
+      "text2": "The management panel is a comprehensive tool that gives staff full control over restaurant operations. From monitoring sales on the dashboard, to managing products, categories, and handling orders, customers, and reservations. The implementation of user roles (admin, moderator, member) ensures precise access control."
     },
     "backend": {
       "title": "Backend – The Heart of the System:",
-      "text": "The backend, built with Node.js using Express.js and a MongoDB database, forms a solid foundation for all operations. I developed a RESTful API that handles product, order, user, and reservation management. Key considerations included ensuring security (JWT for authorization, OAuth for social logins) and scalability, so the system can grow with the restaurant."
+      "text": "The backend, built on Node.js using Express.js and the MongoDB database, provides a solid foundation for all operations. I developed a RESTful API that handles the management of products, orders, users, and reservations. Key considerations were ensuring security (JWT for authorization, OAuth for social login) and scalability so the system could grow with the restaurant."
     },
     "achievements": {
-      "title": "Key Achievements and Skills Utilized:",
-      "f1": "Comprehensive Integration: I seamlessly connected the frontend with the backend, Stripe payment system, and authorization mechanisms (JWT, Google/Facebook OAuth), creating a cohesive and functional environment.",
-      "f2": "Responsive Design: I ensured an excellent user experience across all devices, which is crucial in today's mobile-first world.",
-      "f3": "Performance Optimization: I utilized react-lazy-load-image-component for lazy loading images and optimized API queries to ensure fast and smooth website operation.",
-      "f4": "State Management: I effectively leveraged React Context API and custom hooks (useFetch, useLocalStorage) to manage complex application state.",
-      "f5": "Clean Code and Best Practices: I focused on writing clean, modular, and maintainable code, adhering to development best practices and industry standards."
+      "title": "What was achieved:",
+      "f1": "Comprehensive Integration: The frontend was connected to the backend, the Stripe payment system, and authorization mechanisms (JWT, Google/Facebook OAuth), creating a coherent and secure application environment.",
+      "f2": "Responsive Design: The site adapts to various devices, ensuring consistent operation on both desktops and mobile devices.",
+      "f3": "Performance Optimization: Images and content load progressively as the page is used, and server queries were optimized, making the application run smoothly and quickly.",
+      "f4": "Efficient Data Management: The system enables efficient processing and control of information within the application.",
+      "f5": "Clean Code and Best Practices: The code is modular and easy to maintain, compliant with current industry standards."
     },
     "businessValue": {
       "title": "Business Value:",
-      "text1": "This project demonstrates my ability to create solutions that not only look great but, more importantly, deliver tangible business value. The restaurant benefits from:",
+      "text1": "The restaurant benefits from:",
       "f1": {
-        "title": "Increased Efficiency",
-        "description": "Automation of orders and reservations."
+        "title": "Increased efficiency",
+        "description": "Automation of order and reservation handling."
       },
       "f2": {
-        "title": "Enhanced Customer Experience",
-        "description": "Easy and enjoyable online ordering."
+        "title": "Improved customer experience",
+        "description": "Simple and intuitive online ordering."
       },
       "f3": {
-        "title": "Wider Reach",
-        "description": "Online and mobile accessibility."
+        "title": "Wider reach",
+        "description": "Availability of the site online and on mobile devices."
       },
       "f4": {
-        "title": "Data-Driven Decisions",
-        "description": "Statistics and reports to support management."
-      },
-      "text2": "I am proud of how this project blends aesthetics with robust engineering, creating a tool that can significantly streamline the operations of any restaurant. I would be happy to discuss more technical details and the challenges I faced, as well as how my skills can contribute to the success of your project."
+        "title": "Data-driven decisions",
+        "description": "Statistics and reports supporting management."
+      }
     }
   },
   "WebAppProject": {
     "hero": {
-      "title": "Restaurant POS & Management System",
-      "description": "A comprehensive Point of Sale (POS) and management system for restaurants, featuring an intuitive customer interface and a robust administrative panel for full control over operations. Built with React.js, Node.js, Express.js, and MongoDB."
+      "title": "POS System for a Restaurant",
+      "description": "A POS (Point of Sale) system for a restaurant, featuring a customer interface and an administrative panel for operational control. Built using React.js, Node.js, Express.js, and MongoDB."
     },
     "challenge": {
-      "title": "The Challenge: Comprehensive Restaurant Operations Management",
-      "text": "Managing a modern restaurant involves a multitude of complex tasks, from handling customer orders and reservations to managing inventory, staff, and finances. The challenge was to create a unified, robust, and intuitive system that streamlines these operations, enhances efficiency, and provides powerful tools for both customers and administrators."
+      "title": "Goal: Comprehensive Restaurant Management",
+      "text": "Running a modern restaurant involves many complex tasks. The goal was to create a system for managing products, orders, reservations, messages, and user accounts—both staff and customers. The system also needed to provide sales data to support subsequent business decisions."
     },
     "solution": {
-      "title": "My Solution: Full-Stack Application Architecture",
-      "text": "I designed and implemented a comprehensive full-stack application, focusing on modularity, security, and scalability. The solution provides distinct interfaces for customers and a powerful administrative panel for staff."
+      "title": "My Solution: Full-Stack Architecture",
+      "text": "I designed and implemented a full-stack application, focusing on modularity, security, and scalability. The system offers separate interfaces for customers and for staff."
     },
     "customerPanel": {
-      "title": "Customer Panel: Empowering Users",
-      "description": "The customer panel is designed to give users full control over their interactions with the restaurant, from managing their profile to tracking past orders and making reservations.",
+      "title": "Customer Panel: Full Control for Users",
+      "description": "The customer panel allows account management, viewing order history, and updating personal data, including changing the password or permanently deleting the account.",
       "features": {
-        "f1": "Registration and Login: Ability to register and log in using email/password, Google, or Facebook.",
-        "f2": "Recent Orders: List of all placed orders with the option to \"delete\" them (mark as not visible to the customer).",
-        "f3": "Personal Details: View and edit personal information (first name, surname, email, phone, address).",
-        "f4": "Password Change: Secure password update functionality.",
+        "f1": "Registration and Login: Option to register and log in with email/password, Google, or Facebook.",
+        "f2": "Recent Orders: List of all placed orders with the option to \"delete\" them (mark as invisible to the customer).",
+        "f3": "Personal Data: View and edit personal information (first name, last name, email, phone, address).",
+        "f4": "Password Change: Secure function to update the password.",
         "f5": "Option to permanently delete the user account."
       }
     },
     "adminPanel": {
-      "title": "Admin Panel: Centralized Control & Management",
-      "description": "The administrative panel is the backbone of the system, providing staff with a centralized hub to manage every aspect of the restaurant's operations, ensuring smooth workflows and data-driven decision-making.",
+      "title": "Administrator Panel: Central Management",
+      "description": "The administrative panel enables management of products and categories, user and staff accounts, as well as table reservations. The administrator can also read and respond to customer messages directly from the panel.",
       "features": {
-        "f1": "Dashboard: Provides a clear and intuitive overview of key business metrics for informed decision-making.",
-        "f2": "Product Management: Easily add, edit, and organize menu items to keep the restaurant offerings up to date.",
-        "f3": "Product Management: Update products.",
-        "f4": "Category Management: Full create, read, update, and delete operations for product categories.",
-        "f5": "Customers Management: Easily add, amend, and delete customer accounts while managing their details and access preferences.",
-        "f6": "Order Management: Track, monitor, and update order statuses in real-time to ensure smooth operations.",
-        "f7": "Messages: Receive and respond to customer messages efficiently for better communication.",
-        "f8": "Table Reservations Management: View, manage, and update table reservations seamlessly.",
-        "f9": "Staff Management: Full create, read, update, and delete operations for staff accounts with role assignment.",
-        "f10": "Application Settings: Manage global reservation settings, SMTP configuration, and other app-wide parameters."
+        "f1": "Dashboard: A clear overview of key business metrics for informed decision-making.",
+        "f2": "Product Management: Easy adding, editing, and organizing of menu items.",
+        "f3": "Product Update.",
+        "f4": "Category Management: Full CRUD operations for product categories.",
+        "f5": "Customer Management: Easy adding, modifying, and deleting customer accounts, and control over their data and permissions.",
+        "f6": "Order Management: Real-time tracking, monitoring, and updating of order statuses.",
+        "f7": "Messages: Efficiently receiving and responding to customer messages.",
+        "f8": "Table Reservation Management: Seamless viewing, editing, and updating of reservations.",
+        "f9": "Staff Management: Full CRUD operations for staff accounts with role assignment.",
+        "f10": "Application Settings: Managing global reservation settings, SMTP configuration, and other system parameters."
       }
     },
     "achievements": {
-      "title": "Key Achievements and Technologies Utilized:",
+      "title": "Implementation and Technologies Used:",
       "items": {
-        "f1": "Robust Authentication & Authorization: Implemented JWT tokens, OAuth2 (Google/Facebook), and role-based access control for secure user and staff management.",
-        "f2": "Efficient Data Management: Utilized MongoDB with Mongoose for flexible and scalable database interactions, supporting complex data structures for products, orders, and users.",
-        "f3": "Comprehensive API Development: Built a RESTful API with Node.js/Express.js, covering CRUD operations for all core entities (products, orders, users, reservations, messages, staff, categories).",
-        "f4": "Secure Payment Integration: Seamlessly integrated Stripe for secure online payments, including webhook handling for automatic order status updates.",
-        "f5": "Real-time Statistics & Reporting: Developed endpoints for sales statistics, visitor tracking, and dashboard overviews to support informed business decisions.",
-        "f6": "Responsive & Intuitive UI: Designed with React.js and Mantine UI, ensuring a consistent and user-friendly experience across all devices.",
-        "f7": "Clean Code & Best Practices: Adhered to industry standards for clean, modular, and maintainable code, including global error handling and structured logging."
+        "f1": "Authorization: Implementation of JWT tokens, OAuth2 (Google/Facebook), and role-based access control for secure user and staff management.",
+        "f2": "Data Management: Use of MongoDB with Mongoose for flexible and scalable data operations, supporting complex structures for products, orders, and users.",
+        "f3": "API: RESTful API in Node.js/Express.js covering CRUD operations for all key entities (products, orders, users, reservations, messages, staff, categories).",
+        "f4": "Payments: Stripe integration for online payments, including webhook handling for automatic order status updates.",
+        "f5": "Real-time statistics and reporting: Endpoints for sales statistics, visit tracking, and dashboard overview.",
+        "f6": "Responsive UI: Design in React.js and Mantine UI, ensuring a consistent user experience on all devices.",
+        "f7": "Clean Code and Best Practices: Adherence to industry standards for modular and maintainable code, including error handling and structured logging."
       }
     },
     "businessValue": {
-      "title": "Business Value & Impact:",
-      "introText": "This project showcases my ability to develop complex, full-stack applications that deliver significant business value by:",
+      "title": "Business Value:",
+      "introText": "Increasing restaurant turnover through:",
       "items": {
         "f1": {
-          "title": "Streamlining Operations",
-          "description": "Automating order, reservation, and inventory management, reducing manual workload."
+          "title": "Process Streamlining",
+          "description": "Automation of orders, reservations, and inventory management, reducing manual workload."
         },
         "f2": {
-          "title": "Enhancing Customer Engagement",
-          "description": "Providing a seamless online experience for ordering, reservations, and account management."
+          "title": "Better Customer Engagement",
+          "description": "Providing a smooth online experience for ordering, booking, and account management."
         },
         "f3": {
-          "title": "Improving Decision-Making",
-          "description": "Offering real-time data and statistics through the admin dashboard."
+          "title": "Decision Support",
+          "description": "Delivering real-time data and statistics via the administrative dashboard."
         },
         "f4": {
           "title": "Ensuring Security",
-          "description": "Implementing robust authentication, authorization, and payment processing mechanisms."
+          "description": "Implementation of robust authorization, authentication, and payment handling mechanisms."
         },
         "f5": {
           "title": "Scalability",
           "description": "Building a system capable of growing with the restaurant's needs."
         }
-      },
-      "closingText": "This application is a testament to my expertise in building robust, user-centric web solutions that drive efficiency and growth for businesses."
+      }
     },
     "bottomButtons": {
-      "backToProjects": "Back to projects",
-      "contactMe": "Contact me"
+      "backToProjects": "Back to Projects",
+      "contactMe": "Contact Me"
     }
   },
   "LesniczowkaProject": {
     "hero": {
-      "title": "Leśniczówka Wieżyca: The Digital Gateway to a Kashubian Forest Retreat",
-      "description": "This website serves as the official online platform for Leśniczówka Wieżyca, a tranquil resort destination located in the picturesque Kashuby region of Poland. The site's primary function is to beautifully showcase the resort's facilities — including cozy rooms, seasonal Dutch houses, and SPA amenities like a Jacuzzi and Sauna — while offering a seamless, end-to-end digital booking experience. The core challenge addressed by the platform is transforming user interest into confirmed stays through an efficient, self-service online system."
+      "title": "Leśniczówka Wieżyca: The Digital Gateway to a Kashubian Resort",
+      "description": "This site is the official online platform for Leśniczówka Wieżyca, a tranquil resort located in the picturesque Kashubian region of Poland. The main goal of the service is to attractively present the resort's amenities – including cozy rooms, seasonal Dutch chalets, and a SPA with a jacuzzi and sauna – and to provide a smooth, comprehensive online booking process. The key challenge solved by the platform is converting user interest into confirmed stays through an efficient self-service system."
     },
     "challenge": {
-      "title": "The Challenge: Digital Transformation in the Accommodation Sector",
-      "text": "The core challenge addressed by the platform is transforming user interest into confirmed stays through an efficient, self-service online system."
+      "title": "Goal: Digital Transformation in the Accommodation Industry",
+      "text": "Leśniczówka Wieżyca required a digital transformation focused on maximizing conversions, where the main challenge was converting initial user interest into confirmed stays. This was achieved by implementing a self-service online booking system integrated with a new, responsive platform. The result is the automation of accommodation sales processes, which minimizes manual workload and increases the facility's direct revenue."
     },
     "solution": {
-      "title": "The Solution: Integrated Booking and Payment System",
-      "text": "The website features a comprehensive reservation module that puts guests in control of planning their stay, eliminating the need for manual communication for availability checks and initial payments."
+      "title": "Solution: Website with Integrated Booking and Payment System",
+      "text": "The site includes a comprehensive booking module that gives guests full control over planning their stay, eliminating the need for manual communication to check availability and make initial payments."
     },
     "keyFunctionalAreas": {
       "title": "Key Functional Areas:",
       "f1": {
-        "desc": "Real-Time Availability & Search",
-        "description": "Real-Time Availability & Search: Guests can immediately search for available accommodations by specifying dates and number of people, ensuring instant results."
+        "desc": "Real-time Availability and Search Engine",
+        "description": "Real-time Availability and Search Engine: Guests can instantly search for available accommodations by providing dates and the number of people, receiving results immediately."
       },
       "f2": {
-        "desc": "Secure Online Reservation",
-        "description": "Secure Online Reservation: Guides users through a smooth, intuitive booking process for individual, group, or package deals."
+        "desc": "Secure Online Booking",
+        "description": "Secure Online Booking: The user goes through a smooth, intuitive booking process for individual, group, or package stays."
       },
       "f3": {
-        "desc": "Integrated Payment Processing",
-        "description": "Integrated Payment Processing: Guests can securely complete financial transactions directly on the platform, confirming bookings instantly."
+        "desc": "Integrated Online Payments",
+        "description": "Integrated Online Payments: Guests can securely conduct financial transactions directly on the site, instantly confirming their reservation."
       },
       "f4": {
-        "desc": "Content & Services Showcase",
-        "description": "Content & Services Showcase: Extensive information on resort offerings, accommodation types, event hosting, and local attractions."
+        "desc": "Content and Service Presentation",
+        "description": "Content and Service Presentation: Detailed information about the resort's offer, accommodation types, event organization, and local attractions."
       },
       "f5": {
         "desc": "Gallery",
-        "description": "Gallery: A visually rich collection of images showcasing the resort, accommodations, facilities, and events to help guests get a clear sense of the experience."
+        "description": "Gallery: A visually rich collection of photos showcasing the resort, rooms, amenities, and events to help guests better imagine their stay."
       },
       "f6": {
         "desc": "Contact Form",
-        "description": "Contact Form: Easy-to-use form allowing guests to make inquiries, request information, or get in touch with the resort for personalized assistance."
+        "description": "Contact Form: An easy-to-use form allowing guests to ask questions, request information, or contact the resort for personalized assistance."
       },
       "f7": {
         "desc": "Mobile View",
-        "description": "Responsive design: Optimized for all devices, ensuring seamless user experience on mobile and tablet."
+        "description": "Responsive Design: The site is optimized for all devices, ensuring comfortable use on phones and tablets."
       },
       "f8": {
-        "desc": "Admin Panel - Reservations List",
-        "description": "Admin Panel: Full overview of all bookings with status management and quick modifications."
+        "desc": "Admin Panel – Reservation List",
+        "description": "Admin Panel: A full overview of all reservations with the ability to manage statuses and make quick modifications."
       },
       "f9": {
-        "desc": "Admin Panel - Calendar View",
-        "description": "Admin Calendar: Visual calendar to track reservations and manage availability efficiently."
+        "desc": "Admin Panel – Calendar View",
+        "description": "Admin Calendar: A visual calendar for tracking reservations and efficiently managing availability."
       }
     },
     "achievements": {
-      "title": "Key Achievements and Skills Utilized:",
-      "f1": "Integration with Eagle Booking: Configured the plugin for managing reservations, room availability, and online payments.",
-      "f2": "Reservation Process Optimization: Customized booking forms and payment workflow for smooth guest experience.",
-      "f3": "WordPress Theme Customization: Adapted the WordPress theme to match the visual identity of Leśniczówka Wieżyca.",
-      "f4": "Content Management & SEO: Used WordPress tools to manage content and optimize the site for search engines.",
-      "f5": "Staff Training: Guided the resort staff in using the WordPress admin panel and managing reservations."
+      "title": "Implementation:",
+      "f1": "Integration with Eagle Booking: The plugin was configured to manage reservations, room availability, and online payments.",
+      "f2": "Reservation Process Optimization: Booking forms and payment flow were customized to ensure a smooth guest experience.",
+      "f3": "WordPress Theme Customization: The WordPress theme was adapted to match the visual identity of Leśniczówka Wieżyca.",
+      "f4": "Content Management and SEO: WordPress tools were utilized for content management and search engine optimization.",
+      "f5": "Staff Training: Resort employees were trained in operating the WordPress administrative panel and managing reservations."
     },
     "businessValue": {
       "title": "Business Value:",
-      "introText": "This project demonstrates how a traditional hospitality business can transition into the digital era through smart technology integration, improving both operational efficiency and customer satisfaction.",
-      "closingText": "Beyond its technical execution, this project stands as a proof of concept for how design and technology can elevate a regional hospitality brand — delivering convenience for guests and strategic independence for the business.",
+      "introText": "The resort benefits from:",
       "items": {
         "f1": {
-          "title": "Automation of Operations:",
-          "description": "The digital booking and payment system replaced manual phone or email reservations, drastically reducing administrative workload and minimizing human error."
+          "title": "Operational Automation:",
+          "description": "The digital booking and payment system replaced manual phone or email reservations, significantly reducing administrative workload and minimizing the risk of errors."
         },
         "f2": {
           "title": "Increased Direct Sales:",
-          "description": "The platform enables guests to book directly through the website, reducing dependency on external portals and lowering commission costs."
+          "description": "The platform allows guests to book directly through the website, reducing reliance on external portals and lowering commission costs."
         },
         "f3": {
-          "title": "Improved Cash Flow:",
-          "description": "Integrated payment processing ensures instant confirmation of bookings and immediate transfer of funds to the resort, eliminating delays and uncertainty."
+          "title": "Improved Financial Flow:",
+          "description": "Integrated payment handling ensures immediate reservation confirmation and quick fund transfers to the resort, eliminating delays and uncertainty."
         },
         "f4": {
-          "title": "Enhanced Guest Experience:",
-          "description": "The intuitive interface, real-time availability, and responsive design create a smooth and reliable journey from discovery to reservation."
+          "title": "Better Guest Experience:",
+          "description": "The intuitive interface, real-time availability, and responsive design create a smooth and reliable process from browsing the offer to making a reservation."
         }
       }
     },
@@ -480,7 +477,7 @@
     }
   },
   "BottomButtonsBlock": {
-    "backToProjects": "Back to projects",
-    "contactMe": "Contact with me"
+    "backToProjects": "Back to Projects",
+    "contactMe": "Contact Me"
   }
 }
