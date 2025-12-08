@@ -25,15 +25,31 @@ import { GoogleTagManager } from '@next/third-parties/google'
 import ScrollToTop from '../components/ScrollToTop/ScrollToTop'
 import { NextIntlClientProvider } from 'next-intl';
 import { cookies } from 'next/headers';
-
+import Script from 'next/script';
+import CookieConsent from '../components/CookieConsent/CookieConsent';
 export default async function RootLayout({ children }) {
   const cookieStore = await cookies();
   const currentLocale = cookieStore.get('locale')?.value || 'en';
   return (
     <html lang={currentLocale}>
-      <GoogleTagManager gtmId="GTM-TLVPQ9VN" />
+      <head>
+        <Script id="consent-default" strategy="beforeInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('consent', 'default', {
+              'analytics_storage': 'denied',
+              'ad_storage': 'denied',
+              'ad_user_data': 'denied', // Wymagane przez v2
+              'ad_personalization': 'denied' // Wymagane przez v2
+            });
+          `}
+        </Script>
+        <GoogleTagManager gtmId="GTM-TLVPQ9VN" />
+      </head>
       <body className={styles.body}>
         <NextIntlClientProvider>
+          <CookieConsent />
           <Aside />
           <main className={styles.main}>
             {children}
