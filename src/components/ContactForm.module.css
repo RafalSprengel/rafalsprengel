@@ -107,7 +107,7 @@
 .inputError{
   background-color: #ffa1ab;
   color: #fff;
-};
+}
 
 @media (max-width: 768px) {
   .form {
