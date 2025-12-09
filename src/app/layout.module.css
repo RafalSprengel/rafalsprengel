@@ -13,6 +13,13 @@
     flex-direction: column;
 }
 
+.langButtWrap {
+    z-index: 1;
+    position: absolute;
+    right: 88px;
+    top: 38px;
+}
+
 @media (max-width: 480px) {
     .body {
         font-size: 14px;

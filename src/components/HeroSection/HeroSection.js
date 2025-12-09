@@ -2,7 +2,6 @@
 
 import styles from './HeroSection.module.css'
 import dynamic from 'next/dynamic'
-import LangButton from '../LangButton/LangButton.js'
 import { useTranslations } from 'next-intl'
 
 const TypedSubtitle = dynamic(() => import('../TypedSubtitle'), {
@@ -10,14 +9,11 @@ const TypedSubtitle = dynamic(() => import('../TypedSubtitle'), {
   loading: () => <span>Web Developer</span>
 })
 
-export default function HeroSection({ currentLocale }) {
+export default function HeroSection() {
   const t = useTranslations('HeroSection')
 
   return (
     <section id="hero" className={styles.hero_section}>
-      <div className={styles.langButtWrap}>
-        <LangButton currentLocale={currentLocale} />
-      </div>
 
       <video
         className={styles.videoContainer}

@@ -27,6 +27,8 @@ import { NextIntlClientProvider } from 'next-intl';
 import { cookies } from 'next/headers';
 import Script from 'next/script';
 import CookieConsent from '../components/CookieConsent/CookieConsent';
+import LangButton from '@/components/LangButton/LangButton';
+
 export default async function RootLayout({ children }) {
   const cookieStore = await cookies();
   const currentLocale = cookieStore.get('locale')?.value || 'en';
@@ -52,6 +54,9 @@ export default async function RootLayout({ children }) {
           <CookieConsent />
           <Aside />
           <main className={styles.main}>
+            <div className={styles.langButtWrap}>
+              <LangButton currentLocale={currentLocale}/>
+            </div>
             {children}
             <Footer />
             <ScrollToTop />

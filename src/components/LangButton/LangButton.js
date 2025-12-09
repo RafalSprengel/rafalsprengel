@@ -6,7 +6,6 @@ import { useState } from 'react';
 import styles from './LangButton.module.css';
 
 export default function LangButton({ currentLocale }) {
-    console.log('currentLocale', currentLocale);
 
     const [locale, setLocale] = useState(currentLocale);
 

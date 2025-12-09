@@ -6,6 +6,7 @@ import { FaExternalLinkAlt, FaGithub } from 'react-icons/fa';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
+
 export default function ProjectHeroSection({
   title,
   description,
@@ -16,6 +17,7 @@ export default function ProjectHeroSection({
   githubUrl,
   tags,
 }) {
+
   useEffect(() => {
     AOS.init({
       duration: 700,

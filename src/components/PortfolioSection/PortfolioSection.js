@@ -6,7 +6,6 @@ import { useTranslations } from 'next-intl';
 export default function PortfolioSection() {
     const t = useTranslations('PortfolioSection');
     
-    // Lista kluczy projektów, która odpowiada strukturom w plikach JSON
     const portfolioKeys = [
         'restaurantWebsite',
         'restaurantPOS',
