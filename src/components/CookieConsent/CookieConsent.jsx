@@ -54,5 +54,5 @@ export default function CookieConsent() {
                 <button className={styles.reject} onClick={handleReject}>Reject</button>
             </div>
         </div>
-    );
+    ); 
 }
