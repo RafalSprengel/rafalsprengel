@@ -14,7 +14,7 @@
     "@next/third-parties": "^15.5.5",
     "aos": "^2.3.4",
     "glightbox": "^3.3.1",
-    "next": "^15.5.5",
+    "next": "15.5.7",
     "next-intl": "^4.5.5",
     "react": "19.1.0",
     "react-bootstrap-icons": "^1.11.6",
