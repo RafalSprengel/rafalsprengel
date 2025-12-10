@@ -479,5 +479,10 @@
   "BottomButtonsBlock": {
     "backToProjects": "Back to Projects",
     "contactMe": "Contact Me"
+  },
+  "CookiesBanner": {
+    "message": "We use cookies to improve your experience. You can accept or reject non-essential cookies.",
+    "buttonAccept": "Accept",
+    "buttonReject": "Reject"
   }
 }

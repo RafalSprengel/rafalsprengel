@@ -2,8 +2,9 @@
 
 import { useState, useEffect } from 'react';
 import styles from './CookieConsent.module.css';
+import {useTranslations} from 'next-intl';
 
-// Funkcja pomocnicza do aktualizacji stanu zgody w GTM
+
 const updateGtagConsent = (status) => {
     if (typeof window !== 'undefined' && window.gtag) {
         window.gtag('consent', 'update', {
@@ -17,6 +18,7 @@ const updateGtagConsent = (status) => {
 
 export default function CookieConsent() {
     const [show, setShow] = useState(false);
+    const t = useTranslations('CookiesBanner');
 
     useEffect(() => {
         const consent = localStorage.getItem('cookieConsent');
@@ -47,11 +49,11 @@ export default function CookieConsent() {
     return (
         <div className={styles.banner}>
             <p>
-                We use cookies to improve your experience. You can accept or reject non-essential cookies.
+                {t('message')}
             </p>
             <div className={styles.buttons}>
-                <button className={styles.accept} onClick={handleAccept}>Accept</button>
-                <button className={styles.reject} onClick={handleReject}>Reject</button>
+                <button className={styles.accept} onClick={handleAccept}>{t('buttonAccept')}</button>
+                <button className={styles.reject} onClick={handleReject}>{t('buttonReject')}</button>
             </div>
         </div>
     ); 
