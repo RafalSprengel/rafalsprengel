@@ -171,16 +171,16 @@ export default async function LesniczowkaProjectPage() {
                     <p className={`${styles.sectionText} ${styles['sectionText--leftPadding']}`}>{t('businessValue.introText')}</p>
                     <ul className={styles.featureList__2}>
                         <li key="f1">
-                            <span className={styles.checkmark}>✓</span><strong>{t('businessValue.items.f1.title')}</strong>: {t('businessValue.items.f1.description')}
+                            <span className={styles.checkmark}>✓</span><strong>{t('businessValue.items.f1.title')}</strong> {t('businessValue.items.f1.description')}
                         </li>
                         <li key="f2">
-                            <span className={styles.checkmark}>✓</span><strong>{t('businessValue.items.f2.title')}</strong>: {t('businessValue.items.f2.description')}
+                            <span className={styles.checkmark}>✓</span><strong>{t('businessValue.items.f2.title')}</strong> {t('businessValue.items.f2.description')}
                         </li>
                         <li key="f3">
-                            <span className={styles.checkmark}>✓</span><strong>{t('businessValue.items.f3.title')}</strong>: {t('businessValue.items.f3.description')}
+                            <span className={styles.checkmark}>✓</span><strong>{t('businessValue.items.f3.title')}</strong> {t('businessValue.items.f3.description')}
                         </li>
                         <li key="f4">
-                            <span className={styles.checkmark}>✓</span><strong>{t('businessValue.items.f4.title')}</strong>: {t('businessValue.items.f4.description')}
+                            <span className={styles.checkmark}>✓</span><strong>{t('businessValue.items.f4.title')}</strong> {t('businessValue.items.f4.description')}
                         </li>
                     </ul>
                 </div>

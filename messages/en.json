@@ -363,23 +363,23 @@
       "introText": "Increasing restaurant turnover through:",
       "items": {
         "f1": {
-          "title": "Process Streamlining",
+          "title": "Process Streamlining:",
           "description": "Automation of orders, reservations, and inventory management, reducing manual workload."
         },
         "f2": {
-          "title": "Better Customer Engagement",
+          "title": "Better Customer Engagement:",
           "description": "Providing a smooth online experience for ordering, booking, and account management."
         },
         "f3": {
-          "title": "Decision Support",
+          "title": "Decision Support:",
           "description": "Delivering real-time data and statistics via the administrative dashboard."
         },
         "f4": {
-          "title": "Ensuring Security",
+          "title": "Ensuring Security:",
           "description": "Implementation of robust authorization, authentication, and payment handling mechanisms."
         },
         "f5": {
-          "title": "Scalability",
+          "title": "Scalability:",
           "description": "Building a system capable of growing with the restaurant's needs."
         }
       }

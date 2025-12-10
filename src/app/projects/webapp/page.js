@@ -190,23 +190,23 @@ export default function WebappProjectPage() {
           <ul className={styles.featureList__2}>
             <li key="f1">
               <span className={styles.checkmark}>✓</span>
-              <strong>{t('businessValue.items.f1.title')}:</strong> {t('businessValue.items.f1.description')}
+              <strong>{t('businessValue.items.f1.title')}</strong> {t('businessValue.items.f1.description')}
             </li>
             <li key="f2">
               <span className={styles.checkmark}>✓</span>
-              <strong>{t('businessValue.items.f2.title')}:</strong> {t('businessValue.items.f2.description')}
+              <strong>{t('businessValue.items.f2.title')}</strong> {t('businessValue.items.f2.description')}
             </li>
             <li key="f3">
               <span className={styles.checkmark}>✓</span>
-              <strong>{t('businessValue.items.f3.title')}:</strong> {t('businessValue.items.f3.description')}
+              <strong>{t('businessValue.items.f3.title')}</strong> {t('businessValue.items.f3.description')}
             </li>
             <li key="f4">
               <span className={styles.checkmark}>✓</span>
-              <strong>{t('businessValue.items.f4.title')}:</strong> {t('businessValue.items.f4.description')}
+              <strong>{t('businessValue.items.f4.title')}</strong> {t('businessValue.items.f4.description')}
             </li>
             <li key="f5">
               <span className={styles.checkmark}>✓</span>
-              <strong>{t('businessValue.items.f5.title')}:</strong> {t('businessValue.items.f5.description')}
+              <strong>{t('businessValue.items.f5.title')}</strong> {t('businessValue.items.f5.description')}
             </li>
           </ul>
         </div>

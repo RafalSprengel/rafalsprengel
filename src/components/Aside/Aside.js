@@ -1,7 +1,7 @@
 'use client'
 
 import styles from './Aside.module.css'
-import { useState } from 'react';
+import { useState, useEffect, useRef  } from 'react';
 import dynamic from 'next/dynamic'
 import { useTranslations } from 'next-intl';
 import { FaGithub, FaLinkedin, FaFacebook, FaEnvelope, FaPhone, FaHome, FaUser, FaLaptopCode, FaImages, FaServicestack } from 'react-icons/fa';
@@ -11,9 +11,26 @@ const ProfileImage = dynamic(() => import('@/components/ProfileImage/ProfileImag
 export default function Aside() {
     const [isOpen, setIsOpen] = useState(false);
     const t = useTranslations('Aside');
+     const asideRef = useRef(null);
+
+     const handleClickOutside = (event) => {
+        if (asideRef.current && !asideRef.current.contains(event.target)) {
+            setIsOpen(false);
+        }
+    };
+
+    useEffect(() => {
+        if (isOpen) {
+            window.addEventListener('mousedown', handleClickOutside);
+        }
+
+        return () => {
+            window.removeEventListener('mousedown', handleClickOutside);
+        };
+    }, [isOpen]);
 
     return (
-        <aside className={`${styles.outer} ${isOpen ? styles['outer--visible'] : ''}`}>
+        <aside ref={asideRef} className={`${styles.outer} ${isOpen ? styles['outer--visible'] : ''}`}>
             <div className={styles.inner}>
                 <HamburgerIcon isOpen={isOpen} onClick={() => setIsOpen(!isOpen)} />
                 <div className={styles.profile}>

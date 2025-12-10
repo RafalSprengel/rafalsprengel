@@ -337,7 +337,7 @@
         "f1": "Dashboard: przejrzysty podgląd kluczowych wskaźników biznesowych dla świadomego podejmowania decyzji.",
         "f2": "Zarządzanie produktami: łatwe dodawanie, edycja i organizacja pozycji w menu.",
         "f3": "Aktualizacja produktów.",
-        "f4": "Zarządzanie kategoriami: pełne operacje tworzenia, odczytu, aktualizacji i usuwania kategorii produktów.",
+        "f4": "Zarządzanie kategoriami: pUsprawnienie procesówełne operacje tworzenia, odczytu, aktualizacji i usuwania kategorii produktów.",
         "f5": "Zarządzanie klientami: łatwe dodawanie, modyfikowanie i usuwanie kont klientów oraz kontrola ich danych i uprawnień.",
         "f6": "Zarządzanie zamówieniami: śledzenie, monitorowanie i aktualizacja statusów zamówień w czasie rzeczywistym.",
         "f7": "Wiadomości: efektywne odbieranie i odpowiadanie na wiadomości od klientów.",
@@ -363,23 +363,23 @@
       "introText": "Zwiększenie obrotów restauracji poprzez:",
       "items": {
         "f1": {
-          "title": "Usprawnienie procesów",
+          "title": "Usprawnienie procesów:",
           "description": "Automatyzacja zamówień, rezerwacji i zarządzania stanem magazynowym, redukując ręczne obciążenie."
         },
         "f2": {
-          "title": "Lepsze zaangażowanie klientów",
+          "title": "Lepsze zaangażowanie klientów:",
           "description": "Zapewnienie płynnego doświadczenia online w zakresie zamówień, rezerwacji i zarządzania kontem."
         },
         "f3": {
-          "title": "Wsparcie decyzji",
+          "title": "Wsparcie decyzji:",
           "description": "Dostarczanie danych i statystyk w czasie rzeczywistym przez dashboard administracyjny."
         },
         "f4": {
-          "title": "Zapewnienie bezpieczeństwa",
+          "title": "Zapewnienie bezpieczeństwa:",
           "description": "Implementacja solidnej autoryzacji, uwierzytelniania i mechanizmów obsługi płatności."
         },
         "f5": {
-          "title": "Skalowalność",
+          "title": "Skalowalność:",
           "description": "Budowa systemu zdolnego do rozwoju wraz z potrzebami restauracji."
         }
       }
