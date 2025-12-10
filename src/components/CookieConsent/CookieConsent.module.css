@@ -1,23 +1,29 @@
-.banner {
+.container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
   position: fixed;
   bottom: 20px;
-  left: 50%;
-  transform: translateX(-50%);
+  z-index: 9999;
+}
+
+.banner {
   background: #fff;
   color: #333;
   border: 1px solid #ccc;
   padding: 16px 24px;
   border-radius: 8px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-  z-index: 9999;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
   max-width: 90%;
 }
+
 .buttons {
   margin-top: 12px;
   display: flex;
   gap: 10px;
   justify-content: flex-end;
 }
+
 .accept {
   background-color: #0070f3;
   color: white;
@@ -26,9 +32,11 @@
   border-radius: 4px;
   cursor: pointer;
 }
+
 .accept:hover {
   background-color: #005bb5;
 }
+
 .reject {
   background-color: #e0e0e0;
   color: #333;
@@ -37,6 +45,7 @@
   border-radius: 4px;
   cursor: pointer;
 }
+
 .reject:hover {
   background-color: #bdbdbd;
 }

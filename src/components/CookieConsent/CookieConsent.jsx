@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import styles from './CookieConsent.module.css';
-import {useTranslations} from 'next-intl';
+import { useTranslations } from 'next-intl';
 
 
 const updateGtagConsent = (status) => {
@@ -47,14 +47,16 @@ export default function CookieConsent() {
     if (!show) return null;
 
     return (
-        <div className={styles.banner}>
-            <p>
-                {t('message')}
-            </p>
-            <div className={styles.buttons}>
-                <button className={styles.accept} onClick={handleAccept}>{t('buttonAccept')}</button>
-                <button className={styles.reject} onClick={handleReject}>{t('buttonReject')}</button>
+        <div className={styles.container}>
+            <div className={styles.banner}>
+                <p>
+                    {t('message')}
+                </p>
+                <div className={styles.buttons}>
+                    <button className={styles.accept} onClick={handleAccept}>{t('buttonAccept')}</button>
+                    <button className={styles.reject} onClick={handleReject}>{t('buttonReject')}</button>
+                </div>
             </div>
         </div>
-    ); 
+    );
 }
