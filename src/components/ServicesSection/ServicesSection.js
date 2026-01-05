@@ -5,7 +5,6 @@ import { useTranslations } from 'next-intl';
 export default function ServicesSection() {
     const t = useTranslations('ServicesSection');
 
-    // Definicja ikon i kluczy, które będą używane do mapowania tłumaczeń
     const serviceKeys = [
         { key: 'websites', icon: <FaCode className={styles.serviceIcon} /> },
         { key: 'applications', icon: <FaShieldAlt className={styles.serviceIcon} /> },
@@ -39,7 +38,6 @@ export default function ServicesSection() {
 
                             <ul className={styles.featuresList}>
                                 {
-                                    // Użycie t.raw() do pobrania obiektu features, a następnie Object.keys() do iteracji po kluczach f1, f2, itd.
                                     Object.keys(t.raw(`${service.key}.features`)).map((featureKey, featureIndex) => (
                                         <li key={featureIndex} className={styles.featureItem}>
                                             <span className={styles.checkmark}>✓</span>

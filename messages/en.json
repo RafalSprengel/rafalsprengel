@@ -105,10 +105,10 @@
       "description": "Support in configuring servers and hosting for optimal performance and reliability.",
       "features": {
         "f1": "Domain and hosting configuration",
-        "f2": "Troubleshooting and failure resolution",
-        "f3": "VPS server configuration (Ubuntu, NGINX)",
-        "f4": "Security hardening (Firewall, Fail2ban)",
-        "f5": "Database management"
+        "f2": "VPS server configuration (Ubuntu, NGINX)",
+        "f3": "Security hardening (Firewall, Fail2ban)",
+        "f4": "Database configuration and management (MongoDb)",
+        "f5": "SSL certificate installation"
       }
     },
     "seo": {
