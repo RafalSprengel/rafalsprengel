@@ -1,36 +1,37 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Personal Portfolio - Rafal Sprengel
 
-## Getting Started
+This is the source code for my professional portfolio website, accessible at [rafalsprengel.com](https://www.rafalsprengel.com). It serves as a central hub for my projects, technical skills, and professional engineering background.
 
-First, run the development server:
+## 🚀 Overview
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+The goal of this project was to create a high-performance, visually engaging, and minimalist platform to showcase my work as a Full-stack Web Developer. It focuses on clean UI, fast loading times, and a seamless user experience across all devices.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠 Tech Stack
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- **Framework:** Next.js (App Router)
+- **Styling:** Mantine UI, CSS Modules
+- **Animations:** Framer Motion
+- **Language:** JavaScript (ES6+)
+- **Deployment:** VPS / Vercel (or your specific hosting)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## ✨ Key Features
 
-## Learn More
+- **Modern UI/UX:** Built with a focus on scannability and professional aesthetics.
+- **Project Showcases:** Dedicated subpages for complex projects (Restaurant POS, Booking Systems) with detailed technical breakdowns.
+- **Responsive Design:** Fully optimized for mobile, tablet, and desktop views.
+- **Performance Optimized:** High Lighthouse scores through Next.js image optimization and efficient asset management.
+- **Dynamic Animations:** Subtle entrance animations and interactive elements to enhance engagement without distracting from the content.
 
-To learn more about Next.js, take a look at the following resources:
+## 📁 Structure
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+The project follows a standard Next.js directory structure:
+- `/app`: Contains the main pages and layout configurations.
+- `/components`: Reusable UI elements (Project cards, Navigation, Footer).
+- `/public`: Static assets, including images and documents.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 👨‍💻 Engineering Context
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This portfolio is not just a gallery but a demonstration of my engineering approach:
+- **Component Reusability:** Modular architecture for easy maintenance.
+- **Clean Code:** Adhering to best practices in React/Next.js development.
+- **Deployment Knowledge:** Configured for production environments with attention to SEO and security.
