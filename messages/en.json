@@ -43,7 +43,7 @@
     "restaurantWebsite": {
       "title": "Responsive Restaurant Website",
       "image": "/assets/home-page/www.jpg",
-      "description": "A modern, fully responsive website for a restaurant with online ordering, a menu, a gallery, a table reservation system, and a contact form.",
+      "description": "Responsive website for a restaurant with online ordering, a menu, a gallery, a table reservation system, and a contact form.",
       "tags": "React, Express.js, MongoDB, Stripe",
       "category": "Custom Website",
       "liveUrl": "https://restaurant.rafalsprengel.com/",
@@ -53,7 +53,7 @@
     "restaurantPOS": {
       "title": "Restaurant Web Platform & Online Ordering System",
       "image": "/assets/home-page/server.jpg",
-      "description": "An advanced web application for restaurant management: admin panel, customer accounts, orders, menu items, categories, and staff workflows.",
+      "description": "A web application for restaurant management: admin panel, customer accounts, orders, menu items, categories, and staff workflows.",
       "tags": "Express.js, MongoDB, Stripe, Custom VPS",
       "category": "Web Application",
       "liveUrl": "https://restaurant.rafalsprengel.com/management/login/",
@@ -63,7 +63,7 @@
     "resortBooking": {
       "title": "Resort Booking Website",
       "image": "/assets/home-page/wordpress.jpg",
-      "description": "A custom WordPress website for a resort with online booking, a gallery, and easy content management for quick updates.",
+      "description": "Powered by WordPress responsive website for a resort with online booking, a gallery, and easy content management for quick updates.",
       "tags": "WordPress, PHP, JavaScript",
       "category": "WordPress",
       "liveUrl": "https://lesniczowkawiezyca.pl/",
