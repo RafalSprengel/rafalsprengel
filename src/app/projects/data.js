@@ -7,7 +7,7 @@ export const projectsData = {
       tabletImage: '/assets/projects/restaurant/hero/tablet.webp',
       phoneImage: '/assets/projects/restaurant/hero/phone.webp',
       liveUrl: 'https://restaurant.rafalsprengel.com/',
-      githubUrl: 'https://github.com/RafalSprengel/restaurant-pos-backend',
+      githubUrl: 'https://github.com/RafalSprengel/restaurant-and-online-payment-backend',
       tags: ['Next.js', 'React.js', 'Node.js', 'Express.js', 'MongoDB', 'Stripe', 'Mantine UI', 'SCSS', 'Tailwind CSS', 'JWT', 'OAuth'],
     },
     lightboxImages: [

@@ -47,7 +47,7 @@
       "tags": "React, Express.js, MongoDB, Stripe",
       "category": "Client Website",
       "liveUrl": "https://restaurant.rafalsprengel.com/",
-      "githubUrl": "https://github.com/RafalSprengel/restaurant-pos-frontend",
+      "githubUrl": "https://github.com/RafalSprengel/restaurant-and-online-payment-frontend",
       "seeMoreLink": "/projects/restaurant"
     },
     "restaurantPOS": {
@@ -57,7 +57,7 @@
       "tags": "Express.js, MongoDB, Stripe, Custom VPS",
       "category": "Web Application",
       "liveUrl": "https://restaurant.rafalsprengel.com/management/login/",
-      "githubUrl": "https://github.com/RafalSprengel/restaurant-pos-backend",
+      "githubUrl": "https://github.com/RafalSprengel/restaurant-and-online-payment-backend",
       "seeMoreLink": "/projects/webapp"
     },
     "resortBooking": {
