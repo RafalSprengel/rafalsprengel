@@ -45,13 +45,13 @@
       "image": "/assets/home-page/www.jpg",
       "description": "A modern, fully responsive website for a restaurant with online ordering, a menu, a gallery, a table reservation system, and a contact form.",
       "tags": "React, Express.js, MongoDB, Stripe",
-      "category": "Client Website",
+      "category": "Custom Website",
       "liveUrl": "https://restaurant.rafalsprengel.com/",
       "githubUrl": "https://github.com/RafalSprengel/restaurant-and-online-payment-frontend",
       "seeMoreLink": "/projects/restaurant"
     },
     "restaurantPOS": {
-      "title": "Restaurant POS Management System",
+      "title": "Restaurant Web Platform & Online Ordering System",
       "image": "/assets/home-page/server.jpg",
       "description": "An advanced web application for restaurant management: admin panel, customer accounts, orders, menu items, categories, and staff workflows.",
       "tags": "Express.js, MongoDB, Stripe, Custom VPS",
@@ -205,8 +205,8 @@
   },
   "RestaurantProject": {
     "hero": {
-      "title": "POS System and Online Ordering for a Restaurant",
-      "description": "A fully responsive restaurant website connected to a Point of Sale (POS) system, enabling menu management, online ordering, online payments, and customer account management, ensuring user convenience and business operational efficiency."
+      "title": "Restaurant Web Platform & Online Ordering System",
+      "description": "Responsive restaurant website & online payment, enabling menu management, online ordering, online payments, and customer account management, ensuring user convenience and business operational efficiency."
     },
     "publicFeatures": {
       "menu": {
@@ -266,7 +266,7 @@
     },
     "solution": {
       "title": "My Solution: Architecture and Implementation",
-      "text": "The implemented solution includes a fully responsive website for the restaurant connected to a POS system, enabling menu management, online ordering, online payments, and customer account management. The system automates the ordering and reservation processes, integrates payments, and the administrative panel allows for efficient management of customer data and orders. Additionally, analytics mechanisms and tools for monitoring traffic and user behavior were implemented, supporting informed business decisions and increasing staff efficiency."
+      "text": "The implemented solution includes a responsive website for the restaurant with online payment system, enabling menu management, online ordering, online payments, and customer account management. The system automates the ordering and reservation processes, integrates payments, and the administrative panel allows for efficient management of customer data and orders. Additionally, analytics mechanisms and tools for monitoring traffic and user behavior were implemented, supporting informed business decisions and increasing staff efficiency."
     },
     "frontend": {
       "title": "Frontend – User Interface and Customer Experience:",
@@ -308,8 +308,8 @@
   },
   "WebAppProject": {
     "hero": {
-      "title": "POS System for a Restaurant",
-      "description": "A POS (Point of Sale) system for a restaurant, featuring a customer interface and an administrative panel for operational control. Built using React.js, Node.js, Express.js, and MongoDB."
+      "title": "Restaurant Web Platform & Online Ordering System",
+      "description": "System for a restaurant, featuring a customer interface and an administrative panel for operational control. Built using React.js, Node.js, Express.js, and MongoDB."
     },
     "challenge": {
       "title": "Goal: Comprehensive Restaurant Management",

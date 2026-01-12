@@ -45,13 +45,13 @@
       "image": "/assets/home-page/www.jpg",
       "description": "Nowoczesna, w pełni responsywna strona internetowa dla restauracji z możliwością zamawiania online, menu, galerią, systemem rezerwacji stolików i formularzem kontaktowym.",
       "tags": "React, Express.js, MongoDB, Stripe",
-      "category": "Strona klienta",
+      "category": "Strona internetowa",
       "liveUrl": "https://restaurant.rafalsprengel.com/",
       "githubUrl": "https://github.com/RafalSprengel/restaurant-and-online-payment-frontend",
       "seeMoreLink": "/projects/restaurant"
     },
     "restaurantPOS": {
-      "title": "System zarządzania POS restauracji",
+      "title": "Platforma internetowa restauracji wraz z system zamówień onlinezz",
       "image": "/assets/home-page/server.jpg",
       "description": "Zaawansowana aplikacja internetowa do zarządzania restauracją: panel administracyjny, konta klientów, zamówienia, pozycje menu, kategorie i przepływy pracy personelu.",
       "tags": "Express.js, MongoDB, Stripe, Własny VPS",
@@ -205,8 +205,8 @@
   },
   "RestaurantProject": {
     "hero": {
-      "title": "System POS i zamówień online dla restauracji",
-      "description": "Strona internetowa dla restauracji połączona z systemem Point of Sale (POS), w pełni responsywna, umożliwiająca zarządzanie menu, zamówieniami, płatnościami online oraz kontami klientów, zapewniająca wygodę użytkowników i efektywność działania biznesu."
+      "title": "Responsywna strona restauracji",
+      "description": "Strona internetowa dla restauracji z możliwością zamówienia online, w pełni responsywna, umożliwiająca zarządzanie menu, zamówieniami, płatnościami online oraz kontami klientów, zapewniająca wygodę użytkowników i efektywność działania biznesu."
     },
     "publicFeatures": {
       "menu": {
@@ -266,7 +266,7 @@
     },
     "solution": {
       "title": "Moje rozwiązanie: architektura i implementacja",
-      "text": "Wdrożone rozwiązania obejmują w pełni responsywną stronę internetową dla restauracji połączoną z systemem POS, umożliwiającą zarządzanie menu, zamówieniami, płatnościami online oraz kontami klientów. System automatyzuje procesy zamówień i rezerwacji, integruje płatności, a panel administracyjny pozwala na sprawne zarządzanie danymi klientów i zamówieniami. Dodatkowo wdrożono mechanizmy analityki oraz narzędzia do monitorowania ruchu i zachowań użytkowników, co wspiera podejmowanie świadomych decyzji biznesowych i zwiększa efektywność pracy personelu."
+      "text": "Wdrożone rozwiązania obejmują w responsywną stronę internetową dla restauracji z możliwością zamówienia online, umożliwiającą zarządzanie menu, zamówieniami, płatnościami online oraz kontami klientów. System automatyzuje procesy zamówień i rezerwacji, integruje płatności, a panel administracyjny pozwala na sprawne zarządzanie danymi klientów i zamówieniami. Dodatkowo wdrożono mechanizmy analityki oraz narzędzia do monitorowania ruchu i zachowań użytkowników, co wspiera podejmowanie świadomych decyzji biznesowych i zwiększa efektywność pracy personelu."
     },
     "frontend": {
       "title": "Frontend – interfejs użytkownika i doświadczenie klienta:",
@@ -308,8 +308,8 @@
   },
   "WebAppProject": {
     "hero": {
-      "title": "System POS dla restauracji",
-      "description": "System POS (Point of Sale) dla restauracji, z interfejsem dla klientów oraz panelem administracyjnym umożliwiającym kontrolę nad operacjami. Zbudowany w oparciu o React.js, Node.js, Express.js i MongoDB."
+      "title": "Platforma internetowa restauracji wraz z system zamówień online",
+      "description": "Strona dla restauracji  z interfejsem dla klientów oraz panelem administracyjnym umożliwiającym kontrolę nad operacjami. Zbudowany w oparciu o React.js, Node.js, Express.js i MongoDB."
     },
     "challenge": {
       "title": "Cel: kompleksowe zarządzanie restauracją",
