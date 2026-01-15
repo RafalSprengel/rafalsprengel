@@ -1,9 +1,9 @@
 {
   "AboutSection": {
     "title": "About Me",
-    "main_description_p1": "I'm a full-stack developer with a degree in Computer Science Engineering, specializing in creating modern websites and web applications. I offer professional solutions at an affordable price, ranging from basic web applications to complex systems supporting businesses across various sectors.",
+    "main_description_p1": "I am a full-stack developer with a degree in Computer Science Engineering, focused on developing modern web applications. In my projects, I enjoy using the latest technologies and continuously learning new skills. I like applying my skills and technology to solve problems, which gives me great satisfaction.",
     "col2_title": "UI/UX Designer and Web Developer",
-    "col2_description_p2": "I work with both frontend and backend technologies, delivering scalable applications with an emphasis on performance and security. I handle the entire software development process, from architecture design and environment configuration, through implementing both the business logic layer and the user interface, to final security and deployment."
+    "col2_description_p2": "I work with both frontend and backend technologies, delivering scalable applications with an emphasis on performance and security. I have experience working across the full application lifecycle, contributing to frontend and backend features, API development, and deployment processes while following best practices and collaborating with other developers."
   },
   "SkillsSection": {
     "main_title": "Skills and Technologies",
@@ -145,7 +145,7 @@
   },
   "ContactSection": {
     "main_title": "Contact",
-    "main_description": "Let's build something great together!\nWhether you need a custom web application, a modern business website, or assistance with server setup and security – get in touch with me.\nI'd be happy to discuss your project and find the best solution for your needs.",
+    "main_description": "Feel free to contact me if you would like to discuss my projects or experience.",
     "phone": {
       "title": "Call me",
       "value": "+44 7518 577503"
@@ -199,7 +199,7 @@
     "video_not_supported": "Your browser does not support the video tag.",
     "typed": {
       "webdeveloper": "Web Developer",
-      "freelancer": "Freelancer",
+      "freelancer": "Coding Enthusiast",
       "designer": "UI/UX Designer"
     }
   },
