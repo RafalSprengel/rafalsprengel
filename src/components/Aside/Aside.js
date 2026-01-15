@@ -88,11 +88,11 @@ export default function Aside() {
                             </a>
                         </li>
 
-                        <li className={styles.nav__item} onClick={() => setIsOpen(false)}>
+                        {/* <li className={styles.nav__item} onClick={() => setIsOpen(false)}>
                             <a href="/#services" className={styles.nav__link}>
                                 <FaServicestack className={styles.nav__icon} /> {t('services')}
                             </a>
-                        </li>
+                        </li> */}
 
                         <li className={styles.nav__item} onClick={() => setIsOpen(false)}>
                             <a href="/#contact" className={styles.nav__link}>

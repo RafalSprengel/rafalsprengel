@@ -13,7 +13,7 @@ export default async function HomePage() {
             <AboutSection />
             <SkillsSection />
             <PortfolioSection />
-            <ServicesSection />
+            {/* <ServicesSection /> */}
             <ContactSection />
         </div>
     );
