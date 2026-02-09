@@ -7,7 +7,8 @@ export default function Footer() {
     const tContact = useTranslations('ContactSection'); // Użycie kluczy z ContactSection
 
     // Tablica linków do łatwej iteracji
-    const quickLinks = ['home', 'about', 'skills', 'portfolio', 'services', 'contact'];
+    // const quickLinks = ['home', 'about', 'skills', 'portfolio', 'services', 'contact'];
+    const quickLinks = ['home', 'about', 'skills', 'portfolio', 'contact'];
 
     // Statyczne dane kontaktowe z ContactSection
     const email = tContact('email.value');
