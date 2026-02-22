@@ -6,6 +6,9 @@ import { useTranslations } from 'next-intl';
 export default function ContactSection() {
     const t = useTranslations('ContactSection');
 
+    const phoneNumber = t('phone.value');
+    const emailAddress = t('email.value');
+
     return (
         <section id="contact" className={styles.contact__section}>
             <div className={styles.container}>
@@ -17,25 +20,25 @@ export default function ContactSection() {
                 <div className={styles.contact__content}>
                     <div className={styles.contact__info}>
                         
-                        <div className={styles.contact__infoItem}>
+                        <a href={`tel:${phoneNumber}`} className={styles.contact__infoItem}>
                             <div className={styles.contact__iconWrapper}>
                                 <FaPhone className={styles.contact__icon} />
                             </div>
                             <div className={styles.contact__infoContent}>
                                 <h3>{t('phone.title')}</h3>
-                                <p>{t('phone.value')}</p>
+                                <p>{phoneNumber}</p>
                             </div>
-                        </div>
+                        </a>
 
-                        <div className={styles.contact__infoItem}>
+                        <a href={`mailto:${emailAddress}`} className={styles.contact__infoItem}>
                             <div className={styles.contact__iconWrapper}>
                                 <FaEnvelope className={styles.contact__icon} />
                             </div>
                             <div className={styles.contact__infoContent}>
                                 <h3>{t('email.title')}</h3>
-                                <p>{t('email.value')}</p>
+                                <p>{emailAddress}</p>
                             </div>
-                        </div>
+                        </a>
 
                         <div className={styles.contact__infoItem}>
                             <div className={styles.contact__iconWrapper}>

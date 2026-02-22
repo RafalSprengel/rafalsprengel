@@ -1,6 +1,6 @@
 {
   "AboutSection": {
-    "title": "About me",
+    "title": "About Me",
     "main_description_p1": "I am a full-stack developer with a degree in Computer Science Engineering, focused on developing modern web applications. In my projects, I enjoy using the latest technologies and continuously learning new skills. I like applying my skills and technology to solve problems, which gives me great satisfaction.",
     "col2_title": "UI/UX Designer and Web Developer",
     "col2_description_p2": "I work with both frontend and backend technologies, delivering scalable applications with an emphasis on performance and security. I have experience working across the full application lifecycle, contributing to frontend and backend features, API development, and deployment processes while following best practices and collaborating with other developers."
@@ -399,7 +399,7 @@
       "text": "Leśniczówka Wieżyca required a digital transformation focused on maximizing conversions, where the main challenge was converting initial user interest into confirmed stays. This was achieved by implementing a self-service online booking system integrated with a new, responsive platform. The result is the automation of accommodation sales processes, which minimizes manual workload and increases the facility's direct revenue."
     },
     "solution": {
-      "title": "Solution: Website with Integrated Booking and Payment System",
+      "title": "My Solution: Website with Integrated Booking and Payment System",
       "text": "The site includes a comprehensive booking module that gives guests full control over planning their stay, eliminating the need for manual communication to check availability and make initial payments."
     },
     "keyFunctionalAreas": {

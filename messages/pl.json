@@ -1,13 +1,13 @@
 {
   "AboutSection": {
     "title": "O mnie",
-    "main_description_p1": "Jestem programistą full-stack z wykształcenia inżynierem informatyki, specjalizuję się w tworzeniu nowoczesnych stron internetowych i aplikacji webowych. Oferuję profesjonalne rozwiązania w przystępnej cenie, od podstawowych aplikacji webowych po kompleksowe systemy wspierające biznes w różnych sektorach.",
+    "main_description_p1": "Jestem programistą full-stack i inżynierem informatyki, specjalizującym się w tworzeniu nowoczesnych stron internetowych oraz aplikacji webowych. Pomagam firmom rozwijać biznes online poprzez szybkie, bezpieczne i skalowalne rozwiązania – od prostych stron po zaawansowane systemy webowe.",
     "col2_title": "Projektant UI/UX i programista webowy",
     "col2_description_p2": "Pracuję zarówno z technologiami frontendowymi, jak i backendowymi, dostarczając skalowalne aplikacje z naciskiem na wydajność i bezpieczeństwo. Realizuję cały proces tworzenia oprogramowania, od projektowania architektury i konfiguracji środowiska, przez implementację zarówno warstwy logiki biznesowej, jak i interfejsu użytkownika, po finalne zabezpieczenie i wdrożenie."
   },
   "SkillsSection": {
     "main_title": "Umiejętności i technologie",
-    "main_subtitle": "Wiedza z zakresu technologii, które sprawiają, że strona staje się szybka, niezawodna, bezpieczna oraz atrakcyjna dla użytkownika.",
+    "main_subtitle": "Technologie i narzędzia, dzięki którym tworzę szybkie, niezawodne, bezpieczne i atrakcyjne dla użytkownika aplikacje webowe.",
     "frontend": {
       "title": "Frontend development",
       "description": "Tworzenie responsywnych i interaktywnych interfejsów przy użyciu <strong>Next.js</strong> i <strong>React.js</strong>. Praca z frameworkami <strong>CSS</strong> oraz bibliotekami komponentów, takimi jak <strong>Mantine UI</strong> i <strong>Material UI</strong>."
@@ -51,7 +51,7 @@
       "seeMoreLink": "/projects/restaurant"
     },
     "restaurantPOS": {
-      "title": "Platforma internetowa restauracji wraz z system zamówień onlinezz",
+      "title": "Platforma internetowa restauracji wraz z systemem zamówień online",
       "image": "/assets/home-page/server.jpg",
       "description": "Zaawansowana aplikacja internetowa do zarządzania restauracją: panel administracyjny, konta klientów, zamówienia, pozycje menu, kategorie i przepływy pracy personelu.",
       "tags": "Express.js, MongoDB, Stripe, Własny VPS",
@@ -61,7 +61,7 @@
       "seeMoreLink": "/projects/webapp"
     },
     "resortBooking": {
-      "title": "Strona rezerwacji ośrodka wypoczynkowego",
+      "title": "Strona ośrodka wypoczynkowego",
       "image": "/assets/home-page/wordpress.jpg",
       "description": "Niestandardowa witryna WordPress dla ośrodka wypoczynkowego z rezerwacją online, galerią i łatwym zarządzaniem treścią dla szybkich aktualizacji.",
       "tags": "WordPress, PHP, JavaScript",
@@ -73,7 +73,7 @@
   },
   "ServicesSection": {
     "main_title": "Usługi",
-    "main_subtitle": "Rozwiązania cyfrowe, które automatyzują procesy, zwiększają efektywność biznesu i generują realne korzyści finansowe przy minimalnym nakładzie pracy klienta.",
+    "main_subtitle": "Tworzę rozwiązania cyfrowe, które automatyzują procesy, zwiększają efektywność biznesu i pomagają generować realne zyski przy minimalnym nakładzie pracy klienta.",
     "websites": {
       "title": "Strony i aplikacje internetowe",
       "description": "Wysokiej jakości, w pełni dostosowane strony internetowe i aplikacje webowe.",
@@ -148,7 +148,7 @@
     "main_description": "Zbudujmy razem coś wspaniałego!\nNiezależnie od tego, czy potrzebujesz niestandardowej aplikacji internetowej, nowoczesnej strony firmowej, czy pomocy w konfiguracji serwera i bezpieczeństwie – skontaktuj się ze mną.\nChętnie omówię Twój projekt i znajdę najlepsze rozwiązanie dla Twoich potrzeb.",
     "phone": {
       "title": "Zadzwoń do mnie",
-      "value": "+44 7518 577503"
+      "value": "+48 516909517"
     },
     "email": {
       "title": "Wyślij e-mail",
@@ -182,7 +182,7 @@
     "contact_info": {
       "title": "Dane kontaktowe"
     },
-    "copyright": "© {year} Prawa autorskie <sitename>Rafał Sprengel</sitename> Wszelkie prawa zastrzeżone",
+    "copyright": "© {year} <sitename>Rafał Sprengel</sitename>. Wszelkie prawa zastrzeżone.",
     "credits": "Zaprojektowane przez <link>Rafał Sprengel</link>"
   },
   "Aside": {
@@ -198,9 +198,9 @@
     "fallback_subtitle": "Web developer",
     "video_not_supported": "Twoja przeglądarka nie wspiera video.",
     "typed": {
-      "webdeveloper": "Web developerem",
-      "freelancer": "Freelancerem",
-      "designer": "Projektantem UI/UX"
+      "webdeveloper": "web developerem",
+      "freelancer": "freelancerem",
+      "designer": "projektantem UI/UX"
     }
   },
   "RestaurantProject": {
@@ -211,53 +211,53 @@
     "publicFeatures": {
       "menu": {
         "desc": "Dynamiczne menu",
-        "description": "Dynamiczne menu: Klienci mogą łatwo przeglądać menu, filtrować produkty i dodawać pozycje do koszyka."
+        "description": "Dynamiczne menu: klienci mogą łatwo przeglądać menu, filtrować produkty i dodawać pozycje do koszyka."
       },
       "cart": {
         "desc": "Inteligentny koszyk",
-        "description": "Inteligentny koszyk: Przejrzysty i przyjazny dla użytkownika koszyk, pozwalający klientom na przeglądanie, aktualizację lub usuwanie pozycji przed finalizacją zamówienia."
+        "description": "Inteligentny koszyk: przejrzysty i przyjazny dla użytkownika koszyk, pozwalający klientom na przeglądanie, aktualizację lub usuwanie pozycji przed finalizacją zamówienia."
       },
       "process": {
         "desc": "Proces zamawiania",
-        "description": "Proces zamawiania: Płynny przepływ od wyboru produktu i personalizacji do bezpiecznej finalizacji transakcji."
+        "description": "Proces zamawiania: płynny przepływ od wyboru produktu i personalizacji do bezpiecznej finalizacji transakcji."
       },
       "payments": {
         "desc": "Bezpieczne płatności",
-        "description": "Bezpieczne płatności ze Stripe: Klienci mogą bezpiecznie dokonywać transakcji przy użyciu kart kredytowych lub portfeli cyfrowych, z pełnym szyfrowaniem."
+        "description": "Bezpieczne płatności ze Stripe: klienci mogą bezpiecznie dokonywać transakcji przy użyciu kart kredytowych lub portfeli cyfrowych, z pełnym szyfrowaniem."
       },
       "reservations": {
         "desc": "Rezerwacje stolików",
-        "description": "Rezerwacje stolików: Prosty formularz rezerwacji ze sprawdzaniem dostępności w czasie rzeczywistym."
+        "description": "Rezerwacje stolików: prosty formularz rezerwacji ze sprawdzaniem dostępności w czasie rzeczywistym."
       },
       "contact": {
         "desc": "Formularz kontaktowy",
-        "description": "Formularz kontaktowy: Szybki sposób dla klientów na kontakt z restauracją w sprawie zapytań, opinii lub specjalnych życzeń."
+        "description": "Formularz kontaktowy: szybki sposób dla klientów na kontakt z restauracją w sprawie zapytań, opinii lub specjalnych życzeń."
       }
     },
     "panelFeatures": {
       "dashboard": {
         "desc": "Przegląd dashboardu",
-        "description": "Dashboard: Zapewnia przejrzysty i intuicyjny przegląd kluczowych wskaźników biznesowych dla świadomego podejmowania decyzji."
+        "description": "Dashboard: zapewnia przejrzysty i intuicyjny przegląd kluczowych wskaźników biznesowych dla świadomego podejmowania decyzji."
       },
       "products": {
         "desc": "Zarządzanie produktami",
-        "description": "Zarządzanie produktami: Łatwe dodawanie, edytowanie i organizowanie pozycji menu, aby oferta restauracji była zawsze aktualna."
+        "description": "Zarządzanie produktami: łatwe dodawanie, edytowanie i organizowanie pozycji menu, aby oferta restauracji była zawsze aktualna."
       },
       "orders": {
         "desc": "Zarządzanie zamówieniami",
-        "description": "Zarządzanie zamówieniami: Śledzenie, monitorowanie i aktualizowanie statusów zamówień w czasie rzeczywistym, aby zapewnić płynność operacji."
+        "description": "Zarządzanie zamówieniami: śledzenie, monitorowanie i aktualizowanie statusów zamówień w czasie rzeczywistym, aby zapewnić płynność operacji."
       },
       "messages": {
         "desc": "Wiadomości od klientów",
-        "description": "Wiadomości: Skuteczne odbieranie i odpowiadanie na wiadomości od klientów, co usprawnia komunikację."
+        "description": "Wiadomości: skuteczne odbieranie i odpowiadanie na wiadomości od klientów, co usprawnia komunikację."
       },
       "staff": {
         "desc": "Zarządzanie rolami użytkowników",
-        "description": "Zarządzanie personelem: Łatwe dodawanie, edytowanie i usuwanie użytkowników oraz kontrola ich ról i poziomów dostępu."
+        "description": "Zarządzanie personelem: łatwe dodawanie, edytowanie i usuwanie użytkowników oraz kontrola ich ról i poziomów dostępu."
       },
       "reservations": {
         "desc": "Rezerwacje stolików",
-        "description": "Zarządzanie rezerwacjami stolików: Bezproblemowe przeglądanie, zarządzanie i aktualizowanie rezerwacji stolików."
+        "description": "Zarządzanie rezerwacjami stolików: bezproblemowe przeglądanie, zarządzanie i aktualizowanie rezerwacji stolików."
       }
     },
     "challenge": {
@@ -266,7 +266,7 @@
     },
     "solution": {
       "title": "Moje rozwiązanie: architektura i implementacja",
-      "text": "Wdrożone rozwiązania obejmują w responsywną stronę internetową dla restauracji z możliwością zamówienia online, umożliwiającą zarządzanie menu, zamówieniami, płatnościami online oraz kontami klientów. System automatyzuje procesy zamówień i rezerwacji, integruje płatności, a panel administracyjny pozwala na sprawne zarządzanie danymi klientów i zamówieniami. Dodatkowo wdrożono mechanizmy analityki oraz narzędzia do monitorowania ruchu i zachowań użytkowników, co wspiera podejmowanie świadomych decyzji biznesowych i zwiększa efektywność pracy personelu."
+      "text": "Wdrożone rozwiązania obejmują responsywną stronę internetową dla restauracji z możliwością zamówienia online, umożliwiającą zarządzanie menu, zamówieniami, płatnościami online oraz kontami klientów. System automatyzuje procesy zamówień i rezerwacji, integruje płatności, a panel administracyjny pozwala na sprawne zarządzanie danymi klientów i zamówieniami. Dodatkowo wdrożono mechanizmy analityki oraz narzędzia do monitorowania ruchu i zachowań użytkowników, co wspiera podejmowanie świadomych decyzji biznesowych i zwiększa efektywność pracy personelu."
     },
     "frontend": {
       "title": "Frontend – interfejs użytkownika i doświadczenie klienta:",
@@ -275,7 +275,7 @@
     },
     "backend": {
       "title": "Backend – serce systemu:",
-      "text": "Backend, zbudowany na Node.js z wykorzystaniem Express.js i bazę danych MongoDB, stanowi solidną podstawę dla wszystkich operacji. Opracowałem RESTful API, które obsługuje zarządzanie produktami, zamówieniami, użytkownikami i rezerwacjami. Kluczowe było zapewnienie bezpieczeństwa (JWT do autoryzacji, OAuth do logowania społecznościowego) i skalowalności, aby system mógł rosnąć wraz z restauracją."
+      "text": "Backend, zbudowany na Node.js z wykorzystaniem Express.js i bazę danych MongoDB, stanowi solidną podstawę dla wszystkich operacji. Opracowałem RESTful API, które obsługuje zarządzanie produktami, zamówieniami, użytkownikami i rezerwacjami. Kluczowe było zapewnienie bezpieczeństwa (JWT do autoryzacji, OAuth2 do logowania społecznościowego) i skalowalności, aby system mógł rosnąć wraz z restauracją."
     },
     "achievements": {
       "title": "Co osiągnięto:",
@@ -308,12 +308,12 @@
   },
   "WebAppProject": {
     "hero": {
-      "title": "Platforma internetowa restauracji wraz z system zamówień online",
-      "description": "Strona dla restauracji  z interfejsem dla klientów oraz panelem administracyjnym umożliwiającym kontrolę nad operacjami. Zbudowany w oparciu o React.js, Node.js, Express.js i MongoDB."
+      "title": "Platforma internetowa restauracji wraz z systemem zamówień online",
+      "description": "Strona dla restauracji z interfejsem dla klientów oraz panelem administracyjnym umożliwiającym kontrolę nad operacjami. Zbudowany w oparciu o React.js, Node.js, Express.js i MongoDB."
     },
     "challenge": {
       "title": "Cel: kompleksowe zarządzanie restauracją",
-      "text": "Prowadzenie nowoczesnej restauracji obejmuje wiele złożonych zadań. Celem było stworzenie systemu do zarządzania produktami, zamówieniami, rezerwacjami, wiadomościami oraz kontami użytkowników — zarówno pracowników, jak i klientów. System powinien także udostępniać dane sprzedażowe, które wspierają podejmowanie kolejnych decyzji biznesowych"
+      "text": "Prowadzenie nowoczesnej restauracji obejmuje wiele złożonych zadań. Celem było stworzenie systemu do zarządzania produktami, zamówieniami, rezerwacjami, wiadomościami oraz kontami użytkowników — zarówno pracowników, jak i klientów. System powinien także udostępniać dane sprzedażowe, które wspierają podejmowanie kolejnych decyzji biznesowych."
     },
     "solution": {
       "title": "Moje rozwiązanie: architektura full-stack",
@@ -321,7 +321,7 @@
     },
     "customerPanel": {
       "title": "Panel klienta: pełna kontrola dla użytkowników",
-      "description": "Panel klienta umożliwia zarządzanie kontem, przeglądanie historii zamówień oraz aktualizację danych osobowych, w tym zmianę hasła lub całkowite usunięcie konta",
+      "description": "Panel klienta umożliwia zarządzanie kontem, przeglądanie historii zamówień oraz aktualizację danych osobowych, w tym zmianę hasła lub całkowite usunięcie konta.",
       "features": {
         "f1": "Rejestracja i logowanie: możliwość rejestracji i logowania za pomocą e-maila/hasła, Google lub Facebooka.",
         "f2": "Ostatnie zamówienia: lista wszystkich złożonych zamówień z możliwością ich \"usunięcia\" (oznaczenia jako niewidoczne dla klienta).",
@@ -337,11 +337,11 @@
         "f1": "Dashboard: przejrzysty podgląd kluczowych wskaźników biznesowych dla świadomego podejmowania decyzji.",
         "f2": "Zarządzanie produktami: łatwe dodawanie, edycja i organizacja pozycji w menu.",
         "f3": "Aktualizacja produktów.",
-        "f4": "Zarządzanie kategoriami: pUsprawnienie procesówełne operacje tworzenia, odczytu, aktualizacji i usuwania kategorii produktów.",
+        "f4": "Zarządzanie kategoriami: operacje tworzenia, odczytu, aktualizacji i usuwania kategorii produktów.",
         "f5": "Zarządzanie klientami: łatwe dodawanie, modyfikowanie i usuwanie kont klientów oraz kontrola ich danych i uprawnień.",
         "f6": "Zarządzanie zamówieniami: śledzenie, monitorowanie i aktualizacja statusów zamówień w czasie rzeczywistym.",
-        "f7": "Wiadomości: efektywne odbieranie i odpowiadanie na wiadomości od klientów.",
-        "f8": "Zarządzanie rezerwacjami stolików: podgląd, edycja i aktualizacja rezerwacji w sposób płynny.",
+        "f7": "Wiadomości: odbieranie i odpowiadanie na wiadomości od klientów.",
+        "f8": "Zarządzanie rezerwacjami stolików: podgląd, edycja i aktualizacja rezerwacji.",
         "f9": "Zarządzanie personelem: pełne operacje CRUD dla kont pracowników z przypisywaniem ról.",
         "f10": "Ustawienia aplikacji: zarządzanie globalnymi ustawieniami rezerwacji, konfiguracją SMTP i innymi parametrami systemu."
       }
@@ -353,8 +353,8 @@
         "f2": "Zarządzanie danymi: wykorzystanie MongoDB z Mongoose do elastycznych i skalowalnych operacji na danych, wspierających złożone struktury produktów, zamówień i użytkowników.",
         "f3": "API: RESTful API w Node.js/Express.js obejmujące operacje CRUD dla wszystkich kluczowych encji (produkty, zamówienia, użytkownicy, rezerwacje, wiadomości, personel, kategorie).",
         "f4": "Płatności: integracja Stripe dla płatności online, w tym obsługa webhooków do automatycznej aktualizacji statusów zamówień.",
-        "f5": "Statystyki i raportowanie w czasie rzeczywistym: endpointy do statystyk sprzedaży, śledzenia odwiedzin i przeglądu dashboardu..",
-        "f6": "Responsywny UI: projektowanie w React.js i Mantine UI,  spójne doświadczenie użytkownika na wszystkich urządzeniach.",
+        "f5": "Statystyki i raportowanie w czasie rzeczywistym: endpointy do statystyk sprzedaży, śledzenia odwiedzin i przeglądu dashboardu.",
+        "f6": "Responsywny UI: projektowanie w React.js i Mantine UI, spójne doświadczenie użytkownika na wszystkich urządzeniach.",
         "f7": "Czysty kod i najlepsze praktyki: stosowanie standardów przemysłowych dla modularnego i łatwego w utrzymaniu kodu, w tym obsługa błędów i strukturalne logowanie."
       }
     },
@@ -406,35 +406,35 @@
       "title": "Kluczowe obszary funkcjonalne:",
       "f1": {
         "desc": "Dostępność w czasie rzeczywistym i wyszukiwarka",
-        "description": "Dostępność w czasie rzeczywistym i wyszukiwarka: Goście mogą natychmiast wyszukać dostępne noclegi, podając daty oraz liczbę osób, otrzymując wyniki od razu."
+        "description": "Dostępność w czasie rzeczywistym i wyszukiwarka: goście mogą natychmiast wyszukać dostępne noclegi, podając daty oraz liczbę osób, otrzymując wyniki od razu."
       },
       "f2": {
         "desc": "Bezpieczna rezerwacja online",
-        "description": "Bezpieczna rezerwacja online: Użytkownik przechodzi przez płynny, intuicyjny proces rezerwacji dla pobytów indywidualnych, grupowych lub pakietowych."
+        "description": "Bezpieczna rezerwacja online: użytkownik przechodzi przez płynny, intuicyjny proces rezerwacji dla pobytów indywidualnych, grupowych lub pakietowych."
       },
       "f3": {
         "desc": "Zintegrowane płatności online",
-        "description": "Zintegrowane płatności online: Goście mogą bezpiecznie dokonywać transakcji finansowych bezpośrednio na stronie, natychmiast potwierdzając rezerwację."
+        "description": "Zintegrowane płatności online: goście mogą bezpiecznie dokonywać transakcji finansowych bezpośrednio na stronie, natychmiast potwierdzając rezerwację."
       },
       "f4": {
         "desc": "Prezentacja treści i usług",
-        "description": "Prezentacja treści i usług: Szczegółowe informacje o ofercie ośrodka, typach zakwaterowania, organizacji wydarzeń oraz atrakcjach w okolicy."
+        "description": "Prezentacja treści i usług: szczegółowe informacje o ofercie ośrodka, typach zakwaterowania, organizacji wydarzeń oraz atrakcjach w okolicy."
       },
       "f5": {
         "desc": "Galeria",
-        "description": "Galeria: Bogata wizualnie kolekcja zdjęć prezentująca ośrodek, pokoje, udogodnienia oraz wydarzenia, aby pomóc gościom lepiej wyobrazić sobie pobyt."
+        "description": "Galeria: kolekcja zdjęć prezentująca ośrodek, pokoje, udogodnienia oraz wydarzenia, aby pomóc gościom lepiej wyobrazić sobie pobyt."
       },
       "f6": {
         "desc": "Formularz kontaktowy",
-        "description": "Formularz kontaktowy: Prosty w użyciu formularz umożliwiający gościom zadawanie pytań, prośby o informacje lub kontakt z ośrodkiem w celu uzyskania spersonalizowanej pomocy."
+        "description": "Formularz kontaktowy: prosty w użyciu formularz umożliwiający gościom zadawanie pytań, prośby o informacje lub kontakt z ośrodkiem w celu uzyskania spersonalizowanej pomocy."
       },
       "f7": {
         "desc": "Widok mobilny",
-        "description": "Responsywny design: Strona zoptymalizowana pod wszystkie urządzenia, zapewniająca wygodne korzystanie na telefonach i tabletach."
+        "description": "Responsywny design: strona zoptymalizowana pod wszystkie urządzenia, zapewniająca wygodne korzystanie na telefonach i tabletach."
       },
       "f8": {
         "desc": "Panel administratora – lista rezerwacji",
-        "description": "Panel administratora: Pełny podgląd wszystkich rezerwacji z możliwością zarządzania statusami i szybkimi modyfikacjami."
+        "description": "Panel administratora: podgląd wszystkich rezerwacji z możliwością zarządzania statusami i szybkimi modyfikacjami."
       },
       "f9": {
         "desc": "Panel administratora – widok kalendarza",

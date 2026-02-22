@@ -10,7 +10,7 @@ import {
     FaCogs,
     FaCode,
     FaCreditCard,
-    FaDatabase,
+    FaUserShield,
     FaChartLine,
     FaClipboardList,
     FaTrophy,
@@ -86,7 +86,7 @@ export default function LesniczowkaProjectPage() {
         {
             image: { full: '/assets/projects/lesniczowka/features/reservations.webp', thumb: '/assets/projects/lesniczowka/features/reservations-thumb.webp', desc: t('keyFunctionalAreas.f8.desc') },
             description: t('keyFunctionalAreas.f8.description'),
-            icon: <FaDatabase />
+            icon: <FaUserShield />
         },
         {
             image: { full: '/assets/projects/lesniczowka/features/calendar.webp', thumb: '/assets/projects/lesniczowka/features/calendar-thumb.webp', desc: t('keyFunctionalAreas.f9.desc') },
