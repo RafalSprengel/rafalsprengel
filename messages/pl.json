@@ -33,6 +33,11 @@
       "description": "Integracja platform CMS, w tym <strong>WordPress</strong>. Dostosowywanie motywów i wtyczek, optymalizacja SEO, poprawa wydajności oraz konfiguracja SSL dla bezpiecznego dostępu."
     }
   },
+  "ProjectHeroSection": {
+    "visit_website": "Odwiedź stronę",
+    "see_live_project": "Zobacz projekt",
+    "view_code": "Kod źródłowy"
+  },
   "PortfolioSection": {
     "main_title": "Portfolio",
     "main_description": "Kilka moich przykładowych projektów przedstawiających kompleksowe rozwiązania biznesowe z użyciem nowoczesnych technologii",
@@ -279,11 +284,11 @@
     },
     "achievements": {
       "title": "Co osiągnięto:",
-      "f1": "Kompleksowa integracja: Frontend został połączony z backendem, systemem płatności Stripe oraz mechanizmami autoryzacji (JWT, Google/Facebook OAuth), tworząc spójne i bezpieczne środowisko aplikacji.",
-      "f2": "Responsywny design: Strona dostosowuje się do różnych urządzeń, zapewniając spójną obsługę zarówno na komputerach, jak i urządzeniach mobilnych.",
-      "f3": "Optymalizacja wydajności: Obrazy i treści wczytują się stopniowo w miarę korzystania ze strony, a zapytania do serwera zostały zoptymalizowane, dzięki czemu aplikacja działa płynnie i szybko.",
-      "f4": "Efektywne zarządzanie danymi: System umożliwia sprawne przetwarzanie i kontrolę informacji w aplikacji.",
-      "f5": "Czysty kod i dobre praktyki: Kod jest modularny i łatwy w utrzymaniu, zgodny z obowiązującymi standardami branżowymi."
+      "f1": "Kompleksowa integracja: frontend został połączony z backendem, systemem płatności Stripe oraz mechanizmami autoryzacji (JWT, Google/Facebook OAuth), tworząc spójne i bezpieczne środowisko aplikacji.",
+      "f2": "Responsywny design: strona dostosowuje się do różnych urządzeń, zapewniając spójną obsługę zarówno na komputerach, jak i urządzeniach mobilnych.",
+      "f3": "Optymalizacja wydajności: obrazy i treści wczytują się stopniowo w miarę korzystania ze strony, a zapytania do serwera zostały zoptymalizowane, dzięki czemu aplikacja działa płynnie i szybko.",
+      "f4": "Efektywne zarządzanie danymi: system umożliwia sprawne przetwarzanie i kontrolę informacji w aplikacji.",
+      "f5": "Czysty kod i dobre praktyki: kod jest modularny i łatwy w utrzymaniu, zgodny z obowiązującymi standardami branżowymi."
     },
     "businessValue": {
       "title": "Wartość biznesowa:",
@@ -298,7 +303,7 @@
       },
       "f3": {
         "title": "Szerszemu zasięgowi",
-        "description": "Dostępność strony online i na urządzeniach mobilnych."
+        "description": "Pełna dostępność strony na komputerach stacjonarnych, laptopach i urządzeniach mobilnych."
       },
       "f4": {
         "title": "Decyzjom opartym na danych",
@@ -327,7 +332,7 @@
         "f2": "Ostatnie zamówienia: lista wszystkich złożonych zamówień z możliwością ich \"usunięcia\" (oznaczenia jako niewidoczne dla klienta).",
         "f3": "Dane osobowe: podgląd i edycja informacji osobistych (imię, nazwisko, e-mail, telefon, adres).",
         "f4": "Zmiana hasła: bezpieczna funkcja aktualizacji hasła.",
-        "f5": "Opcja trwałego usunięcia konta użytkownika."
+        "f5": "Usuwanie konta: możliwość trwałego usunięcia konta użytkownika."
       }
     },
     "adminPanel": {
@@ -336,13 +341,13 @@
       "features": {
         "f1": "Dashboard: przejrzysty podgląd kluczowych wskaźników biznesowych dla świadomego podejmowania decyzji.",
         "f2": "Zarządzanie produktami: łatwe dodawanie, edycja i organizacja pozycji w menu.",
-        "f3": "Aktualizacja produktów.",
+        "f3": "Aktualizacja produktów: możliwość edycji informacji o produktach, w tym cen, opisów i statusu dostępności.",
         "f4": "Zarządzanie kategoriami: operacje tworzenia, odczytu, aktualizacji i usuwania kategorii produktów.",
         "f5": "Zarządzanie klientami: łatwe dodawanie, modyfikowanie i usuwanie kont klientów oraz kontrola ich danych i uprawnień.",
         "f6": "Zarządzanie zamówieniami: śledzenie, monitorowanie i aktualizacja statusów zamówień w czasie rzeczywistym.",
         "f7": "Wiadomości: odbieranie i odpowiadanie na wiadomości od klientów.",
         "f8": "Zarządzanie rezerwacjami stolików: podgląd, edycja i aktualizacja rezerwacji.",
-        "f9": "Zarządzanie personelem: pełne operacje CRUD dla kont pracowników z przypisywaniem ról.",
+        "f9": "Zarządzanie personelem: pełne operacje CRUD dla kont pracowników z przypisywaniem ról i kontrolą dostępu do funkcji panelu.",
         "f10": "Ustawienia aplikacji: zarządzanie globalnymi ustawieniami rezerwacji, konfiguracją SMTP i innymi parametrami systemu."
       }
     },
@@ -364,23 +369,23 @@
       "items": {
         "f1": {
           "title": "Usprawnienie procesów:",
-          "description": "Automatyzacja zamówień, rezerwacji i zarządzania stanem magazynowym, redukując ręczne obciążenie."
+          "description": "automatyzacja zamówień, rezerwacji i zarządzania stanem magazynowym, redukując ręczne obciążenie personelu."
         },
         "f2": {
           "title": "Lepsze zaangażowanie klientów:",
-          "description": "Zapewnienie płynnego doświadczenia online w zakresie zamówień, rezerwacji i zarządzania kontem."
+          "description": "zapewnienie płynnego doświadczenia online w zakresie zamówień, rezerwacji i zarządzania kontem."
         },
         "f3": {
           "title": "Wsparcie decyzji:",
-          "description": "Dostarczanie danych i statystyk w czasie rzeczywistym przez dashboard administracyjny."
+          "description": "dostarczanie danych i statystyk w czasie rzeczywistym przez dashboard administracyjny."
         },
         "f4": {
           "title": "Zapewnienie bezpieczeństwa:",
-          "description": "Implementacja solidnej autoryzacji, uwierzytelniania i mechanizmów obsługi płatności."
+          "description": "implementacja solidnej autoryzacji, uwierzytelniania i mechanizmów obsługi płatności."
         },
         "f5": {
           "title": "Skalowalność:",
-          "description": "Budowa systemu zdolnego do rozwoju wraz z potrzebami restauracji."
+          "description": "budowa systemu zdolnego do rozwoju wraz z potrzebami restauracji."
         }
       }
     },
@@ -391,7 +396,7 @@
   },
   "LesniczowkaProject": {
     "hero": {
-      "title": "Leśniczówka Wieżyca: Platforma rezerwacyjna i serwis informacyjny ośrodka",
+      "title": "Leśniczówka Wieżyca: platforma rezerwacyjna i serwis informacyjny ośrodka",
       "description": "Strona ta jest oficjalną platformą online Leśniczówki Wieżyca, spokojnego ośrodka położonego w malowniczym regionie Kaszub w Polsce. Głównym celem serwisu jest atrakcyjne przedstawienie udogodnień ośrodka — w tym przytulnych pokoi, sezonowych domków holenderskich oraz SPA z jacuzzi i sauną — oraz zapewnienie płynnego, kompleksowego procesu rezerwacji online. Kluczowym wyzwaniem, jakie rozwiązuje platforma, jest przekształcenie zainteresowania użytkowników w potwierdzone pobyty poprzez efektywny system samoobsługowy."
     },
     "challenge": {
@@ -438,16 +443,16 @@
       },
       "f9": {
         "desc": "Panel administratora – widok kalendarza",
-        "description": "Kalendarz administratora: Wizualny kalendarz do śledzenia rezerwacji oraz sprawnego zarządzania dostępnością."
+        "description": "Kalendarz administratora: wizualny kalendarz do śledzenia rezerwacji oraz sprawnego zarządzania dostępnością."
       }
     },
     "achievements": {
       "title": "Implementacja:",
-      "f1": "Integracja z Eagle Booking: Skonfigurowano wtyczkę do zarządzania rezerwacjami, dostępnością pokoi oraz płatnościami online.",
-      "f2": "Optymalizacja procesu rezerwacji: Dostosowano formularze rezerwacyjne i przepływ płatności, aby zapewnić płynne doświadczenie gości.",
-      "f3": "Dostosowanie motywu WordPress: Zaadaptowano motyw WordPress tak, aby pasował do identyfikacji wizualnej Leśniczówki Wieżyca.",
-      "f4": "Zarządzanie treścią i SEO: Wykorzystano narzędzia WordPress do zarządzania treścią i optymalizacji strony pod kątem wyszukiwarek.",
-      "f5": "Szkolenie personelu: Przeszkolono pracowników ośrodka w obsłudze panelu administracyjnego WordPress oraz zarządzaniu rezerwacjami."
+      "f1": "Integracja z Eagle Booking: skonfigurowano wtyczkę do zarządzania rezerwacjami, dostępnością pokoi oraz płatnościami online.",
+      "f2": "Optymalizacja procesu rezerwacji: dostosowano formularze rezerwacyjne i przepływ płatności, aby zapewnić płynne doświadczenie gości.",
+      "f3": "Dostosowanie motywu WordPress: zaadaptowano motyw WordPress tak, aby pasował do identyfikacji wizualnej Leśniczówki Wieżyca.",
+      "f4": "Zarządzanie treścią i SEO: wykorzystano narzędzia WordPress do zarządzania treścią i optymalizacji strony pod kątem wyszukiwarek.",
+      "f5": "Szkolenie personelu: przeszkolono pracowników ośrodka w obsłudze panelu administracyjnego WordPress oraz zarządzaniu rezerwacjami."
     },
     "businessValue": {
       "title": "Wartość biznesowa:",
@@ -455,19 +460,19 @@
       "items": {
         "f1": {
           "title": "Automatyzacja operacji:",
-          "description": "Cyfrowy system rezerwacji i płatności zastąpił ręczne rezerwacje telefoniczne lub mailowe, znacznie zmniejszając obciążenie administracyjne i minimalizując ryzyko błędów."
+          "description": "cyfrowy system rezerwacji i płatności zastąpił ręczne rezerwacje telefoniczne lub mailowe, znacznie zmniejszając obciążenie administracyjne i minimalizując ryzyko błędów."
         },
         "f2": {
           "title": "Zwiększenie sprzedaży bezpośredniej:",
-          "description": "Platforma pozwala gościom rezerwować bezpośrednio przez stronę internetową, zmniejszając zależność od zewnętrznych portali i obniżając koszty prowizji."
+          "description": "platforma pozwala gościom rezerwować bezpośrednio przez stronę internetową, zmniejszając zależność od zewnętrznych portali i obniżając koszty prowizji."
         },
         "f3": {
           "title": "Poprawa przepływów finansowych:",
-          "description": "Zintegrowana obsługa płatności zapewnia natychmiastowe potwierdzenie rezerwacji i szybki transfer środków do ośrodka, eliminując opóźnienia i niepewność."
+          "description": "zintegrowana obsługa płatności zapewnia natychmiastowe potwierdzenie rezerwacji i szybki transfer środków do ośrodka, eliminując opóźnienia i niepewność."
         },
         "f4": {
           "title": "Lepsze doświadczenie gościa:",
-          "description": "Intuicyjny interfejs, aktualna dostępność w czasie rzeczywistym oraz responsywny design tworzą płynny i niezawodny proces od przeglądania oferty do dokonania rezerwacji."
+          "description": "intuicyjny interfejs, aktualna dostępność w czasie rzeczywistym oraz responsywny design tworzą płynny i niezawodny proces od przeglądania oferty do dokonania rezerwacji."
         }
       }
     },

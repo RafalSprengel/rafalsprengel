@@ -3,6 +3,7 @@ import React, { useEffect } from 'react';
 import styles from './ProjectHeroSection.module.css';
 import Image from 'next/image';
 import { FaExternalLinkAlt, FaGithub } from 'react-icons/fa';
+import { useTranslations } from 'next-intl';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -17,6 +18,8 @@ export default function ProjectHeroSection({
   githubUrl,
   tags,
 }) {
+
+   const t = useTranslations('ProjectHeroSection');
 
   useEffect(() => {
     AOS.init({
@@ -61,7 +64,7 @@ export default function ProjectHeroSection({
         )}
         {liveUrl && liveUrl !== '#' && (
           <a href={liveUrl} target="_blank" rel="noopener noreferrer" className={styles.projectHero__buttonVisitWebsite}>
-            Visit Website
+            {t('visit_website')}
           </a>
         )}
         <div className={styles.projectHero__pcOverlay}></div>
@@ -83,12 +86,12 @@ export default function ProjectHeroSection({
           <div className={styles.projectHero__actions}>
             {liveUrl && liveUrl !== '#' && (
               <a href={liveUrl} target="_blank" rel="noopener noreferrer" className={`${styles.projectHero__button} ${styles.projectHero__buttonPrimary}`}>
-                <FaExternalLinkAlt className={styles.buttonIcon} /> See Live Project
+                <FaExternalLinkAlt className={styles.buttonIcon} /> {t('see_live_project')}
               </a>
             )}
             {githubUrl && (
               <a href={githubUrl} target="_blank" rel="noopener noreferrer" className={`${styles.projectHero__button} ${styles.projectHero__buttonSecondary}`}>
-                <FaGithub className={styles.buttonIcon} /> View Code
+                <FaGithub className={styles.buttonIcon} /> {t('view_code')}
               </a>
             )}
           </div>

@@ -1,13 +1,13 @@
 {
   "AboutSection": {
     "title": "About Me",
-    "main_description_p1": "I am a full-stack developer with a degree in Computer Science Engineering, focused on developing modern web applications. In my projects, I enjoy using the latest technologies and continuously learning new skills. I like applying my skills and technology to solve problems, which gives me great satisfaction.",
+    "main_description_p1": "I am a full-stack developer with a degree in Computer Science Engineering, focused on developing modern web applications. In my projects, I enjoy working with the latest technologies and continuously learning new skills. I like applying my skills and technology to solve problems, which gives me great satisfaction.",
     "col2_title": "UI/UX Designer and Web Developer",
     "col2_description_p2": "I work with both frontend and backend technologies, delivering scalable applications with an emphasis on performance and security. I have experience working across the full application lifecycle, contributing to frontend and backend features, API development, and deployment processes while following best practices and collaborating with other developers."
   },
   "SkillsSection": {
     "main_title": "Skills and Technologies",
-    "main_subtitle": "Knowledge of technologies that make a website fast, reliable, secure, and attractive to the user.",
+    "main_subtitle": "Expertise in technologies that make websites fast, reliable, secure, and user-friendly.",
     "frontend": {
       "title": "Frontend Development",
       "description": "Creating responsive and interactive interfaces using <strong>Next.js</strong> and <strong>React.js</strong>. Working with <strong>CSS</strong> frameworks and component libraries like <strong>Mantine UI</strong> and <strong>Material UI</strong>."
@@ -18,7 +18,7 @@
     },
     "security": {
       "title": "Security and Payments",
-      "description": "Implementing security and authentication systems according to <strong>JWT</strong> and <strong>OAuth</strong> standards. Managing roles and permissions in administrative and client panels. Integrating applications with payment systems such as <strong>Stripe</strong> and <strong>Przelewy24</strong>, including secure payment confirmations via webhooks."
+      "description": "Implementing authentication and security mechanisms using <strong>JWT</strong> and <strong>OAuth2</strong>. Managing roles and permissions in administrative and client panels. Integrating applications with payment systems such as <strong>Stripe</strong> and <strong>Przelewy24</strong>, including secure payment confirmations via webhooks."
     },
     "infrastructure": {
       "title": "Infrastructure and Deployment",
@@ -32,6 +32,11 @@
       "title": "CMS and WordPress",
       "description": "Integrating CMS platforms, including <strong>WordPress</strong>. Customizing themes and plugins, optimizing SEO, improving performance, and configuring SSL for secure access."
     }
+  },
+  "ProjectHeroSection": {
+    "visit_website": "Visit website",
+    "see_live_project": "See live project",
+    "view_code": "View source code"
   },
   "PortfolioSection": {
     "main_title": "Portfolio",
@@ -63,7 +68,7 @@
     "resortBooking": {
       "title": "Resort Booking Website",
       "image": "/assets/home-page/wordpress.jpg",
-      "description": "Powered by WordPress responsive website for a resort with online booking, a gallery, and easy content management for quick updates.",
+      "description": "A responsive WordPress-powered website for a resort with online booking, a gallery, and easy content management.",
       "tags": "WordPress, PHP, JavaScript",
       "category": "WordPress",
       "liveUrl": "https://lesniczowkawiezyca.pl/",
@@ -73,17 +78,17 @@
   },
   "ServicesSection": {
     "main_title": "Services",
-    "main_subtitle": "Digital solutions that automate processes, increase business efficiency, and generate real financial benefits with minimal client effort.",
+    "main_subtitle": "Digital solutions that automate processes, boost business efficiency, and deliver tangible results with minimal client effort.",
     "websites": {
       "title": "Websites and Web Applications",
-      "description": "High-quality, fully customized websites and web applications.",
+      "description": "High-quality, custom-built websites and web applications tailored to your business needs.",
       "features": {
-        "f1": "Fully personalized visual design",
-        "f2": "Full responsive web design",
+        "f1": "Bespoke visual design",
+        "f2": "Fully responsive web design",
         "f3": "Single Page Applications (SPA)",
-        "f4": "Multilingual sites",
-        "f5": "GA, GTM, Pixel Analytics",
-        "f6": "GDPR / Consent Mode"
+        "f4": "Multilingual websites",
+        "f5": "Google Analytics, GTM, Pixel tracking",
+        "f6": "GDPR and Consent Mode compliance"
       }
     },
     "applications": {
@@ -107,7 +112,7 @@
         "f1": "Domain and hosting configuration",
         "f2": "VPS server configuration (Ubuntu, NGINX)",
         "f3": "Security hardening (Firewall, Fail2ban)",
-        "f4": "Database configuration and management (MongoDb)",
+        "f4": "Database configuration and management (MongoDB)",
         "f5": "SSL certificate installation"
       }
     },
@@ -327,7 +332,7 @@
         "f2": "Recent Orders: List of all placed orders with the option to \"delete\" them (mark as invisible to the customer).",
         "f3": "Personal Data: View and edit personal information (first name, last name, email, phone, address).",
         "f4": "Password Change: Secure function to update the password.",
-        "f5": "Option to permanently delete the user account."
+        "f5": "Account deletion: option to permanently delete the user account."
       }
     },
     "adminPanel": {
@@ -336,13 +341,13 @@
       "features": {
         "f1": "Dashboard: A clear overview of key business metrics for informed decision-making.",
         "f2": "Product Management: Easy adding, editing, and organizing of menu items.",
-        "f3": "Product Update: Instant synchronization of price changes, descriptions, and availability across the platform.",
-        "f4": "Category Management: Full CRUD operations for product categories.",
+        "f3": "Product updates: quick editing of product details, prices, availability, and information.",
+        "f4": "Category management: create, view, update, and delete product categories.",
         "f5": "Customer Management: Easy adding, modifying, and deleting customer accounts, and control over their data and permissions.",
         "f6": "Order Management: Real-time tracking, monitoring, and updating of order statuses.",
         "f7": "Messages: Efficiently receiving and responding to customer messages.",
         "f8": "Table Reservation Management: Seamless viewing, editing, and updating of reservations.",
-        "f9": "Staff Management: Full CRUD operations for staff accounts with role assignment.",
+        "f9": "Staff management: employee account CRUD operations with role-based access control to system features.",
         "f10": "Application Settings: Managing global reservation settings, SMTP configuration, and other system parameters."
       }
     },

@@ -14,10 +14,14 @@ export default function Aside() {
      const asideRef = useRef(null);
 
      const handleClickOutside = (event) => {
-        if (asideRef.current && !asideRef.current.contains(event.target)) {
-            setIsOpen(false);
-        }
-    };
+    if (
+        asideRef.current &&
+        !asideRef.current.contains(event.target) &&
+        !event.target.closest('.glightbox-container')
+    ) {
+        setIsOpen(false);
+    }
+};
 
     useEffect(() => {
         if (isOpen) {
