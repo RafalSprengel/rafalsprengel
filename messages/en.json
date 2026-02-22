@@ -1,6 +1,6 @@
 {
   "AboutSection": {
-    "title": "About Me",
+    "title": "About me",
     "main_description_p1": "I am a full-stack developer with a degree in Computer Science Engineering, focused on developing modern web applications. In my projects, I enjoy using the latest technologies and continuously learning new skills. I like applying my skills and technology to solve problems, which gives me great satisfaction.",
     "col2_title": "UI/UX Designer and Web Developer",
     "col2_description_p2": "I work with both frontend and backend technologies, delivering scalable applications with an emphasis on performance and security. I have experience working across the full application lifecycle, contributing to frontend and backend features, API development, and deployment processes while following best practices and collaborating with other developers."
@@ -336,7 +336,7 @@
       "features": {
         "f1": "Dashboard: A clear overview of key business metrics for informed decision-making.",
         "f2": "Product Management: Easy adding, editing, and organizing of menu items.",
-        "f3": "Product Update.",
+        "f3": "Product Update: Instant synchronization of price changes, descriptions, and availability across the platform.",
         "f4": "Category Management: Full CRUD operations for product categories.",
         "f5": "Customer Management: Easy adding, modifying, and deleting customer accounts, and control over their data and permissions.",
         "f6": "Order Management: Real-time tracking, monitoring, and updating of order statuses.",
@@ -386,7 +386,7 @@
     },
     "bottomButtons": {
       "backToProjects": "Back to Projects",
-      "contactMe": "Contact Me"
+      "contactMe": "Contact me"
     }
   },
   "LesniczowkaProject": {

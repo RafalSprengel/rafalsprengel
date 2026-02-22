@@ -43,21 +43,20 @@ export default function PortfolioSection() {
                                 <div className={styles.portfolio__header}>
                                     <h3 className={styles.portfolio__item__title}>{t(`${key}.title`)}</h3>
                                     <p className={styles.portfolio__item__desc}>{t(`${key}.description`)}</p>
-                                    <Link
+                                    <a
                                         href={t(`${key}.seeMoreLink`)}
                                         className={styles.seeMoreLink}
                                     >
                                         <span className={styles.seeMoreText}>
                                             {t('see_more_link')}
                                         </span>
-                                    </Link>
+                                    </a>
                                 </div>
 
                                 <div className={styles.portfolio__spacer}></div>
 
                                 <div className={styles.portfolio__footer}>
                                     <div className={styles.portfolio__tags}>
-                                        {/* Tags są pobierane jako ciąg znaków i dzielone, ponieważ nie są tłumaczone */}
                                         {t(`${key}.tags`).split(',').map((tag, tagIndex) => (
                                             <span key={tagIndex} className={styles.portfolio__tag}>{tag.trim()}</span>
                                         ))}

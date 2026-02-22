@@ -1,15 +1,9 @@
-
-'use client'
-
 import React from 'react'
 import styles from './page.module.css'
 import ProjectHeroSection from '@/app/projects/_components/ProjectHeroSection/ProjectHeroSection'
-import dynamic from 'next/dynamic'
+import { MyLightboxClient as MyLightbox, FeaturesGalleryClient as FeaturesGallery } from './ClientDynamic'
 import BottomButtonsBlock from '../_components/BottomButtonsBlock/BottomButtonsBlock';
 import { useTranslations } from 'next-intl'
-
-const MyLightbox = dynamic(() => import('@/components/MyLightbox/MyLightbox'), { ssr: false })
-const FeaturesGallery = dynamic(() => import('@/app/projects/_components/featuresGallery/FeaturesGallery.js'), { ssr: false })
 
 import {
     FaLightbulb,
@@ -31,7 +25,7 @@ import {
     FaBed,
 } from 'react-icons/fa'
 
-export default async function LesniczowkaProjectPage() {
+export default function LesniczowkaProjectPage() {
 
     const t = useTranslations('LesniczowkaProject')
     const tButtons = useTranslations('BottomButtonsBlock')

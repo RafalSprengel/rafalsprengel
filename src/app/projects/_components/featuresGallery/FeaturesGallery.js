@@ -1,3 +1,4 @@
+'use client'
 import { useEffect } from 'react';
 import GLightbox from 'glightbox';
 import 'glightbox/dist/css/glightbox.min.css';
