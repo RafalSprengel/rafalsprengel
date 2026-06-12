@@ -5,6 +5,12 @@ import { MyLightboxClient as MyLightbox, FeaturesGalleryClient as FeaturesGaller
 import BottomButtonsBlock from '../_components/BottomButtonsBlock/BottomButtonsBlock';
 import { useTranslations } from 'next-intl'
 
+export const metadata = {
+  alternates: {
+    canonical: '/projects/lesniczowka/',
+  },
+};
+
 import {
     FaLightbulb,
     FaCogs,

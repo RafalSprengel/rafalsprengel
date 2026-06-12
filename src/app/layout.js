@@ -1,4 +1,8 @@
 export const metadata = {
+  metadataBase: new URL('https://rafalsprengel.com'),
+  alternates: {
+    canonical: '/',
+  },
   title: {
     default: 'Rafał Sprengel | Fullstack Web Developer',
     template: '%s | Rafał Sprengel'
