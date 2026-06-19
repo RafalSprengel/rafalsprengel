@@ -33,6 +33,11 @@
       "description": "Integrating CMS platforms, including <strong>WordPress</strong>. Customizing themes and plugins, optimizing SEO, improving performance, and configuring SSL for secure access."
     }
   },
+  "ProjectHeroSection": {
+    "visit_website": "Visit Website",
+    "see_live_project": "See Live Project",
+    "view_code": "View Code"
+  },
   "PortfolioSection": {
     "main_title": "Portfolio",
     "main_description": "A few of my sample projects demonstrating comprehensive business solutions using modern technologies.",

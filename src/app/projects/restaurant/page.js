@@ -42,7 +42,7 @@ export default function RestaurantProjectPage() {
     phoneImage: '/assets/projects/restaurant/hero/phone.webp',
     liveUrl: 'https://restaurant.rafalsprengel.com/',
     githubUrl: 'https://github.com/RafalSprengel/restaurant-and-online-payment-frontend',
-    tags: ['Next.js', 'React.js', 'Node.js', 'Express.js', 'MongoDB', 'Stripe', 'Mantine UI', 'SCSS', 'Tailwind CSS', 'JWT', 'OAuth'],
+    tags: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'Stripe', 'Mantine UI', 'SCSS', 'Tailwind CSS', 'JWT', 'OAuth'],
   };
 
   const lightboxImages = [
