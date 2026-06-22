@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import styles from './Portfolio.module.css';
 import { FaExternalLinkAlt, FaGithub } from 'react-icons/fa';
 import { useTranslations } from 'next-intl';
@@ -7,6 +8,7 @@ export default function PortfolioSection() {
     const t = useTranslations('PortfolioSection');
     
     const portfolioKeys = [
+        'bookingSystem',
         'restaurantWebsite',
         'restaurantPOS',
         'resortBooking'
@@ -24,10 +26,13 @@ export default function PortfolioSection() {
                     {portfolioKeys.map((key) => (
                         <div key={key} className={styles.portfolio__item}>
                             <div className={styles.portfolio__imageWrapper}>
-                                <img
-                                    src={t(`${key}.image`)}
+                                <Image
+                                    src={`/assets/home-page/${key}-image.webp`}
                                     alt={t(`${key}.title`)}
                                     className={styles.portfolio__image}
+                                    width={350}
+                                    height={240}
+                                    style={{ objectFit: 'cover' }}
                                 />
                                 <div className={styles.portfolio__badge}>
                                     {t(`${key}.category`)}

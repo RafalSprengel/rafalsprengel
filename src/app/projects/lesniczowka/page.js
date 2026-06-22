@@ -48,54 +48,54 @@ export default function LesniczowkaProjectPage() {
     }
 
     const lightboxImages = [
-        { full: '/assets/projects/lesniczowka/gallery/Billboard.webp', thumb: '/assets/projects/lesniczowka/gallery/Billboard-thumb.webp' },
-        { full: '/assets/projects/lesniczowka/gallery/Package.webp', thumb: '/assets/projects/lesniczowka/gallery/Package-thumb.webp' },
-        { full: '/assets/projects/lesniczowka/gallery/Workshop.webp', thumb: '/assets/projects/lesniczowka/gallery/Workshop-thumb.webp' }
+        { src: '/assets/projects/lesniczowka/gallery/Billboard.webp' },
+        { src: '/assets/projects/lesniczowka/gallery/Package.webp' },
+        { src: '/assets/projects/lesniczowka/gallery/Workshop.webp' }
     ]
 
     const keyFunctionalAreasData = [
         {
-            image: { full: '/assets/projects/lesniczowka/features/search-1.webp', thumb: '/assets/projects/lesniczowka/features/search-1-thumb.webp', desc: t('keyFunctionalAreas.f1.desc') },
+            image: { src: '/assets/projects/lesniczowka/features/search-1.webp', desc: t('keyFunctionalAreas.f1.desc') },
             description: t('keyFunctionalAreas.f1.description'),
             icon: <FaSearch />
         },
         {
-            image: { full: '/assets/projects/lesniczowka/features/search-2.webp', thumb: '/assets/projects/lesniczowka/features/search-2-thumb.webp', desc: t('keyFunctionalAreas.f2.desc') },
+            image: { src: '/assets/projects/lesniczowka/features/search-2.webp', desc: t('keyFunctionalAreas.f2.desc') },
             description: t('keyFunctionalAreas.f2.description'),
             icon: <FaClipboardList />
         },
         {
-            image: { full: '/assets/projects/lesniczowka/features/process.webp', thumb: '/assets/projects/lesniczowka/features/process-thumb.webp', desc: t('keyFunctionalAreas.f3.desc') },
+            image: { src: '/assets/projects/lesniczowka/features/process.webp', desc: t('keyFunctionalAreas.f3.desc') },
             description: t('keyFunctionalAreas.f3.description'),
             icon: <FaCreditCard />
         },
         {
-            image: { full: '/assets/projects/lesniczowka/features/services.webp', thumb: '/assets/projects/lesniczowka/features/services-thumb.webp', desc: t('keyFunctionalAreas.f4.desc') },
+            image: { src: '/assets/projects/lesniczowka/features/services.webp', desc: t('keyFunctionalAreas.f4.desc') },
             description: t('keyFunctionalAreas.f4.description'),
             icon: <FaBed />
         },
         {
-            image: { full: '/assets/projects/lesniczowka/features/gallery.webp', thumb: '/assets/projects/lesniczowka/features/gallery-thumb.webp', desc: t('keyFunctionalAreas.f5.desc') },
+            image: { src: '/assets/projects/lesniczowka/features/gallery.webp', desc: t('keyFunctionalAreas.f5.desc') },
             description: t('keyFunctionalAreas.f5.description'),
             icon: <FaImages />
         },
         {
-            image: { full: '/assets/projects/lesniczowka/features/contact.webp', thumb: '/assets/projects/lesniczowka/features/contact-thumb.webp', desc: t('keyFunctionalAreas.f6.desc') },
+            image: { src: '/assets/projects/lesniczowka/features/contact.webp', desc: t('keyFunctionalAreas.f6.desc') },
             description: t('keyFunctionalAreas.f6.description'),
             icon: <FaEnvelope />
         },
         {
-            image: { full: '/assets/projects/lesniczowka/features/mobile.webp', thumb: '/assets/projects/lesniczowka/features/mobile-thumb.webp', desc: t('keyFunctionalAreas.f7.desc') },
+            image: { src: '/assets/projects/lesniczowka/features/mobile.webp', desc: t('keyFunctionalAreas.f7.desc') },
             description: t('keyFunctionalAreas.f7.description'),
             icon: <FaMobileAlt />
         },
         {
-            image: { full: '/assets/projects/lesniczowka/features/reservations.webp', thumb: '/assets/projects/lesniczowka/features/reservations-thumb.webp', desc: t('keyFunctionalAreas.f8.desc') },
+            image: { src: '/assets/projects/lesniczowka/features/reservations.webp', desc: t('keyFunctionalAreas.f8.desc') },
             description: t('keyFunctionalAreas.f8.description'),
             icon: <FaUserShield />
         },
         {
-            image: { full: '/assets/projects/lesniczowka/features/calendar.webp', thumb: '/assets/projects/lesniczowka/features/calendar-thumb.webp', desc: t('keyFunctionalAreas.f9.desc') },
+            image: { src: '/assets/projects/lesniczowka/features/calendar.webp', desc: t('keyFunctionalAreas.f9.desc') },
             description: t('keyFunctionalAreas.f9.description'),
             icon: <FaCalendarAlt />
         }

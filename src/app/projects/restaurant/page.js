@@ -4,7 +4,6 @@ import React from 'react';
 import styles from './page.module.css';
 import ProjectHeroSection from '@/app/projects/_components/ProjectHeroSection/ProjectHeroSection';
 import BottomButtonsBlock from '../_components/BottomButtonsBlock/BottomButtonsBlock';
-import { projectsData } from '../data';
 import { DynamicLightbox, DynamicFeaturesGallery } from '../_components/ClientComponents';
 import { useTranslations } from 'next-intl';
 
@@ -46,16 +45,15 @@ export default function RestaurantProjectPage() {
   };
 
   const lightboxImages = [
-    { full: '/assets/projects/restaurant/gallery/Hero.webp', thumb: '/assets/projects/restaurant/gallery/Hero-thumb.webp' },
-    { full: '/assets/projects/restaurant/gallery/About.webp', thumb: '/assets/projects/restaurant/gallery/About-thumb.webp' },
-    { full: '/assets/projects/restaurant/gallery/Gallery.webp', thumb: '/assets/projects/restaurant/gallery/Gallery-thumb.webp' },
+    { src: '/assets/projects/restaurant/gallery/Hero.webp' },
+    { src: '/assets/projects/restaurant/gallery/About.webp' },
+    { src: '/assets/projects/restaurant/gallery/Gallery.webp' },
   ];
 
   const publicFeaturesData = [
     {
       image: {
-        full: '/assets/projects/restaurant/features/Menu.webp',
-        thumb: '/assets/projects/restaurant/features/Menu-thumb.webp',
+        src: '/assets/projects/restaurant/features/Menu.webp',
         desc: t('publicFeatures.menu.desc')
       },
       description: t('publicFeatures.menu.description'),
@@ -63,8 +61,7 @@ export default function RestaurantProjectPage() {
     },
     {
       image: {
-        full: '/assets/projects/restaurant/features/Cart.webp',
-        thumb: '/assets/projects/restaurant/features/Cart-thumb.webp',
+        src: '/assets/projects/restaurant/features/Cart.webp',
         desc: t('publicFeatures.cart.desc')
       },
       description: t('publicFeatures.cart.description'),
@@ -72,8 +69,7 @@ export default function RestaurantProjectPage() {
     },
     {
       image: {
-        full: '/assets/projects/restaurant/features/Process.webp',
-        thumb: '/assets/projects/restaurant/features/Process-thumb.webp',
+        src: '/assets/projects/restaurant/features/Process.webp',
         desc: t('publicFeatures.process.desc')
       },
       description: t('publicFeatures.process.description'),
@@ -81,8 +77,7 @@ export default function RestaurantProjectPage() {
     },
     {
       image: {
-        full: '/assets/projects/restaurant/features/Stripe.webp',
-        thumb: '/assets/projects/restaurant/features/Stripe-thumb.webp',
+        src: '/assets/projects/restaurant/features/Stripe.webp',
         desc: t('publicFeatures.payments.desc')
       },
       description: t('publicFeatures.payments.description'),
@@ -90,8 +85,7 @@ export default function RestaurantProjectPage() {
     },
     {
       image: {
-        full: '/assets/projects/restaurant/features/BookTable.webp',
-        thumb: '/assets/projects/restaurant/features/BookTable-thumb.webp',
+        src: '/assets/projects/restaurant/features/BookTable.webp',
         desc: t('publicFeatures.reservations.desc')
       },
       description: t('publicFeatures.reservations.description'),
@@ -99,8 +93,7 @@ export default function RestaurantProjectPage() {
     },
     {
       image: {
-        full: '/assets/projects/restaurant/features/Contact.webp',
-        thumb: '/assets/projects/restaurant/features/Contact-thumb.webp',
+        src: '/assets/projects/restaurant/features/Contact.webp',
         desc: t('publicFeatures.contact.desc')
       },
       description: t('publicFeatures.contact.description'),
@@ -112,8 +105,7 @@ export default function RestaurantProjectPage() {
   const panelFeaturesData = [
     {
       image: {
-        full: '/assets/projects/restaurant/features/Dashboard.webp',
-        thumb: '/assets/projects/restaurant/features/Dashboard-thumb.webp',
+        src: '/assets/projects/restaurant/features/Dashboard.webp',
         desc: t('panelFeatures.dashboard.desc')
       },
       description: t('panelFeatures.dashboard.description'),
@@ -121,8 +113,7 @@ export default function RestaurantProjectPage() {
     },
     {
       image: {
-        full: '/assets/projects/restaurant/features/PanelProducts.webp',
-        thumb: '/assets/projects/restaurant/features/PanelProducts-thumb.webp',
+        src: '/assets/projects/restaurant/features/PanelProducts.webp',
         desc: t('panelFeatures.products.desc')
       },
       description: t('panelFeatures.products.description'),
@@ -130,8 +121,7 @@ export default function RestaurantProjectPage() {
     },
     {
       image: {
-        full: '/assets/projects/restaurant/features/PanelOrders.webp',
-        thumb: '/assets/projects/restaurant/features/PanelOrders-thumb.webp',
+        src: '/assets/projects/restaurant/features/PanelOrders.webp',
         desc: t('panelFeatures.orders.desc')
       },
       description: t('panelFeatures.orders.description'),
@@ -139,8 +129,7 @@ export default function RestaurantProjectPage() {
     },
     {
       image: {
-        full: '/assets/projects/restaurant/features/PanelMessages.webp',
-        thumb: '/assets/projects/restaurant/features/PanelMessages-thumb.webp',
+        src: '/assets/projects/restaurant/features/PanelMessages.webp',
         desc: t('panelFeatures.messages.desc')
       },
       description: t('panelFeatures.messages.description'),
@@ -148,8 +137,7 @@ export default function RestaurantProjectPage() {
     },
     {
       image: {
-        full: '/assets/projects/restaurant/features/PanelSystemUsers.webp',
-        thumb: '/assets/projects/restaurant/features/PanelSystemUsers-thumb.webp',
+        src: '/assets/projects/restaurant/features/PanelSystemUsers.webp',
         desc: t('panelFeatures.staff.desc')
       },
       description: t('panelFeatures.staff.description'),
@@ -157,8 +145,7 @@ export default function RestaurantProjectPage() {
     },
     {
       image: {
-        full: '/assets/projects/restaurant/features/PanelTableReservations.webp',
-        thumb: '/assets/projects/restaurant/features/PanelTableReservations-thumb.webp',
+        src: '/assets/projects/restaurant/features/PanelTableReservations.webp',
         desc: t('panelFeatures.reservations.desc')
       },
       description: t('panelFeatures.reservations.description'),

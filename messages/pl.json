@@ -45,6 +45,15 @@
     "view_code": "Kod",
     "see_more_overlay": "Zobacz więcej",
     "see_more_link": "Zobacz więcej...",
+    "bookingSystem": {
+      "title": "Wilcze Chatki Booking System",
+      "description": "Zaawansowany system rezerwacji online dla gospodarstwa agroturystycznego z wyszukiwarką dostępności, dynamicznymi cenami, płatnościami Stripe i pełnym panelem administracyjnym. Zbudowany w Next.js 16, React 19, TypeScript i MongoDB.",
+      "tags": "Next.js 16, React 19, MongoDB, Stripe, TypeScript",
+      "category": "Aplikacja webowa",
+      "liveUrl": "https://accommodation.rafalsprengel.com/",
+      "githubUrl": "https://github.com/RafalSprengel/accommodation-booking-system",
+      "seeMoreLink": "/projects/booking-system"
+    },
     "restaurantWebsite": {
       "title": "Responsywna strona restauracji",
       "image": "/assets/home-page/www.jpg",
@@ -473,6 +482,129 @@
         "f4": {
           "title": "Lepsze doświadczenie gościa:",
           "description": "intuicyjny interfejs, aktualna dostępność w czasie rzeczywistym oraz responsywny design tworzą płynny i niezawodny proces od przeglądania oferty do dokonania rezerwacji."
+        }
+      }
+    },
+    "bottomButtons": {
+      "backToProjects": "Powrót do projektów",
+      "contactMe": "Skontaktuj się ze mną"
+    }
+  },
+  "BookingSystemProject": {
+    "hero": {
+      "title": "System rezerwacji i zarządzania wynajmem domków",
+      "description": "Konfigurowalny, skalowalny system zarządzania wynajmem domków wypoczynkowych. Zbudowany w oparciu o Next.js, TypeScript i MongoDB, oferuje elastyczny silnik cenowy, automatyzację rezerwacji, płatności przez bramkę Stripe oraz dedykowany panel zarządzania."
+    },
+    "challenge": {
+      "title": "Cel: stworzenie systemu do zarządzania wynajmem",
+      "text": "System powstał jako odpowiedź na potrzeby klienta z branży wynajmu domków wypoczynkowych, który wymagał większej elastyczności w zarządzaniu cenami i rezerwacjami niż oferują standardowe rozwiązania dostępne na rynku. Istniejące narzędzia okazały się zbyt ograniczone w zakresie konfiguracji cenników i reguł biznesowych, dlatego zaprojektowałem system umożliwiający pełną kontrolę nad logiką cenową oraz procesem rezerwacji, przy zachowaniu prostoty obsługi. Architektura systemu została zaprojektowana w sposób modułowy, dzięki czemu może być łatwo dostosowana do innych obiektów i modeli wynajmu o podobnej specyfice."
+    },
+    "solution": {
+      "title": "Moje rozwiązanie: platforma Full-Stack",
+      "text": "Zaprojektowałem i wdrożyłem system rezerwacyjny, który obejmuje zarówno landing page z dynamicznym cennikiem, jak i panel zarządzania systemem. System umożliwia dodawanie dowolnej liczby obiektów, niezależną konfigurację ich parametrów (np. limitów gości) oraz dynamiczne zarządzanie cenami w oparciu o sezony, dni tygodnia oraz progi cenowe dla różnych przedziałów liczby osób. Aplikacja integruje się z bramką płatniczą Stripe i została zaprojektowana tak, aby mogła być łatwo adaptowana przez inne ośrodki wypoczynkowe."
+    },
+    "searchFeatures": {
+      "title": "Landing page i interfejs gościa",
+      "description": "Zaprojektowałem landing page, który prezentuje ofertę i pozwala na rezerwację, z logiką cenową działającą w czasie rzeczywistym.",
+      "f1": {
+        "desc": "Sprawdzanie dostępności",
+        "description": "Sprawdzanie dostępności: Goście natychmiast sprawdzają dostępne domki, a system w czasie rzeczywistym weryfikuje kolizje terminów i dynamicznie kalkuluje ceny."
+      },
+      "f2": {
+        "desc": "Zaawansowany silnik cenowy",
+        "description": "Zaawansowany silnik cenowy: Automatyczne wyliczanie kosztów na podstawie sezonów, cen za weekendy/dni robocze oraz progów cenowych (tiered pricing) w zależności od liczby gości."
+      },
+      "f3": {
+        "desc": "Proces rezerwacji",
+        "description": "Proces rezerwacji: Formularz krok po kroku, który persystuje dane w pamięci podręcznej, zapobiegając ich utracie przy obsłudze mobilnej."
+      },
+      "f4": {
+        "desc": "Płatności ze stripe",
+        "description": "Płatności ze stripe: Przed wygenerowaniem bramki do płatności system ponownie weryfikuje dostępność terminu, w celu eliminacji ryzyka podwójnych rezerwacji."
+      },
+      "f5": {
+        "desc": "Powiadomienia e-mail",
+        "description": "Powiadomienia e-mail: Po dokonaniu rezerwacji i otrzymaniu potwierdzenia płatności z systemu Stripe (Webhook), klient otrzymuje na maila potwierdzenie rezerwacji wraz ze szczegółami."
+      },
+      "f6": {
+        "desc": "Mobile-First UI",
+        "description": "Mobile-First UI: Design dostosowany do urządzeń mobilnych."
+      }
+    },
+    "adminFeatures": {
+      "title": "Panel zarządzania",
+      "description": "Panel admina zawierający najważniejsze ustawienia oraz informacje.",
+      "f1": {
+        "desc": "Panel zarządzania",
+        "description": "Panel zarządzania: dashboard z szybkim podglądem nadchodzących przyjazdów."
+      },
+      "f2": {
+        "desc": "Interaktywny kalendarz",
+        "description": "Interaktywny kalendarz: miesięczny widok z kolorowym oznaczeniem zarezerwowanych terminów i szybkim podglądem szczegółów po najechaniu na pola rezerwacji."
+      },
+      "f3": {
+        "desc": "Reczne dodawanie rezerwacji",
+        "description": "Reczne dodawanie rezerwacji: możliwość dodawanie terminów manualnie przez panel zarządzania, z funckjonalnoscia sprawdzania terminow oi obliczania cen."
+      },
+      "f4": {
+        "desc": "Skalowalna infrastruktura",
+        "description": "Skalowalna infrastruktura: Możliwość dodawania dowolnej liczby obiektów z niezależną konfiguracją maksymalnej liczby dorosłych, dzieci i dostawek dla każdego z nich."
+      },
+      "f5": {
+        "desc": "Konfiguracja cen",
+        "description": "Konfiguracja cen: zarządzanie bazowymi stawkami, sezonowymi, cenami specjalnymi, indywidualnie dla każdego obiektu."
+      },
+      "f6": {
+        "desc": "Ceny indywidualne",
+        "description": "Ceny indywidualne: możliwość ustalania indywidualnych cen dla wybranych dni w roku dla każdego obiektu niezależnie."
+      },
+      "f7": {
+        "desc": "Blokowanie dat",
+        "description": "Blokowanie dat: blokowanie poszczególnych dni w celu uniemożliwienia ich rezerwacji niezależnie dla poszczególnych obiektów."
+      },
+      "f8": {
+        "desc": "Konfiguracja sezonów",
+        "description": "Konfiguracja sezonów: możliwość dodawania dowolnej ilości sezonów z automatycznym wykrywaniem kolizji dat z innymi sezonami."
+      },
+      "f9": {
+        "desc": "Powiadomienia dla administratora",
+        "description": "Powiadomienia dla administratora: administrator systemu otrzymuje powiadomienie e-mail o każdej nowej rezerwacji złożonej przez klienta."
+      },
+      "f10": {
+        "desc": "Ustawienia globalne",
+        "description": "Ustawienia globalne: konfiguracja minimalnej liczby nocy, godzin zameldowania/wymeldowania czy automatycznego zostawiania dnia na sprzątanie między rezerwacjami."
+      }
+    },
+    "achievements": {
+      "title": "Architektura i rozwiązania:",
+      "items": {
+        "f1": "Nowoczesny Stack Technologiczny: Zbudowanie aplikacji w oparciu o TypeScript, Next.js, bazę danych MongoDB oraz system autoryzacji Better Auth, co gwarantuje bezpieczeństwo i wydajność.",
+        "f2": "Zabezpieczenie przed podwójnymi rezerwacjami: Implementacja mechanizmu wieloetapowej weryfikacji dostępności – system sprawdza termin na każdym kroku rezerwacji oraz tuż przed płatnością, eliminując ryzyko błędów.",
+        "f3": "Elastyczny algorytm cenowy: Stworzenie zaawansowanego silnika cenowego (Cena Specjalna > Sezonowa > Bazowa) z uwzględnieniem różnych cen za weekend oraz dni tygodnia oraz progów cenowych w zależności od liczby gości.",
+        "f4": "Integracja z Stripe: Zintegrowanie API z płatnościami Stripe wraz z obsługą webhooków, co zapewnia nienaganną synchronizację statusów rezerwacji i płatności.",
+        "f5": "Automatyzacja komunikacji: System automatycznie wysyła powiadomienia e-mail do klienta oraz administratora po dokonaniu nowej rezerwacji, a także informuje klienta o wszelkich modyfikacjach rezerwacji wprowadzonych przez operatora.",
+        "f6": "Responsywny interfejs: Design zarówno klienta, jak i operatora systemu dostosowany do wyświetlania na urządzeniach typu telefon, tablet, PC."
+      }
+    },
+    "businessValue": {
+      "title": "Korzyści:",
+      "introText": "Obiekt zyskuje dzięki:",
+      "items": {
+        "f1": {
+          "title": "Automatyzacji procesów:",
+          "description": "Rezerwacje, płatności, potwierdzenia e-mail i aktualizacje kalendarza dzieją się automatycznie, redukując nakład pracy administracyjnej."
+        },
+        "f2": {
+          "title": "Maksymalizacji przychodów:",
+          "description": "Zaawansowany system cenowy pozwala właścicielowi łatwiej kapitalizować okresy wzmożonego popytu (np. długie weekendy) oraz elastycznie dostosowywać stawki do liczby gości."
+        },
+        "f3": {
+          "title": "Skalowalności biznesu:",
+          "description": "Możliwość rozbudowy systemu o kolejne nieruchomości i obiekty bez konieczności tworzenia nowej infrastruktury IT."
+        },
+        "f4": {
+          "title": "Kontroli nad regułami:",
+          "description": "Właściciel ma wpływ na cenniki, sezony, limity gości i dostępność, dodatkowy czas na sprzątanie pomiędzy rezerwacjami, dostosowując system do specyfiki swojego biznesu."
         }
       }
     },

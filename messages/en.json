@@ -45,6 +45,15 @@
     "view_code": "Code",
     "see_more_overlay": "See more",
     "see_more_link": "See more...",
+    "bookingSystem": {
+      "title": "Wilcze Chatki Booking System",
+      "description": "Advanced online booking system for an agritourism farm with real-time availability, dynamic pricing, Stripe payments, and a full admin panel. Built with Next.js 16, React 19, TypeScript, and MongoDB.",
+      "tags": "Next.js 16, React 19, MongoDB, Stripe, TypeScript",
+      "category": "Web Application",
+      "liveUrl": "https://accommodation.rafalsprengel.com/",
+      "githubUrl": "https://github.com/RafalSprengel/accommodation-booking-system",
+      "seeMoreLink": "/projects/booking-system"
+    },
     "restaurantWebsite": {
       "title": "Responsive Restaurant Website",
       "image": "/assets/home-page/www.jpg",
@@ -473,6 +482,129 @@
         "f4": {
           "title": "Better Guest Experience:",
           "description": "The intuitive interface, real-time availability, and responsive design create a smooth and reliable process from browsing the offer to making a reservation."
+        }
+      }
+    },
+    "bottomButtons": {
+      "backToProjects": "Back to Projects",
+      "contactMe": "Contact Me"
+    }
+  },
+  "BookingSystemProject": {
+    "hero": {
+      "title": "Lodges Booking Engine & Property Management System",
+      "description": "A configurable, scalable system for managing vacation lodge rentals. Built with Next.js, TypeScript, and MongoDB, it offers a flexible pricing engine, automated reservations, Stripe payment gateway integration, and a dedicated admin panel."
+    },
+    "challenge": {
+      "title": "Goal: Creating a Rental Management System",
+      "text": "The system was created in response to a client's needs from the vacation lodge rental industry, who required greater flexibility in managing prices and reservations than standard solutions available on the market could offer. Existing tools proved too limited in terms of pricing configuration and business rules, so I designed a system enabling full control over pricing logic and the booking process, while maintaining ease of use. The system architecture was designed in a modular way, allowing it to be easily adapted to other properties and rental models with similar characteristics."
+    },
+    "solution": {
+      "title": "My Solution: Full-Stack Platform",
+      "text": "I designed and implemented a booking system that includes both a landing page with dynamic pricing and a system management panel. The system allows adding an unlimited number of properties, independently configuring their parameters (e.g., guest limits), and dynamically managing prices based on seasons, weekdays, and tiered pricing for different guest count ranges. The application integrates with the Stripe payment gateway and was designed to be easily adapted by other resorts."
+    },
+    "searchFeatures": {
+      "title": "Landing Page & Guest Interface",
+      "description": "I designed a landing page that showcases the offer and allows for booking, with real-time pricing logic running in the background.",
+      "f1": {
+        "desc": "Availability Check",
+        "description": "Availability Check: Guests instantly check available lodges, while the system verifies date collisions in real-time and dynamically calculates prices."
+      },
+      "f2": {
+        "desc": "Advanced Pricing Engine",
+        "description": "Advanced Pricing Engine: Automatic cost calculation based on seasons, weekend/weekday rates, and tiered pricing depending on the number of guests."
+      },
+      "f3": {
+        "desc": "Booking Process",
+        "description": "Booking Process: A step-by-step form that persists data in local storage, preventing data loss on mobile devices."
+      },
+      "f4": {
+        "desc": "Stripe Payments",
+        "description": "Stripe Payments: Before generating the payment gateway link, the system re-verifies date availability to eliminate the risk of double bookings."
+      },
+      "f5": {
+        "desc": "Email Notifications",
+        "description": "Email Notifications: After making a reservation and receiving payment confirmation from the Stripe system (Webhook), the client receives an email with booking confirmation and details."
+      },
+      "f6": {
+        "desc": "Mobile-First UI",
+        "description": "Mobile-First UI: Design adapted for mobile devices."
+      }
+    },
+    "adminFeatures": {
+      "title": "Management Panel",
+      "description": "The admin panel contains the most important settings and information.",
+      "f1": {
+        "desc": "Management Panel",
+        "description": "Management Panel: Dashboard with a quick overview of upcoming arrivals."
+      },
+      "f2": {
+        "desc": "Interactive Calendar",
+        "description": "Interactive Calendar: Monthly view with color-coded bookings and a quick preview of reservation details on hover."
+      },
+      "f3": {
+        "desc": "Manual Booking Creation",
+        "description": "Manual Booking Creation: Ability to add reservations manually through the management panel, including availability checking and automatic price calculation."
+      },
+      "f4": {
+        "desc": "Scalable Infrastructure",
+        "description": "Scalable Infrastructure: Ability to add an unlimited number of properties, each with its own configuration for maximum adults, children, and extra beds."
+      },
+      "f5": {
+        "desc": "Pricing Configuration",
+        "description": "Pricing Configuration: Manage base rates, seasonal pricing, and special prices individually for each property."
+      },
+      "f6": {
+        "desc": "Individual Pricing",
+        "description": "Individual Pricing: Set custom prices for selected days of the year independently for each property."
+      },
+      "f7": {
+        "desc": "Date Blocking",
+        "description": "Date Blocking: Block specific dates to prevent bookings independently for each property."
+      },
+      "f8": {
+        "desc": "Season Configuration",
+        "description": "Season Configuration: Create an unlimited number of seasons with automatic detection of date conflicts between them."
+      },
+      "f9": {
+        "desc": "Administrator Notifications",
+        "description": "Administrator Notifications: The system administrator receives an email notification for every new booking submitted by a customer."
+      },
+      "f10": {
+        "desc": "Global Settings",
+        "description": "Global Settings: Configure the minimum stay, check-in/check-out times, and automatically leave a cleaning day between bookings."
+      }
+    },
+    "achievements": {
+      "title": "Architecture & Solutions:",
+      "items": {
+        "f1": "Modern Tech Stack: Built using TypeScript, Next.js, MongoDB, and Better Auth, ensuring security, type safety, and high performance.",
+        "f2": "Double-Booking Prevention: Implementation of a multi-stage availability verification mechanism – the system checks dates at every step of the booking process and right before payment, eliminating error risks.",
+        "f3": "Flexible Pricing Algorithm: Created an advanced pricing engine (Special Price > Seasonal > Base) that accounts for different weekend/weekday rates and tiered pricing based on the number of guests.",
+        "f4": "Stripe Integration: Integrated the Stripe API for payments along with webhook handling, ensuring flawless synchronization of booking and payment statuses.",
+        "f5": "Communication Automation: The system automatically sends email notifications to the client and administrator after a new reservation, and also informs the client about any reservation modifications made by the system operator.",
+        "f6": "Responsive Interface: Design for both the client and the system operator adapted for display on phones, tablets, and PCs."
+      }
+    },
+    "businessValue": {
+      "title": "Benefits:",
+      "introText": "The facility benefits from:",
+      "items": {
+        "f1": {
+          "title": "Process Automation:",
+          "description": "Bookings, payments, email confirmations, and calendar updates happen automatically, reducing administrative workload."
+        },
+        "f2": {
+          "title": "Revenue Maximization:",
+          "description": "The advanced pricing system allows the owner to more easily capitalize on high-demand periods (e.g., long weekends) and flexibly adjust rates to the number of guests."
+        },
+        "f3": {
+          "title": "Business Scalability:",
+          "description": "The ability to expand the system with additional properties without the need to create new IT infrastructure."
+        },
+        "f4": {
+          "title": "Rule Control:",
+          "description": "The owner has influence on pricing, seasons, guest limits, availability, and additional cleaning time between reservations, adapting the system to the specifics of their business."
         }
       }
     },

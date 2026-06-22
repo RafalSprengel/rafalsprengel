@@ -59,9 +59,9 @@ export default function WebappProjectPage() {
   };
 
   const lightboxImages = [
-    { full: '/assets/projects/webapp/gallery/office.webp', thumb: '/assets/projects/webapp/gallery/office-thumb.webp', description: 'Admin Dashboard' },
-    { full: '/assets/projects/webapp/gallery/kitchen.webp', thumb: '/assets/projects/webapp/gallery/kitchen-thumb.webp', description: 'Product Management' },
-    { full: '/assets/projects/webapp/gallery/mobile.webp', thumb: '/assets/projects/webapp/gallery/mobile-thumb.webp', description: 'Order Management' },
+    { src: '/assets/projects/webapp/gallery/office.webp', description: 'Admin Dashboard' },
+    { src: '/assets/projects/webapp/gallery/kitchen.webp', description: 'Product Management' },
+    { src: '/assets/projects/webapp/gallery/mobile.webp', description: 'Order Management' },
   ];
 
   // LISTY KLUCZY do mapowania, zastępujące returnObjects: true
@@ -71,24 +71,24 @@ export default function WebappProjectPage() {
 
   // DANE DLA FeaturesGallery POBIERANE BEZPOŚREDNIO Z KLUCZY f1, f2, f3...
   const customerPanelFeaturesData = [
-    { image: { full: '/assets/projects/webapp/features/customer-login.webp', thumb: '/assets/projects/webapp/features/customer-login-thumb.webp', desc: 'Customer Dashboard' }, description: t('customerPanel.features.f1'), icon: <FaUserPlus /> },
-    { image: { full: '/assets/projects/webapp/features/customer-recent-orders.webp', thumb: '/assets/projects/webapp/features/customer-recent-orders-thumb.webp', desc: 'Recent Orders' }, description: t('customerPanel.features.f2'), icon: <FaClipboardList /> },
-    { image: { full: '/assets/projects/webapp/features/customer-personal-details.webp', thumb: '/assets/projects/webapp/features/customer-personal-details-thumb.webp', desc: 'Personal Details' }, description: t('customerPanel.features.f3'), icon: <FaUserEdit /> },
-    { image: { full: '/assets/projects/webapp/features/customer-password-change.webp', thumb: '/assets/projects/webapp/features/customer-password-change-thumb.webp', desc: 'Password Change' }, description: t('customerPanel.features.f4'), icon: <FaKey /> },
-    { image: { full: '/assets/projects/webapp/features/customer-deleting-account.webp', thumb: '/assets/projects/webapp/features/customer-deleting-account-thumb.webp', desc: 'Account Deletion' }, description: t('customerPanel.features.f5'), icon: <FaTrashAlt /> },
+    { image: { src: '/assets/projects/webapp/features/customer-login.webp', desc: 'Customer Dashboard' }, description: t('customerPanel.features.f1'), icon: <FaUserPlus /> },
+    { image: { src: '/assets/projects/webapp/features/customer-recent-orders.webp', desc: 'Recent Orders' }, description: t('customerPanel.features.f2'), icon: <FaClipboardList /> },
+    { image: { src: '/assets/projects/webapp/features/customer-personal-details.webp', desc: 'Personal Details' }, description: t('customerPanel.features.f3'), icon: <FaUserEdit /> },
+    { image: { src: '/assets/projects/webapp/features/customer-password-change.webp', desc: 'Password Change' }, description: t('customerPanel.features.f4'), icon: <FaKey /> },
+    { image: { src: '/assets/projects/webapp/features/customer-deleting-account.webp', desc: 'Account Deletion' }, description: t('customerPanel.features.f5'), icon: <FaTrashAlt /> },
   ];
 
   const adminPanelFeaturesData = [
-    { image: { full: '/assets/projects/webapp/features/admin-dashboard.webp', thumb: '/assets/projects/webapp/features/admin-dashboard-thumb.webp', desc: 'Dashboard Overview' }, description: t('adminPanel.features.f1'), icon: <FaChartLine /> },
-    { image: { full: '/assets/projects/webapp/features/admin-products.webp', thumb: '/assets/projects/webapp/features/admin-products-thumb.webp', desc: 'Product Management' }, description: t('adminPanel.features.f2'), icon: <FaBox /> },
-    { image: { full: '/assets/projects/webapp/features/admin-update-products.webp', thumb: '/assets/projects/webapp/features/admin-update-products-thumb.webp', desc: 'Product Management' }, description: t('adminPanel.features.f3'), icon: <FaBox /> },
-    { image: { full: '/assets/projects/webapp/features/admin-categories.webp', thumb: '/assets/projects/webapp/features/admin-categories-thumb.webp', desc: 'Category Management' }, description: t('adminPanel.features.f4'), icon: <FaTags /> },
-    { image: { full: '/assets/projects/webapp/features/admin-customers.webp', thumb: '/assets/projects/webapp/features/admin-customers-thumb.webp', desc: 'Customers Management' }, description: t('adminPanel.features.f5'), icon: <FaUserShield /> },
-    { image: { full: '/assets/projects/webapp/features/admin-orders.webp', thumb: '/assets/projects/webapp/features/admin-orders-thumb.webp', desc: 'Order Management' }, description: t('adminPanel.features.f6'), icon: <FaClipboardList /> },
-    { image: { full: '/assets/projects/webapp/features/admin-messages.webp', thumb: '/assets/projects/webapp/features/admin-messages-thumb.webp', desc: 'Customer Messages' }, description: t('adminPanel.features.f7'), icon: <FaEnvelope /> },
-    { image: { full: '/assets/projects/webapp/features/admin-tables-reservations.webp', thumb: '/assets/projects/webapp/features/admin-tables-reservations-thumb.webp', desc: 'Table Reservations Management' }, description: t('adminPanel.features.f8'), icon: <FaCalendarAlt /> },
-    { image: { full: '/assets/projects/webapp/features/admin-users.webp', thumb: '/assets/projects/webapp/features/admin-users-thumb.webp', desc: 'Staff Management' }, description: t('adminPanel.features.f9'), icon: <FaUsers /> },
-    { image: { full: '/assets/projects/webapp/features/admin-settings.webp', thumb: '/assets/projects/webapp/features/admin-settings-thumb.webp', desc: 'Application Settings' }, description: t('adminPanel.features.f10'), icon: <FaCog /> },
+    { image: { src: '/assets/projects/webapp/features/admin-dashboard.webp', desc: 'Dashboard Overview' }, description: t('adminPanel.features.f1'), icon: <FaChartLine /> },
+    { image: { src: '/assets/projects/webapp/features/admin-products.webp', desc: 'Product Management' }, description: t('adminPanel.features.f2'), icon: <FaBox /> },
+    { image: { src: '/assets/projects/webapp/features/admin-update-products.webp', desc: 'Product Management' }, description: t('adminPanel.features.f3'), icon: <FaBox /> },
+    { image: { src: '/assets/projects/webapp/features/admin-categories.webp', desc: 'Category Management' }, description: t('adminPanel.features.f4'), icon: <FaTags /> },
+    { image: { src: '/assets/projects/webapp/features/admin-customers.webp', desc: 'Customers Management' }, description: t('adminPanel.features.f5'), icon: <FaUserShield /> },
+    { image: { src: '/assets/projects/webapp/features/admin-orders.webp', desc: 'Order Management' }, description: t('adminPanel.features.f6'), icon: <FaClipboardList /> },
+    { image: { src: '/assets/projects/webapp/features/admin-messages.webp', desc: 'Customer Messages' }, description: t('adminPanel.features.f7'), icon: <FaEnvelope /> },
+    { image: { src: '/assets/projects/webapp/features/admin-tables-reservations.webp', desc: 'Table Reservations Management' }, description: t('adminPanel.features.f8'), icon: <FaCalendarAlt /> },
+    { image: { src: '/assets/projects/webapp/features/admin-users.webp', desc: 'Staff Management' }, description: t('adminPanel.features.f9'), icon: <FaUsers /> },
+    { image: { src: '/assets/projects/webapp/features/admin-settings.webp', desc: 'Application Settings' }, description: t('adminPanel.features.f10'), icon: <FaCog /> },
   ];
 
   return (

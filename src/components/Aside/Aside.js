@@ -40,8 +40,7 @@ export default function Aside() {
                 <div className={styles.profile}>
                     <ProfileImage
                         image={{
-                            full: '/assets/home-page/profile.webp',
-                            thumb: '/assets/home-page/profile.webp'
+                            src: '/assets/home-page/profile.webp'
                         }}
                         className={styles.profile__img}
                     />

@@ -45,6 +45,15 @@
     "view_code": "Code",
     "see_more_overlay": "See more",
     "see_more_link": "See more...",
+    "bookingSystem": {
+      "title": "Wilcze Chatki Booking System",
+      "description": "Advanced online booking system for an agritourism farm with real-time availability, dynamic pricing, Stripe payments, and a full admin panel. Built with Next.js 16, React 19, TypeScript, and MongoDB.",
+      "tags": "Next.js 16, React 19, MongoDB, Stripe, TypeScript",
+      "category": "Aplikacja webowa",
+      "liveUrl": "https://accommodation.rafalsprengel.com/",
+      "githubUrl": "https://github.com/RafalSprengel/accommodation-booking-system",
+      "seeMoreLink": "/projects/booking-system"
+    },
     "restaurantWebsite": {
       "title": "Responsive Restaurant Website",
       "image": "/assets/home-page/www.jpg",
