@@ -46,8 +46,8 @@
     "see_more_overlay": "See more",
     "see_more_link": "See more...",
     "bookingSystem": {
-      "title": "Wilcze Chatki Booking System",
-      "description": "Advanced online booking system for an agritourism farm with real-time availability, dynamic pricing, Stripe payments, and a full admin panel. Built with Next.js 16, React 19, TypeScript, and MongoDB.",
+      "title": "Accommodation Booking & Dynamic Pricing System",
+      "description": "Advanced online booking system with dynamic pricing, Stripe payments, and a full admin panel. Built with Next.js 16, React 19, TypeScript, and MongoDB.",
       "tags": "Next.js 16, React 19, MongoDB, Stripe, TypeScript",
       "category": "Web Application",
       "liveUrl": "https://accommodation.rafalsprengel.com/",
@@ -55,7 +55,7 @@
       "seeMoreLink": "/projects/booking-system"
     },
     "restaurantWebsite": {
-      "title": "Responsive Restaurant Website",
+      "title": "Restaurant Website",
       "image": "/assets/home-page/www.jpg",
       "description": "Responsive website for a restaurant with online ordering, a menu, a gallery, a table reservation system, and a contact form.",
       "tags": "React, Express.js, MongoDB, Stripe",
@@ -65,7 +65,7 @@
       "seeMoreLink": "/projects/restaurant"
     },
     "restaurantPOS": {
-      "title": "Restaurant Web Platform & Online Ordering System",
+      "title": "Restaurant Ordering & Management System",
       "image": "/assets/home-page/server.jpg",
       "description": "A web application for restaurant management: admin panel, customer accounts, orders, menu items, categories, and staff workflows.",
       "tags": "Express.js, MongoDB, Stripe, Custom VPS",
@@ -219,7 +219,7 @@
   },
   "RestaurantProject": {
     "hero": {
-      "title": "Restaurant Web Platform & Online Ordering System",
+      "title": "Restaurant Ordering & Management System",
       "description": "Responsive restaurant website & online payment, enabling menu management, online ordering, online payments, and customer account management, ensuring user convenience and business operational efficiency."
     },
     "publicFeatures": {
@@ -322,7 +322,7 @@
   },
   "WebAppProject": {
     "hero": {
-      "title": "Restaurant Web Platform & Online Ordering System",
+      "title": "Restaurant Ordering & Management System",
       "description": "System for a restaurant, featuring a customer interface and an administrative panel for operational control. Built using React.js, Node.js, Express.js, and MongoDB."
     },
     "challenge": {

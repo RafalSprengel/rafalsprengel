@@ -9,8 +9,8 @@ export default function PortfolioSection() {
     
     const portfolioKeys = [
         'bookingSystem',
-        'restaurantWebsite',
         'restaurantPOS',
+        'restaurantWebsite',
         'resortBooking'
     ];
 

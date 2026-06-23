@@ -46,8 +46,8 @@
     "see_more_overlay": "Zobacz więcej",
     "see_more_link": "Zobacz więcej...",
     "bookingSystem": {
-      "title": "Wilcze Chatki Booking System",
-      "description": "Zaawansowany system rezerwacji online dla gospodarstwa agroturystycznego z wyszukiwarką dostępności, dynamicznymi cenami, płatnościami Stripe i pełnym panelem administracyjnym. Zbudowany w Next.js 16, React 19, TypeScript i MongoDB.",
+      "title": "Accommodation Booking & Dynamic Pricing System",
+      "description": "Zaawansowany system rezerwacji online z dynamicznymi cenami, płatnościami Stripe i pełnym panelem administracyjnym. Zbudowany w Next.js 16, React 19, TypeScript i MongoDB.",
       "tags": "Next.js 16, React 19, MongoDB, Stripe, TypeScript",
       "category": "Aplikacja webowa",
       "liveUrl": "https://accommodation.rafalsprengel.com/",
@@ -322,7 +322,7 @@
   },
   "WebAppProject": {
     "hero": {
-      "title": "Platforma internetowa restauracji wraz z systemem zamówień online",
+      "title": "Restaurant Ordering & Management System",
       "description": "Strona dla restauracji z interfejsem dla klientów oraz panelem administracyjnym umożliwiającym kontrolę nad operacjami. Zbudowany w oparciu o React.js, Node.js, Express.js i MongoDB."
     },
     "challenge": {
