@@ -492,7 +492,7 @@
   },
   "BookingSystemProject": {
     "hero": {
-      "title": "Lodges Booking Engine & Property Management System",
+      "title": "Accommodation Booking & Dynamic Pricing System",
       "description": "A configurable, scalable system for managing vacation lodge rentals. Built with Next.js, TypeScript, and MongoDB, it offers a flexible pricing engine, automated reservations, Stripe payment gateway integration, and a dedicated admin panel."
     },
     "challenge": {
