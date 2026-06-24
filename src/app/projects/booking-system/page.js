@@ -47,7 +47,7 @@ export default function BookingSystemProjectPage() {
     phoneImage: '/assets/projects/booking-system/hero/phone.webp',
     liveUrl: 'http://accommodation.rafalsprengel.com/',
     githubUrl: "https://github.com/RafalSprengel/accommodation-booking-system",
-    tags: ['Next.js', 'React', 'TypeScript', 'MongoDB', 'Mongoose', 'Stripe', 'Better Auth', 'Framer Motion', 'CSS Modules', 'Resend'],
+    tags: ['TypeScript', 'React', 'Next.js', 'MongoDB', 'Stripe', 'Better-Auth', 'Framer Motion', 'Resend'],
   };
 
   const lightboxImages = [

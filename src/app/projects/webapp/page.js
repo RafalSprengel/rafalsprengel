@@ -55,7 +55,7 @@ export default function WebappProjectPage() {
     phoneImage: '/assets/projects/webapp/hero/phone.webp',
     liveUrl: 'https://restaurant.rafalsprengel.com/',
     githubUrl: 'https://github.com/RafalSprengel/restaurant-pos-backend',
-    tags: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'JWT', 'OAuth', 'Admin Panel', 'POS System', 'User Management', 'Stripe'],
+    tags: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'JWT', 'OAuth', 'Stripe'],
   };
 
   const lightboxImages = [

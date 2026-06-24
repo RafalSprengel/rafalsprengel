@@ -45,37 +45,38 @@
     "view_code": "Kod",
     "see_more_overlay": "Zobacz więcej",
     "see_more_link": "Zobacz więcej...",
+
     "bookingSystem": {
       "title": "Accommodation Booking & Dynamic Pricing System",
       "description": "Zaawansowany system rezerwacji online z dynamicznymi cenami, płatnościami Stripe i pełnym panelem administracyjnym. Zbudowany w Next.js 16, React 19, TypeScript i MongoDB.",
-      "tags": "Next.js 16, React 19, MongoDB, Stripe, TypeScript",
+      "tags": "Typescript, React, Next.js, MongoDB, Stripe, Better-Auth, Resend, Framer Motion",
       "category": "Aplikacja webowa",
       "liveUrl": "https://accommodation.rafalsprengel.com/",
       "githubUrl": "https://github.com/RafalSprengel/accommodation-booking-system",
       "seeMoreLink": "/projects/booking-system"
     },
     "restaurantWebsite": {
-      "title": "Responsywna strona restauracji",
+      "title": "Restaurant Website",
       "image": "/assets/home-page/www.jpg",
       "description": "Nowoczesna, w pełni responsywna strona internetowa dla restauracji z możliwością zamawiania online, menu, galerią, systemem rezerwacji stolików i formularzem kontaktowym.",
-      "tags": "React, Express.js, MongoDB, Stripe",
+      "tags": "React, Express.js, MongoDB, JWT, OAuth, Stripe",
       "category": "Strona internetowa",
       "liveUrl": "https://restaurant.rafalsprengel.com/",
       "githubUrl": "https://github.com/RafalSprengel/restaurant-and-online-payment-frontend",
       "seeMoreLink": "/projects/restaurant"
     },
     "restaurantPOS": {
-      "title": "Platforma internetowa restauracji wraz z systemem zamówień online",
+      "title": "Restaurant & Online Ordering System",
       "image": "/assets/home-page/server.jpg",
       "description": "Zaawansowana aplikacja internetowa do zarządzania restauracją: panel administracyjny, konta klientów, zamówienia, pozycje menu, kategorie i przepływy pracy personelu.",
-      "tags": "Express.js, MongoDB, Stripe, Własny VPS",
+      "tags": "React, Node.js, Express.js, MongoDB, JWT, OAuth, Stripe",
       "category": "Aplikacja webowa",
       "liveUrl": "https://restaurant.rafalsprengel.com/management/login/",
       "githubUrl": "https://github.com/RafalSprengel/restaurant-and-online-payment-backend",
       "seeMoreLink": "/projects/webapp"
     },
     "resortBooking": {
-      "title": "Strona ośrodka wypoczynkowego",
+      "title": "Resort Booking Website",
       "image": "/assets/home-page/wordpress.jpg",
       "description": "Niestandardowa witryna WordPress dla ośrodka wypoczynkowego z rezerwacją online, galerią i łatwym zarządzaniem treścią dla szybkich aktualizacji.",
       "tags": "WordPress, PHP, JavaScript",
@@ -322,7 +323,7 @@
   },
   "WebAppProject": {
     "hero": {
-      "title": "Restaurant Ordering & Management System",
+      "title": "Restaurant & Online Ordering System",
       "description": "Strona dla restauracji z interfejsem dla klientów oraz panelem administracyjnym umożliwiającym kontrolę nad operacjami. Zbudowany w oparciu o React.js, Node.js, Express.js i MongoDB."
     },
     "challenge": {
