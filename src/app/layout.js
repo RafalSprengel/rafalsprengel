@@ -51,6 +51,16 @@ export default async function RootLayout({ children }) {
             });
           `}
         </Script>
+        <Script
+          src="https://cloud.umami.is/script.js"
+          data-website-id="3acf7bce-5e36-4c2e-8478-138431b930a9"
+          strategy="afterInteractive"
+        />
+        <Script
+          src="/stats/js"
+          data-goatcounter="/stats/count"
+          strategy="afterInteractive"
+        />
         <GoogleTagManager gtmId="GTM-TLVPQ9VN" />
       </head>
       <body className={styles.body}>
@@ -59,7 +69,7 @@ export default async function RootLayout({ children }) {
           <Aside />
           <main className={styles.main}>
             <div className={styles.langButtWrap}>
-              <LangButton currentLocale={currentLocale}/>
+              <LangButton currentLocale={currentLocale} />
             </div>
             {children}
             <Footer />
@@ -67,6 +77,6 @@ export default async function RootLayout({ children }) {
           </main>
         </NextIntlClientProvider>
       </body>
-    </html>
+    </html >
   )
 }
