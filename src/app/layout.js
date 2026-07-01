@@ -57,8 +57,8 @@ export default async function RootLayout({ children }) {
           strategy="afterInteractive"
         />
         <Script
-          src="/stats/js"
-          data-goatcounter="/stats/count"
+          src="//gc.zgo.at/count.js"
+          data-goatcounter="https://rafalsprengel.goatcounter.com/count"
           strategy="afterInteractive"
         />
         <GoogleTagManager gtmId="GTM-TLVPQ9VN" />
