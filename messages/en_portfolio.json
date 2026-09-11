@@ -93,11 +93,12 @@
       "description": "High-quality, custom-built websites and web applications tailored to your business needs.",
       "features": {
         "f1": "Bespoke visual design",
-        "f2": "Fully responsive web design",
-        "f3": "Single Page Applications (SPA)",
+        "f2": "Optimized for phones, tablets and computers",
+        "f3": "Single Page Applications (SPA) and multi-page websites",
         "f4": "Multilingual websites",
         "f5": "Google Analytics, GTM, Pixel tracking",
-        "f6": "GDPR and Consent Mode compliance"
+        "f6": "GDPR compliance and cookie consent management",
+        "f7": "Visibility in search engines and the internet"
       }
     },
     "applications": {

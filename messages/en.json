@@ -94,11 +94,12 @@
       "description": "High-quality, fully customized websites and web applications.",
       "features": {
         "f1": "Fully personalized visual design",
-        "f2": "Full responsive web design",
-        "f3": "Single Page Applications (SPA)",
-        "f4": "Multilingual sites",
+        "f2": "Optimized for phones, tablets and computers",
+        "f3": "Single Page Applications (SPA) and multi-page websites",
+        "f4": "Multilingual websites",
         "f5": "GA, GTM, Pixel Analytics",
-        "f6": "GDPR / Consent Mode"
+        "f6": "GDPR compliance and cookie consent management",
+        "f7": "Visibility in search engines and the internet"
       }
     },
     "applications": {

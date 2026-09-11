@@ -1,7 +1,7 @@
 {
   "AboutSection": {
     "title": "O mnie",
-    "main_description_p1": "Jestem programistą full-stack i inżynierem informatyki, specjalizującym się w tworzeniu nowoczesnych stron internetowych oraz aplikacji webowych. Pomagam firmom rozwijać biznes online poprzez szybkie, bezpieczne i skalowalne rozwiązania – od prostych stron po zaawansowane systemy webowe.",
+    "main_description_p1": "Jestem programistą full-stack i inżynierem informatyki, specjalizuję się w tworzeniu nowoczesnych stron internetowych oraz aplikacji webowych. Pomagam firmom rozwijać biznes online poprzez szybkie, bezpieczne i skalowalne rozwiązania – od prostych stron po zaawansowane systemy webowe.",
     "col2_title": "Projektant UI/UX i programista webowy",
     "col2_description_p2": "Pracuję zarówno z technologiami frontendowymi, jak i backendowymi, dostarczając skalowalne aplikacje z naciskiem na wydajność i bezpieczeństwo. Realizuję cały proces tworzenia oprogramowania, od projektowania architektury i konfiguracji środowiska, przez implementację zarówno warstwy logiki biznesowej, jak i interfejsu użytkownika, po finalne zabezpieczenie i wdrożenie."
   },
@@ -91,14 +91,15 @@
     "main_subtitle": "Tworzę rozwiązania cyfrowe, które automatyzują procesy, zwiększają efektywność biznesu i pomagają generować realne zyski przy minimalnym nakładzie pracy klienta.",
     "websites": {
       "title": "Strony i aplikacje internetowe",
-      "description": "Wysokiej jakości, w pełni dostosowane strony internetowe i aplikacje webowe.",
+      "description": "Strony internetowe i aplikacje webowe dopasowane do potrzeb klienta.",
       "features": {
-        "f1": "W pełni spersonalizowany projekt wizualny",
-        "f2": "Pełny responsywny projekt webowy",
-        "f3": "Aplikacje jednostronicowe (SPA)",
+        "f1": "Spersonalizowany projekt wizualny",
+        "f2": "Dostosowany do telefonów, tabletów i komputerów.",
+        "f3": "Aplikacje jednostronicowe (SPA) i wielostronicowe",
         "f4": "Strony wielojęzyczne",
         "f5": "Analityka GA, GTM, Pixel",
-        "f6": "RODO / tryb zgody (Consent Mode)"
+        "f6": "Zgodność z RODO i obsługa zgód na pliki cookies",
+        "f7": "Widoczność w wyszukiwarkach i internecie"
       }
     },
     "applications": {
@@ -160,7 +161,7 @@
   },
   "ContactSection": {
     "main_title": "Kontakt",
-    "main_description": "Zbudujmy razem coś wspaniałego!\nNiezależnie od tego, czy potrzebujesz niestandardowej aplikacji internetowej, nowoczesnej strony firmowej, czy pomocy w konfiguracji serwera i bezpieczeństwie – skontaktuj się ze mną.\nChętnie omówię Twój projekt i znajdę najlepsze rozwiązanie dla Twoich potrzeb.",
+    "main_description": "Zbudujmy razem coś kreatywnego!\nNiezależnie od tego, czy potrzebujesz niestandardowej aplikacji internetowej, nowoczesnej strony firmowej, czy pomocy w konfiguracji serwera i bezpieczeństwie – skontaktuj się ze mną.\nChętnie omówię Twój projekt i znajdę najlepsze rozwiązanie dla Twoich potrzeb.",
     "phone": {
       "title": "Zadzwoń do mnie",
       "value": "+48 516909517"
@@ -544,8 +545,8 @@
         "description": "Interaktywny kalendarz: miesięczny widok z kolorowym oznaczeniem zarezerwowanych terminów i szybkim podglądem szczegółów po najechaniu na pola rezerwacji."
       },
       "f3": {
-        "desc": "Reczne dodawanie rezerwacji",
-        "description": "Reczne dodawanie rezerwacji: możliwość dodawanie terminów manualnie przez panel zarządzania, z funckjonalnoscia sprawdzania terminow oi obliczania cen."
+        "desc": "Ręczne dodawanie rezerwacji",
+        "description": "Ręczne dodawanie rezerwacji: możliwość dodawania terminów manualnie przez panel zarządzania, z funckjonalnością sprawdzania terminów i obliczania cen."
       },
       "f4": {
         "desc": "Skalowalna infrastruktura",

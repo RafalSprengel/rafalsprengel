@@ -4,7 +4,7 @@ import styles from './Aside.module.css'
 import { useState, useEffect, useRef  } from 'react';
 import dynamic from 'next/dynamic'
 import { useTranslations } from 'next-intl';
-import { FaGithub, FaLinkedin, FaFacebook, FaEnvelope, FaPhone, FaHome, FaUser, FaLaptopCode, FaImages, FaServicestack } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaFacebook, FaEnvelope, FaPhone, FaHome, FaUser, FaLaptopCode, FaBriefcase, FaHandshake } from 'react-icons/fa';
 import HamburgerIcon from '../HamburgerIcon';
 const ProfileImage = dynamic(() => import('@/components/ProfileImage/ProfileImage'), { ssr: false })
 
@@ -87,13 +87,13 @@ export default function Aside() {
 
                         <li className={styles.nav__item} onClick={() => setIsOpen(false)}>
                             <a href="/#portfolio" className={styles.nav__link}>
-                                <FaImages className={styles.nav__icon} /> {t('portfolio')}
+                                <FaBriefcase className={styles.nav__icon} /> {t('portfolio')}
                             </a>
                         </li>
 
                         <li className={styles.nav__item} onClick={() => setIsOpen(false)}>
                             <a href="/#services" className={styles.nav__link}>
-                                <FaServicestack className={styles.nav__icon} /> {t('services')}
+                                <FaHandshake className={styles.nav__icon} /> {t('services')}
                             </a>
                         </li>
 
