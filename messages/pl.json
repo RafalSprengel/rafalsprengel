@@ -46,6 +46,16 @@
     "see_more_overlay": "Zobacz więcej",
     "see_more_link": "Zobacz więcej...",
 
+    "leaveManagementSystem": {
+      "title": "System zarządzania urlopami",
+      "description": "Wielodostępna aplikacja do zarządzania urlopami, nieobecnościami i akceptacjami wniosków, z kalendarzem zespołu i raportami.",
+      "tags": "Next.js, React, TypeScript, MongoDB, Better Auth, Mantine UI",
+      "category": "Aplikacja webowa",
+      "liveUrl": "https://off-work.rafalsprengel.com/",
+      "githubUrl": "https://github.com/RafalSprengel/off-work",
+      "seeMoreLink": "/projects/leave-management-system"
+    },
+
     "bookingSystem": {
       "title": "Accommodation Booking & Dynamic Pricing System",
       "description": "Zaawansowany system rezerwacji online z dynamicznymi cenami, płatnościami Stripe i pełnym panelem administracyjnym. Zbudowany w Next.js 16, React 19, TypeScript i MongoDB.",
@@ -615,6 +625,121 @@
       "contactMe": "Skontaktuj się ze mną"
     }
   },
+  "LeaveManagementSystemProject": {
+    "hero": {
+      "title": "Off-Work: Wielodostępny system zarządzania urlopami",
+      "description": "Off-Work to wielodostępna platforma SaaS, która pozwala firmom zarejestrować się jako własna organizacja i zarządzać urlopami oraz nieobecnościami pracowników. Każdy najemca działa w pełnej izolacji, z własnymi pracownikami, działami, polityką urlopową, dniami zamknięcia i obiegiem akceptacji. Pracownicy składają wnioski i sprawdzają salda w kilka sekund, a menedżerowie i kadry rozpatrują wnioski i planują pracę na podstawie wspólnych, aktualizowanych w czasie rzeczywistym kalendarzy."
+    },
+    "solution": {
+      "title": "Rozwiązanie: samoobsługowy SaaS dla zespołów HR",
+      "text": "Zamiast arkuszy kalkulacyjnych i wątków e-mail, Off-Work centralizuje cały proces urlopowy w jednym miejscu. Aplikacja powstała w oparciu o nowoczesny Next.js 16 (App Router), TypeScript i bibliotekę komponentów Mantine, a bezpieczeństwo zapewnia Better Auth wraz z wtyczkami organization i admin. Dwupoziomowy model bezpieczeństwa — szybka weryfikacja ciasteczka w middleware na krawędzi sieci, wzmocniona pełną, serwerową weryfikacją sesji — izoluje dane każdego najemcy, a e-maile transakcyjne dostarczane są przez Resend i React Email. MongoDB z Mongoose przechowuje model danych (pracownicy, działy, wnioski urlopowe, dni zamknięcia), a wykresy Mantine i Recharts zasilają analitykę."
+    },
+    "employeeArea": {
+      "title": "Obszar pracownika (/me)",
+      "f1": {
+        "desc": "Saldo urlopowe",
+        "description": "Saldo urlopowe: Aktualny wymiar, wykorzystane i pozostałe dni dla każdego typu urlopu, dzięki czemu pracownik dokładnie wie, ile urlopu mu zostało, zanim złoży wniosek."
+      },
+      "f2": {
+        "desc": "Kalendarz osobisty",
+        "description": "Kalendarz osobisty: Jeden kalendarz oznacza zatwierdzone urlopy pracownika na zielono, zatwierdzone urlopy współpracowników na niebiesko, a dni zamknięcia firmy na szaro — dzięki temu każdy od razu widzi, kto jest nieobecny."
+      },
+      "f3": {
+        "desc": "Złóż nowy wniosek",
+        "description": "Złóż nowy wniosek: Prowadzony formularz z wyborem zakresu dat, który blokuje już zatwierdzone terminy, dni ustawowo wolne i dni zamknięcia, automatycznie liczy dni robocze i pokazuje pozostałe saldo dla wybranego typu urlopu."
+      },
+      "f4": {
+        "desc": "Moje wnioski urlopowe",
+        "description": "Moje wnioski urlopowe: Historia wszystkich wniosków z filtrowaniem i sortowaniem, podzielona na bieżące i przeszłe urlopy, z kolorowymi oznaczeniami statusu (oczekujący, zatwierdzony, odrzucony, anulowany)."
+      }
+    },
+    "managerArea": {
+      "title": "Obszar menedżera i kadr (/team)",
+      "f1": {
+        "desc": "Panel zespołu",
+        "description": "Panel zespołu: Widok startowy menedżera, który pokazuje, kto jest dziś nieobecny wraz z liczbą nieobecnych, nadchodzące urlopy oraz najnowsze wnioski oczekujące na rozpatrzenie — wszystko, co wymaga uwagi, w jednym miejscu."
+      },
+      "f2": {
+        "desc": "Kalendarz zespołu",
+        "description": "Kalendarz zespołu: Harmonogram z widokiem tygodnia, miesiąca i roku, który wizualizuje nieobecności według pracownika i typu urlopu, z filtrami działów i naniesionymi dniami zamknięcia."
+      },
+      "f3": {
+        "desc": "Akceptacja wniosków",
+        "description": "Akceptacja wniosków: Menedżerowie rozpatrują, zatwierdzają lub odrzucają wnioski z jednej kolejki filtrowanej po statusie i sortowanej po dacie złożenia, z oknami potwierdzenia i natychmiastowymi powiadomieniami."
+      },
+      "f4": {
+        "desc": "Raportowanie i lista nieobecności",
+        "description": "Raportowanie i lista nieobecności: Zgłaszanie nieobecności w imieniu pracowników oraz pełna lista wszystkich zarejestrowanych nieobecności z filtrami po pracowniku, dziale, typie urlopu i zakresie dat."
+      },
+      "f5": {
+        "desc": "Zarządzanie pracownikami",
+        "description": "Zarządzanie pracownikami: Katalog wszystkich pracowników organizacji z działem, danymi zatrudnienia, saldami urlopowymi oraz indywidualnymi kalendarzami i historią każdego z nich."
+      },
+      "f6": {
+        "desc": "Zaproszenia pracowników",
+        "description": "Zaproszenia pracowników: Zapraszanie nowych członków zespołu e-mailem z bezpiecznym linkiem o ograniczonym czasie ważności (7 dni), który pozwala im utworzyć konto i dołączyć do organizacji, z możliwością ponownego wysłania zaproszenia w dowolnym momencie."
+      },
+      "f7": {
+        "desc": "Polityki urlopowe",
+        "description": "Polityki urlopowe: Definiowanie typów urlopów wraz z rocznymi limitami oraz zasadami przenoszenia i naliczania w ramach organizacji, dzięki czemu saldo każdego pracownika liczone jest poprawnie."
+      },
+      "f8": {
+        "desc": "Powiadomienia e-mail",
+        "description": "Powiadomienia e-mail: E-maile transakcyjne tworzone w React Email i dostarczane przez Resend informują pracowników i menedżerów o nowych wnioskach, zatwierdzeniach, odrzuceniach i resetowaniu hasła."
+      },
+      "f9": {
+        "desc": "Własne dni zamknięcia firmy",
+        "description": "Własne dni zamknięcia firmy: Dodawanie własnych dni zamknięcia — przerw świątecznych, zamknięcia biura i tym podobnych — które są następnie wyłączane z liczenia dni roboczych i widoczne we wszystkich kalendarzach."
+      },
+      "f10": {
+        "desc": "Import dni ustawowo wolnych",
+        "description": "Import dni ustawowo wolnych: Import oficjalnych dni ustawowo wolnych w Wielkiej Brytanii (Anglia i Walia, Szkocja, Irlandia Północna) bezpośrednio z oficjalnego źródła, dzięki czemu święta są zawsze aktualne."
+      },
+      "f11": {
+        "desc": "Raporty i analityka",
+        "description": "Raporty i analityka: Wykresy miesięczne i tygodniowe oraz tabele obejmujące wykorzystanie urlopów, zwolnienia lekarskie, staż pracy i rotację w podziale na działy."
+      }
+    },
+    "achievements": {
+      "title": "Architektura i rozwiązania:",
+      "f1": "Architektura wielodostępna: Obsługa najemców opiera się na wtyczce organization z Better Auth jako jednym źródle prawdy, a każdy profil pracownika jest powiązany z organizationId — co gwarantuje pełną izolację danych między firmami.",
+      "f2": "Dwupoziomowy model bezpieczeństwa: Middleware na krawędzi sieci wykonuje szybką weryfikację obecności ciasteczka, a auth.api.getSession() weryfikuje pełną, kryptograficzną sesję i rolę po stronie serwera w plikach layoutu.",
+      "f3": "Grupy tras i role: Czytelny podział na grupy tras (marketing), (auth), (app)/me i (app)/team odpowiada bezpośrednio rolom Employee, Manager i HR, spójnie egzekwowanym po stronie serwera.",
+      "f4": "Typowana warstwa danych: Modele Mongoose (Employee, Department, LeaveRequest, ClosureDay) wraz ze współdzielonymi typami TypeScript utrzymują całą warstwę danych w pełni typowaną i przewidywalną.",
+      "f5": "E-maile transakcyjne: Reset hasła, weryfikacja adresu e-mail i inne powiadomienia zbudowano z użyciem React Email i wysyłane są przez Resend.",
+      "f6": "Silnik dni roboczych: Narzędzia łączące dni ustawowo wolne i zamknięcia firmy, aby prawidłowo liczyć dni robocze w każdym wniosku i widoku kalendarza.",
+      "f7": "Responsywny, dostępny interfejs: Komponenty Mantine UI, tryb jasny/ciemny oraz w pełni responsywne widoki kalendarzy i tabel na telefony, tablety i komputery."
+    },
+    "businessValue": {
+      "title": "Wartość biznesowa:",
+      "introText": "Firmy korzystające z Off-Work zyskują:",
+      "f1": {
+        "title": "Mniej pracy administracyjnej:",
+        "description": "Automatyczne salda, liczenie dni roboczych i akceptacje oszczędzają godziny ręcznej pracy kadr każdego miesiąca."
+      },
+      "f2": {
+        "title": "Pełny wgląd:",
+        "description": "Kalendarze w czasie rzeczywistym i panel zespołu pokazują dostępność i oczekujące wnioski, zanim staną się problemem kadrowym."
+      },
+      "f3": {
+        "title": "Wielodostępność w założeniu:",
+        "description": "Każda firma to odizolowana organizacja z własnymi pracownikami, działami, politykami i danymi — jedno wdrożenie obsługuje wielu klientów."
+      },
+      "f4": {
+        "title": "Raportowanie gotowe do audytu:",
+        "description": "Wykresy i tabele dotyczące wykorzystania urlopów, zwolnień, stażu i rotacji dają kadrom i finansom potrzebne dane dokładnie wtedy, gdy są potrzebne."
+      },
+      "f5": {
+        "title": "Bezpieczeństwo i skalowalność:",
+        "description": "Dostęp oparty na rolach, e-maile transakcyjne i typowany, komponentowy kod czynią platformę bezpieczną w utrzymaniu i łatwą w rozwoju."
+      }
+    },
+    "bottomButtons": {
+      "backToProjects": "Powrót do projektów",
+      "contactMe": "Skontaktuj się ze mną"
+    }
+  },
+
   "BottomButtonsBlock": {
     "backToProjects": "Powrót do projektów",
     "contactMe": "Skontaktuj się ze mną"

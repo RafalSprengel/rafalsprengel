@@ -11,7 +11,8 @@ export default function PortfolioSection() {
         'bookingSystem',
         'restaurantPOS',
         'restaurantWebsite',
-        'resortBooking'
+        'resortBooking',
+        'leaveManagementSystem'
     ];
 
     return (
@@ -27,7 +28,7 @@ export default function PortfolioSection() {
                         <div key={key} className={styles.portfolio__item}>
                             <div className={styles.portfolio__imageWrapper}>
                                 <Image
-                                    src={`/assets/home-page/${key}-image.webp`}
+                                    src={`/assets/home-page/portfolio/${key}-image.webp`}
                                     alt={t(`${key}.title`)}
                                     className={styles.portfolio__image}
                                     width={350}

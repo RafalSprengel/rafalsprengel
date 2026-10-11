@@ -46,6 +46,16 @@
     "see_more_overlay": "See more",
     "see_more_link": "See more...",
 
+    "leaveManagementSystem": {
+      "title": "Leave Management System",
+      "description": "Multi-tenant application for managing employee leave, absences and approvals, with a team calendar and reports.",
+      "tags": "Next.js, React, TypeScript, MongoDB, Better Auth, Mantine UI",
+      "category": "Web Application",
+      "liveUrl": "https://off-work.rafalsprengel.com/",
+      "githubUrl": "https://github.com/RafalSprengel/off-work",
+      "seeMoreLink": "/projects/leave-management-system"
+    },
+
     "bookingSystem": {
       "title": "Accommodation Booking & Dynamic Pricing System",
       "description": "Advanced online booking system with dynamic pricing, Stripe payments, and a full admin panel. Built with Next.js 16, React 19, TypeScript, and MongoDB.",
@@ -615,6 +625,121 @@
       "contactMe": "Contact Me"
     }
   },
+  "LeaveManagementSystemProject": {
+    "hero": {
+      "title": "Off-Work: Multi-Tenant Leave Management System",
+      "description": "Off-Work is a multi-tenant SaaS platform that lets companies register as their own organisation and manage their employees' holidays and leave requests. Every tenant works in complete isolation, with its own employees, departments, leave policies, closure days and approval workflows. Employees submit requests and check their balances in seconds, while managers and HR review requests and plan around shared, real-time calendars."
+    },
+    "solution": {
+      "title": "Solution: A Self-Service SaaS for HR Teams",
+      "text": "Instead of spreadsheets and e-mail threads, Off-Work centralises the entire leave process in one place. It is built as a modern Next.js 16 application using the App Router, TypeScript and the Mantine component library, and secured end-to-end by Better Auth's organization and admin plugins. A two-layer security model — an edge middleware cookie check reinforced by full server-side session verification — keeps every tenant's data isolated, while transactional e-mails are delivered through Resend and React Email. MongoDB with Mongoose stores the data model (employees, departments, leave requests and closure days), and Mantine charts plus Recharts power the analytics."
+    },
+    "employeeArea": {
+      "title": "Employee Area (/me)",
+      "f1": {
+        "desc": "Leave Balance",
+        "description": "Leave Balance: Real-time allowance, used and remaining days per leave type, so employees always know exactly how much holiday they have left before they submit a request."
+      },
+      "f2": {
+        "desc": "Personal Calendar",
+        "description": "Personal Calendar: A single date picker marks the employee's approved leave in green, colleagues' approved leave in blue and company closure days in grey, so everyone can see at a glance who is off."
+      },
+      "f3": {
+        "desc": "Submit a New Request",
+        "description": "Submit a New Request: A guided form with a date-range picker that blocks already approved dates, bank holidays and closure days, counts working days automatically and shows the remaining balance for the selected leave type."
+      },
+      "f4": {
+        "desc": "My Leave Requests",
+        "description": "My Leave Requests: A filterable, sortable history of all requests, split into current and past leave, with colour-coded status badges (pending, approved, rejected, cancelled)."
+      }
+    },
+    "managerArea": {
+      "title": "Manager & HR Area (/team)",
+      "f1": {
+        "desc": "Team Dashboard",
+        "description": "Team Dashboard: A manager's home view showing who is off today together with the number of absentees, upcoming leave across the team, and the newest requests waiting to be reviewed — so everything that needs attention is visible at a glance."
+      },
+      "f2": {
+        "desc": "Team Calendar",
+        "description": "Team Calendar: A schedule with week, month and year views that visualises time off per employee and per leave type, with department filters and closure days overlaid."
+      },
+      "f3": {
+        "desc": "Request Approvals",
+        "description": "Request Approvals: Managers review, approve or reject requests from a single queue filtered by status and sorted by submission date, with confirmation modals and instant notifications."
+      },
+      "f4": {
+        "desc": "Absence Reporting & List",
+        "description": "Absence Reporting & List: Report absences on behalf of employees and browse a complete list of all recorded absences, filtered by employee, department, leave type and date range."
+      },
+      "f5": {
+        "desc": "Employee Management",
+        "description": "Employee Management: A directory of every employee in the organisation with their department, employment details, leave allowances, and per-employee calendars and history."
+      },
+      "f6": {
+        "desc": "Employee Invitations",
+        "description": "Employee Invitations: Invite new team members by e-mail with a secure, time-limited link (valid for 7 days) that lets them create their account and join the organisation, with the option to resend an invitation at any time."
+      },
+      "f7": {
+        "desc": "Leave Policies",
+        "description": "Leave Policies: Define leave types together with their annual allowances, carry-over and accrual rules per organisation, so every employee's balance is calculated correctly."
+      },
+      "f8": {
+        "desc": "Email Notifications",
+        "description": "Email Notifications: Transactional e-mails built with React Email and delivered through Resend keep employees and managers informed about new requests, approvals, rejections and password resets."
+      },
+      "f9": {
+        "desc": "Company Closure Days",
+        "description": "Company Closure Days: Add your own company closure days — shutdown periods, office closures and the like — which are then excluded from working-day counts and shown across every calendar."
+      },
+      "f10": {
+        "desc": "Bank Holiday Import",
+        "description": "Bank Holiday Import: Import official UK bank holidays (England & Wales, Scotland, Northern Ireland) straight from the official source, so public holidays are always up to date."
+      },
+      "f11": {
+        "desc": "Reports & Analytics",
+        "description": "Reports & Analytics: Monthly and weekly charts plus tables covering leave usage, sick leave, tenure and turnover per department."
+      }
+    },
+    "achievements": {
+      "title": "Architecture & Solutions:",
+      "f1": "Multi-Tenant Architecture: Tenancy is handled through Better Auth's organization plugin as the single source of truth, and every Employee profile is scoped to an organizationId — guaranteeing complete data isolation between companies.",
+      "f2": "Two-Layer Security Model: An edge middleware performs a fast cookie-presence check, while auth.api.getSession() verifies the full cryptographic session and role server-side inside the layout files.",
+      "f3": "Route Groups & Roles: A clean split between the (marketing), (auth), (app)/me and (app)/team route groups maps directly onto the Employee, Manager and HR roles, enforced consistently on the server.",
+      "f4": "Typed Data Layer: Mongoose models (Employee, Department, LeaveRequest, ClosureDay) together with shared TypeScript types keep the whole data layer type-safe and predictable.",
+      "f5": "Transactional Email: Password reset, e-mail verification and other notifications are built with React Email and delivered through Resend.",
+      "f6": "Working-Day Engine: Utilities that combine bank holidays and company closures to count working days correctly across every request and calendar view.",
+      "f7": "Responsive, Accessible UI: Mantine UI components, dark/light colour schemes and fully responsive calendar and table views for phones, tablets and desktops."
+    },
+    "businessValue": {
+      "title": "Business Value:",
+      "introText": "Companies using Off-Work benefit from:",
+      "f1": {
+        "title": "Less admin overhead:",
+        "description": "Automated balances, working-day counting and approvals remove hours of manual HR work every month."
+      },
+      "f2": {
+        "title": "Full visibility:",
+        "description": "Real-time calendars and a team dashboard surface availability and pending requests before they become a staffing problem."
+      },
+      "f3": {
+        "title": "Multi-tenant by design:",
+        "description": "Every company is an isolated organisation with its own employees, departments, policies and data — a single deployment serves many customers."
+      },
+      "f4": {
+        "title": "Audit-ready reporting:",
+        "description": "Charts and tables on leave usage, sick days, tenure and turnover give HR and finance the numbers they need, when they need them."
+      },
+      "f5": {
+        "title": "Secure & extensible:",
+        "description": "Role-based access, transactional e-mail and a typed, component-based codebase make the platform safe to run and easy to grow."
+      }
+    },
+    "bottomButtons": {
+      "backToProjects": "Back to Projects",
+      "contactMe": "Contact Me"
+    }
+  },
+
   "BottomButtonsBlock": {
     "backToProjects": "Back to Projects",
     "contactMe": "Contact Me"
