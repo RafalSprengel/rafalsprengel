@@ -75,7 +75,7 @@
       "githubUrl": "https://github.com/RafalSprengel/restaurant-and-online-payment-frontend",
       "seeMoreLink": "/projects/restaurant"
     },
-    "restaurantPOS": {
+    "restaurant": {
       "title": "Restaurant & Online Ordering System",
       "image": "/assets/home-page/server.jpg",
       "description": "Zaawansowana aplikacja internetowa do zarządzania restauracją: panel administracyjny, konta klientów, zamówienia, pozycje menu, kategorie i przepływy pracy personelu.",
@@ -335,18 +335,29 @@
   "WebAppProject": {
     "hero": {
       "title": "Restaurant & Online Ordering System",
-      "description": "Strona dla restauracji z interfejsem dla klientów oraz panelem administracyjnym umożliwiającym kontrolę nad operacjami. Zbudowany w oparciu o React.js, Node.js, Express.js i MongoDB."
+      "description": "Aplikacja internetowa z systemem zamawiania online, panelem admina oraz systemem kont klientów, umożliwiająca zarządzanie menu, zamówieniami, płatnościami online oraz danymi klientów. Zbudowana z użyciem frameworków JavaScriptowych."
     },
     "challenge": {
-      "title": "Cel: kompleksowe zarządzanie restauracją",
-      "text": "Prowadzenie nowoczesnej restauracji obejmuje wiele złożonych zadań. Celem było stworzenie systemu do zarządzania produktami, zamówieniami, rezerwacjami, wiadomościami oraz kontami użytkowników — zarówno pracowników, jak i klientów. System powinien także udostępniać dane sprzedażowe, które wspierają podejmowanie kolejnych decyzji biznesowych."
+      "title": "Cel: zarządzanie restauracją",
+      "text": "Prowadzenie restauracji obejmuje wiele zadań operacyjnych oraz sprzedażowych. Celem projektu było stworzenie systemu umożliwiającego sprzedaż online i zwiększenie zasięgu oferty, a także zapewnienie narzędzi do zarządzania menu, zamówieniami, rezerwacjami, wiadomościami, kontami pracowników i klientów oraz danymi sprzedażowymi, które wspierają podejmowanie kolejnych decyzji biznesowych."
     },
     "solution": {
-      "title": "Moje rozwiązanie: architektura full-stack",
-      "text": "Zaprojektowałem i wdrożyłem aplikację full-stack, koncentrując się na modułowości, bezpieczeństwie i skalowalności. System oferuje odrębne interfejsy dla klientów oraz dla personelu."
+      "title": "Rozwiązanie: architektura full-stack",
+      "text": "Zaprojektowałem i wdrożyłem aplikację full-stack, koncentrując się na płynności obsługi (UX), wydajności ładowania stron, czytelnej strukturze kodu ułatwiającej jego utrzymanie oraz bezpieczeństwie i spójności danych."
+    },
+    "menuOrdering": {
+      "title": "Menu, rezerwacje stolików, zamawianie online i płatności",
+      "features": {
+        "f1": "Dynamiczne menu: klienci mogą łatwo przeglądać menu, filtrować produkty i dodawać pozycje do koszyka.",
+        "f2": "Inteligentny koszyk: przejrzysty i przyjazny dla użytkownika koszyk, pozwalający klientom na przeglądanie, aktualizację lub usuwanie pozycji przed finalizacją zamówienia.",
+        "f3": "Proces zamawiania: płynny przepływ od wyboru produktu i personalizacji do bezpiecznej finalizacji transakcji.",
+        "f4": "Bezpieczne płatności ze Stripe: płatności online obsługiwane przez Stripe",
+        "f5": "Rezerwacje stolików: prosty formularz rezerwacji ze sprawdzaniem dostępności w czasie rzeczywistym.",
+        "f6": "Formularz kontaktowy: szybki sposób dla klientów na kontakt z restauracją w sprawie zapytań, opinii lub specjalnych życzeń."
+      }
     },
     "customerPanel": {
-      "title": "Panel klienta: pełna kontrola dla użytkowników",
+      "title": "Panel klienta: obsługa konta i historia zamówień",
       "description": "Panel klienta umożliwia zarządzanie kontem, przeglądanie historii zamówień oraz aktualizację danych osobowych, w tym zmianę hasła lub całkowite usunięcie konta.",
       "features": {
         "f1": "Rejestracja i logowanie: możliwość rejestracji i logowania za pomocą e-maila/hasła, Google lub Facebooka.",
@@ -357,7 +368,7 @@
       }
     },
     "adminPanel": {
-      "title": "Panel administratora: centralne zarządzanie",
+      "title": "Panel administratora: zarządzanie systemem",
       "description": "Panel administracyjny umożliwia zarządzanie produktami i kategoriami, kontami użytkowników oraz pracowników, a także rezerwacjami stolików. Administrator może również odczytywać i odpowiadać na wiadomości klientów bezpośrednio z panelu.",
       "features": {
         "f1": "Dashboard: przejrzysty podgląd kluczowych wskaźników biznesowych dla świadomego podejmowania decyzji.",
@@ -375,38 +386,35 @@
     "achievements": {
       "title": "Implementacja i zastosowane technologie:",
       "items": {
-        "f1": "Autoryzacja: implementacja tokenów JWT, OAuth2 (Google/Facebook) oraz kontroli dostępu opartej na rolach dla bezpiecznego zarządzania użytkownikami i personelem.",
-        "f2": "Zarządzanie danymi: wykorzystanie MongoDB z Mongoose do elastycznych i skalowalnych operacji na danych, wspierających złożone struktury produktów, zamówień i użytkowników.",
-        "f3": "API: RESTful API w Node.js/Express.js obejmujące operacje CRUD dla wszystkich kluczowych encji (produkty, zamówienia, użytkownicy, rezerwacje, wiadomości, personel, kategorie).",
-        "f4": "Płatności: integracja Stripe dla płatności online, w tym obsługa webhooków do automatycznej aktualizacji statusów zamówień.",
-        "f5": "Statystyki i raportowanie w czasie rzeczywistym: endpointy do statystyk sprzedaży, śledzenia odwiedzin i przeglądu dashboardu.",
-        "f6": "Responsywny UI: projektowanie w React.js i Mantine UI, spójne doświadczenie użytkownika na wszystkich urządzeniach.",
-        "f7": "Czysty kod i najlepsze praktyki: stosowanie standardów przemysłowych dla modularnego i łatwego w utrzymaniu kodu, w tym obsługa błędów i strukturalne logowanie."
+        "f1": "Autoryzacja: JWT oraz uprawnienia oparte na rolach.",
+        "f2": "Baza danych: MongoDB i Mongoose do przechowywania produktów, zamówień, kont użytkowników i pozostałych danych aplikacji.",
+        "f3": "Backend: Node.js i Express.js. REST API do obsługi produktów, kategorii, zamówień, rezerwacji, wiadomości i kont użytkowników.",
+        "f4": "Płatności: Stripe z obsługą webhooków aktualizujących statusy zamówień.",
+        "f5": "Architektura aplikacji: frontend w React.js, backend w Node.js i Express.js, komunikujące się za pomocą REST API."
       }
     },
     "businessValue": {
       "title": "Wartość biznesowa:",
-      "introText": "Zwiększenie obrotów restauracji poprzez:",
       "items": {
         "f1": {
-          "title": "Usprawnienie procesów:",
-          "description": "automatyzacja zamówień, rezerwacji i zarządzania stanem magazynowym, redukując ręczne obciążenie personelu."
+          "title": "Obsługa klientów:",
+          "description": "możliwość składania zamówień, dokonywania płatności online, rezerwowania stolików i zarządzania kontem."
         },
         "f2": {
-          "title": "Lepsze zaangażowanie klientów:",
-          "description": "zapewnienie płynnego doświadczenia online w zakresie zamówień, rezerwacji i zarządzania kontem."
+          "title": "Usprawnienie pracy personelu:",
+          "description": "zarządzanie zamówieniami online, rezerwacjami stolików i wiadomościami od klientów z poziomu jednej aplikacji."
         },
         "f3": {
-          "title": "Wsparcie decyzji:",
-          "description": "dostarczanie danych i statystyk w czasie rzeczywistym przez dashboard administracyjny."
+          "title": "Statystyki sprzedaży:",
+          "description": "podgląd danych dotyczących sprzedaży i zamówień w panelu administratora."
         },
         "f4": {
-          "title": "Zapewnienie bezpieczeństwa:",
-          "description": "implementacja solidnej autoryzacji, uwierzytelniania i mechanizmów obsługi płatności."
+          "title": "Bezpieczeństwo:",
+          "description": "logowanie użytkowników, uprawnienia oparte na rolach oraz obsługa płatności przez Stripe."
         },
         "f5": {
-          "title": "Skalowalność:",
-          "description": "budowa systemu zdolnego do rozwoju wraz z potrzebami restauracji."
+          "title": "Zarządzanie restauracją:",
+          "description": "zarządzanie menu, kategoriami, zamówieniami, rezerwacjami i kontami użytkowników z panelu administratora."
         }
       }
     },

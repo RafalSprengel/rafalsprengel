@@ -75,7 +75,7 @@
       "githubUrl": "https://github.com/RafalSprengel/restaurant-and-online-payment-frontend",
       "seeMoreLink": "/projects/restaurant"
     },
-    "restaurantPOS": {
+    "restaurant": {
       "title": "Restaurant & Online Ordering System",
       "image": "/assets/home-page/server.jpg",
       "description": "A web application for restaurant management: admin panel, customer accounts, orders, menu items, categories, and staff workflows.",
@@ -335,18 +335,29 @@
   "WebAppProject": {
     "hero": {
       "title": "Restaurant & Online Ordering System",
-      "description": "System for a restaurant, featuring a customer interface and an administrative panel for operational control. Built using React.js, Node.js, Express.js, and MongoDB."
+      "description": "A web application with an online ordering system, an admin panel, and a customer account system, enabling management of the menu, orders, online payments, and customer data. Built using JavaScript frameworks."
     },
     "challenge": {
-      "title": "Goal: Comprehensive Restaurant Management",
-      "text": "Running a modern restaurant involves many complex tasks. The goal was to create a system for managing products, orders, reservations, messages, and user accounts—both staff and customers. The system also needed to provide sales data to support subsequent business decisions."
+      "title": "Goal: Restaurant Management",
+      "text": "Running a restaurant involves many operational and sales tasks. The goal of the project was to create a system enabling online sales and increasing the reach of the offer, as well as providing tools for managing the menu, orders, reservations, messages, staff and customer accounts, and sales data that support subsequent business decisions."
     },
     "solution": {
-      "title": "My Solution: Full-Stack Architecture",
-      "text": "I designed and implemented a full-stack application, focusing on modularity, security, and scalability. The system offers separate interfaces for customers and for staff."
+      "title": "Solution: Full-Stack Architecture",
+      "text": "I designed and built a full-stack application, focusing on a smooth user experience (UX), page load performance, maintainable code structure, and data security and integrity."
+    },
+    "menuOrdering": {
+      "title": "Menu, Table Reservations, Online Ordering and Payments",
+      "features": {
+        "f1": "Dynamic Menu: Customers can easily browse the menu, filter products, and add items to the cart.",
+        "f2": "Smart Cart: A clear and user-friendly shopping cart, allowing customers to review, update, or remove items before finalizing the order.",
+        "f3": "Ordering Process: A seamless flow from product selection and customization to secure transaction finalization.",
+        "f4": "Secure Payments with Stripe: Online payments processed through Stripe",
+        "f5": "Table Reservations: A simple reservation form with real-time availability checking.",
+        "f6": "Contact Form: A quick way for customers to reach the restaurant with inquiries, feedback, or special requests."
+      }
     },
     "customerPanel": {
-      "title": "Customer Panel: Full Control for Users",
+      "title": "Customer Panel: Account Management and Order History",
       "description": "The customer panel allows account management, viewing order history, and updating personal data, including changing the password or permanently deleting the account.",
       "features": {
         "f1": "Registration and Login: Option to register and log in with email/password, Google, or Facebook.",
@@ -357,12 +368,12 @@
       }
     },
     "adminPanel": {
-      "title": "Administrator Panel: Central Management",
+      "title": "Admin Panel: System Management",
       "description": "The administrative panel enables management of products and categories, user and staff accounts, as well as table reservations. The administrator can also read and respond to customer messages directly from the panel.",
       "features": {
         "f1": "Dashboard: A clear overview of key business metrics for informed decision-making.",
         "f2": "Product Management: Easy adding, editing, and organizing of menu items.",
-        "f3": "Product Update.",
+        "f3": "Product Update: the ability to edit product information, including prices, descriptions, and availability status.",
         "f4": "Category Management: Full CRUD operations for product categories.",
         "f5": "Customer Management: Easy adding, modifying, and deleting customer accounts, and control over their data and permissions.",
         "f6": "Order Management: Real-time tracking, monitoring, and updating of order statuses.",
@@ -375,38 +386,35 @@
     "achievements": {
       "title": "Implementation and Technologies Used:",
       "items": {
-        "f1": "Authorization: Implementation of JWT tokens, OAuth2 (Google/Facebook), and role-based access control for secure user and staff management.",
-        "f2": "Data Management: Use of MongoDB with Mongoose for flexible and scalable data operations, supporting complex structures for products, orders, and users.",
-        "f3": "API: RESTful API in Node.js/Express.js covering CRUD operations for all key entities (products, orders, users, reservations, messages, staff, categories).",
-        "f4": "Payments: Stripe integration for online payments, including webhook handling for automatic order status updates.",
-        "f5": "Real-time statistics and reporting: Endpoints for sales statistics, visit tracking, and dashboard overview.",
-        "f6": "Responsive UI: Design in React.js and Mantine UI, ensuring a consistent user experience on all devices.",
-        "f7": "Clean Code and Best Practices: Adherence to industry standards for modular and maintainable code, including error handling and structured logging."
+        "f1": "Authorization: JWT and role-based permissions.",
+        "f2": "Database: MongoDB and Mongoose for storing products, orders, user accounts, and other application data.",
+        "f3": "Backend: Node.js and Express.js. REST API for handling products, categories, orders, reservations, messages, and user accounts.",
+        "f4": "Payments: Stripe with webhook handling that updates order statuses.",
+        "f5": "Application Architecture: React.js frontend and Node.js/Express.js backend communicating via a REST API."
       }
     },
     "businessValue": {
       "title": "Business Value:",
-      "introText": "Increasing restaurant turnover through:",
       "items": {
         "f1": {
-          "title": "Process Streamlining:",
-          "description": "Automation of orders, reservations, and inventory management, reducing manual workload."
+          "title": "Customer Service:",
+          "description": "the ability to place orders, make online payments, book tables, and manage their account."
         },
         "f2": {
-          "title": "Better Customer Engagement:",
-          "description": "Providing a smooth online experience for ordering, booking, and account management."
+          "title": "Staff Workflow Streamlining:",
+          "description": "managing online orders, table reservations, and customer messages from within a single application."
         },
         "f3": {
-          "title": "Decision Support:",
-          "description": "Delivering real-time data and statistics via the administrative dashboard."
+          "title": "Sales Statistics:",
+          "description": "an overview of sales and order data in the administrator panel."
         },
         "f4": {
-          "title": "Ensuring Security:",
-          "description": "Implementation of robust authorization, authentication, and payment handling mechanisms."
+          "title": "Security:",
+          "description": "user login, role-based permissions, and payment handling via Stripe."
         },
         "f5": {
-          "title": "Scalability:",
-          "description": "Building a system capable of growing with the restaurant's needs."
+          "title": "Restaurant Management:",
+          "description": "managing the menu, categories, orders, reservations, and user accounts from the administrator panel."
         }
       }
     },

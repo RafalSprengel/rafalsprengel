@@ -8,11 +8,11 @@ export default function PortfolioSection() {
     const t = useTranslations('PortfolioSection');
     
     const portfolioKeys = [
+        'leaveManagementSystem',
         'bookingSystem',
-        'restaurantPOS',
-        'restaurantWebsite',
+        'restaurant',
         'resortBooking',
-        'leaveManagementSystem'
+        'restaurantWebsite'
     ];
 
     return (
