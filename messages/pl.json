@@ -415,6 +415,10 @@
         "f5": {
           "title": "Zarządzanie restauracją:",
           "description": "zarządzanie menu, kategoriami, zamówieniami, rezerwacjami i kontami użytkowników z panelu administratora."
+        },
+        "f6": {
+          "title": "Responsywność strony:",
+          "description": "dostosowanie interfejsu do komputerów stacjonarnych, laptopów, tabletów i urządzeń mobilnych."
         }
       }
     },

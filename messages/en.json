@@ -415,6 +415,10 @@
         "f5": {
           "title": "Restaurant Management:",
           "description": "managing the menu, categories, orders, reservations, and user accounts from the administrator panel."
+        },
+        "f6": {
+          "title": "Responsive Design:",
+          "description": "adapting the interface to desktops, laptops, tablets, and mobile devices."
         }
       }
     },

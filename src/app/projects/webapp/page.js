@@ -218,6 +218,10 @@ export default function WebappProjectPage() {
               <span className={styles.checkmark}>✓</span>
               <strong>{t('businessValue.items.f5.title')}</strong> {t('businessValue.items.f5.description')}
             </li>
+            <li key="f6">
+              <span className={styles.checkmark}>✓</span>
+              <strong>{t('businessValue.items.f6.title')}</strong> {t('businessValue.items.f6.description')}
+            </li>
           </ul>
         </div>
       </div>
