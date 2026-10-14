@@ -236,28 +236,28 @@
     },
     "publicFeatures": {
       "menu": {
-        "desc": "Dynamiczne menu",
-        "description": "Dynamiczne menu: klienci mogą łatwo przeglądać menu, filtrować produkty i dodawać pozycje do koszyka."
+        "desc": "Menu",
+        "description": "Menu: Przeglądanie kategorii, filtrowanie produktów i dodawanie pozycji do koszyka."
       },
       "cart": {
-        "desc": "Inteligentny koszyk",
-        "description": "Inteligentny koszyk: przejrzysty i przyjazny dla użytkownika koszyk, pozwalający klientom na przeglądanie, aktualizację lub usuwanie pozycji przed finalizacją zamówienia."
+        "desc": "Koszyk",
+        "description": "Koszyk: Podgląd zamówienia, zmiana ilości produktów i usuwanie pozycji przed złożeniem zamówienia."
       },
       "process": {
         "desc": "Proces zamawiania",
-        "description": "Proces zamawiania: płynny przepływ od wyboru produktu i personalizacji do bezpiecznej finalizacji transakcji."
+        "description": "Proces zamawiania: Wybór i personalizacja produktów oraz przejście przez proces składania zamówienia."
       },
       "payments": {
-        "desc": "Bezpieczne płatności",
-        "description": "Bezpieczne płatności ze Stripe: klienci mogą bezpiecznie dokonywać transakcji przy użyciu kart kredytowych lub portfeli cyfrowych, z pełnym szyfrowaniem."
+        "desc": "Płatności online",
+        "description": "Płatności online: Integracja ze Stripe umożliwiająca realizację płatności online."
       },
       "reservations": {
         "desc": "Rezerwacje stolików",
-        "description": "Rezerwacje stolików: prosty formularz rezerwacji ze sprawdzaniem dostępności w czasie rzeczywistym."
+        "description": "Rezerwacje stolików: Formularz rezerwacji ze sprawdzaniem dostępności terminów w czasie rzeczywistym."
       },
       "contact": {
         "desc": "Formularz kontaktowy",
-        "description": "Formularz kontaktowy: szybki sposób dla klientów na kontakt z restauracją w sprawie zapytań, opinii lub specjalnych życzeń."
+        "description": "Formularz kontaktowy: Wysyłanie zapytań, opinii i specjalnych życzeń do restauracji."
       }
     },
     "panelFeatures": {
@@ -348,39 +348,39 @@
     "menuOrdering": {
       "title": "Menu, rezerwacje stolików, zamawianie online i płatności",
       "features": {
-        "f1": "Dynamiczne menu: klienci mogą łatwo przeglądać menu, filtrować produkty i dodawać pozycje do koszyka.",
-        "f2": "Inteligentny koszyk: przejrzysty i przyjazny dla użytkownika koszyk, pozwalający klientom na przeglądanie, aktualizację lub usuwanie pozycji przed finalizacją zamówienia.",
-        "f3": "Proces zamawiania: płynny przepływ od wyboru produktu i personalizacji do bezpiecznej finalizacji transakcji.",
-        "f4": "Bezpieczne płatności ze Stripe: płatności online obsługiwane przez Stripe",
-        "f5": "Rezerwacje stolików: prosty formularz rezerwacji ze sprawdzaniem dostępności w czasie rzeczywistym.",
-        "f6": "Formularz kontaktowy: szybki sposób dla klientów na kontakt z restauracją w sprawie zapytań, opinii lub specjalnych życzeń."
+        "f1": "Menu: Przeglądanie kategorii, filtrowanie produktów i dodawanie pozycji do koszyka.",
+        "f2": "Koszyk: Podgląd zamówienia, zmiana ilości produktów i usuwanie pozycji przed złożeniem zamówienia.",
+        "f3": "Proces zamawiania: Wybór i personalizacja produktów oraz przejście przez proces składania zamówienia.",
+        "f4": "Płatności online: Integracja ze Stripe umożliwiająca realizację płatności online.",
+        "f5": "Rezerwacje stolików: Formularz rezerwacji ze sprawdzaniem dostępności terminów w czasie rzeczywistym.",
+        "f6": "Formularz kontaktowy: Wysyłanie zapytań, opinii i specjalnych życzeń do restauracji."
       }
     },
     "customerPanel": {
       "title": "Panel klienta: obsługa konta i historia zamówień",
       "description": "Panel klienta umożliwia zarządzanie kontem, przeglądanie historii zamówień oraz aktualizację danych osobowych, w tym zmianę hasła lub całkowite usunięcie konta.",
       "features": {
-        "f1": "Rejestracja i logowanie: możliwość rejestracji i logowania za pomocą e-maila/hasła, Google lub Facebooka.",
-        "f2": "Ostatnie zamówienia: lista wszystkich złożonych zamówień z możliwością ich \"usunięcia\" (oznaczenia jako niewidoczne dla klienta).",
-        "f3": "Dane osobowe: podgląd i edycja informacji osobistych (imię, nazwisko, e-mail, telefon, adres).",
-        "f4": "Zmiana hasła: bezpieczna funkcja aktualizacji hasła.",
-        "f5": "Usuwanie konta: możliwość trwałego usunięcia konta użytkownika."
+        "f1": "Rejestracja i logowanie: Tworzenie konta i logowanie za pomocą adresu e-mail i hasła lub kont Google i Facebook.",
+        "f2": "Historia zamówień: Przeglądanie złożonych zamówień oraz ukrywanie wybranych pozycji z historii.",
+        "f3": "Dane osobowe: Podgląd i edycja danych klienta, w tym imienia, nazwiska, adresu e-mail, numeru telefonu i adresu dostawy.",
+        "f4": "Zmiana hasła: Możliwość zmiany hasła do konta.",
+        "f5": "Usuwanie konta: Możliwość trwałego usunięcia konta użytkownika."
       }
     },
     "adminPanel": {
       "title": "Panel administratora: zarządzanie systemem",
       "description": "Panel administracyjny umożliwia zarządzanie produktami i kategoriami, kontami użytkowników oraz pracowników, a także rezerwacjami stolików. Administrator może również odczytywać i odpowiadać na wiadomości klientów bezpośrednio z panelu.",
       "features": {
-        "f1": "Dashboard: przejrzysty podgląd kluczowych wskaźników biznesowych dla świadomego podejmowania decyzji.",
-        "f2": "Zarządzanie produktami: łatwe dodawanie, edycja i organizacja pozycji w menu.",
-        "f3": "Aktualizacja produktów: możliwość edycji informacji o produktach, w tym cen, opisów i statusu dostępności.",
-        "f4": "Zarządzanie kategoriami: operacje tworzenia, odczytu, aktualizacji i usuwania kategorii produktów.",
-        "f5": "Zarządzanie klientami: łatwe dodawanie, modyfikowanie i usuwanie kont klientów oraz kontrola ich danych i uprawnień.",
-        "f6": "Zarządzanie zamówieniami: śledzenie, monitorowanie i aktualizacja statusów zamówień w czasie rzeczywistym.",
-        "f7": "Wiadomości: odbieranie i odpowiadanie na wiadomości od klientów.",
-        "f8": "Zarządzanie rezerwacjami stolików: podgląd, edycja i aktualizacja rezerwacji.",
-        "f9": "Zarządzanie personelem: pełne operacje CRUD dla kont pracowników z przypisywaniem ról i kontrolą dostępu do funkcji panelu.",
-        "f10": "Ustawienia aplikacji: zarządzanie globalnymi ustawieniami rezerwacji, konfiguracją SMTP i innymi parametrami systemu."
+        "f1": "Dashboard: Podgląd kluczowych wskaźników i danych dotyczących działalności restauracji.",
+        "f2": "Zarządzanie produktami: Dodawanie, edycja i usuwanie produktów w menu.",
+        "f3": "Edycja produktów: Aktualizacja cen, opisów i dostępności produktów.",
+        "f4": "Zarządzanie kategoriami: Tworzenie, edycja i usuwanie kategorii menu.",
+        "f5": "Zarządzanie klientami: Przeglądanie danych klientów oraz zarządzanie ich kontami.",
+        "f6": "Zarządzanie zamówieniami: Przeglądanie zamówień i aktualizacja ich statusów.",
+        "f7": "Obsługa wiadomości: Odbieranie i obsługa wiadomości przesyłanych przez klientów.",
+        "f8": "Zarządzanie rezerwacjami: Przeglądanie i edycja rezerwacji stolików.",
+        "f9": "Zarządzanie personelem: Tworzenie i edycja kont pracowników oraz przypisywanie ról i uprawnień.",
+        "f10": "Ustawienia aplikacji: Konfiguracja rezerwacji, poczty SMTP i pozostałych ustawień systemowych."
       }
     },
     "achievements": {

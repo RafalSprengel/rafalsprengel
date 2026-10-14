@@ -236,28 +236,28 @@
     },
     "publicFeatures": {
       "menu": {
-        "desc": "Dynamic Menu",
-        "description": "Dynamic Menu: Customers can easily browse the menu, filter products, and add items to the cart."
+        "desc": "Menu",
+        "description": "Menu: Browsing categories, filtering products, and adding items to the cart."
       },
       "cart": {
-        "desc": "Smart Cart",
-        "description": "Smart Cart: A clear and user-friendly shopping cart, allowing customers to review, update, or remove items before finalizing the order."
+        "desc": "Cart",
+        "description": "Cart: Order overview, changing product quantities, and removing items before placing the order."
       },
       "process": {
         "desc": "Ordering Process",
-        "description": "Ordering Process: A seamless flow from product selection and customization to secure transaction finalization."
+        "description": "Ordering Process: Selecting and customizing products and going through the order placement process."
       },
       "payments": {
-        "desc": "Secure Payments",
-        "description": "Secure Payments with Stripe: Customers can securely make transactions using credit cards or digital wallets, with full encryption."
+        "desc": "Online Payments",
+        "description": "Online Payments: Stripe integration enabling online payments."
       },
       "reservations": {
         "desc": "Table Reservations",
-        "description": "Table Reservations: A simple reservation form with real-time availability checking."
+        "description": "Table Reservations: A reservation form with real-time checking of available time slots."
       },
       "contact": {
         "desc": "Contact Form",
-        "description": "Contact Form: A quick way for customers to reach the restaurant with inquiries, feedback, or special requests."
+        "description": "Contact Form: Sending inquiries, feedback, and special requests to the restaurant."
       }
     },
     "panelFeatures": {
@@ -348,39 +348,39 @@
     "menuOrdering": {
       "title": "Menu, Table Reservations, Online Ordering and Payments",
       "features": {
-        "f1": "Dynamic Menu: Customers can easily browse the menu, filter products, and add items to the cart.",
-        "f2": "Smart Cart: A clear and user-friendly shopping cart, allowing customers to review, update, or remove items before finalizing the order.",
-        "f3": "Ordering Process: A seamless flow from product selection and customization to secure transaction finalization.",
-        "f4": "Secure Payments with Stripe: Online payments processed through Stripe",
-        "f5": "Table Reservations: A simple reservation form with real-time availability checking.",
-        "f6": "Contact Form: A quick way for customers to reach the restaurant with inquiries, feedback, or special requests."
+        "f1": "Menu: Browsing categories, filtering products, and adding items to the cart.",
+        "f2": "Cart: Order overview, changing product quantities, and removing items before placing the order.",
+        "f3": "Ordering Process: Selecting and customizing products and going through the order placement process.",
+        "f4": "Online Payments: Stripe integration enabling online payments.",
+        "f5": "Table Reservations: A reservation form with real-time checking of available time slots.",
+        "f6": "Contact Form: Sending inquiries, feedback, and special requests to the restaurant."
       }
     },
     "customerPanel": {
       "title": "Customer Panel: Account Management and Order History",
       "description": "The customer panel allows account management, viewing order history, and updating personal data, including changing the password or permanently deleting the account.",
       "features": {
-        "f1": "Registration and Login: Option to register and log in with email/password, Google, or Facebook.",
-        "f2": "Recent Orders: List of all placed orders with the option to \"delete\" them (mark as invisible to the customer).",
-        "f3": "Personal Data: View and edit personal information (first name, last name, email, phone, address).",
-        "f4": "Password Change: Secure function to update the password.",
-        "f5": "Option to permanently delete the user account."
+        "f1": "Registration and Login: Creating an account and logging in with an email address and password or Google and Facebook accounts.",
+        "f2": "Order History: Viewing placed orders and hiding selected items from the history.",
+        "f3": "Personal Data: Viewing and editing customer data, including first name, last name, email address, phone number, and delivery address.",
+        "f4": "Password Change: The option to change the account password.",
+        "f5": "Account Deletion: The option to permanently delete the user account."
       }
     },
     "adminPanel": {
       "title": "Admin Panel: System Management",
       "description": "The administrative panel enables management of products and categories, user and staff accounts, as well as table reservations. The administrator can also read and respond to customer messages directly from the panel.",
       "features": {
-        "f1": "Dashboard: A clear overview of key business metrics for informed decision-making.",
-        "f2": "Product Management: Easy adding, editing, and organizing of menu items.",
-        "f3": "Product Update: the ability to edit product information, including prices, descriptions, and availability status.",
-        "f4": "Category Management: Full CRUD operations for product categories.",
-        "f5": "Customer Management: Easy adding, modifying, and deleting customer accounts, and control over their data and permissions.",
-        "f6": "Order Management: Real-time tracking, monitoring, and updating of order statuses.",
-        "f7": "Messages: Efficiently receiving and responding to customer messages.",
-        "f8": "Table Reservation Management: Seamless viewing, editing, and updating of reservations.",
-        "f9": "Staff Management: Full CRUD operations for staff accounts with role assignment.",
-        "f10": "Application Settings: Managing global reservation settings, SMTP configuration, and other system parameters."
+        "f1": "Dashboard: Overview of key metrics and data related to the restaurant's operations.",
+        "f2": "Product Management: Adding, editing, and deleting products in the menu.",
+        "f3": "Product Editing: Updating prices, descriptions, and availability of products.",
+        "f4": "Category Management: Creating, editing, and deleting menu categories.",
+        "f5": "Customer Management: Viewing customer data and managing their accounts.",
+        "f6": "Order Management: Viewing orders and updating their statuses.",
+        "f7": "Message Handling: Receiving and handling messages sent by customers.",
+        "f8": "Reservation Management: Viewing and editing table reservations.",
+        "f9": "Staff Management: Creating and editing staff accounts and assigning roles and permissions.",
+        "f10": "Application Settings: Configuring reservations, SMTP mail, and other system settings."
       }
     },
     "achievements": {

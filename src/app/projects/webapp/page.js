@@ -76,10 +76,10 @@ export default function WebappProjectPage() {
 
   // DANE DLA FeaturesGallery POBIERANE BEZPOŚREDNIO Z KLUCZY f1, f2, f3...
   const menuOrderingFeaturesData = [
-    { image: { src: '/assets/projects/webapp/features/menu.webp', desc: 'Dynamic Menu' }, description: t('menuOrdering.features.f1'), icon: <FaUtensils /> },
-    { image: { src: '/assets/projects/webapp/features/cart.webp', desc: 'Smart Cart' }, description: t('menuOrdering.features.f2'), icon: <FaShoppingCart /> },
+    { image: { src: '/assets/projects/webapp/features/menu.webp', desc: 'Menu' }, description: t('menuOrdering.features.f1'), icon: <FaUtensils /> },
+    { image: { src: '/assets/projects/webapp/features/cart.webp', desc: 'Cart' }, description: t('menuOrdering.features.f2'), icon: <FaShoppingCart /> },
     { image: { src: '/assets/projects/webapp/features/process.webp', desc: 'Ordering Process' }, description: t('menuOrdering.features.f3'), icon: <FaListAlt /> },
-    { image: { src: '/assets/projects/webapp/features/stripe.webp', desc: 'Secure Payments' }, description: t('menuOrdering.features.f4'), icon: <FaCreditCard /> },
+    { image: { src: '/assets/projects/webapp/features/stripe.webp', desc: 'Online Payments' }, description: t('menuOrdering.features.f4'), icon: <FaCreditCard /> },
     { image: { src: '/assets/projects/webapp/features/book-table.webp', desc: 'Table Reservations' }, description: t('menuOrdering.features.f5'), icon: <FaCalendarAlt /> },
     { image: { src: '/assets/projects/webapp/features/contact.webp', desc: 'Contact Form' }, description: t('menuOrdering.features.f6'), icon: <FaEnvelope /> },
   ];
