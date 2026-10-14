@@ -54,9 +54,9 @@ export default function LeaveManagementSystemProjectPage() {
   }
 
   const lightboxImages = [
-    { src: '/assets/projects/leave-management-system/gallery/gallery-1.webp' },
-    { src: '/assets/projects/leave-management-system/gallery/gallery-2.webp' },
-    { src: '/assets/projects/leave-management-system/gallery/gallery-3.webp' },
+    { src: '/assets/projects/leave-management-system/gallery/1a.webp' },
+    { src: '/assets/projects/leave-management-system/gallery/2a.webp' },
+    { src: '/assets/projects/leave-management-system/gallery/3a.webp' },
   ]
 
   const employeeFeaturesData = [

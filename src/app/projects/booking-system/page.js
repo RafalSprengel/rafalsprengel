@@ -51,9 +51,9 @@ export default function BookingSystemProjectPage() {
   };
 
   const lightboxImages = [
-    { src: '/assets/projects/booking-system/gallery/landing-page.webp', description: 'Booking Search Interface' },
-    { src: '/assets/projects/booking-system/gallery/admin-panel.webp', description: 'Admin Dashboard' },
-    { src: '/assets/projects/booking-system/gallery/pc-calendar.webp', description: 'Admin Calendar' },
+    { src: '/assets/projects/booking-system/gallery/1a.webp', description: 'Booking Search Interface' },
+    { src: '/assets/projects/booking-system/gallery/2a.webp', description: 'Admin Dashboard' },
+    { src: '/assets/projects/booking-system/gallery/3a.webp', description: 'Admin Calendar' },
   ];
 
   const searchFeaturesData = [

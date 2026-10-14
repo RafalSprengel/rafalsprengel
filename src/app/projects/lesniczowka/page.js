@@ -48,9 +48,9 @@ export default function LesniczowkaProjectPage() {
     }
 
     const lightboxImages = [
-        { src: '/assets/projects/lesniczowka/gallery/Billboard.webp' },
-        { src: '/assets/projects/lesniczowka/gallery/Package.webp' },
-        { src: '/assets/projects/lesniczowka/gallery/Workshop.webp' }
+        { src: '/assets/projects/lesniczowka/gallery/1a.webp' },
+        { src: '/assets/projects/lesniczowka/gallery/2a.webp' },
+        { src: '/assets/projects/lesniczowka/gallery/3a.webp' }
     ]
 
     const keyFunctionalAreasData = [

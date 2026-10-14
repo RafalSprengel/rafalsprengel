@@ -61,9 +61,12 @@ export default function WebappProjectPage() {
   };
 
   const lightboxImages = [
-    { src: '/assets/projects/webapp/gallery/office.webp', description: 'Admin Dashboard' },
-    { src: '/assets/projects/webapp/gallery/kitchen.webp', description: 'Product Management' },
-    { src: '/assets/projects/webapp/gallery/mobile.webp', description: 'Order Management' },
+    { src: '/assets/projects/webapp/gallery/1a.webp', description: 'Admin Dashboard' },
+    { src: '/assets/projects/webapp/gallery/2a.webp', description: 'Product Management' },
+    { src: '/assets/projects/webapp/gallery/3a.webp', description: 'Order Management' },
+    { src: '/assets/projects/webapp/gallery/4a.webp', description: 'Order Management' },
+    { src: '/assets/projects/webapp/gallery/5a.webp', description: 'Order Management' },
+    { src: '/assets/projects/webapp/gallery/6a.webp', description: 'Order Management' },
   ];
 
   // LISTY KLUCZY do mapowania, zastępujące returnObjects: true
