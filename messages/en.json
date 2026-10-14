@@ -65,16 +65,6 @@
       "githubUrl": "https://github.com/RafalSprengel/accommodation-booking-system",
       "seeMoreLink": "/projects/booking-system"
     },
-    "restaurantWebsite": {
-      "title": "Restaurant Website",
-      "image": "/assets/home-page/www.jpg",
-      "description": "Responsive website for a restaurant with online ordering, a menu, a gallery, a table reservation system, and a contact form.",
-      "tags": "React, Node.js, Express.js, MongoDB, JWT, OAuth, Stripe",
-      "category": "Custom Website",
-      "liveUrl": "https://restaurant.rafalsprengel.com/",
-      "githubUrl": "https://github.com/RafalSprengel/restaurant-and-online-payment-frontend",
-      "seeMoreLink": "/projects/restaurant"
-    },
     "restaurant": {
       "title": "Restaurant & Online Ordering System",
       "image": "/assets/home-page/server.jpg",
@@ -227,109 +217,6 @@
       "webdeveloper": "Web Developer",
       "freelancer": "Freelancer",
       "designer": "UI/UX Designer"
-    }
-  },
-  "RestaurantProject": {
-    "hero": {
-      "title": "Restaurant & Online Ordering System",
-      "description": "Responsive restaurant website & online payment, enabling menu management, online ordering, online payments, and customer account management, ensuring user convenience and business operational efficiency."
-    },
-    "publicFeatures": {
-      "menu": {
-        "desc": "Menu",
-        "description": "Menu: Browsing categories, filtering products, and adding items to the cart."
-      },
-      "cart": {
-        "desc": "Cart",
-        "description": "Cart: Order overview, changing product quantities, and removing items before placing the order."
-      },
-      "process": {
-        "desc": "Ordering Process",
-        "description": "Ordering Process: Selecting and customizing products and going through the order placement process."
-      },
-      "payments": {
-        "desc": "Online Payments",
-        "description": "Online Payments: Stripe integration enabling online payments."
-      },
-      "reservations": {
-        "desc": "Table Reservations",
-        "description": "Table Reservations: A reservation form with real-time checking of available time slots."
-      },
-      "contact": {
-        "desc": "Contact Form",
-        "description": "Contact Form: Sending inquiries, feedback, and special requests to the restaurant."
-      }
-    },
-    "panelFeatures": {
-      "dashboard": {
-        "desc": "Dashboard Overview",
-        "description": "Dashboard: Provides a clear and intuitive overview of key business metrics for informed decision-making."
-      },
-      "products": {
-        "desc": "Product Management",
-        "description": "Product Management: Easily add, edit, and organize menu items to keep the restaurant's offering always up-to-date."
-      },
-      "orders": {
-        "desc": "Order Management",
-        "description": "Order Management: Track, monitor, and update order statuses in real-time to ensure smooth operations."
-      },
-      "messages": {
-        "desc": "Customer Messages",
-        "description": "Messages: Efficiently receive and respond to customer messages, streamlining communication."
-      },
-      "staff": {
-        "desc": "User Role Management",
-        "description": "Staff Management: Easily add, edit, and remove users and control their roles and access levels."
-      },
-      "reservations": {
-        "desc": "Table Reservations",
-        "description": "Table Reservations Management: Seamlessly view, manage, and update table reservations."
-      }
-    },
-    "challenge": {
-      "title": "Goal: Digital Transformation in Gastronomy",
-      "text": "Modern restaurants need more than just delicious food. In the digital age, efficient management of orders, reservations, and customer relationships is crucial, as is ensuring a smooth online experience. The project aimed to support the restaurant in these areas, increase its online reach, and improve customer service quality by automating key processes and providing tools for effective business management."
-    },
-    "solution": {
-      "title": "My Solution: Architecture and Implementation",
-      "text": "The implemented solution includes a responsive website for the restaurant with online payment system, enabling menu management, online ordering, online payments, and customer account management. The system automates the ordering and reservation processes, integrates payments, and the administrative panel allows for efficient management of customer data and orders. Additionally, analytics mechanisms and tools for monitoring traffic and user behavior were implemented, supporting informed business decisions and increasing staff efficiency."
-    },
-    "frontend": {
-      "title": "Frontend – User Interface and Customer Experience:",
-      "text1": "For the frontend, I chose <strong>React.js</strong> combined with <a>Mantine UI</a>, which allowed me to quickly build rich and accessible components. This gives customers an intuitive interface for browsing the menu, customizing orders, and making table reservations. I paid particular attention to responsiveness, ensuring seamless operation on all devices – from desktops to smartphones.",
-      "text2": "The management panel is a comprehensive tool that gives staff full control over restaurant operations. From monitoring sales on the dashboard, to managing products, categories, and handling orders, customers, and reservations. The implementation of user roles (admin, moderator, member) ensures precise access control."
-    },
-    "backend": {
-      "title": "Backend – The Heart of the System:",
-      "text": "The backend, built on Node.js using Express.js and the MongoDB database, provides a solid foundation for all operations. I developed a RESTful API that handles the management of products, orders, users, and reservations. Key considerations were ensuring security (JWT for authorization, OAuth for social login) and scalability so the system could grow with the restaurant."
-    },
-    "achievements": {
-      "title": "What was achieved:",
-      "f1": "Comprehensive Integration: The frontend was connected to the backend, the Stripe payment system, and authorization mechanisms (JWT, Google/Facebook OAuth), creating a coherent and secure application environment.",
-      "f2": "Responsive Design: The site adapts to various devices, ensuring consistent operation on both desktops and mobile devices.",
-      "f3": "Performance Optimization: Images and content load progressively as the page is used, and server queries were optimized, making the application run smoothly and quickly.",
-      "f4": "Efficient Data Management: The system enables efficient processing and control of information within the application.",
-      "f5": "Clean Code and Best Practices: The code is modular and easy to maintain, compliant with current industry standards."
-    },
-    "businessValue": {
-      "title": "Business Value:",
-      "text1": "The restaurant benefits from:",
-      "f1": {
-        "title": "Increased efficiency",
-        "description": "Automation of order and reservation handling."
-      },
-      "f2": {
-        "title": "Improved customer experience",
-        "description": "Simple and intuitive online ordering."
-      },
-      "f3": {
-        "title": "Wider reach",
-        "description": "Availability of the site online and on mobile devices."
-      },
-      "f4": {
-        "title": "Data-driven decisions",
-        "description": "Statistics and reports supporting management."
-      }
     }
   },
   "WebAppProject": {

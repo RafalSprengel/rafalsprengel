@@ -11,8 +11,7 @@ export default function PortfolioSection() {
         'leaveManagementSystem',
         'bookingSystem',
         'restaurant',
-        'resortBooking',
-        'restaurantWebsite'
+        'resortBooking'
     ];
 
     return (

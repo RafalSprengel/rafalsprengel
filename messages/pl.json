@@ -65,16 +65,6 @@
       "githubUrl": "https://github.com/RafalSprengel/accommodation-booking-system",
       "seeMoreLink": "/projects/booking-system"
     },
-    "restaurantWebsite": {
-      "title": "Restaurant Website",
-      "image": "/assets/home-page/www.jpg",
-      "description": "Nowoczesna, w pełni responsywna strona internetowa dla restauracji z możliwością zamawiania online, menu, galerią, systemem rezerwacji stolików i formularzem kontaktowym.",
-      "tags": "React, Express.js, MongoDB, JWT, OAuth, Stripe",
-      "category": "Strona internetowa",
-      "liveUrl": "https://restaurant.rafalsprengel.com/",
-      "githubUrl": "https://github.com/RafalSprengel/restaurant-and-online-payment-frontend",
-      "seeMoreLink": "/projects/restaurant"
-    },
     "restaurant": {
       "title": "Restaurant & Online Ordering System",
       "image": "/assets/home-page/server.jpg",
@@ -227,109 +217,6 @@
       "webdeveloper": "web developerem",
       "freelancer": "freelancerem",
       "designer": "projektantem UI/UX"
-    }
-  },
-  "RestaurantProject": {
-    "hero": {
-      "title": "Responsywna strona restauracji",
-      "description": "Strona internetowa dla restauracji z możliwością zamówienia online, w pełni responsywna, umożliwiająca zarządzanie menu, zamówieniami, płatnościami online oraz kontami klientów, zapewniająca wygodę użytkowników i efektywność działania biznesu."
-    },
-    "publicFeatures": {
-      "menu": {
-        "desc": "Menu",
-        "description": "Menu: Przeglądanie kategorii, filtrowanie produktów i dodawanie pozycji do koszyka."
-      },
-      "cart": {
-        "desc": "Koszyk",
-        "description": "Koszyk: Podgląd zamówienia, zmiana ilości produktów i usuwanie pozycji przed złożeniem zamówienia."
-      },
-      "process": {
-        "desc": "Proces zamawiania",
-        "description": "Proces zamawiania: Wybór i personalizacja produktów oraz przejście przez proces składania zamówienia."
-      },
-      "payments": {
-        "desc": "Płatności online",
-        "description": "Płatności online: Integracja ze Stripe umożliwiająca realizację płatności online."
-      },
-      "reservations": {
-        "desc": "Rezerwacje stolików",
-        "description": "Rezerwacje stolików: Formularz rezerwacji ze sprawdzaniem dostępności terminów w czasie rzeczywistym."
-      },
-      "contact": {
-        "desc": "Formularz kontaktowy",
-        "description": "Formularz kontaktowy: Wysyłanie zapytań, opinii i specjalnych życzeń do restauracji."
-      }
-    },
-    "panelFeatures": {
-      "dashboard": {
-        "desc": "Przegląd dashboardu",
-        "description": "Dashboard: zapewnia przejrzysty i intuicyjny przegląd kluczowych wskaźników biznesowych dla świadomego podejmowania decyzji."
-      },
-      "products": {
-        "desc": "Zarządzanie produktami",
-        "description": "Zarządzanie produktami: łatwe dodawanie, edytowanie i organizowanie pozycji menu, aby oferta restauracji była zawsze aktualna."
-      },
-      "orders": {
-        "desc": "Zarządzanie zamówieniami",
-        "description": "Zarządzanie zamówieniami: śledzenie, monitorowanie i aktualizowanie statusów zamówień w czasie rzeczywistym, aby zapewnić płynność operacji."
-      },
-      "messages": {
-        "desc": "Wiadomości od klientów",
-        "description": "Wiadomości: skuteczne odbieranie i odpowiadanie na wiadomości od klientów, co usprawnia komunikację."
-      },
-      "staff": {
-        "desc": "Zarządzanie rolami użytkowników",
-        "description": "Zarządzanie personelem: łatwe dodawanie, edytowanie i usuwanie użytkowników oraz kontrola ich ról i poziomów dostępu."
-      },
-      "reservations": {
-        "desc": "Rezerwacje stolików",
-        "description": "Zarządzanie rezerwacjami stolików: bezproblemowe przeglądanie, zarządzanie i aktualizowanie rezerwacji stolików."
-      }
-    },
-    "challenge": {
-      "title": "Cel: transformacja cyfrowa w gastronomii",
-      "text": "Współczesne restauracje potrzebują więcej niż tylko pysznego jedzenia. W erze digitalizacji kluczowe jest sprawne zarządzanie zamówieniami, rezerwacjami oraz relacjami z klientami, a także zapewnienie płynnego doświadczenia online. Celem projektu było wsparcie restauracji w tych obszarach, zwiększenie zasięgu online oraz poprawa jakości obsługi klientów, poprzez automatyzację kluczowych procesów i dostarczenie narzędzi wspierających efektywne zarządzanie biznesem."
-    },
-    "solution": {
-      "title": "Moje rozwiązanie: architektura i implementacja",
-      "text": "Wdrożone rozwiązania obejmują responsywną stronę internetową dla restauracji z możliwością zamówienia online, umożliwiającą zarządzanie menu, zamówieniami, płatnościami online oraz kontami klientów. System automatyzuje procesy zamówień i rezerwacji, integruje płatności, a panel administracyjny pozwala na sprawne zarządzanie danymi klientów i zamówieniami. Dodatkowo wdrożono mechanizmy analityki oraz narzędzia do monitorowania ruchu i zachowań użytkowników, co wspiera podejmowanie świadomych decyzji biznesowych i zwiększa efektywność pracy personelu."
-    },
-    "frontend": {
-      "title": "Frontend – interfejs użytkownika i doświadczenie klienta:",
-      "text1": "Na frontendzie zdecydowałem się na <strong>React.js</strong> w połączeniu z <a>Mantine UI</a>, co pozwoliło mi szybko zbudować bogate i dostępne komponenty. Dzięki temu klienci mają intuicyjny interfejs do przeglądania menu, personalizacji zamówień oraz rezerwacji stolików. Szczególną uwagę poświęciłem responsywności, zapewniając bezproblemowe działanie strony na wszystkich urządzeniach – od komputerów stacjonarnych po smartfony.",
-      "text2": "Panel zarządzania to kompleksowe narzędzie, które daje personelowi pełną kontrolę nad operacjami restauracji. Od monitorowania sprzedaży na dashboardzie, po zarządzanie produktami, kategoriami, oraz obsługę zamówień, klientów i rezerwacji. Implementacja ról użytkowników (admin, moderator, członek) zapewnia precyzyjną kontrolę dostępu."
-    },
-    "backend": {
-      "title": "Backend – serce systemu:",
-      "text": "Backend, zbudowany na Node.js z wykorzystaniem Express.js i bazę danych MongoDB, stanowi solidną podstawę dla wszystkich operacji. Opracowałem RESTful API, które obsługuje zarządzanie produktami, zamówieniami, użytkownikami i rezerwacjami. Kluczowe było zapewnienie bezpieczeństwa (JWT do autoryzacji, OAuth2 do logowania społecznościowego) i skalowalności, aby system mógł rosnąć wraz z restauracją."
-    },
-    "achievements": {
-      "title": "Co osiągnięto:",
-      "f1": "Kompleksowa integracja: frontend został połączony z backendem, systemem płatności Stripe oraz mechanizmami autoryzacji (JWT, Google/Facebook OAuth), tworząc spójne i bezpieczne środowisko aplikacji.",
-      "f2": "Responsywny design: strona dostosowuje się do różnych urządzeń, zapewniając spójną obsługę zarówno na komputerach, jak i urządzeniach mobilnych.",
-      "f3": "Optymalizacja wydajności: obrazy i treści wczytują się stopniowo w miarę korzystania ze strony, a zapytania do serwera zostały zoptymalizowane, dzięki czemu aplikacja działa płynnie i szybko.",
-      "f4": "Efektywne zarządzanie danymi: system umożliwia sprawne przetwarzanie i kontrolę informacji w aplikacji.",
-      "f5": "Czysty kod i dobre praktyki: kod jest modularny i łatwy w utrzymaniu, zgodny z obowiązującymi standardami branżowymi."
-    },
-    "businessValue": {
-      "title": "Wartość biznesowa:",
-      "text1": "Restauracja zyskuje dzięki:",
-      "f1": {
-        "title": "Zwiększonej wydajności",
-        "description": "Automatyzacja obsługi zamówień i rezerwacji."
-      },
-      "f2": {
-        "title": "Ulepszonemu doświadczeniu klienta",
-        "description": "Proste i intuicyjne zamawianie online."
-      },
-      "f3": {
-        "title": "Szerszemu zasięgowi",
-        "description": "Pełna dostępność strony na komputerach stacjonarnych, laptopach i urządzeniach mobilnych."
-      },
-      "f4": {
-        "title": "Decyzjom opartym na danych",
-        "description": "Statystyki i raporty wspierające zarządzanie."
-      }
     }
   },
   "WebAppProject": {
