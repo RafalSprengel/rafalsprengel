@@ -50,7 +50,7 @@ export default function LeaveManagementSystemProjectPage() {
     phoneImage: '/assets/projects/leave-management-system/hero/phone.webp',
     liveUrl: 'https://off-work.rafalsprengel.com/',
     githubUrl: 'https://github.com/RafalSprengel/off-work',
-    tags: ['Next.js 16', 'TypeScript', 'Mantine UI', 'MongoDB', 'Mongoose', 'Better Auth', 'Resend', 'Recharts', 'Biome'],
+    tags: ['Next.js', 'TypeScript', 'Mantine UI', 'MongoDB', 'Better Auth', 'Resend', 'Recharts'],
   }
 
   const lightboxImages = [
