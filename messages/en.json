@@ -49,7 +49,7 @@
     "leaveManagementSystem": {
       "title": "Leave Management System",
       "description": "Multi-tenant application for managing employee leave, absences and approvals, with a team calendar and reports.",
-      "tags": "Next.js, React, TypeScript, MongoDB, Better Auth, Mantine UI",
+      "tags": "TypeScript, Next.js, MantineUI, MongoDB, Better Auth, Resend",
       "category": "Web Application",
       "liveUrl": "https://off-work.rafalsprengel.com/",
       "githubUrl": "https://github.com/RafalSprengel/off-work",
@@ -59,7 +59,7 @@
     "bookingSystem": {
       "title": "Accommodation Booking & Dynamic Pricing System",
       "description": "Advanced online booking system with dynamic pricing, Stripe payments, and a full admin panel. Built with Next.js 16, React 19, TypeScript, and MongoDB.",
-      "tags": "Typescript, React, Next.js, MongoDB, Stripe, Better-Auth, Resend, Framer Motion",
+      "tags": "TypeScript, Next.js, MantineUI, MongoDb, Better-Auth, Stripe, Resend",
       "category": "Web Application",
       "liveUrl": "https://accommodation.rafalsprengel.com/",
       "githubUrl": "https://github.com/RafalSprengel/accommodation-booking-system",
@@ -69,7 +69,7 @@
       "title": "Restaurant & Online Ordering System",
       "image": "/assets/home-page/server.jpg",
       "description": "A web application for restaurant management: admin panel, customer accounts, orders, menu items, categories, and staff workflows.",
-      "tags": "React, Node.js, Express.js, MongoDB, JWT, OAuth, Stripe",
+      "tags": "JavaScript, React.js, Node.js, Express.js, MongoDB, JWT, OAuth, Stripe",
       "category": "Web Application",
       "liveUrl": "https://restaurant.rafalsprengel.com/management/login/",
       "githubUrl": "https://github.com/RafalSprengel/restaurant-and-online-payment-backend",
@@ -611,7 +611,6 @@
     },
     "businessValue": {
       "title": "Business Value:",
-      "introText": "Companies using Off-Work benefit from:",
       "f1": {
         "title": "Less admin overhead:",
         "description": "Automated balances, working-day counting and approvals remove hours of manual HR work every month."

@@ -75,6 +75,7 @@
   margin-bottom: 25px;
   flex-grow: 1;
   text-align: center;
+  white-space: pre-line;
 }
 
 .sectionText--leftPadding {

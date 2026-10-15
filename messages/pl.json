@@ -49,7 +49,7 @@
     "leaveManagementSystem": {
       "title": "System zarządzania urlopami",
       "description": "Wielodostępna aplikacja do zarządzania urlopami, nieobecnościami i akceptacjami wniosków, z kalendarzem zespołu i raportami.",
-      "tags": "Next.js, React, TypeScript, MongoDB, Better Auth, Mantine UI",
+      "tags": "TypeScript, Next.js, MantineUI, MongoDB, Better Auth, Resend",
       "category": "Aplikacja webowa",
       "liveUrl": "https://off-work.rafalsprengel.com/",
       "githubUrl": "https://github.com/RafalSprengel/off-work",
@@ -59,7 +59,7 @@
     "bookingSystem": {
       "title": "Accommodation Booking & Dynamic Pricing System",
       "description": "Zaawansowany system rezerwacji online z dynamicznymi cenami, płatnościami Stripe i pełnym panelem administracyjnym. Zbudowany w Next.js 16, React 19, TypeScript i MongoDB.",
-      "tags": "Typescript, React, Next.js, MongoDB, Stripe, Better-Auth, Resend, Framer Motion",
+      "tags": "TypeScript, Next.js, MantineUI, MongoDb, Better-Auth, Stripe, Resend",
       "category": "Aplikacja webowa",
       "liveUrl": "https://accommodation.rafalsprengel.com/",
       "githubUrl": "https://github.com/RafalSprengel/accommodation-booking-system",
@@ -69,7 +69,7 @@
       "title": "Restaurant & Online Ordering System",
       "image": "/assets/home-page/server.jpg",
       "description": "Zaawansowana aplikacja internetowa do zarządzania restauracją: panel administracyjny, konta klientów, zamówienia, pozycje menu, kategorie i przepływy pracy personelu.",
-      "tags": "React, Node.js, Express.js, MongoDB, JWT, OAuth, Stripe",
+      "tags": "JavaScript, React.js, Node.js, Express.js, MongoDB, JWT, OAuth, Stripe",
       "category": "Aplikacja webowa",
       "liveUrl": "https://restaurant.rafalsprengel.com/management/login/",
       "githubUrl": "https://github.com/RafalSprengel/restaurant-and-online-payment-backend",
@@ -526,15 +526,15 @@
   },
   "LeaveManagementSystemProject": {
     "hero": {
-      "title": "Off-Work: Wielodostępny system zarządzania urlopami",
-      "description": "Off-Work to wielodostępna platforma SaaS, która pozwala firmom zarejestrować się jako własna organizacja i zarządzać urlopami oraz nieobecnościami pracowników. Każdy najemca działa w pełnej izolacji, z własnymi pracownikami, działami, polityką urlopową, dniami zamknięcia i obiegiem akceptacji. Pracownicy składają wnioski i sprawdzają salda w kilka sekund, a menedżerowie i kadry rozpatrują wnioski i planują pracę na podstawie wspólnych, aktualizowanych w czasie rzeczywistym kalendarzy."
+      "title": "Off-Work: Platforma SaaS do zarządzania urlopami",
+      "description": "Off-Work to platforma SaaS do zarządzania urlopami i nieobecnościami pracowników. Umożliwia firmom obsługę wniosków urlopowych, kontrolowanie sald, planowanie dostępności zespołów i monitorowanie nieobecności w jednym miejscu. Pracownicy korzystają z samoobsługowego panelu, a menedżerowie i kadry mają do dyspozycji narzędzia do akceptacji wniosków, zarządzania personelem i analizy danych."
     },
     "solution": {
-      "title": "Rozwiązanie: samoobsługowy SaaS dla zespołów HR",
-      "text": "Zamiast arkuszy kalkulacyjnych i wątków e-mail, Off-Work centralizuje cały proces urlopowy w jednym miejscu. Aplikacja powstała w oparciu o nowoczesny Next.js 16 (App Router), TypeScript i bibliotekę komponentów Mantine, a bezpieczeństwo zapewnia Better Auth wraz z wtyczkami organization i admin. Dwupoziomowy model bezpieczeństwa — szybka weryfikacja ciasteczka w middleware na krawędzi sieci, wzmocniona pełną, serwerową weryfikacją sesji — izoluje dane każdego najemcy, a e-maile transakcyjne dostarczane są przez Resend i React Email. MongoDB z Mongoose przechowuje model danych (pracownicy, działy, wnioski urlopowe, dni zamknięcia), a wykresy Mantine i Recharts zasilają analitykę."
+      "title": "Technologie i implementacja",
+      "text": "Off-Work zastępuje arkusze kalkulacyjne i długie wątki e-mail jednym, centralnym systemem do zarządzania urlopami. Jako wielodostępna platforma SaaS umożliwia obsługę wielu organizacji w ramach jednej aplikacji, z odrębnymi danymi, strukturą działów i politykami urlopowymi.\nAplikacja została zbudowana z wykorzystaniem Next.js 16 (App Router), TypeScriptu oraz biblioteki komponentów Mantine. Za uwierzytelnianie i zarządzanie dostępem odpowiada Better Auth z wtyczkami organization i admin.\nBezpieczeństwo opiera się na dwóch etapach weryfikacji: wstępnym sprawdzeniu ciasteczka sesyjnego w middleware oraz pełnej weryfikacji sesji po stronie serwera. Dane organizacji są odpowiednio odseparowane, a dostęp do chronionych zasobów podlega dodatkowej kontroli.\nMongoDB i Mongoose odpowiadają za przechowywanie oraz obsługę danych aplikacji, obejmujących m.in. pracowników, działy, wnioski urlopowe i dni zamknięcia firmy. Wiadomości transakcyjne są przygotowywane w React Email i wysyłane za pośrednictwem Resend, natomiast Mantine Charts i Recharts służą do wizualizacji danych oraz tworzenia raportów i analiz."
     },
     "employeeArea": {
-      "title": "Obszar pracownika (/me)",
+      "title": "Moduł pracownika (/me)",
       "f1": {
         "desc": "Saldo urlopowe",
         "description": "Saldo urlopowe: Aktualny wymiar, wykorzystane i pozostałe dni dla każdego typu urlopu, dzięki czemu pracownik dokładnie wie, ile urlopu mu zostało, zanim złoży wniosek."
@@ -553,7 +553,7 @@
       }
     },
     "managerArea": {
-      "title": "Obszar menedżera i kadr (/team)",
+      "title": "Moduł menedżera i kadr (/team)",
       "f1": {
         "desc": "Panel zespołu",
         "description": "Panel zespołu: Widok startowy menedżera, który pokazuje, kto jest dziś nieobecny wraz z liczbą nieobecnych, nadchodzące urlopy oraz najnowsze wnioski oczekujące na rozpatrzenie — wszystko, co wymaga uwagi, w jednym miejscu."
@@ -600,37 +600,36 @@
       }
     },
     "achievements": {
-      "title": "Architektura i rozwiązania:",
-      "f1": "Architektura wielodostępna: Obsługa najemców opiera się na wtyczce organization z Better Auth jako jednym źródle prawdy, a każdy profil pracownika jest powiązany z organizationId — co gwarantuje pełną izolację danych między firmami.",
-      "f2": "Dwupoziomowy model bezpieczeństwa: Middleware na krawędzi sieci wykonuje szybką weryfikację obecności ciasteczka, a auth.api.getSession() weryfikuje pełną, kryptograficzną sesję i rolę po stronie serwera w plikach layoutu.",
-      "f3": "Grupy tras i role: Czytelny podział na grupy tras (marketing), (auth), (app)/me i (app)/team odpowiada bezpośrednio rolom Employee, Manager i HR, spójnie egzekwowanym po stronie serwera.",
-      "f4": "Typowana warstwa danych: Modele Mongoose (Employee, Department, LeaveRequest, ClosureDay) wraz ze współdzielonymi typami TypeScript utrzymują całą warstwę danych w pełni typowaną i przewidywalną.",
-      "f5": "E-maile transakcyjne: Reset hasła, weryfikacja adresu e-mail i inne powiadomienia zbudowano z użyciem React Email i wysyłane są przez Resend.",
-      "f6": "Silnik dni roboczych: Narzędzia łączące dni ustawowo wolne i zamknięcia firmy, aby prawidłowo liczyć dni robocze w każdym wniosku i widoku kalendarza.",
-      "f7": "Responsywny, dostępny interfejs: Komponenty Mantine UI, tryb jasny/ciemny oraz w pełni responsywne widoki kalendarzy i tabel na telefony, tablety i komputery."
+      "title": "Architektura i rozwiązania techniczne",
+      "f1": "Architektura wielodostępna: Better Auth z wtyczką organization odpowiada za zarządzanie organizacjami. Każdy profil pracownika jest powiązany z identyfikatorem organizacji (organizationId), co pozwala oddzielić dane poszczególnych firm.",
+      "f2": "Wielowarstwowa weryfikacja dostępu: Middleware wstępnie sprawdza obecność ciasteczka sesyjnego, a następnie serwer weryfikuje sesję za pomocą auth.api.getSession() i kontroluje uprawnienia użytkownika.",
+      "f3": "Podział tras i kontrola uprawnień: Grupy tras (marketing), (auth), (app)/me i (app)/team porządkują strukturę aplikacji, a dostęp do chronionych widoków jest kontrolowany po stronie serwera na podstawie ról użytkowników.",
+      "f4": "Modele danych i typowanie: Mongoose i współdzielone typy TypeScript porządkują obsługę danych pracowników, działów, wniosków urlopowych i dni zamknięcia firmy.",
+      "f5": "Obsługa wiadomości e-mail: Szablony przygotowane w React Email i wysyłane przez Resend obsługują m.in. resetowanie hasła, weryfikację adresu e-mail i powiadomienia związane z działaniem aplikacji.",
+      "f6": "Obliczanie dni urlopowych: Wspólny mechanizm uwzględnia święta ustawowe i dni zamknięcia firmy podczas obliczania długości urlopu. Aplikacja umożliwia import świąt z oficjalnego źródła dla poszczególnych części Wielkiej Brytanii, wyłączanie wybranych świąt z kalendarza oraz definiowanie dodatkowych dni zamknięcia firmy.",
+      "f7": "Responsywny interfejs: Mantine UI, obsługa jasnego i ciemnego motywu oraz układy dostosowane do różnych rozmiarów ekranów zapewniają wygodną pracę na komputerach, tabletach i telefonach."
     },
     "businessValue": {
       "title": "Wartość biznesowa:",
-      "introText": "Firmy korzystające z Off-Work zyskują:",
       "f1": {
         "title": "Mniej pracy administracyjnej:",
-        "description": "Automatyczne salda, liczenie dni roboczych i akceptacje oszczędzają godziny ręcznej pracy kadr każdego miesiąca."
+        "description": "Automatyczne obliczanie sald urlopowych, uwzględnianie dni wolnych i obsługa wniosków w jednym systemie ograniczają ilość ręcznej pracy związanej z planowaniem urlopów."
       },
       "f2": {
-        "title": "Pełny wgląd:",
-        "description": "Kalendarze w czasie rzeczywistym i panel zespołu pokazują dostępność i oczekujące wnioski, zanim staną się problemem kadrowym."
+        "title": "Lepsze planowanie pracy:",
+        "description": "Kalendarze zespołowe i panel menedżera ułatwiają sprawdzanie dostępności pracowników, monitorowanie nieobecności i planowanie pracy zespołu."
       },
       "f3": {
-        "title": "Wielodostępność w założeniu:",
-        "description": "Każda firma to odizolowana organizacja z własnymi pracownikami, działami, politykami i danymi — jedno wdrożenie obsługuje wielu klientów."
+        "title": "Obsługa wielu organizacji:",
+        "description": "Jedna instancja aplikacji umożliwia obsługę wielu firm, z osobnymi pracownikami, działami, politykami urlopowymi i danymi."
       },
       "f4": {
-        "title": "Raportowanie gotowe do audytu:",
-        "description": "Wykresy i tabele dotyczące wykorzystania urlopów, zwolnień, stażu i rotacji dają kadrom i finansom potrzebne dane dokładnie wtedy, gdy są potrzebne."
+        "title": "Dostęp do danych i statystyk:",
+        "description": "Raporty i wykresy pomagają analizować wykorzystanie urlopów, nieobecności i strukturę zatrudnienia, wspierając podejmowanie decyzji kadrowych."
       },
       "f5": {
-        "title": "Bezpieczeństwo i skalowalność:",
-        "description": "Dostęp oparty na rolach, e-maile transakcyjne i typowany, komponentowy kod czynią platformę bezpieczną w utrzymaniu i łatwą w rozwoju."
+        "title": "Kontrola dostępu i łatwość rozwoju:",
+        "description": "Role użytkowników, weryfikacja sesji i modularna struktura kodu ułatwiają zarządzanie dostępem oraz dalszy rozwój aplikacji."
       }
     },
     "bottomButtons": {

@@ -48,7 +48,7 @@
     "bookingSystem": {
       "title": "Accommodation Booking & Dynamic Pricing System",
       "description": "Advanced online booking system with dynamic pricing, Stripe payments, and a full admin panel. Built with Next.js 16, React 19, TypeScript, and MongoDB.",
-      "tags": "Next.js 16, React 19, MongoDB, Stripe, TypeScript",
+      "tags": "TypeScript, Next.js, MantineUI, MongoDb, Better-Auth, Stripe, Resend",
       "category": "Aplikacja webowa",
       "liveUrl": "https://accommodation.rafalsprengel.com/",
       "githubUrl": "https://github.com/RafalSprengel/accommodation-booking-system",
@@ -58,7 +58,7 @@
       "title": "Restaurant Web Platform & Online Ordering System",
       "image": "/assets/home-page/server.jpg",
       "description": "A web application for restaurant management: admin panel, customer accounts, orders, menu items, categories, and staff workflows.",
-      "tags": "Express.js, MongoDB, Stripe, Custom VPS",
+      "tags": "JavaScript, React.js, Node.js, Express.js, MongoDB, JWT, OAuth, Stripe",
       "category": "Web Application",
       "liveUrl": "https://restaurant.rafalsprengel.com/management/login/",
       "githubUrl": "https://github.com/RafalSprengel/restaurant-and-online-payment-backend",
