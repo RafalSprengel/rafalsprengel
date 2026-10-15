@@ -69,12 +69,9 @@ export default function WebappProjectPage() {
     { src: '/assets/projects/webapp/gallery/6a.webp', description: 'Order Management' },
   ];
 
-  // LISTY KLUCZY do mapowania, zastępujące returnObjects: true
   const achievementsKeys = ['f1', 'f2', 'f3', 'f4', 'f5', 'f6', 'f7'];
   const businessValueKeys = ['f1', 'f2', 'f3', 'f4', 'f5'];
 
-
-  // DANE DLA FeaturesGallery POBIERANE BEZPOŚREDNIO Z KLUCZY f1, f2, f3...
   const menuOrderingFeaturesData = [
     { image: { src: '/assets/projects/webapp/features/menu.webp', desc: 'Menu' }, description: t('menuOrdering.features.f1'), icon: <FaUtensils /> },
     { image: { src: '/assets/projects/webapp/features/cart.webp', desc: 'Cart' }, description: t('menuOrdering.features.f2'), icon: <FaShoppingCart /> },
