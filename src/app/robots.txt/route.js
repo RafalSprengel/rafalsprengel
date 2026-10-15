@@ -1,5 +1,3 @@
-// app/robots.txt/route.js
-
 export const dynamic = 'force-static';
 
 export function GET() {

@@ -4,7 +4,6 @@ export default getRequestConfig(async () => {
 
   const cookieStore = await cookies();
   const locale = cookieStore.get('locale')?.value || 'en';
-  // const locale = 'en';
 
   return {
     locale,

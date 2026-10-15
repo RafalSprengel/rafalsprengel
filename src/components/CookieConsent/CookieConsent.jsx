@@ -1,4 +1,4 @@
-'use client'; // 👈 Deklaracja, że jest to Komponent Klienta (Client Component)
+'use client';
 
 import { useState, useEffect } from 'react';
 import styles from './CookieConsent.module.css';

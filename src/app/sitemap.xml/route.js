@@ -1,5 +1,3 @@
-// app/sitemap.xml/route.js
-
 export const dynamic = 'force-static';
 
 function generateSitemapXml(urls) {

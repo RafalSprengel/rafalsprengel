@@ -4,13 +4,10 @@ import { useTranslations } from 'next-intl';
 
 export default function Footer() {
     const t = useTranslations('Footer');
-    const tContact = useTranslations('ContactSection'); // Użycie kluczy z ContactSection
+    const tContact = useTranslations('ContactSection');
 
-    // Tablica linków do łatwej iteracji
-    // const quickLinks = ['home', 'about', 'skills', 'portfolio', 'services', 'contact'];
     const quickLinks = ['home', 'about', 'skills', 'portfolio', 'contact'];
 
-    // Statyczne dane kontaktowe z ContactSection
     const email = tContact('email.value');
     const phone = tContact('phone.value');
     const address = tContact('address.value');
