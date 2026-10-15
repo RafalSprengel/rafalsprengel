@@ -529,6 +529,10 @@
       "title": "Off-Work: Platforma SaaS do zarządzania urlopami",
       "description": "Off-Work to platforma SaaS do zarządzania urlopami i nieobecnościami pracowników. Umożliwia firmom obsługę wniosków urlopowych, kontrolowanie sald, planowanie dostępności zespołów i monitorowanie nieobecności w jednym miejscu. Pracownicy korzystają z samoobsługowego panelu, a menedżerowie i kadry mają do dyspozycji narzędzia do akceptacji wniosków, zarządzania personelem i analizy danych."
     },
+    "goal": {
+      "title": "Cel: komercyjna platforma SaaS do zarządzania urlopami",
+      "text": "Off-Work rozwijam jako produkt komercyjny przeznaczony dla firm, które chcą usprawnić zarządzanie urlopami i nieobecnościami pracowników. Celem jest stworzenie uniwersalnej platformy, którą można oferować wielu organizacjom w modelu SaaS, bez konieczności budowania osobnego systemu dla każdego klienta. Aplikacja została zaprojektowana z myślą o elastycznej konfiguracji polityk urlopowych, odseparowaniu danych poszczególnych firm oraz centralizacji procesów związanych z planowaniem i akceptacją nieobecności."
+    },
     "solution": {
       "title": "Technologie i implementacja",
       "text": "Off-Work zastępuje arkusze kalkulacyjne i długie wątki e-mail jednym, centralnym systemem do zarządzania urlopami. Jako wielodostępna platforma SaaS umożliwia obsługę wielu organizacji w ramach jednej aplikacji, z odrębnymi danymi, strukturą działów i politykami urlopowymi.\nAplikacja została zbudowana z wykorzystaniem Next.js 16 (App Router), TypeScriptu oraz biblioteki komponentów Mantine. Za uwierzytelnianie i zarządzanie dostępem odpowiada Better Auth z wtyczkami organization i admin.\nBezpieczeństwo opiera się na dwóch etapach weryfikacji: wstępnym sprawdzeniu ciasteczka sesyjnego w middleware oraz pełnej weryfikacji sesji po stronie serwera. Dane organizacji są odpowiednio odseparowane, a dostęp do chronionych zasobów podlega dodatkowej kontroli.\nMongoDB i Mongoose odpowiadają za przechowywanie oraz obsługę danych aplikacji, obejmujących m.in. pracowników, działy, wnioski urlopowe i dni zamknięcia firmy. Wiadomości transakcyjne są przygotowywane w React Email i wysyłane za pośrednictwem Resend, natomiast Mantine Charts i Recharts służą do wizualizacji danych oraz tworzenia raportów i analiz."
@@ -610,7 +614,7 @@
       "f7": "Responsywny interfejs: Mantine UI, obsługa jasnego i ciemnego motywu oraz układy dostosowane do różnych rozmiarów ekranów zapewniają wygodną pracę na komputerach, tabletach i telefonach."
     },
     "businessValue": {
-      "title": "Wartość biznesowa:",
+      "title": "Wartość biznesowa",
       "f1": {
         "title": "Mniej pracy administracyjnej:",
         "description": "Automatyczne obliczanie sald urlopowych, uwzględnianie dni wolnych i obsługa wniosków w jednym systemie ograniczają ilość ręcznej pracy związanej z planowaniem urlopów."

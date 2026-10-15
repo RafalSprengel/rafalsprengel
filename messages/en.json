@@ -529,6 +529,10 @@
       "title": "Off-Work: Multi-Tenant Leave Management System",
       "description": "Off-Work is a multi-tenant SaaS platform that lets companies register as their own organisation and manage their employees' holidays and leave requests. Every tenant works in complete isolation, with its own employees, departments, leave policies, closure days and approval workflows. Employees submit requests and check their balances in seconds, while managers and HR review requests and plan around shared, real-time calendars."
     },
+    "goal": {
+      "title": "Goal: a Commercial SaaS Platform for Leave Management",
+      "text": "I am developing Off-Work as a commercial product for companies that want to streamline leave and absence management. The goal is to create a universal platform that can serve many organisations in a SaaS model, without having to build a separate system for each client. The application was designed with flexible configuration of leave policies in mind, along with separation of each company's data and centralisation of the processes around planning and approving absences."
+    },
     "solution": {
       "title": "Solution: A Self-Service SaaS for HR Teams",
       "text": "Instead of spreadsheets and e-mail threads, Off-Work centralises the entire leave process in one place. It is built as a modern Next.js 16 application using the App Router, TypeScript and the Mantine component library, and secured end-to-end by Better Auth's organization and admin plugins. A two-layer security model — an edge middleware cookie check reinforced by full server-side session verification — keeps every tenant's data isolated, while transactional e-mails are delivered through Resend and React Email. MongoDB with Mongoose stores the data model (employees, departments, leave requests and closure days), and Mantine charts plus Recharts power the analytics."

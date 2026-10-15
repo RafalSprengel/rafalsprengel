@@ -155,6 +155,16 @@ export default function LeaveManagementSystemProjectPage() {
       <div className={styles.sectionBlock}>
         <div className={styles.container}>
           <div className={styles.sectionHeader}>
+            <FaFlag className={styles.sectionIcon} />
+            <h2 className={styles.sectionTitle}>{t('goal.title')}</h2>
+          </div>
+          <p className={styles.sectionText}>{t('goal.text')}</p>
+        </div>
+      </div>
+
+      <div className={styles.sectionBlock}>
+        <div className={styles.container}>
+          <div className={styles.sectionHeader}>
             <FaLightbulb className={styles.sectionIcon} />
             <h2 className={styles.sectionTitle}>{t('solution.title')}</h2>
           </div>
