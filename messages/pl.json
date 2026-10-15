@@ -225,11 +225,11 @@
       "description": "Aplikacja internetowa z systemem zamawiania online, panelem admina oraz systemem kont klientów, umożliwiająca zarządzanie menu, zamówieniami, płatnościami online oraz danymi klientów. Zbudowana z użyciem frameworków JavaScriptowych."
     },
     "challenge": {
-      "title": "Cel: zarządzanie restauracją",
+      "title": "Cel biznesowy",
       "text": "Prowadzenie restauracji obejmuje wiele zadań operacyjnych oraz sprzedażowych. Celem projektu było stworzenie systemu umożliwiającego sprzedaż online i zwiększenie zasięgu oferty, a także zapewnienie narzędzi do zarządzania menu, zamówieniami, rezerwacjami, wiadomościami, kontami pracowników i klientów oraz danymi sprzedażowymi, które wspierają podejmowanie kolejnych decyzji biznesowych."
     },
     "solution": {
-      "title": "Rozwiązanie: architektura full-stack",
+      "title": "Zakres rozwiązania",
       "text": "Zaprojektowałem i wdrożyłem aplikację full-stack, koncentrując się na płynności obsługi (UX), wydajności ładowania stron, czytelnej strukturze kodu ułatwiającej jego utrzymanie oraz bezpieczeństwie i spójności danych."
     },
     "menuOrdering": {
@@ -255,7 +255,7 @@
       }
     },
     "adminPanel": {
-      "title": "Panel administratora: zarządzanie systemem",
+      "title": "Panel administracyjny: zarządzanie systemem",
       "description": "Panel administracyjny umożliwia zarządzanie produktami i kategoriami, kontami użytkowników oraz pracowników, a także rezerwacjami stolików. Administrator może również odczytywać i odpowiadać na wiadomości klientów bezpośrednio z panelu.",
       "features": {
         "f1": "Dashboard: Podgląd kluczowych wskaźników i danych dotyczących działalności restauracji.",
@@ -320,7 +320,7 @@
       "description": "Strona ta jest oficjalną platformą online Leśniczówki Wieżyca, spokojnego ośrodka położonego w malowniczym regionie Kaszub w Polsce. Głównym celem serwisu jest atrakcyjne przedstawienie udogodnień ośrodka — w tym przytulnych pokoi, sezonowych domków holenderskich oraz SPA z jacuzzi i sauną — oraz zapewnienie płynnego, kompleksowego procesu rezerwacji online. Kluczowym wyzwaniem, jakie rozwiązuje platforma, jest przekształcenie zainteresowania użytkowników w potwierdzone pobyty poprzez efektywny system samoobsługowy."
     },
     "challenge": {
-      "title": "Cel: cyfrowa transformacja w branży noclegowej",
+      "title": "Cel biznesowy",
       "text": "Leśniczówka Wieżyca wymagała cyfrowej transformacji skupionej na maksymalizacji konwersji, gdzie głównym wyzwaniem było przekształcenie wstępnego zainteresowania użytkowników w potwierdzone pobyty. Osiągnięto to dzięki implementacji samoobsługowego systemu rezerwacji online zintegrowanego z nową, responsywną platformą. Efektem jest automatyzacja procesów sprzedaży usług noclegowych, co minimalizuje nakład pracy manualnej i zwiększa bezpośrednie przychody obiektu."
     },
     "solution": {
@@ -328,7 +328,7 @@
       "text": "Strona zawiera kompleksowy moduł rezerwacji, który daje gościom pełną kontrolę nad planowaniem pobytu, eliminując potrzebę ręcznej komunikacji w celu sprawdzania dostępności i dokonywania pierwszych płatności."
     },
     "keyFunctionalAreas": {
-      "title": "Kluczowe obszary funkcjonalne:",
+      "title": "Kluczowe funkcjonalności",
       "f1": {
         "desc": "Dostępność w czasie rzeczywistym i wyszukiwarka",
         "description": "Dostępność w czasie rzeczywistym i wyszukiwarka: goście mogą natychmiast wyszukać dostępne noclegi, podając daty oraz liczbę osób, otrzymując wyniki od razu."
@@ -367,7 +367,7 @@
       }
     },
     "achievements": {
-      "title": "Implementacja:",
+      "title": "Implementacja i konfiguracja",
       "f1": "Integracja z Eagle Booking: skonfigurowano wtyczkę do zarządzania rezerwacjami, dostępnością pokoi oraz płatnościami online.",
       "f2": "Optymalizacja procesu rezerwacji: dostosowano formularze rezerwacyjne i przepływ płatności, aby zapewnić płynne doświadczenie gości.",
       "f3": "Dostosowanie motywu WordPress: zaadaptowano motyw WordPress tak, aby pasował do identyfikacji wizualnej Leśniczówki Wieżyca.",
@@ -376,7 +376,6 @@
     },
     "businessValue": {
       "title": "Wartość biznesowa:",
-      "introText": "Ośrodek zyskuje dzięki:",
       "items": {
         "f1": {
           "title": "Automatyzacja operacji:",
@@ -407,15 +406,15 @@
       "description": "Konfigurowalny, skalowalny system zarządzania wynajmem domków wypoczynkowych. Zbudowany w oparciu o Next.js, TypeScript i MongoDB, oferuje elastyczny silnik cenowy, automatyzację rezerwacji, płatności przez bramkę Stripe oraz dedykowany panel zarządzania."
     },
     "challenge": {
-      "title": "Cel: stworzenie systemu do zarządzania wynajmem",
+      "title": "Cel biznesowy",
       "text": "System powstał jako odpowiedź na potrzeby klienta z branży wynajmu domków wypoczynkowych, który wymagał większej elastyczności w zarządzaniu cenami i rezerwacjami niż oferują standardowe rozwiązania dostępne na rynku. Istniejące narzędzia okazały się zbyt ograniczone w zakresie konfiguracji cenników i reguł biznesowych, dlatego zaprojektowałem system umożliwiający pełną kontrolę nad logiką cenową oraz procesem rezerwacji, przy zachowaniu prostoty obsługi. Architektura systemu została zaprojektowana w sposób modułowy, dzięki czemu może być łatwo dostosowana do innych obiektów i modeli wynajmu o podobnej specyfice."
     },
     "solution": {
-      "title": "Moje rozwiązanie: platforma Full-Stack",
+      "title": "Zakres rozwiązania",
       "text": "Zaprojektowałem i wdrożyłem system rezerwacyjny, który obejmuje zarówno landing page z dynamicznym cennikiem, jak i panel zarządzania systemem. System umożliwia dodawanie dowolnej liczby obiektów, niezależną konfigurację ich parametrów (np. limitów gości) oraz dynamiczne zarządzanie cenami w oparciu o sezony, dni tygodnia oraz progi cenowe dla różnych przedziałów liczby osób. Aplikacja integruje się z bramką płatniczą Stripe i została zaprojektowana tak, aby mogła być łatwo adaptowana przez inne ośrodki wypoczynkowe."
     },
     "searchFeatures": {
-      "title": "Landing page i interfejs gościa",
+      "title": "Landing page i interfejs rezerwacyjny",
       "description": "Zaprojektowałem landing page, który prezentuje ofertę i pozwala na rezerwację, z logiką cenową działającą w czasie rzeczywistym.",
       "f1": {
         "desc": "Sprawdzanie dostępności",
@@ -443,7 +442,7 @@
       }
     },
     "adminFeatures": {
-      "title": "Panel zarządzania",
+      "title": "Panel administracyjny",
       "description": "Panel admina zawierający najważniejsze ustawienia oraz informacje.",
       "f1": {
         "desc": "Panel zarządzania",
@@ -498,7 +497,7 @@
       }
     },
     "businessValue": {
-      "title": "Korzyści:",
+      "title": "Wartość biznesowa",
       "introText": "Obiekt zyskuje dzięki:",
       "items": {
         "f1": {
@@ -530,8 +529,8 @@
       "description": "Off-Work to platforma SaaS do zarządzania urlopami i nieobecnościami pracowników. Umożliwia firmom obsługę wniosków urlopowych, kontrolowanie sald, planowanie dostępności zespołów i monitorowanie nieobecności w jednym miejscu. Pracownicy korzystają z samoobsługowego panelu, a menedżerowie i kadry mają do dyspozycji narzędzia do akceptacji wniosków, zarządzania personelem i analizy danych."
     },
     "goal": {
-      "title": "Cel: komercyjna platforma SaaS do zarządzania urlopami",
-      "text": "Off-Work rozwijam jako produkt komercyjny przeznaczony dla firm, które chcą usprawnić zarządzanie urlopami i nieobecnościami pracowników. Celem jest stworzenie uniwersalnej platformy, którą można oferować wielu organizacjom w modelu SaaS, bez konieczności budowania osobnego systemu dla każdego klienta. Aplikacja została zaprojektowana z myślą o elastycznej konfiguracji polityk urlopowych, odseparowaniu danych poszczególnych firm oraz centralizacji procesów związanych z planowaniem i akceptacją nieobecności."
+      "title": "Cel biznesowy",
+      "text": "Off-Work rozwijam jako produkt komercyjny przeznaczony dla firm, które chcą usprawnić zarządzanie urlopami i nieobecnościami pracowników. Założeniem jest stworzenie uniwersalnej platformy oferowanej wielu organizacjom w modelu SaaS, bez konieczności budowania osobnego systemu dla każdego klienta. Aplikacja została zaprojektowana z myślą o elastycznej konfiguracji polityk urlopowych, odseparowaniu danych poszczególnych firm oraz centralizacji procesów związanych z planowaniem i akceptacją nieobecności."
     },
     "solution": {
       "title": "Technologie i implementacja",

@@ -376,7 +376,6 @@
     },
     "businessValue": {
       "title": "Business Value:",
-      "introText": "The resort benefits from:",
       "items": {
         "f1": {
           "title": "Operational Automation:",

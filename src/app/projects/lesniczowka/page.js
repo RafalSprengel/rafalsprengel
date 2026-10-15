@@ -168,7 +168,6 @@ export default function LesniczowkaProjectPage() {
                         <h2 className={styles.sectionTitle}>{t('businessValue.title')}</h2>
                     </div>
 
-                    <p className={`${styles.sectionText} ${styles['sectionText--leftPadding']}`}>{t('businessValue.introText')}</p>
                     <ul className={styles.featureList__2}>
                         <li key="f1">
                             <span className={styles.checkmark}>✓</span><strong>{t('businessValue.items.f1.title')}</strong> {t('businessValue.items.f1.description')}
