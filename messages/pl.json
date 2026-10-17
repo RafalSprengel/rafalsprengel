@@ -47,7 +47,7 @@
     "see_more_link": "Zobacz więcej...",
 
     "leaveManagementSystem": {
-      "title": "System zarządzania urlopami",
+      "title": "Zarządzanie urlopami i nieobecnościami (SaaS)",
       "description": "Wielodostępna aplikacja do zarządzania urlopami, nieobecnościami i akceptacjami wniosków, z kalendarzem zespołu i raportami.",
       "tags": "TypeScript, Next.js, MantineUI, MongoDB, Better Auth, Resend",
       "category": "Aplikacja webowa",
@@ -57,8 +57,8 @@
     },
 
     "bookingSystem": {
-      "title": "Accommodation Booking & Dynamic Pricing System",
-      "description": "Zaawansowany system rezerwacji online z dynamicznymi cenami, płatnościami Stripe i pełnym panelem administracyjnym. Zbudowany w Next.js 16, React 19, TypeScript i MongoDB.",
+      "title": "Accommodation Booking & Management System",
+      "description": "System rezerwacji noclegów z kalendarzem dostępności, automatycznym ustalaniem cen, płatnościami Stripe i panelem administracyjnym do zarządzania rezerwacjami.",
       "tags": "TypeScript, Next.js, MantineUI, MongoDb, Better-Auth, Stripe, Resend",
       "category": "Aplikacja webowa",
       "liveUrl": "https://accommodation.rafalsprengel.com/",
@@ -68,7 +68,7 @@
     "restaurant": {
       "title": "Restaurant & Online Ordering System",
       "image": "/assets/home-page/server.jpg",
-      "description": "Zaawansowana aplikacja internetowa do zarządzania restauracją: panel administracyjny, konta klientów, zamówienia, pozycje menu, kategorie i przepływy pracy personelu.",
+      "description": "Aplikacja do obsługi restauracji, obejmująca zarządzanie menu, zamówieniami i kontami klientów. Panel administracyjny umożliwia również zarządzanie kategoriami produktów i pracą personelu.",
       "tags": "JavaScript, React.js, Node.js, Express.js, MongoDB, JWT, OAuth, Stripe",
       "category": "Aplikacja webowa",
       "liveUrl": "https://restaurant.rafalsprengel.com/management/login/",
@@ -78,7 +78,7 @@
     "resortBooking": {
       "title": "Resort Booking Website",
       "image": "/assets/home-page/wordpress.jpg",
-      "description": "Niestandardowa witryna WordPress dla ośrodka wypoczynkowego z rezerwacją online, galerią i łatwym zarządzaniem treścią dla szybkich aktualizacji.",
+      "description": "Strona z systemem rezerwacji noclegów, galerią zdjęć i informacjami o ofercie ośrodka.",
       "tags": "WordPress, PHP, JavaScript",
       "category": "WordPress",
       "liveUrl": "https://lesniczowkawiezyca.pl/",
@@ -316,12 +316,12 @@
   },
   "LesniczowkaProject": {
     "hero": {
-      "title": "Leśniczówka Wieżyca: platforma rezerwacyjna i serwis informacyjny ośrodka",
+      "title": "Leśniczówka Wieżyca: strona internetowa i system rezerwacji",
       "description": "Strona ta jest oficjalną platformą online Leśniczówki Wieżyca, spokojnego ośrodka położonego w malowniczym regionie Kaszub w Polsce. Głównym celem serwisu jest atrakcyjne przedstawienie udogodnień ośrodka — w tym przytulnych pokoi, sezonowych domków holenderskich oraz SPA z jacuzzi i sauną — oraz zapewnienie płynnego, kompleksowego procesu rezerwacji online. Kluczowym wyzwaniem, jakie rozwiązuje platforma, jest przekształcenie zainteresowania użytkowników w potwierdzone pobyty poprzez efektywny system samoobsługowy."
     },
     "challenge": {
       "title": "Cel biznesowy",
-      "text": "Leśniczówka Wieżyca wymagała cyfrowej transformacji skupionej na maksymalizacji konwersji, gdzie głównym wyzwaniem było przekształcenie wstępnego zainteresowania użytkowników w potwierdzone pobyty. Osiągnięto to dzięki implementacji samoobsługowego systemu rezerwacji online zintegrowanego z nową, responsywną platformą. Efektem jest automatyzacja procesów sprzedaży usług noclegowych, co minimalizuje nakład pracy manualnej i zwiększa bezpośrednie przychody obiektu."
+      "text": "Leśniczówka Wieżyca wymagała cyfrowej transformacji skupionej na maksymalizacji konwersji, gdzie głównym wyzwaniem było przekształcenie wstępnego zainteresowania użytkowników w potwierdzone pobyty. Osiągnięto to dzięki implementacji samoobsługowego systemu rezerwacji online zintegrowanego z nową, responsywną stroną WWW. Efektem jest automatyzacja procesów sprzedaży usług noclegowych, co minimalizuje nakład pracy manualnej i zwiększa bezpośrednie przychody obiektu."
     },
     "solution": {
       "title": "Rozwiązanie: strona internetowa ze zintegrowanym systemem rezerwacji i płatności",
@@ -429,8 +429,8 @@
         "description": "Proces rezerwacji: Formularz krok po kroku, który persystuje dane w pamięci podręcznej, zapobiegając ich utracie przy obsłudze mobilnej."
       },
       "f4": {
-        "desc": "Płatności ze stripe",
-        "description": "Płatności ze stripe: Przed wygenerowaniem bramki do płatności system ponownie weryfikuje dostępność terminu, w celu eliminacji ryzyka podwójnych rezerwacji."
+        "desc": "Płatności ze Stripe",
+        "description": "Płatności ze Stripe: Przed wygenerowaniem bramki do płatności system ponownie weryfikuje dostępność terminu, w celu eliminacji ryzyka podwójnych rezerwacji."
       },
       "f5": {
         "desc": "Powiadomienia e-mail",
@@ -454,7 +454,7 @@
       },
       "f3": {
         "desc": "Ręczne dodawanie rezerwacji",
-        "description": "Ręczne dodawanie rezerwacji: możliwość dodawania terminów manualnie przez panel zarządzania, z funckjonalnością sprawdzania terminów i obliczania cen."
+        "description": "Ręczne dodawanie rezerwacji: możliwość dodawania terminów manualnie przez panel zarządzania, z funkcjonalnością sprawdzania terminów i obliczania cen."
       },
       "f4": {
         "desc": "Skalowalna infrastruktura",
@@ -488,7 +488,7 @@
     "achievements": {
       "title": "Architektura i rozwiązania:",
       "items": {
-        "f1": "Nowoczesny Stack Technologiczny: Zbudowanie aplikacji w oparciu o TypeScript, Next.js, bazę danych MongoDB oraz system autoryzacji Better Auth, co gwarantuje bezpieczeństwo i wydajność.",
+        "f1": "Nowoczesny stack technologiczny: Zbudowanie aplikacji w oparciu o TypeScript, Next.js, bazę danych MongoDB oraz system autoryzacji Better Auth, co gwarantuje bezpieczeństwo i wydajność.",
         "f2": "Zabezpieczenie przed podwójnymi rezerwacjami: Implementacja mechanizmu wieloetapowej weryfikacji dostępności – system sprawdza termin na każdym kroku rezerwacji oraz tuż przed płatnością, eliminując ryzyko błędów.",
         "f3": "Elastyczny algorytm cenowy: Stworzenie zaawansowanego silnika cenowego (Cena Specjalna > Sezonowa > Bazowa) z uwzględnieniem różnych cen za weekend oraz dni tygodnia oraz progów cenowych w zależności od liczby gości.",
         "f4": "Integracja z Stripe: Zintegrowanie API z płatnościami Stripe wraz z obsługą webhooków, co zapewnia nienaganną synchronizację statusów rezerwacji i płatności.",
@@ -525,7 +525,7 @@
   },
   "LeaveManagementSystemProject": {
     "hero": {
-      "title": "Off-Work: Platforma SaaS do zarządzania urlopami",
+      "title": "Zarządzanie urlopami i nieobecnościami (SaaS)",
       "description": "Off-Work to platforma SaaS do zarządzania urlopami i nieobecnościami pracowników. Umożliwia firmom obsługę wniosków urlopowych, kontrolowanie sald, planowanie dostępności zespołów i monitorowanie nieobecności w jednym miejscu. Pracownicy korzystają z samoobsługowego panelu, a menedżerowie i kadry mają do dyspozycji narzędzia do akceptacji wniosków, zarządzania personelem i analizy danych."
     },
     "goal": {
@@ -540,62 +540,62 @@
       "title": "Moduł pracownika (/me)",
       "f1": {
         "desc": "Saldo urlopowe",
-        "description": "Saldo urlopowe: Aktualny wymiar, wykorzystane i pozostałe dni dla każdego typu urlopu, dzięki czemu pracownik dokładnie wie, ile urlopu mu zostało, zanim złoży wniosek."
+        "description": "Saldo urlopowe: Aktualny wymiar urlopu oraz liczba wykorzystanych i pozostałych dni dla każdego rodzaju urlopu, dzięki czemu pracownik wie, ile dni może jeszcze wykorzystać przed złożeniem wniosku."
       },
       "f2": {
         "desc": "Kalendarz osobisty",
-        "description": "Kalendarz osobisty: Jeden kalendarz oznacza zatwierdzone urlopy pracownika na zielono, zatwierdzone urlopy współpracowników na niebiesko, a dni zamknięcia firmy na szaro — dzięki temu każdy od razu widzi, kto jest nieobecny."
+        "description": "Kalendarz osobisty: Zatwierdzone urlopy pracownika są oznaczone na zielono, zatwierdzone urlopy współpracowników na niebiesko, a dni zamknięcia firmy na szaro. Dzięki temu pracownik widzi nadchodzące nieobecności współpracowników oraz dni niepracujące."
       },
       "f3": {
-        "desc": "Złóż nowy wniosek",
-        "description": "Złóż nowy wniosek: Prowadzony formularz z wyborem zakresu dat, który blokuje już zatwierdzone terminy, dni ustawowo wolne i dni zamknięcia, automatycznie liczy dni robocze i pokazuje pozostałe saldo dla wybranego typu urlopu."
+        "desc": "Nowy wniosek urlopowy",
+        "description": "Nowy wniosek urlopowy: Formularz nowego wniosku urlopowego z kalendarzem, który pokazuje terminy niedostępne, takie jak dni ustawowo wolne i dni zamknięcia, oraz automatycznie oblicza liczbę dni, które zostaną odliczone po akceptacji."
       },
       "f4": {
-        "desc": "Moje wnioski urlopowe",
-        "description": "Moje wnioski urlopowe: Historia wszystkich wniosków z filtrowaniem i sortowaniem, podzielona na bieżące i przeszłe urlopy, z kolorowymi oznaczeniami statusu (oczekujący, zatwierdzony, odrzucony, anulowany)."
+        "desc": "Wnioski urlopowe",
+        "description": "Wnioski urlopowe: Historia wszystkich wniosków z filtrowaniem i sortowaniem, podzielona na bieżące i przeszłe urlopy, z kolorowymi oznaczeniami statusu (oczekujący, zatwierdzony, odrzucony, anulowany)."
       }
     },
     "managerArea": {
       "title": "Moduł menedżera i kadr (/team)",
       "f1": {
-        "desc": "Panel zespołu",
-        "description": "Panel zespołu: Widok startowy menedżera, który pokazuje, kto jest dziś nieobecny wraz z liczbą nieobecnych, nadchodzące urlopy oraz najnowsze wnioski oczekujące na rozpatrzenie — wszystko, co wymaga uwagi, w jednym miejscu."
+        "desc": "Panel managera",
+        "description": "Panel managera: Widok startowy menedżera, który pokazuje, kto jest dziś nieobecny wraz z liczbą nieobecnych, nadchodzące urlopy oraz najnowsze wnioski oczekujące na rozpatrzenie."
       },
       "f2": {
-        "desc": "Kalendarz zespołu",
-        "description": "Kalendarz zespołu: Harmonogram z widokiem tygodnia, miesiąca i roku, który wizualizuje nieobecności według pracownika i typu urlopu, z filtrami działów i naniesionymi dniami zamknięcia."
+        "desc": "Kalendarz managera",
+        "description": "Kalendarz managera: Harmonogram z widokiem tygodnia, miesiąca i roku, który wizualizuje nieobecności według pracownika i typu urlopu, z filtrami działów i naniesionymi dniami zamknięcia."
       },
       "f3": {
         "desc": "Akceptacja wniosków",
-        "description": "Akceptacja wniosków: Menedżerowie rozpatrują, zatwierdzają lub odrzucają wnioski z jednej kolejki filtrowanej po statusie i sortowanej po dacie złożenia, z oknami potwierdzenia i natychmiastowymi powiadomieniami."
+        "description": "Akceptacja wniosków: Menedżerowie rozpatrują, zatwierdzają lub odrzucają wnioski z jednej kolejki filtrowanej po statusie i sortowanej po dacie złożenia."
       },
       "f4": {
         "desc": "Raportowanie i lista nieobecności",
-        "description": "Raportowanie i lista nieobecności: Zgłaszanie nieobecności w imieniu pracowników oraz pełna lista wszystkich zarejestrowanych nieobecności z filtrami po pracowniku, dziale, typie urlopu i zakresie dat."
+        "description": "Raportowanie i lista nieobecności: Zgłaszanie nieobecności pracowników oraz pełna lista wszystkich zarejestrowanych nieobecności z filtrami po pracowniku, dziale, typie urlopu i zakresie dat."
       },
       "f5": {
         "desc": "Zarządzanie pracownikami",
-        "description": "Zarządzanie pracownikami: Katalog wszystkich pracowników organizacji z działem, danymi zatrudnienia, saldami urlopowymi oraz indywidualnymi kalendarzami i historią każdego z nich."
+        "description": "Zarządzanie pracownikami: Katalog wszystkich pracowników organizacji z działem, danymi zatrudnienia, saldami urlopowymi oraz indywidualnymi kalendarzami."
       },
       "f6": {
         "desc": "Zaproszenia pracowników",
-        "description": "Zaproszenia pracowników: Zapraszanie nowych członków zespołu e-mailem z bezpiecznym linkiem o ograniczonym czasie ważności (7 dni), który pozwala im utworzyć konto i dołączyć do organizacji, z możliwością ponownego wysłania zaproszenia w dowolnym momencie."
+        "description": "Zaproszenia pracowników: Zapraszanie nowych członków zespołu e-mailem z linkiem o ograniczonym czasie ważności (7 dni), który pozwala im utworzyć konto i dołączyć do organizacji, z możliwością ponownego wysłania zaproszenia w dowolnym momencie."
       },
       "f7": {
         "desc": "Polityki urlopowe",
-        "description": "Polityki urlopowe: Definiowanie typów urlopów wraz z rocznymi limitami oraz zasadami przenoszenia i naliczania w ramach organizacji, dzięki czemu saldo każdego pracownika liczone jest poprawnie."
+        "description": "Polityki urlopowe: Definiowanie typów urlopów wraz z rocznymi limitami oraz zasadami przenoszenia i naliczania w ramach organizacji."
       },
       "f8": {
         "desc": "Powiadomienia e-mail",
-        "description": "Powiadomienia e-mail: E-maile transakcyjne tworzone w React Email i dostarczane przez Resend informują pracowników i menedżerów o nowych wnioskach, zatwierdzeniach, odrzuceniach i resetowaniu hasła."
+        "description": "Powiadomienia e-mail: Automatyczne powiadomienia dla pracowników i menedżerów o nowych wnioskach urlopowych, ich zatwierdzeniu lub odrzuceniu."
       },
       "f9": {
-        "desc": "Własne dni zamknięcia firmy",
-        "description": "Własne dni zamknięcia firmy: Dodawanie własnych dni zamknięcia — przerw świątecznych, zamknięcia biura i tym podobnych — które są następnie wyłączane z liczenia dni roboczych i widoczne we wszystkich kalendarzach."
+        "desc": "Dni zamknięcia firmy",
+        "description": "Dni zamknięcia firmy: Możliwość dodawania własnych dni zamknięcia, takich jak przerwy świąteczne czy zamknięcie biura. Dni te są automatycznie wyłączane z obliczeń urlopowych i widoczne we wszystkich kalendarzach."
       },
       "f10": {
-        "desc": "Import dni ustawowo wolnych",
-        "description": "Import dni ustawowo wolnych: Import oficjalnych dni ustawowo wolnych w Wielkiej Brytanii (Anglia i Walia, Szkocja, Irlandia Północna) bezpośrednio z oficjalnego źródła, dzięki czemu święta są zawsze aktualne."
+        "desc": "Import listy dni ustawowo wolnych",
+        "description": "Import listy dni ustawowo wolnych: Import oficjalnych dni ustawowo wolnych w Wielkiej Brytanii (Anglia i Walia, Szkocja, Irlandia Północna) bezpośrednio z oficjalnego źródła."
       },
       "f11": {
         "desc": "Raporty i analityka",
@@ -604,27 +604,25 @@
     },
     "achievements": {
       "title": "Architektura i rozwiązania techniczne",
-      "f1": "Architektura wielodostępna: Better Auth z wtyczką organization odpowiada za zarządzanie organizacjami. Każdy profil pracownika jest powiązany z identyfikatorem organizacji (organizationId), co pozwala oddzielić dane poszczególnych firm.",
-      "f2": "Wielowarstwowa weryfikacja dostępu: Middleware wstępnie sprawdza obecność ciasteczka sesyjnego, a następnie serwer weryfikuje sesję za pomocą auth.api.getSession() i kontroluje uprawnienia użytkownika.",
-      "f3": "Podział tras i kontrola uprawnień: Grupy tras (marketing), (auth), (app)/me i (app)/team porządkują strukturę aplikacji, a dostęp do chronionych widoków jest kontrolowany po stronie serwera na podstawie ról użytkowników.",
-      "f4": "Modele danych i typowanie: Mongoose i współdzielone typy TypeScript porządkują obsługę danych pracowników, działów, wniosków urlopowych i dni zamknięcia firmy.",
-      "f5": "Obsługa wiadomości e-mail: Szablony przygotowane w React Email i wysyłane przez Resend obsługują m.in. resetowanie hasła, weryfikację adresu e-mail i powiadomienia związane z działaniem aplikacji.",
-      "f6": "Obliczanie dni urlopowych: Wspólny mechanizm uwzględnia święta ustawowe i dni zamknięcia firmy podczas obliczania długości urlopu. Aplikacja umożliwia import świąt z oficjalnego źródła dla poszczególnych części Wielkiej Brytanii, wyłączanie wybranych świąt z kalendarza oraz definiowanie dodatkowych dni zamknięcia firmy.",
-      "f7": "Responsywny interfejs: Mantine UI, obsługa jasnego i ciemnego motywu oraz układy dostosowane do różnych rozmiarów ekranów zapewniają wygodną pracę na komputerach, tabletach i telefonach."
+      "f1": "Architektura wielodostępna: Better Auth z wtyczką Organization umożliwia obsługę wielu firm w ramach jednej aplikacji, z zachowaniem oddzielnych danych każdej organizacji.",
+      "f2": "Weryfikacja dostępu: Dwuetapowe sprawdzanie sesji i uprawnień użytkownika chroni dostęp do części aplikacji wymagających logowania.",
+      "f3": "Struktura aplikacji i uprawnienia: Podział na część publiczną, logowanie oraz panele pracownika i zespołu ułatwia organizację kodu. Dostęp do poszczególnych widoków zależy od roli użytkownika.",
+      "f4": "Powiadomienia e-mail: React Email i Resend obsługują wiadomości związane z resetowaniem hasła, weryfikacją adresu e-mail oraz powiadomieniami o wnioskach urlopowych.",
+      "f5": "Responsywny interfejs: Mantine UI, jasny i ciemny motyw oraz układ dostosowany do różnych rozmiarów ekranów zapewniają wygodną obsługę na komputerach, tabletach i telefonach."
     },
     "businessValue": {
       "title": "Wartość biznesowa",
       "f1": {
+        "title": "Obsługa wielu organizacji:",
+        "description": "Jedna instancja aplikacji umożliwia obsługę wielu firm, z osobnymi pracownikami, działami, politykami urlopowymi i danymi."
+      },
+      "f2": {
         "title": "Mniej pracy administracyjnej:",
         "description": "Automatyczne obliczanie sald urlopowych, uwzględnianie dni wolnych i obsługa wniosków w jednym systemie ograniczają ilość ręcznej pracy związanej z planowaniem urlopów."
       },
-      "f2": {
+      "f3": {
         "title": "Lepsze planowanie pracy:",
         "description": "Kalendarze zespołowe i panel menedżera ułatwiają sprawdzanie dostępności pracowników, monitorowanie nieobecności i planowanie pracy zespołu."
-      },
-      "f3": {
-        "title": "Obsługa wielu organizacji:",
-        "description": "Jedna instancja aplikacji umożliwia obsługę wielu firm, z osobnymi pracownikami, działami, politykami urlopowymi i danymi."
       },
       "f4": {
         "title": "Dostęp do danych i statystyk:",

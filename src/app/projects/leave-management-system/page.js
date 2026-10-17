@@ -27,9 +27,7 @@ import {
   FaCheckCircle,
   FaShieldAlt,
   FaDatabase,
-  FaLayerGroup,
-  FaCode,
-  FaBell,
+  FaLayerGroup, FaBell,
   FaMobileAlt,
   FaFileContract,
   FaCalendarMinus,
@@ -196,25 +194,19 @@ export default function LeaveManagementSystemProjectPage() {
           </div>
           <ul className={styles.featureList__1}>
             <li key="f1">
-              <FaShieldAlt className={styles.featureIcon} />{t('achievements.f1')}
+              <FaDatabase className={styles.featureIcon} />{t('achievements.f1')}
             </li>
             <li key="f2">
-              <FaDatabase className={styles.featureIcon} />{t('achievements.f2')}
+              <FaShieldAlt className={styles.featureIcon} />{t('achievements.f2')}
             </li>
             <li key="f3">
               <FaLayerGroup className={styles.featureIcon} />{t('achievements.f3')}
             </li>
             <li key="f4">
-              <FaCode className={styles.featureIcon} />{t('achievements.f4')}
+              <FaBell className={styles.featureIcon} />{t('achievements.f4')}
             </li>
             <li key="f5">
-              <FaBell className={styles.featureIcon} />{t('achievements.f5')}
-            </li>
-            <li key="f6">
-              <FaCalendarAlt className={styles.featureIcon} />{t('achievements.f6')}
-            </li>
-            <li key="f7">
-              <FaMobileAlt className={styles.featureIcon} />{t('achievements.f7')}
+              <FaMobileAlt className={styles.featureIcon} />{t('achievements.f5')}
             </li>
           </ul>
         </div>

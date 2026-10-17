@@ -46,7 +46,7 @@
     "see_more_overlay": "See more",
     "see_more_link": "See more...",
     "bookingSystem": {
-      "title": "Accommodation Booking & Dynamic Pricing System",
+      "title": "Accommodation Booking & Management System",
       "description": "Advanced online booking system with dynamic pricing, Stripe payments, and a full admin panel. Built with Next.js 16, React 19, TypeScript, and MongoDB.",
       "tags": "TypeScript, Next.js, MantineUI, MongoDb, Better-Auth, Stripe, Resend",
       "category": "Aplikacja webowa",
@@ -214,11 +214,11 @@
       "description": "A web application with an online ordering system, an admin panel, and a customer account system, enabling management of the menu, orders, online payments, and customer data. Built using JavaScript frameworks."
     },
     "challenge": {
-      "title": "Goal: Restaurant Management",
+      "title": "Business Goal",
       "text": "Running a restaurant involves many operational and sales tasks. The goal of the project was to create a system enabling online sales and increasing the reach of the offer, as well as providing tools for managing the menu, orders, reservations, messages, staff and customer accounts, and sales data that support subsequent business decisions."
     },
     "solution": {
-      "title": "Solution: Full-Stack Architecture",
+      "title": "Solution Scope",
       "text": "I designed and built a full-stack application, focusing on a smooth user experience (UX), page load performance, maintainable code structure, and data security and integrity."
     },
     "menuOrdering": {
@@ -277,7 +277,7 @@
           "description": "the ability to place orders, make online payments, book tables, and manage their account."
         },
         "f2": {
-          "title": "Staff Workflow Streamlining:",
+          "title": "Improved staff workflow:",
           "description": "managing online orders, table reservations, and customer messages from within a single application."
         },
         "f3": {
@@ -309,7 +309,7 @@
       "description": "This site is the official online platform for Leśniczówka Wieżyca, a tranquil resort located in the picturesque Kashubian region of Poland. The main goal of the service is to attractively present the resort's amenities – including cozy rooms, seasonal Dutch chalets, and a SPA with a jacuzzi and sauna – and to provide a smooth, comprehensive online booking process. The key challenge solved by the platform is converting user interest into confirmed stays through an efficient self-service system."
     },
     "challenge": {
-      "title": "Goal: Digital Transformation in the Accommodation Industry",
+      "title": "Business Goal",
       "text": "Leśniczówka Wieżyca required a digital transformation focused on maximizing conversions, where the main challenge was converting initial user interest into confirmed stays. This was achieved by implementing a self-service online booking system integrated with a new, responsive platform. The result is the automation of accommodation sales processes, which minimizes manual workload and increases the facility's direct revenue."
     },
     "solution": {
@@ -317,10 +317,10 @@
       "text": "The site includes a comprehensive booking module that gives guests full control over planning their stay, eliminating the need for manual communication to check availability and make initial payments."
     },
     "keyFunctionalAreas": {
-      "title": "Key Functional Areas:",
+      "title": "Key Features",
       "f1": {
-        "desc": "Real-time Availability and Search Engine",
-        "description": "Real-time Availability and Search Engine: Guests can instantly search for available accommodations by providing dates and the number of people, receiving results immediately."
+        "desc": "Real-time Availability and Search",
+        "description": "Real-time Availability and Search: Guests can instantly search for available accommodations by providing dates and the number of people, receiving results immediately."
       },
       "f2": {
         "desc": "Secure Online Booking",
@@ -336,7 +336,7 @@
       },
       "f5": {
         "desc": "Gallery",
-        "description": "Gallery: A visually rich collection of photos showcasing the resort, rooms, amenities, and events to help guests better imagine their stay."
+        "description": "Gallery: A collection of photos showcasing the resort, rooms, amenities, and events to help guests better imagine their stay."
       },
       "f6": {
         "desc": "Contact Form",
@@ -356,7 +356,7 @@
       }
     },
     "achievements": {
-      "title": "Implementation:",
+      "title": "Implementation and Configuration",
       "f1": "Integration with Eagle Booking: The plugin was configured to manage reservations, room availability, and online payments.",
       "f2": "Reservation Process Optimization: Booking forms and payment flow were customized to ensure a smooth guest experience.",
       "f3": "WordPress Theme Customization: The WordPress theme was adapted to match the visual identity of Leśniczówka Wieżyca.",
@@ -368,19 +368,19 @@
       "items": {
         "f1": {
           "title": "Operational Automation:",
-          "description": "The digital booking and payment system replaced manual phone or email reservations, significantly reducing administrative workload and minimizing the risk of errors."
+          "description": "the digital booking and payment system replaced manual phone or email reservations, significantly reducing administrative workload and minimizing the risk of errors."
         },
         "f2": {
           "title": "Increased Direct Sales:",
-          "description": "The platform allows guests to book directly through the website, reducing reliance on external portals and lowering commission costs."
+          "description": "the platform allows guests to book directly through the website, reducing reliance on external portals and lowering commission costs."
         },
         "f3": {
-          "title": "Improved Financial Flow:",
-          "description": "Integrated payment handling ensures immediate reservation confirmation and quick fund transfers to the resort, eliminating delays and uncertainty."
+          "title": "Improved financial flows:",
+          "description": "integrated payment handling ensures immediate reservation confirmation and quick fund transfers to the resort, eliminating delays and uncertainty."
         },
         "f4": {
           "title": "Better Guest Experience:",
-          "description": "The intuitive interface, real-time availability, and responsive design create a smooth and reliable process from browsing the offer to making a reservation."
+          "description": "the intuitive interface, real-time availability, and responsive design create a smooth and reliable process from browsing the offer to making a reservation."
         }
       }
     },

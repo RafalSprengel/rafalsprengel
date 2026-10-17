@@ -47,7 +47,7 @@
     "see_more_link": "See more...",
 
     "leaveManagementSystem": {
-      "title": "Leave Management System",
+      "title": "Leave Management & Absence Tracking SaaS",
       "description": "Multi-tenant application for managing employee leave, absences and approvals, with a team calendar and reports.",
       "tags": "TypeScript, Next.js, MantineUI, MongoDB, Better Auth, Resend",
       "category": "Web Application",
@@ -57,8 +57,8 @@
     },
 
     "bookingSystem": {
-      "title": "Accommodation Booking & Dynamic Pricing System",
-      "description": "Advanced online booking system with dynamic pricing, Stripe payments, and a full admin panel. Built with Next.js 16, React 19, TypeScript, and MongoDB.",
+      "title": "Accommodation Booking & Management System",
+      "description": "Accommodation booking system with an availability calendar, automatic pricing, Stripe payments, and an admin panel for managing reservations.",
       "tags": "TypeScript, Next.js, MantineUI, MongoDb, Better-Auth, Stripe, Resend",
       "category": "Web Application",
       "liveUrl": "https://accommodation.rafalsprengel.com/",
@@ -68,7 +68,7 @@
     "restaurant": {
       "title": "Restaurant & Online Ordering System",
       "image": "/assets/home-page/server.jpg",
-      "description": "A web application for restaurant management: admin panel, customer accounts, orders, menu items, categories, and staff workflows.",
+      "description": "An application for running a restaurant, covering menu, order, and customer account management. The admin panel also lets you manage product categories and staff work.",
       "tags": "JavaScript, React.js, Node.js, Express.js, MongoDB, JWT, OAuth, Stripe",
       "category": "Web Application",
       "liveUrl": "https://restaurant.rafalsprengel.com/management/login/",
@@ -78,7 +78,7 @@
     "resortBooking": {
       "title": "Resort Booking Website",
       "image": "/assets/home-page/wordpress.jpg",
-      "description": "Powered by WordPress responsive website for a resort with online booking, a gallery, and easy content management for quick updates.",
+      "description": "Website with an accommodation booking system, a photo gallery, and information about the resort's offer.",
       "tags": "WordPress, PHP, JavaScript",
       "category": "WordPress",
       "liveUrl": "https://lesniczowkawiezyca.pl/",
@@ -225,11 +225,11 @@
       "description": "A web application with an online ordering system, an admin panel, and a customer account system, enabling management of the menu, orders, online payments, and customer data. Built using JavaScript frameworks."
     },
     "challenge": {
-      "title": "Goal: Restaurant Management",
+      "title": "Business Goal",
       "text": "Running a restaurant involves many operational and sales tasks. The goal of the project was to create a system enabling online sales and increasing the reach of the offer, as well as providing tools for managing the menu, orders, reservations, messages, staff and customer accounts, and sales data that support subsequent business decisions."
     },
     "solution": {
-      "title": "Solution: Full-Stack Architecture",
+      "title": "Solution Scope",
       "text": "I designed and built a full-stack application, focusing on a smooth user experience (UX), page load performance, maintainable code structure, and data security and integrity."
     },
     "menuOrdering": {
@@ -288,7 +288,7 @@
           "description": "the ability to place orders, make online payments, book tables, and manage their account."
         },
         "f2": {
-          "title": "Staff Workflow Streamlining:",
+          "title": "Improved staff workflow:",
           "description": "managing online orders, table reservations, and customer messages from within a single application."
         },
         "f3": {
@@ -304,7 +304,7 @@
           "description": "managing the menu, categories, orders, reservations, and user accounts from the administrator panel."
         },
         "f6": {
-          "title": "Responsive Design:",
+          "title": "Site responsiveness:",
           "description": "adapting the interface to desktops, laptops, tablets, and mobile devices."
         }
       }
@@ -316,22 +316,22 @@
   },
   "LesniczowkaProject": {
     "hero": {
-      "title": "Leśniczówka Wieżyca: Resort Platform & Booking System",
-      "description": "This site is the official online platform for Leśniczówka Wieżyca, a tranquil resort located in the picturesque Kashubian region of Poland. The main goal of the service is to attractively present the resort's amenities – including cozy rooms, seasonal Dutch chalets, and a SPA with a jacuzzi and sauna – and to provide a smooth, comprehensive online booking process. The key challenge solved by the platform is converting user interest into confirmed stays through an efficient self-service system."
+      "title": "Leśniczówka Wieżyca: Website & Booking System",
+      "description": "This is the official website of Leśniczówka Wieżyca, a tranquil resort in the picturesque Kashubian region of Poland. It showcases the resort's facilities, including cosy rooms, seasonal Dutch-style holiday homes, and a spa area with a hot tub and sauna, while providing a smooth and convenient online booking experience. The main objective is to turn visitors' interest into confirmed bookings through an efficient self-service reservation system."
     },
     "challenge": {
-      "title": "Goal: Digital Transformation in the Accommodation Industry",
-      "text": "Leśniczówka Wieżyca required a digital transformation focused on maximizing conversions, where the main challenge was converting initial user interest into confirmed stays. This was achieved by implementing a self-service online booking system integrated with a new, responsive platform. The result is the automation of accommodation sales processes, which minimizes manual workload and increases the facility's direct revenue."
+      "title": "Business Goal",
+      "text": "Leśniczówka Wieżyca required a digital transformation focused on maximizing conversions, where the main challenge was converting initial user interest into confirmed stays. This was achieved by implementing a self-service online booking system integrated with a new, responsive website. The result is the automation of accommodation sales processes, which minimizes manual workload and increases the facility's direct revenue."
     },
     "solution": {
       "title": "Solution: Website with Integrated Booking and Payment System",
       "text": "The site includes a comprehensive booking module that gives guests full control over planning their stay, eliminating the need for manual communication to check availability and make initial payments."
     },
     "keyFunctionalAreas": {
-      "title": "Key Functional Areas:",
+      "title": "Key Features",
       "f1": {
-        "desc": "Real-time Availability and Search Engine",
-        "description": "Real-time Availability and Search Engine: Guests can instantly search for available accommodations by providing dates and the number of people, receiving results immediately."
+        "desc": "Real-time Availability and Search",
+        "description": "Real-time Availability and Search: Guests can instantly search for available accommodations by providing dates and the number of people, receiving results immediately."
       },
       "f2": {
         "desc": "Secure Online Booking",
@@ -347,7 +347,7 @@
       },
       "f5": {
         "desc": "Gallery",
-        "description": "Gallery: A visually rich collection of photos showcasing the resort, rooms, amenities, and events to help guests better imagine their stay."
+        "description": "Gallery: A collection of photos showcasing the resort, rooms, amenities, and events to help guests better imagine their stay."
       },
       "f6": {
         "desc": "Contact Form",
@@ -367,7 +367,7 @@
       }
     },
     "achievements": {
-      "title": "Implementation:",
+      "title": "Implementation and Configuration",
       "f1": "Integration with Eagle Booking: The plugin was configured to manage reservations, room availability, and online payments.",
       "f2": "Reservation Process Optimization: Booking forms and payment flow were customized to ensure a smooth guest experience.",
       "f3": "WordPress Theme Customization: The WordPress theme was adapted to match the visual identity of Leśniczówka Wieżyca.",
@@ -379,19 +379,19 @@
       "items": {
         "f1": {
           "title": "Operational Automation:",
-          "description": "The digital booking and payment system replaced manual phone or email reservations, significantly reducing administrative workload and minimizing the risk of errors."
+          "description": "the digital booking and payment system replaced manual phone or email reservations, significantly reducing administrative workload and minimizing the risk of errors."
         },
         "f2": {
           "title": "Increased Direct Sales:",
-          "description": "The platform allows guests to book directly through the website, reducing reliance on external portals and lowering commission costs."
+          "description": "the website allows guests to book directly through the website, reducing reliance on external portals and lowering commission costs."
         },
         "f3": {
-          "title": "Improved Financial Flow:",
-          "description": "Integrated payment handling ensures immediate reservation confirmation and quick fund transfers to the resort, eliminating delays and uncertainty."
+          "title": "Improved financial flows:",
+          "description": "integrated payment handling ensures immediate reservation confirmation and quick fund transfers to the resort, eliminating delays and uncertainty."
         },
         "f4": {
           "title": "Better Guest Experience:",
-          "description": "The intuitive interface, real-time availability, and responsive design create a smooth and reliable process from browsing the offer to making a reservation."
+          "description": "the intuitive interface, real-time availability, and responsive design create a smooth and reliable process from browsing the offer to making a reservation."
         }
       }
     },
@@ -402,20 +402,20 @@
   },
   "BookingSystemProject": {
     "hero": {
-      "title": "Accommodation Booking & Dynamic Pricing System",
+      "title": "Accommodation Booking & Management System",
       "description": "A configurable, scalable system for managing vacation lodge rentals. Built with Next.js, TypeScript, and MongoDB, it offers a flexible pricing engine, automated reservations, Stripe payment gateway integration, and a dedicated admin panel."
     },
     "challenge": {
-      "title": "Goal: Creating a Rental Management System",
+      "title": "Business Goal",
       "text": "The system was created in response to a client's needs from the vacation lodge rental industry, who required greater flexibility in managing prices and reservations than standard solutions available on the market could offer. Existing tools proved too limited in terms of pricing configuration and business rules, so I designed a system enabling full control over pricing logic and the booking process, while maintaining ease of use. The system architecture was designed in a modular way, allowing it to be easily adapted to other properties and rental models with similar characteristics."
     },
     "solution": {
-      "title": "My Solution: Full-Stack Platform",
+      "title": "Solution Scope",
       "text": "I designed and implemented a booking system that includes both a landing page with dynamic pricing and a system management panel. The system allows adding an unlimited number of properties, independently configuring their parameters (e.g., guest limits), and dynamically managing prices based on seasons, weekdays, and tiered pricing for different guest count ranges. The application integrates with the Stripe payment gateway and was designed to be easily adapted by other resorts."
     },
     "searchFeatures": {
-      "title": "Landing Page & Guest Interface",
-      "description": "I designed a landing page that showcases the offer and allows for booking, with real-time pricing logic running in the background.",
+      "title": "Landing Page and Booking Interface",
+      "description": "I designed a landing page that showcases the offer and allows for booking, with real-time pricing logic.",
       "f1": {
         "desc": "Availability Check",
         "description": "Availability Check: Guests instantly check available lodges, while the system verifies date collisions in real-time and dynamically calculates prices."
@@ -426,7 +426,7 @@
       },
       "f3": {
         "desc": "Booking Process",
-        "description": "Booking Process: A step-by-step form that persists data in local storage, preventing data loss on mobile devices."
+        "description": "Booking Process: A step-by-step form that caches the data, preventing data loss on mobile devices."
       },
       "f4": {
         "desc": "Stripe Payments",
@@ -442,7 +442,7 @@
       }
     },
     "adminFeatures": {
-      "title": "Management Panel",
+      "title": "Admin Panel",
       "description": "The admin panel contains the most important settings and information.",
       "f1": {
         "desc": "Management Panel",
@@ -486,19 +486,19 @@
       }
     },
     "achievements": {
-      "title": "Architecture & Solutions:",
+      "title": "Architecture and solutions:",
       "items": {
-        "f1": "Modern Tech Stack: Built using TypeScript, Next.js, MongoDB, and Better Auth, ensuring security, type safety, and high performance.",
+        "f1": "Modern Tech Stack: Built using TypeScript, Next.js, MongoDB, and Better Auth, ensuring security and performance.",
         "f2": "Double-Booking Prevention: Implementation of a multi-stage availability verification mechanism – the system checks dates at every step of the booking process and right before payment, eliminating error risks.",
         "f3": "Flexible Pricing Algorithm: Created an advanced pricing engine (Special Price > Seasonal > Base) that accounts for different weekend/weekday rates and tiered pricing based on the number of guests.",
         "f4": "Stripe Integration: Integrated the Stripe API for payments along with webhook handling, ensuring flawless synchronization of booking and payment statuses.",
-        "f5": "Communication Automation: The system automatically sends email notifications to the client and administrator after a new reservation, and also informs the client about any reservation modifications made by the system operator.",
+        "f5": "Communication Automation: The system automatically sends email notifications to the client and administrator after a new reservation, and also informs the client about any reservation modifications made by the operator.",
         "f6": "Responsive Interface: Design for both the client and the system operator adapted for display on phones, tablets, and PCs."
       }
     },
     "businessValue": {
-      "title": "Benefits:",
-      "introText": "The facility benefits from:",
+      "title": "Business Value",
+      "introText": "The property benefits from:",
       "items": {
         "f1": {
           "title": "Process Automation:",
@@ -513,7 +513,7 @@
           "description": "The ability to expand the system with additional properties without the need to create new IT infrastructure."
         },
         "f4": {
-          "title": "Rule Control:",
+          "title": "Control over the rules:",
           "description": "The owner has influence on pricing, seasons, guest limits, availability, and additional cleaning time between reservations, adapting the system to the specifics of their business."
         }
       }
@@ -525,77 +525,77 @@
   },
   "LeaveManagementSystemProject": {
     "hero": {
-      "title": "Off-Work: Multi-Tenant Leave Management System",
-      "description": "Off-Work is a multi-tenant SaaS platform that lets companies register as their own organisation and manage their employees' holidays and leave requests. Every tenant works in complete isolation, with its own employees, departments, leave policies, closure days and approval workflows. Employees submit requests and check their balances in seconds, while managers and HR review requests and plan around shared, real-time calendars."
+      "title": "Leave Management & Absence Tracking SaaS",
+      "description": "Off-Work is a SaaS platform for managing employee holidays and absences. It lets companies handle leave requests, control balances, plan team availability, and monitor absences in one place. Employees use a self-service panel, while managers and HR have tools for approving requests, managing staff, and analysing data."
     },
     "goal": {
-      "title": "Goal: a Commercial SaaS Platform for Leave Management",
-      "text": "I am developing Off-Work as a commercial product for companies that want to streamline leave and absence management. The goal is to create a universal platform that can serve many organisations in a SaaS model, without having to build a separate system for each client. The application was designed with flexible configuration of leave policies in mind, along with separation of each company's data and centralisation of the processes around planning and approving absences."
+      "title": "Business Goal",
+      "text": "I am developing Off-Work as a commercial product for companies that want to streamline leave and absence management. The assumption is to create a universal platform offered to many organisations in a SaaS model, without the need to build a separate system for each client. The application was designed with flexible configuration of leave policies in mind, along with separation of each company's data and centralisation of the processes around planning and approving absences."
     },
     "solution": {
-      "title": "Solution: A Self-Service SaaS for HR Teams",
-      "text": "Instead of spreadsheets and e-mail threads, Off-Work centralises the entire leave process in one place. It is built as a modern Next.js 16 application using the App Router, TypeScript and the Mantine component library, and secured end-to-end by Better Auth's organization and admin plugins. A two-layer security model — an edge middleware cookie check reinforced by full server-side session verification — keeps every tenant's data isolated, while transactional e-mails are delivered through Resend and React Email. MongoDB with Mongoose stores the data model (employees, departments, leave requests and closure days), and Mantine charts plus Recharts power the analytics."
+      "title": "Technologies and implementation",
+      "text": "Off-Work replaces spreadsheets and long e-mail threads with a single, central system for managing leave. As a multi-tenant SaaS platform, it supports many organisations within one application, with separate data, department structures, and leave policies.\nThe application was built using Next.js 16 (App Router), TypeScript, and the Mantine component library. Authentication and access management are handled by Better Auth with the organization and admin plugins.\nSecurity is based on two stages of verification: an initial session cookie check in middleware and a full server-side session verification. Organisation data is properly separated, and access to protected resources is subject to additional control.\nMongoDB and Mongoose handle the storage and processing of application data, covering, among others, employees, departments, leave requests, and company closure days. Transactional messages are prepared in React Email and sent via Resend, while Mantine Charts and Recharts are used for data visualisation and for creating reports and analyses."
     },
     "employeeArea": {
       "title": "Employee Area (/me)",
       "f1": {
         "desc": "Leave Balance",
-        "description": "Leave Balance: Real-time allowance, used and remaining days per leave type, so employees always know exactly how much holiday they have left before they submit a request."
+        "description": "Leave Balance: The current leave allowance and the number of used and remaining days for each leave type, so employees know how many days they can still use before submitting a request."
       },
       "f2": {
         "desc": "Personal Calendar",
-        "description": "Personal Calendar: A single date picker marks the employee's approved leave in green, colleagues' approved leave in blue and company closure days in grey, so everyone can see at a glance who is off."
+        "description": "Personal Calendar: The employee's approved leave is marked in green, colleagues' approved leave in blue, and company closure days in grey. This lets employees see upcoming absences of their colleagues and non-working days."
       },
       "f3": {
-        "desc": "Submit a New Request",
-        "description": "Submit a New Request: A guided form with a date-range picker that blocks already approved dates, bank holidays and closure days, counts working days automatically and shows the remaining balance for the selected leave type."
+        "desc": "New Leave Request",
+        "description": "New Leave Request: A form for a new leave request with a calendar that shows unavailable dates, such as bank holidays and company closure days, and automatically calculates the number of days that will be deducted once approved."
       },
       "f4": {
-        "desc": "My Leave Requests",
-        "description": "My Leave Requests: A filterable, sortable history of all requests, split into current and past leave, with colour-coded status badges (pending, approved, rejected, cancelled)."
+        "desc": "Leave Requests",
+        "description": "Leave Requests: A filterable, sortable history of all requests, split into current and past leave, with colour-coded status badges (pending, approved, rejected, cancelled)."
       }
     },
     "managerArea": {
       "title": "Manager & HR Area (/team)",
       "f1": {
-        "desc": "Team Dashboard",
-        "description": "Team Dashboard: A manager's home view showing who is off today together with the number of absentees, upcoming leave across the team, and the newest requests waiting to be reviewed — so everything that needs attention is visible at a glance."
+        "desc": "Manager Panel",
+        "description": "Manager Panel: A manager's home view showing who is off today together with the number of absentees, upcoming leave across the team, and the newest requests waiting to be reviewed."
       },
       "f2": {
-        "desc": "Team Calendar",
-        "description": "Team Calendar: A schedule with week, month and year views that visualises time off per employee and per leave type, with department filters and closure days overlaid."
+        "desc": "Manager Calendar",
+        "description": "Manager Calendar: A schedule with week, month and year views that visualises time off per employee and per leave type, with department filters and closure days overlaid."
       },
       "f3": {
         "desc": "Request Approvals",
-        "description": "Request Approvals: Managers review, approve or reject requests from a single queue filtered by status and sorted by submission date, with confirmation modals and instant notifications."
+        "description": "Request Approvals: Managers review, approve or reject requests from a single queue filtered by status and sorted by submission date."
       },
       "f4": {
         "desc": "Absence Reporting & List",
-        "description": "Absence Reporting & List: Report absences on behalf of employees and browse a complete list of all recorded absences, filtered by employee, department, leave type and date range."
+        "description": "Absence Reporting & List: Report employee absences and browse a complete list of all recorded absences, filtered by employee, department, leave type and date range."
       },
       "f5": {
         "desc": "Employee Management",
-        "description": "Employee Management: A directory of every employee in the organisation with their department, employment details, leave allowances, and per-employee calendars and history."
+        "description": "Employee Management: A directory of every employee in the organisation with their department, employment details, leave allowances, and individual calendars."
       },
       "f6": {
         "desc": "Employee Invitations",
-        "description": "Employee Invitations: Invite new team members by e-mail with a secure, time-limited link (valid for 7 days) that lets them create their account and join the organisation, with the option to resend an invitation at any time."
+        "description": "Employee Invitations: Invite new team members by e-mail with a time-limited link (valid for 7 days) that lets them create their account and join the organisation, with the option to resend an invitation at any time."
       },
       "f7": {
         "desc": "Leave Policies",
-        "description": "Leave Policies: Define leave types together with their annual allowances, carry-over and accrual rules per organisation, so every employee's balance is calculated correctly."
+        "description": "Leave Policies: Define leave types together with their annual allowances, carry-over and accrual rules per organisation."
       },
       "f8": {
         "desc": "Email Notifications",
-        "description": "Email Notifications: Transactional e-mails built with React Email and delivered through Resend keep employees and managers informed about new requests, approvals, rejections and password resets."
+        "description": "Email Notifications: Automatic notifications for employees and managers about new leave requests, their approval or rejection."
       },
       "f9": {
         "desc": "Company Closure Days",
-        "description": "Company Closure Days: Add your own company closure days — shutdown periods, office closures and the like — which are then excluded from working-day counts and shown across every calendar."
+        "description": "Company Closure Days: Add your own company closure days, such as holiday shutdowns or office closures. These days are automatically excluded from leave calculations and shown across every calendar."
       },
       "f10": {
-        "desc": "Bank Holiday Import",
-        "description": "Bank Holiday Import: Import official UK bank holidays (England & Wales, Scotland, Northern Ireland) straight from the official source, so public holidays are always up to date."
+        "desc": "Bank Holiday List Import",
+        "description": "Bank Holiday List Import: Import official UK bank holidays (England & Wales, Scotland, Northern Ireland) straight from the official source."
       },
       "f11": {
         "desc": "Reports & Analytics",
@@ -603,36 +603,34 @@
       }
     },
     "achievements": {
-      "title": "Architecture & Solutions:",
-      "f1": "Multi-Tenant Architecture: Tenancy is handled through Better Auth's organization plugin as the single source of truth, and every Employee profile is scoped to an organizationId — guaranteeing complete data isolation between companies.",
-      "f2": "Two-Layer Security Model: An edge middleware performs a fast cookie-presence check, while auth.api.getSession() verifies the full cryptographic session and role server-side inside the layout files.",
-      "f3": "Route Groups & Roles: A clean split between the (marketing), (auth), (app)/me and (app)/team route groups maps directly onto the Employee, Manager and HR roles, enforced consistently on the server.",
-      "f4": "Typed Data Layer: Mongoose models (Employee, Department, LeaveRequest, ClosureDay) together with shared TypeScript types keep the whole data layer type-safe and predictable.",
-      "f5": "Transactional Email: Password reset, e-mail verification and other notifications are built with React Email and delivered through Resend.",
-      "f6": "Working-Day Engine: Utilities that combine bank holidays and company closures to count working days correctly across every request and calendar view.",
-      "f7": "Responsive, Accessible UI: Mantine UI components, dark/light colour schemes and fully responsive calendar and table views for phones, tablets and desktops."
+      "title": "Architecture and technical solutions:",
+      "f1": "Multi-tenant Architecture: Better Auth with the Organization plugin supports many companies within a single application, while keeping each organisation's data separate.",
+      "f2": "Access Verification: Two-step verification of the user's session and permissions protects access to the parts of the application that require signing in.",
+      "f3": "Application Structure and Permissions: Splitting the app into a public part, sign-in, and the employee and team panels makes the code easier to organise. Access to individual views depends on the user's role.",
+      "f4": "E-mail Notifications: React Email and Resend handle messages related to password resets, e-mail address verification, and notifications about leave requests.",
+      "f5": "Responsive Interface: Mantine UI, a light and dark theme, and a layout adapted to different screen sizes ensure comfortable use on computers, tablets, and phones."
     },
     "businessValue": {
-      "title": "Business Value:",
+      "title": "Business Value",
       "f1": {
-        "title": "Less admin overhead:",
-        "description": "Automated balances, working-day counting and approvals remove hours of manual HR work every month."
+        "title": "Support for multiple organisations:",
+        "description": "A single instance of the application supports many companies, with separate employees, departments, leave policies, and data."
       },
       "f2": {
-        "title": "Full visibility:",
-        "description": "Real-time calendars and a team dashboard surface availability and pending requests before they become a staffing problem."
+        "title": "Less administrative work:",
+        "description": "Automatic calculation of leave balances, inclusion of days off, and request handling in one system reduce the amount of manual work involved in planning leave."
       },
       "f3": {
-        "title": "Multi-tenant by design:",
-        "description": "Every company is an isolated organisation with its own employees, departments, policies and data — a single deployment serves many customers."
+        "title": "Better work planning:",
+        "description": "Team calendars and the manager panel make it easier to check employee availability, monitor absences, and plan team work."
       },
       "f4": {
-        "title": "Audit-ready reporting:",
-        "description": "Charts and tables on leave usage, sick days, tenure and turnover give HR and finance the numbers they need, when they need them."
+        "title": "Access to data and statistics:",
+        "description": "Reports and charts help analyse leave usage, absences, and employment structure, supporting HR decisions."
       },
       "f5": {
-        "title": "Secure & extensible:",
-        "description": "Role-based access, transactional e-mail and a typed, component-based codebase make the platform safe to run and easy to grow."
+        "title": "Access control and ease of development:",
+        "description": "User roles, session verification, and a modular code structure make access management and further application development easier."
       }
     },
     "bottomButtons": {
