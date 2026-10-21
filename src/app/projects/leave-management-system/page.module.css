@@ -198,6 +198,12 @@
 
   .featureList__1 li,
   .featureList__2 li {
+    font-size: 1.1rem;
+    gap: 10px;
+    margin-bottom: 12px;
+  }
+
+   .featureList li {
     font-size: 0.95rem;
     gap: 10px;
     margin-bottom: 12px;
