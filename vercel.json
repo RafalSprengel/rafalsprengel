@@ -2,5 +2,9 @@
   "rewrites": [
     { "source": "/stats/js", "destination": "https://gc.zgo.at/count.js" },
     { "source": "/stats/count", "destination": "https://rafalsprengel.goatcounter.com/count" }
+  ],
+  "redirects": [
+    { "source": "/projects/webapp", "destination": "/projects/restoran", "permanent": true },
+    { "source": "/projects/webapp/", "destination": "/projects/restoran", "permanent": true }
   ]
 }

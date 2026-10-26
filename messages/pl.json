@@ -73,7 +73,7 @@
       "category": "Aplikacja webowa",
       "liveUrl": "https://restaurant.rafalsprengel.com/management/login/",
       "githubUrl": "https://github.com/RafalSprengel/restaurant-and-online-payment-backend",
-      "seeMoreLink": "/projects/webapp"
+      "seeMoreLink": "/projects/restoran"
     },
     "resortBooking": {
       "title": "Resort Booking Website",
@@ -219,7 +219,7 @@
       "designer": "projektantem UI/UX"
     }
   },
-  "WebAppProject": {
+  "RestoranProject": {
     "hero": {
       "title": "Restaurant & Online Ordering System",
       "description": "Aplikacja internetowa z systemem zamawiania online, panelem admina oraz systemem kont klientów, umożliwiająca zarządzanie menu, zamówieniami, płatnościami online oraz danymi klientów. Zbudowana z użyciem frameworków JavaScriptowych."

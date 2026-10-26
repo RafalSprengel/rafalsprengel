@@ -1,4 +1,4 @@
-'use client';
+﻿'use client';
 
 import React from 'react';
 import styles from './page.module.css';
@@ -46,60 +46,60 @@ import {
 } from 'react-icons/fa';
 
 
-export default function WebappProjectPage() {
-  const t = useTranslations('WebAppProject');
+export default function RestoranProjectPage() {
+  const t = useTranslations('RestoranProject');
 
   const heroData = {
     title: t('hero.title'),
     description: t('hero.description'),
-    pcImage: '/assets/projects/webapp/hero/pc.webp',
-    tabletImage: '/assets/projects/webapp/hero/tablet.webp',
-    phoneImage: '/assets/projects/webapp/hero/phone.webp',
+    pcImage: '/assets/projects/restoran/hero/pc.webp',
+    tabletImage: '/assets/projects/restoran/hero/tablet.webp',
+    phoneImage: '/assets/projects/restoran/hero/phone.webp',
     liveUrl: 'https://restaurant.rafalsprengel.com/',
     githubUrl: 'https://github.com/RafalSprengel/restaurant-pos-backend',
     tags: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'JWT', 'OAuth', 'Stripe'],
   };
 
   const lightboxImages = [
-    { src: '/assets/projects/webapp/gallery/1a.webp', description: 'Admin Dashboard' },
-    { src: '/assets/projects/webapp/gallery/2a.webp', description: 'Product Management' },
-    { src: '/assets/projects/webapp/gallery/3a.webp', description: 'Order Management' },
-    { src: '/assets/projects/webapp/gallery/4a.webp', description: 'Order Management' },
-    { src: '/assets/projects/webapp/gallery/5a.webp', description: 'Order Management' },
-    { src: '/assets/projects/webapp/gallery/6a.webp', description: 'Order Management' },
+    { src: '/assets/projects/restoran/gallery/1a.webp', description: 'Admin Dashboard' },
+    { src: '/assets/projects/restoran/gallery/2a.webp', description: 'Product Management' },
+    { src: '/assets/projects/restoran/gallery/3a.webp', description: 'Order Management' },
+    { src: '/assets/projects/restoran/gallery/4a.webp', description: 'Order Management' },
+    { src: '/assets/projects/restoran/gallery/5a.webp', description: 'Order Management' },
+    { src: '/assets/projects/restoran/gallery/6a.webp', description: 'Order Management' },
   ];
 
   const achievementsKeys = ['f1', 'f2', 'f3', 'f4', 'f5', 'f6', 'f7'];
   const businessValueKeys = ['f1', 'f2', 'f3', 'f4', 'f5'];
 
   const menuOrderingFeaturesData = [
-    { image: { src: '/assets/projects/webapp/features/menu.webp', desc: 'Menu' }, description: t('menuOrdering.features.f1'), icon: <FaUtensils /> },
-    { image: { src: '/assets/projects/webapp/features/cart.webp', desc: 'Cart' }, description: t('menuOrdering.features.f2'), icon: <FaShoppingCart /> },
-    { image: { src: '/assets/projects/webapp/features/process.webp', desc: 'Ordering Process' }, description: t('menuOrdering.features.f3'), icon: <FaListAlt /> },
-    { image: { src: '/assets/projects/webapp/features/stripe.webp', desc: 'Online Payments' }, description: t('menuOrdering.features.f4'), icon: <FaCreditCard /> },
-    { image: { src: '/assets/projects/webapp/features/book-table.webp', desc: 'Table Reservations' }, description: t('menuOrdering.features.f5'), icon: <FaCalendarAlt /> },
-    { image: { src: '/assets/projects/webapp/features/contact.webp', desc: 'Contact Form' }, description: t('menuOrdering.features.f6'), icon: <FaEnvelope /> },
+    { image: { src: '/assets/projects/restoran/features/menu.webp', desc: 'Menu' }, description: t('menuOrdering.features.f1'), icon: <FaUtensils /> },
+    { image: { src: '/assets/projects/restoran/features/cart.webp', desc: 'Cart' }, description: t('menuOrdering.features.f2'), icon: <FaShoppingCart /> },
+    { image: { src: '/assets/projects/restoran/features/process.webp', desc: 'Ordering Process' }, description: t('menuOrdering.features.f3'), icon: <FaListAlt /> },
+    { image: { src: '/assets/projects/restoran/features/stripe.webp', desc: 'Online Payments' }, description: t('menuOrdering.features.f4'), icon: <FaCreditCard /> },
+    { image: { src: '/assets/projects/restoran/features/book-table.webp', desc: 'Table Reservations' }, description: t('menuOrdering.features.f5'), icon: <FaCalendarAlt /> },
+    { image: { src: '/assets/projects/restoran/features/contact.webp', desc: 'Contact Form' }, description: t('menuOrdering.features.f6'), icon: <FaEnvelope /> },
   ];
 
   const customerPanelFeaturesData = [
-    { image: { src: '/assets/projects/webapp/features/customer-login.webp', desc: 'Customer Dashboard' }, description: t('customerPanel.features.f1'), icon: <FaUserPlus /> },
-    { image: { src: '/assets/projects/webapp/features/customer-recent-orders.webp', desc: 'Recent Orders' }, description: t('customerPanel.features.f2'), icon: <FaClipboardList /> },
-    { image: { src: '/assets/projects/webapp/features/customer-personal-details.webp', desc: 'Personal Details' }, description: t('customerPanel.features.f3'), icon: <FaUserEdit /> },
-    { image: { src: '/assets/projects/webapp/features/customer-password-change.webp', desc: 'Password Change' }, description: t('customerPanel.features.f4'), icon: <FaKey /> },
-    { image: { src: '/assets/projects/webapp/features/customer-deleting-account.webp', desc: 'Account Deletion' }, description: t('customerPanel.features.f5'), icon: <FaTrashAlt /> },
+    { image: { src: '/assets/projects/restoran/features/customer-login.webp', desc: 'Customer Dashboard' }, description: t('customerPanel.features.f1'), icon: <FaUserPlus /> },
+    { image: { src: '/assets/projects/restoran/features/customer-recent-orders.webp', desc: 'Recent Orders' }, description: t('customerPanel.features.f2'), icon: <FaClipboardList /> },
+    { image: { src: '/assets/projects/restoran/features/customer-personal-details.webp', desc: 'Personal Details' }, description: t('customerPanel.features.f3'), icon: <FaUserEdit /> },
+    { image: { src: '/assets/projects/restoran/features/customer-password-change.webp', desc: 'Password Change' }, description: t('customerPanel.features.f4'), icon: <FaKey /> },
+    { image: { src: '/assets/projects/restoran/features/customer-deleting-account.webp', desc: 'Account Deletion' }, description: t('customerPanel.features.f5'), icon: <FaTrashAlt /> },
   ];
 
   const adminPanelFeaturesData = [
-    { image: { src: '/assets/projects/webapp/features/admin-dashboard.webp', desc: 'Dashboard Overview' }, description: t('adminPanel.features.f1'), icon: <FaChartLine /> },
-    { image: { src: '/assets/projects/webapp/features/admin-products.webp', desc: 'Product Management' }, description: t('adminPanel.features.f2'), icon: <FaBox /> },
-    { image: { src: '/assets/projects/webapp/features/admin-update-products.webp', desc: 'Product Management' }, description: t('adminPanel.features.f3'), icon: <FaBox /> },
-    { image: { src: '/assets/projects/webapp/features/admin-categories.webp', desc: 'Category Management' }, description: t('adminPanel.features.f4'), icon: <FaTags /> },
-    { image: { src: '/assets/projects/webapp/features/admin-customers.webp', desc: 'Customers Management' }, description: t('adminPanel.features.f5'), icon: <FaUserShield /> },
-    { image: { src: '/assets/projects/webapp/features/admin-orders.webp', desc: 'Order Management' }, description: t('adminPanel.features.f6'), icon: <FaClipboardList /> },
-    { image: { src: '/assets/projects/webapp/features/admin-messages.webp', desc: 'Customer Messages' }, description: t('adminPanel.features.f7'), icon: <FaEnvelope /> },
-    { image: { src: '/assets/projects/webapp/features/admin-tables-reservations.webp', desc: 'Table Reservations Management' }, description: t('adminPanel.features.f8'), icon: <FaCalendarAlt /> },
-    { image: { src: '/assets/projects/webapp/features/admin-users.webp', desc: 'Staff Management' }, description: t('adminPanel.features.f9'), icon: <FaUsers /> },
-    { image: { src: '/assets/projects/webapp/features/admin-settings.webp', desc: 'Application Settings' }, description: t('adminPanel.features.f10'), icon: <FaCog /> },
+    { image: { src: '/assets/projects/restoran/features/admin-dashboard.webp', desc: 'Dashboard Overview' }, description: t('adminPanel.features.f1'), icon: <FaChartLine /> },
+    { image: { src: '/assets/projects/restoran/features/admin-products.webp', desc: 'Product Management' }, description: t('adminPanel.features.f2'), icon: <FaBox /> },
+    { image: { src: '/assets/projects/restoran/features/admin-update-products.webp', desc: 'Product Management' }, description: t('adminPanel.features.f3'), icon: <FaBox /> },
+    { image: { src: '/assets/projects/restoran/features/admin-categories.webp', desc: 'Category Management' }, description: t('adminPanel.features.f4'), icon: <FaTags /> },
+    { image: { src: '/assets/projects/restoran/features/admin-customers.webp', desc: 'Customers Management' }, description: t('adminPanel.features.f5'), icon: <FaUserShield /> },
+    { image: { src: '/assets/projects/restoran/features/admin-orders.webp', desc: 'Order Management' }, description: t('adminPanel.features.f6'), icon: <FaClipboardList /> },
+    { image: { src: '/assets/projects/restoran/features/admin-messages.webp', desc: 'Customer Messages' }, description: t('adminPanel.features.f7'), icon: <FaEnvelope /> },
+    { image: { src: '/assets/projects/restoran/features/admin-tables-reservations.webp', desc: 'Table Reservations Management' }, description: t('adminPanel.features.f8'), icon: <FaCalendarAlt /> },
+    { image: { src: '/assets/projects/restoran/features/admin-users.webp', desc: 'Staff Management' }, description: t('adminPanel.features.f9'), icon: <FaUsers /> },
+    { image: { src: '/assets/projects/restoran/features/admin-settings.webp', desc: 'Application Settings' }, description: t('adminPanel.features.f10'), icon: <FaCog /> },
   ];
 
   return (
