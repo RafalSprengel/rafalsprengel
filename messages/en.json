@@ -47,7 +47,7 @@
     "see_more_link": "See more...",
 
     "leaveManagementSystem": {
-      "title": "Leave Management & Absence Tracking SaaS",
+      "title": "Leave Management & Absence Tracking (SaaS)",
       "description": "Multi-tenant application for managing employee leave, absences and approvals, with a team calendar and reports.",
       "tags": "TypeScript, Next.js, MantineUI, MongoDB, Better Auth, Resend",
       "category": "Web Application",
@@ -525,7 +525,7 @@
   },
   "LeaveManagementSystemProject": {
     "hero": {
-      "title": "Leave Management & Absence Tracking SaaS",
+      "title": "Leave Management & Absence Tracking (SaaS)",
       "description": "Off-Work is a SaaS platform for managing employee holidays and absences. It lets companies handle leave requests, control balances, plan team availability, and monitor absences in one place. Employees use a self-service panel, while managers and HR have tools for approving requests, managing staff, and analysing data."
     },
     "goal": {
